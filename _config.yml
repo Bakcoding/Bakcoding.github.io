@@ -105,19 +105,24 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jun941007@gmail.com"
+      # url: "mailto:jun941007@gmail.com"
+
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
+
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
+
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+
     - label: "GitHub"
-      icon: "https://github.com/Bakcoding"
-      # url: "https://github.com/"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Bakcoding"
+
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -132,9 +137,11 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
+      
     - label: "GitHub"
-      icon: "https://github.com/Bakcoding"
-      # url:
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Bakcoding"
+
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
