@@ -24,8 +24,8 @@ description              : "코딩공부 기록장"
 url                      : "https://Bakcoding.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : #"/assets/images/teaserimage.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/teaserimage.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/teaserimage.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : #"/assets/images/teaserimage.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -96,9 +96,9 @@ analytics:
 author:
   name             : "박코딩" #"Your Name"
   avatar           : "/assets/images/teaserimage.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "공부기록 블로그" #"I am an **amazing** person."
+  location         : "Korea" #"Somewhere"
+  email            : "jun941007@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
