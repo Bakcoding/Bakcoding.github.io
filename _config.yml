@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "박코딩" #"Your Name"
-  avatar           : "/assets/images/teaserimage.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logoimage.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부기록 블로그" #"I am an **amazing** person."
   location         : "Korea" #"Somewhere"
   email            : "jun941007@gmail.com
