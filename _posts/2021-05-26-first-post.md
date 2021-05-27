@@ -16,4 +16,4 @@ last_modified_at: 2021-05-27
 
 1. Github repositories </br>
 https://github.com/Bakcoding/Bakcoding.github.io
-![repository생성](assets/images/20210527_Positing/1.png)
+![repository생성](./assets/images/20210527_Positing/1.png)
