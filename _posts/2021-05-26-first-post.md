@@ -29,6 +29,7 @@ Github에서 블로그로 사용할 저장소를 새로 만들어 준다.
 <br/><br/><br/>
 ***
 
+
 >**2. 원하는 테마를 다운받아 준다.**  
 
  [http://jekyllthemes.org](http://jekyllthemes.org/)  
