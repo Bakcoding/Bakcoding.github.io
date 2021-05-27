@@ -1,6 +1,6 @@
 ---
 title:  "Github로 블로그 만들기"
-excerpt: "Markdown, Jekyll"
+excerpt: "Github, Jekyll"
 
 categories:
   - Blog
