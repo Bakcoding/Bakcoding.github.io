@@ -13,10 +13,13 @@ toc_sticky: true
 date: 2021-05-28
 last_modified_at: 2021-05-28
 ---  
-### Github 저장소에서 직접 파일을 생성하고 업로드해도 블로그를 수정하고 포스팅을 할 수 있지만
-### 조금 더 Git을 활용하기 위해서 로컬에서 클론을 생성해서 수정하고 푸쉬하는 식으로 포스팅 해본다.
+**Github 저장소에서 직접 파일을 생성하고 업로드해도 블로그를 수정하고 포스팅을 할 수 있지만**  
+  
+**조금 더 Git을 활용하기 위해서 로컬에서 클론을 생성해서 수정하고 푸쉬하는 식으로 포스팅 해본다.**  
+<br/>
+<br/>
 
-**1. Ruby 설치**  
+###1. Ruby 설치  
   
 Jekyll에서 사용하는 언어인 Ruby의 설치부터 해준다.
   
@@ -30,8 +33,12 @@ Ruby설치가 끝나면 추가로 Bundler로 Jekyll을 설치해준다.
   
 명령 프롬프트 창을 열어서 명령어 입력한다.  
 `gem install jekyll bundler` 동작이 끝나고  설치가 잘되었는지 `jekyll -v` 명령어를 통해 버전을 확인해 본다.  
-  
-**2. Github Clone 생성**  
+
+<br/><br/><br/>
+
+***
+
+###2. Github Clone 생성  
   
 Github에 생성한 저장소를 내 컴퓨터 로컬에 받아서 관리한다.  
   
@@ -56,9 +63,13 @@ git clon 복사한 URL     #로컬에서의 git init에 해당하는 명령어, 
 git push origin master  #변경 사항들을 원격 Github 저장소에 반영한다.
 ```  
   
-해당 폴더를 찾아가보면 github 저장소의 이름으로 폴더가 생성되있는걸 볼 수 있다.
-  
-**2. VScode를 이용하여 git commit/push**  
+해당 폴더를 찾아가보면 github 저장소의 이름으로 폴더가 생성되있는걸 볼 수 있다.  
+
+<br/><br/><br/>
+
+***
+
+###3. VScode를 이용하여 git commit/push  
   
 [Visual Studio Code](https://code.visualstudio.com/)  
   
