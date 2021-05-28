@@ -7,8 +7,8 @@ categories:
 tags:
   - [Github, Blog]
 
-#toc: true
-#toc_sticky: true
+toc: true
+toc_sticky: true
  
 date: 2021-05-28
 last_modified_at: 2021-05-28
@@ -17,7 +17,7 @@ last_modified_at: 2021-05-28
   
 **조금 더 Git을 활용하기 위해서 로컬에서 클론을 생성해서 수정하고 푸쉬하는 식으로 포스팅 해본다.**  
 <br/>
-<br/>
+<br/>  
 
 ###1. Ruby 설치  
   
@@ -36,7 +36,7 @@ Ruby설치가 끝나면 추가로 Bundler로 Jekyll을 설치해준다.
 
 <br/><br/><br/>
 
-***
+***  
 
 ###2. Github Clone 생성  
   
@@ -67,7 +67,7 @@ git push origin master  #변경 사항들을 원격 Github 저장소에 반영�
 
 <br/><br/><br/>
 
-***
+***  
 
 ###3. VScode를 이용하여 git commit/push  
   
