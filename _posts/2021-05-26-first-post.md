@@ -7,14 +7,14 @@ categories:
 tags:
   - [Github, Blog]
 
-toc: true
-toc_sticky: true
+#toc: true
+#toc_sticky: true
  
 date: 2021-05-26
 last_modified_at: 2021-05-27
----  
+---
 
-###1. Github repository 생성  
+**1. Github repository 생성**  
   
 Github에서 블로그로 사용할 저장소를 새로 만들어 준다.  
 
@@ -28,9 +28,10 @@ Github에서 블로그로 사용할 저장소를 새로 만들어 준다.
  ![3](/assets/images/20210527_Posting/3.png)  
 <br/><br/><br/>
 
-***  
+***
 
-###2. 원하는 테마를 다운받아 준다.  
+
+**2. 원하는 테마를 다운받아 준다.**  
 
  [http://jekyllthemes.org](http://jekyllthemes.org/)  
 
