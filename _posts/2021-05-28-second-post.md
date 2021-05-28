@@ -13,13 +13,14 @@ toc_sticky: true
 date: 2021-05-28
 last_modified_at: 2021-05-28
 ---  
+
 **Github 저장소에서 직접 파일을 생성하고 업로드해도 블로그를 수정하고 포스팅을 할 수 있지만**  
   
 **조금 더 Git을 활용하기 위해서 로컬에서 클론을 생성해서 수정하고 푸쉬하는 식으로 포스팅 해본다.**  
 <br/>
 <br/>  
 
-###1. Ruby 설치  
+### 1. Ruby 설치  
   
 Jekyll에서 사용하는 언어인 Ruby의 설치부터 해준다.
   
@@ -38,7 +39,7 @@ Ruby설치가 끝나면 추가로 Bundler로 Jekyll을 설치해준다.
 
 ***  
 
-###2. Github Clone 생성  
+### 2. Github Clone 생성  
   
 Github에 생성한 저장소를 내 컴퓨터 로컬에 받아서 관리한다.  
   
@@ -69,7 +70,7 @@ git push origin master  #변경 사항들을 원격 Github 저장소에 반영�
 
 ***  
 
-###3. VScode를 이용하여 git commit/push  
+### 3. VScode를 이용하여 git commit/push  
   
 [Visual Studio Code](https://code.visualstudio.com/)  
   
