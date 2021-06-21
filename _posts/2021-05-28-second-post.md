@@ -72,6 +72,8 @@ git push origin master  #변경 사항들을 원격 Github 저장소에 반영�
 
 ### 3. VScode를 이용하여 git commit/push  
   
+VSCode를 사용하면 Git Bash보다 간단하게 포스팅이 가능하다.
+  
 [Visual Studio Code](https://code.visualstudio.com/)  
   
 VScode를 열고 클론을 저장한 폴더를 열어준다.  
