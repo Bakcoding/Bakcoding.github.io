@@ -1,7 +1,7 @@
 ---
 title: "C 언어"  
 layout: archive   
-permalink: categories/c   
+permalink: /categories/c   
 author_profile: true   
 sidebar_main: true  
 ---
