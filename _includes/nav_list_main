@@ -22,7 +22,7 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">C</sapn>
+        <span class="nav__sub-title">C/C++</sapn>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "C" %}
