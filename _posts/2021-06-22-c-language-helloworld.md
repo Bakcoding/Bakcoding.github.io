@@ -18,7 +18,8 @@ last_modified_at: 2021-06-22
 printf를 사용하여 문자 출력하기  
 <br/>
 <br/>  
-***
+
+<hr/>
 
 ``` c
 #include <stdio.h>
