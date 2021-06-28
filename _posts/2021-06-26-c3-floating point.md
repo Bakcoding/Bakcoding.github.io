@@ -66,7 +66,7 @@ int main()
   * 예) 6.25라는 실수가 있다. 이 숫자를 2진법으로 변환하면 110.01이고 32bit 체계에서 다음과 같이 저장된다.  
   
 
-   ![datatype size](/assets/images/20210626_Posting/3.PNG)  
+   ![memory](/assets/images/20210626_Posting/3.png)  
   * 맨 앞 자리는 부호 비트이며 0이면 양수, 1이면 음수를 나타낸다.
   * 나머지 비트들은 소수점을 기준으로 정수부와 소수부를 표현하는 비트로 나누어지고 이 때 소수점의 위치는 정해진다.
   * 소수부의 경우 앞에서 부터 채우며 남은 자리는 모두 0으로 채워진다.
@@ -84,7 +84,7 @@ int main()
   컴퓨터에서 가장 많이 사용되는 부동소수점 표현 방식이다. 실수를 저장할 때 32비트(Single-Precision) 또는 64비트(Double-Precision)가 사용된다.  
   <br/> 
   비트구조는 다음과 같다. (32비트 기준)  
- ![datatype size](/assets/images/20210626_Posting/5.PNG)  
+ ![bit_constr](/assets/images/20210626_Posting/5.png)  
 
   * 고정소수점과 마찬가지로 부호비트를 가진다.  
  가수부에는 정규화 결과 소수점 오른쪽에 있는 숫자들이 왼쪽부터 채워지며 남는 자리는 0으로 채워진다.  
@@ -98,7 +98,7 @@ int main()
  바이어스 표현법 => 1.1001 * 2^(2 + 127)  
  <br/>
  비트에 다음과 같이 담긴다.  
- 부호 양수, 지수부 = 10000001, 가수부 1001  
+ 부호 양수 0, 지수부 = 10000001, 가수부 1001  
  
- ![datatype size](/assets/images/20210626_Posting/6.PNG)  
+ ![result](/assets/images/20210626_Posting/6.png)  
  <br/><br/>  
