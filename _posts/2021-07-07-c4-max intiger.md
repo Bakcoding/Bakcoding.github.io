@@ -5,7 +5,7 @@ excerpt: "C, Intiger, Unsigned, 2147483647, Datatype"
 categories:
   - C
 tags:
-  - [C, Intiger, Unsigned, \2147483647, Datatype]
+  - [C, Intiger, Unsigned, Datatype]
 
 toc: true
 toc_sticky: true
@@ -52,5 +52,7 @@ last_modified_at: 2021-07-07
     |unsigned int|4byte|0 ~ 4294967295|
     |(signed) long long int|8byte|-9223372036854775808 ~ 9223372036854775807|
     |unsigned long long int|8byte|0 ~ 18446744073709551615|  
+
+    <br/><br/>
       
       
