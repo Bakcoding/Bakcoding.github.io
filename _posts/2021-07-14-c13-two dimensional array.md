@@ -46,7 +46,7 @@ last_modified_at: 2021-07-14
       { [0][0] [0][1] [0][2]},
       { [1][0] [1][1] [1][2]}
       ```
-      ![pyramid](/assets/images/20210714_Posting/1.png) 
+      ![matrix](/assets/images/20210714_Posting/1.png) 
 
       가로 방향으로 열이 증가하고 세로 방향으로 행이 증가한다.  
 
@@ -77,7 +77,7 @@ last_modified_at: 2021-07-14
 ### 3. 메모리 구조
   * 2차원 배열의 실제 메모리 구조는 행렬처럼 입체적 구조가 아니라 일자로 나열된 공간에 순서대로 나열된다.
 
-      ![pyramid](/assets/images/20210714_Posting/2.png) 
+      ![memory sturct](/assets/images/20210714_Posting/2.png) 
  
     그림에서 처럼 우선 두 번째 대괄호 즉 행의 크기만큼 나열하고 열의 크기 만큼 더 할당하는 형태이다.  
 
@@ -101,7 +101,7 @@ last_modified_at: 2021-07-14
     <br/>
     결과  
 
-    ![pyramid](/assets/images/20210714_Posting/3.png)
+    ![memory adress](/assets/images/20210714_Posting/3.png)
 
     메모리주소의 값이 일정한 간격을 두고 있는걸 알 수 있다.  
 
