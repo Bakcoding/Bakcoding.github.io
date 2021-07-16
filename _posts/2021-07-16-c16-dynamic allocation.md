@@ -1,11 +1,11 @@
 ---
 title:  "동적할당"
-excerpt: "C, malloc, nullptr"
+excerpt: "C, malloc, NULL"
 
 categories:
   - C
 tags:
-  - C, malloc, nullptr
+  - C, malloc, NULL
 
 toc: true
 toc_sticky: true
@@ -72,7 +72,7 @@ last_modified_at: 2021-07-16
 
     배열처럼 접근이 가능하며 메모리 주소도 연속한다. 
 
-  * free(ipVal);
+  * free(ipVal);  
     할당한 메모리 사용이 끝나면 해제를 해준다. 동적할당에서 가장 중요한 부분이며 해제되지 않은 메모리는 계속해서 남아있어 메모리 누수 현상(Memory Leak)를 일으킨다.
 
     메모리 해제의 경우 중복해서 해제를 시도하여 에러를 발생시키도 한다. 따라서 예외처리를 통해 에러를 줄일 수 있다.
