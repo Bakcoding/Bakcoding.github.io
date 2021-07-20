@@ -5,7 +5,7 @@ excerpt: "C, malloc, NULL"
 categories:
   - C
 tags:
-  - C, malloc, NULL
+  - [C, malloc, NULL]
 
 toc: true
 toc_sticky: true

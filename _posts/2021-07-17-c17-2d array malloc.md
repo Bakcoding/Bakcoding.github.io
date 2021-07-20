@@ -5,7 +5,7 @@ excerpt: "C, malloc, NULL, 2D, array"
 categories:
   - C
 tags:
-  - C, malloc, NULL, 2D, array
+  - [C, malloc, NULL, 2D, array]
 
 toc: true
 toc_sticky: true
