@@ -1,4 +1,4 @@
-카테고리 추가하는 방법  
+<!-- 카테고리 추가하는 방법  
 
 <!--
 1. _includes -> _pages -> categories 폴더 안에 category-카테고리명.md 파일 생성
