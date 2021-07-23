@@ -1,11 +1,11 @@
 ---
 title:  "접근 지정자"
-excerpt: "CPP, public, private, protected"
+excerpt: "cpp, public, private, protected"
 
 categories:
-  - CPP
+  - Cpp
 tags:
-  - [CPP, public, private, protected]
+  - [cpp, public, private, protected]
 
 toc: true
 toc_sticky: true
