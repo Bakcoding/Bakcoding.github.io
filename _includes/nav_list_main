@@ -18,7 +18,7 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">C/CPP</sapn>
+        <span class="nav__sub-title">C/C++</sapn>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "C" %}
@@ -30,7 +30,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">Cpp ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>   
