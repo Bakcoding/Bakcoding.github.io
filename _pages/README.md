@@ -1,7 +1,9 @@
-카테고리 추가하는 방법
+카테고리 추가하는 방법  
+
+<!--
 1. _includes -> _pages -> categories 폴더 안에 category-카테고리명.md 파일 생성
 
-    ```
+    ```md  
         ---
         title: "카테고리 이름"  
         layout: archive   
@@ -12,6 +14,7 @@
 
         {% assign posts = site.categories.카테고리 이름 %}
         {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+
     ```
 
 2. _includes -> nav_list_main 파일에 추가  
@@ -23,7 +26,7 @@
     \<li><a href="/categories/ 1. 에서 작성한 링크, 파일 이름"  
      
 
-    ```
+    ```md
     <span class="nav__sub-title">C/C++</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -40,4 +43,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>  
+
     ```
+     -->
