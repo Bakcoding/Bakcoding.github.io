@@ -1,5 +1,5 @@
 ---
-title: "C++"  
+title: "Cpp"  
 layout: archive   
 permalink: /categories/cpp   
 author_profile: true   
