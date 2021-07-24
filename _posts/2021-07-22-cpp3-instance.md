@@ -84,4 +84,4 @@ private로 선언한 변수는 클래스 외부에서 접근할 수 없기 때�
 
     값을 초기화 해주는 함수와 출력해 주는 함수를 통해 멤버 변수에 값을 저장하고 출력할 수 가 있다.  
 
-    ![matrix](/assets/images/20210723_Posting/1.png) 
+    ![instance](/assets/images/20210723_Posting/1.png) 
