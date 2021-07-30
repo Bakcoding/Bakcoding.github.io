@@ -43,7 +43,7 @@ public:
   CWeapon() {};
   ~CWeapon() {};
 
-  virtual void Attack(int _hp);
+  virtual void Attack(int &_hp);
 };
 ```
 
@@ -85,7 +85,7 @@ public:
   // 생성자
   CSword(string _name, int _damage, int _price){ SetInfo(_name, _damage, _price); };
   // 오버라이딩
-  void Attack(int _hp) override {};
+  void Attack(int &_hp) override {};
 };
 
 
@@ -93,7 +93,7 @@ class CGun : public CWeapon
 {
 public:
   CGun(string _name, int _damage, int _price){ SetInfo(_name, _damage, _price); };
-  void Attack(int _hp) override {};
+  void Attack(int &_hp) override {};
 }
 ```
 
