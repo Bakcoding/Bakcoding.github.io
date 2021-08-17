@@ -227,7 +227,8 @@ DeepCopy(const DeepCopy& c)
 	```
 
 * 함수 내에서 객체를 리턴할 때
-	```cc
+
+	```cpp
 	class ConstructorCall
 	{
 		int val;
@@ -260,4 +261,5 @@ DeepCopy(const DeepCopy& c)
 		return 0;
 	}
 	```
+
 	객체를 반환하는 함수 내에서 객체를 생성한 다음 리턴할 때  생성한 객체를 복사하여 전달한 다음 함수가 종료하면 생성한 객체가 소멸자를 호출한다. 객체의 크기가 큰 경우라면 연산량이 너무 늘어나는 작업인거같다. 
