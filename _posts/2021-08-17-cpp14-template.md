@@ -1,11 +1,11 @@
 ---
 title:  "템플릿"
-excerpt: "cpp, parameter, argument"
+excerpt: "cpp, template, function, class, type"
 
 categories:
   - Cpp
 tags:
-  - [cpp, parameter, argument]
+  - [cpp, template, function, class, type]
 
 toc: true
 toc_sticky: true
@@ -20,7 +20,7 @@ c++ 언어가 가지는 특징 중 하나로 데이터를 중시하는 객체 �
 
 <br/>
 
-### 템플릿(templet)
+### 템플릿(template)
 매개변수의 타입에 따라 함수나 클래스를 생성하는 것을 말한다.  
 타입마다 별도의 함수나 클래스를 만들지 않고 여러 타입에서 동작할 수 있는 하나의 함수나 클래스를 만들 수 있다.
 
