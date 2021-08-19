@@ -9,15 +9,6 @@
             전체 글 수 {{sum}} 개
       </li>
       <li>
-        <span class="nav__sub-title">ETC</sapn>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
         <span class="nav__sub-title">C/C++</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -33,7 +24,17 @@
                         <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>   
+            </ul>
+               
+        <span class="nav__sub-title">ETC</sapn>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Blog" %}
+                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
       </li>
   </ul>
 </nav>
