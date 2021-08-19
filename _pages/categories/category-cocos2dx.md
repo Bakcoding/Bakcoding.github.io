@@ -1,10 +1,10 @@
 ---
-title: "C++"  
+title: "Cocos2dx"  
 layout: archive   
-permalink: /categories/cpp   
+permalink: /categories/cocos2dx   
 author_profile: true   
 sidebar_main: true  
 ---
 
-{% assign posts = site.categories.Cpp %}
+{% assign posts = site.categories.Cocos2dx %}
 {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}
