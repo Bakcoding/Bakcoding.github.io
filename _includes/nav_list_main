@@ -25,15 +25,17 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+\\<!-- C/Cpp category -->
 
-        <span class="nav__sub-title">C/C++</sapn>
+        <span class="nav__sub-title">Cocos2dx</sapn>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cocos2dx" %}
+                    {% if category[0] == "Cocos2dx 4.0" %}
                         <li><a href="/categories/cpp" class="">Cocos2dx ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+\\<!-- Cocos2dx category -->
 
         <span class="nav__sub-title">ETC</sapn>
             <ul>
@@ -43,6 +45,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+\\<!-- ETC category -->
 
       </li>
   </ul>
