@@ -4,11 +4,13 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
+<!--전체 글 수-->
       <li>
             전체 글 수 {{sum}} 개
       </li>
+
       <li>
+<!-- C/Cpp category -->
         <span class="nav__sub-title">C/C++</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -25,8 +27,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-<!-- C/Cpp category -->
 
+<!-- Cocos2dx category -->
         <span class="nav__sub-title">Cocos</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -35,8 +37,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-<!-- Cocos2dx category -->
 
+<!-- ETC category -->
         <span class="nav__sub-title">ETC</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -45,7 +47,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-<!-- ETC category -->
+
 
       </li>
   </ul>
