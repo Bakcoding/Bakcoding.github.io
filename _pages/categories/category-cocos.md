@@ -1,7 +1,7 @@
 ---
 title: "Cocos"  
 layout: archive   
-permalink: /categories/cocos2dx   
+permalink: /categories/cocos   
 author_profile: true   
 sidebar_main: true  
 ---
