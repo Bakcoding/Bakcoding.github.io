@@ -30,7 +30,7 @@
         <span class="nav__sub-title">Cocos</sapn>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cocos2dx 4.0" %}
+                    {% if category[0] == "Cocos" %}
                         <li><a href="/categories/cpp" class="">Cocos2dx ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
