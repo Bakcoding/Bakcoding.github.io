@@ -15,7 +15,6 @@ last_modified_at: 2021-07-07
 ---  
 
 ***
-<br>
 
 ### C언어에서 입력과 출력  
 c에서 입력과 출력은 scanf와 printf 함수를 사용한다. 두 함수는 stdio.h 의 라이브러리를 사용하기 때문에 include를 해주어야한다. 

@@ -15,7 +15,6 @@ last_modified_at: 2021-06-26
 ---  
 
 ***
-<br>
 
 ### Hello World!  
 printf를 사용하여 문자 출력하기  

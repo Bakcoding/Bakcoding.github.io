@@ -15,7 +15,6 @@ last_modified_at: 2021-05-28
 ---  
 
 ***
-<br>
 
 ### git page posting
 github에 올린 블로그 데이터를 관리를 로컬에서 수정하고 업데이트를 시켜본다.  

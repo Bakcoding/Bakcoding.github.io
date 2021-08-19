@@ -15,7 +15,6 @@ last_modified_at: 2021-07-30
 ---  
 
 ***
-<br/>
 
 ### C++ 동적할당(dynamic allocation)
 c++에서 동적할당 방법은 malloc함수 또는 new연산자가 있다.

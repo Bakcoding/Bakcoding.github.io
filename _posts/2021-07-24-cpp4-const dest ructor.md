@@ -15,7 +15,6 @@ last_modified_at: 2021-07-24
 ---  
 
 ***
-<br/>
 
 ### 1. 생성자(constructor)
 ```cpp
