@@ -18,9 +18,7 @@
                         <li><a href="/categories/c" class="toc__menu">C ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul> 
 
-            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
                         <li><a href="/categories/cpp" class="toc__menu">C++ ({{category[1].size}})</a></li>
@@ -52,6 +50,6 @@
                 {% endfor %}
             </ul>
       </li>
-      
+
   </ul>
 </nav>
