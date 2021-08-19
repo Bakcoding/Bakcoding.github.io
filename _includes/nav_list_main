@@ -9,8 +9,8 @@
             전체 글 수 {{sum}} 개
       </li>
 
-      <li>
 <!-- C/Cpp category -->
+      <li>
         <span class="nav__sub-title">C/C++</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -28,6 +28,7 @@
                 {% endfor %}
             </ul>
       </li>
+
 <!-- Cocos2dx category -->
       <li>
         <span class="nav__sub-title">Cocos</sapn>
@@ -39,6 +40,7 @@
                 {% endfor %}
             </ul>
       </li>
+
 <!-- ETC category -->
       <li>
         <span class="nav__sub-title">ETC</sapn>
@@ -49,7 +51,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
       </li>
+      
   </ul>
 </nav>
