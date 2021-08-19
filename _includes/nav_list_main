@@ -13,7 +13,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "C" %}
-                        <li><a href="/categories/c" class="">C ({{category[1].size}})</a></li>
+                        <li><a href="/categories/c" class="toc__menu">C ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
@@ -21,7 +21,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="toc__menu">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -31,7 +31,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cocos" %}
-                        <li><a href="/categories/cpp" class="">Cocos2dx ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="toc__menu">Cocos2dx ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -41,7 +41,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="toc__menu">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
