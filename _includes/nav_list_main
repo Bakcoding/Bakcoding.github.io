@@ -25,7 +25,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-\\<!-- C/Cpp category -->
+<!-- C/Cpp category -->
 
         <span class="nav__sub-title">Cocos</sapn>
             <ul>
@@ -35,7 +35,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-\\<!-- Cocos2dx category -->
+<!-- Cocos2dx category -->
 
         <span class="nav__sub-title">ETC</sapn>
             <ul>
@@ -45,7 +45,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-\\<!-- ETC category -->
+<!-- ETC category -->
 
       </li>
   </ul>
