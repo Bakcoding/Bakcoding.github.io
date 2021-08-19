@@ -527,13 +527,13 @@
 }
 
 .toc__menu {
+  color: rgb(80, 80, 80);
   margin: 0;
   padding: 0;
   width: 100%;
   list-style: none;
   font-size: $type-size-6;
   font-style: normal;
-  color: rgb(241, 0, 0);
 
   @include breakpoint($large) {
     font-size: $type-size-7;
