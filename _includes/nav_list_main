@@ -27,8 +27,9 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+      </li>
 <!-- Cocos2dx category -->
+      <li>
         <span class="nav__sub-title">Cocos</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -37,8 +38,9 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+      </li>
 <!-- ETC category -->
+      <li>
         <span class="nav__sub-title">ETC</sapn>
             <ul>
                 {% for category in site.categories %}
@@ -47,7 +49,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
 
       </li>
   </ul>
