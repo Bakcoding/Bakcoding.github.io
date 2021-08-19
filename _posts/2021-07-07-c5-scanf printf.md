@@ -14,14 +14,15 @@ date: 2021-07-07
 last_modified_at: 2021-07-07
 ---  
 
-**C언어에서 입력과 출력**  <br/>
+***
+<br>
 
-C언어에서 입력을 할 때는 scanf 출력은 printf를 사용한다.  
-두 기능을 사용하기 위해서는 stdio.h가 필요하다.  
+### C언어에서 입력과 출력  
+c에서 입력과 출력은 scanf와 printf 함수를 사용한다. 두 함수는 stdio.h 의 라이브러리를 사용하기 때문에 include를 해주어야한다. 
 
 <br/>
+
 예) 입력한 숫자 호출하기
-<br/>
 
 ``` c
 #include <stdio.h>
@@ -34,8 +35,7 @@ int main()
 
   return 0;
 }
-```
-<br/>  
+```  
 
 * 입력받을 자료형으로 변수를 선언한다.  
     ``` c
@@ -54,6 +54,7 @@ int main()
     ``` c  
     printf("입력한 숫자 : %d", number);
     ``` 
-    <br/>
 
-![scanf_printf](/assets/images/20210707_Posting/1.gif)  <br/>  
+<br/>
+
+![scanf_printf](/assets/images/20210707_Posting/1.gif)  

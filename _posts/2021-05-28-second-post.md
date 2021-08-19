@@ -14,10 +14,12 @@ date: 2021-05-28
 last_modified_at: 2021-05-28
 ---  
 
-**Github 저장소에서 직접 파일을 생성하고 업로드해도 블로그를 수정하고 포스팅을 할 수 있지만**  
-  
-**조금 더 Git을 활용하기 위해서 로컬에서 클론을 생성해서 수정하고 푸쉬하는 식으로 포스팅 해본다.**  
-<br/>
+***
+<br>
+
+### git page posting
+github에 올린 블로그 데이터를 관리를 로컬에서 수정하고 업데이트를 시켜본다.  
+
 <br/>  
 
 ### 1. Ruby 설치  
@@ -35,15 +37,14 @@ Ruby설치가 끝나면 추가로 Bundler로 Jekyll을 설치해준다.
 명령 프롬프트 창을 열어서 명령어 입력한다.  
 `gem install jekyll bundler` 동작이 끝나고  설치가 잘되었는지 `jekyll -v` 명령어를 통해 버전을 확인해 본다.  
 
-<br/><br/><br/>
-
-***  
-
+<br/>
+ 
 ### 2. Github Clone 생성  
   
 Github에 생성한 저장소를 내 컴퓨터 로컬에 받아서 관리한다.  
   
 Git이 설치되어 있지 않다면 Git설치부터 해준다.  
+
  ![1](/assets/images/20210528_Posting/2.png)  
   
 블로그 테마를 설치했던 Github저장소를 열어서 클론으로 만들 URL을 복사해 놓는다.  
@@ -66,13 +67,12 @@ git push origin master  #변경 사항들을 원격 Github 저장소에 반영�
   
 해당 폴더를 찾아가보면 github 저장소의 이름으로 폴더가 생성되있는걸 볼 수 있다.  
 
-<br/><br/><br/>
+다운받은 데이터를 수정하고 commit과 push를 하면 github의 저장소에 기록이 되기 때문에 관리에 용이하다. 하지만 빈번하게 글을 올리고 수정하는 블로그 같은 경우에는 불편하다.
 
-***  
+<br/> 
 
-### 3. VScode를 이용하여 git commit/push  
-  
-VSCode를 사용하면 Git Bash보다 간단하게 포스팅이 가능하다.
+### 3. VScode를 이용하여 git commit/push    
+VSCode를 사용하면 Git Bash보다 비교적 간단하게 포스팅이 가능하다.
   
 [Visual Studio Code](https://code.visualstudio.com/)  
   
@@ -100,6 +100,13 @@ tags:
 date: 2021-05-28    #작성날짜
 last_modified_at: 2021-05-28    #최종 수정 날짜
 ---  #여기까지 내용이 타이틀 내용
-```  
-  
+```
+
+포스팅할 파일의 작성이 끝났다면 이걸 블로그 페이지에 반영시키기 위해서 commit과 push가 필요하다.  
+
+ ![1](/assets/images/20210528_Posting/6.png)
+ ![1](/assets/images/20210528_Posting/7.png)
+
+commit을 실행하면 경로를 설정하는 창이 뜨고 한 번 경로를 잡아주면 이후에는 간단하게 클릭으로 commit과 push가 가능하다.  
+
 포스팅에 익숙해지려면 Markdown를 한번 공부할 필요가 있는거 같다.

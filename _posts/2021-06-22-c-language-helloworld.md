@@ -14,12 +14,13 @@ date: 2021-06-22
 last_modified_at: 2021-06-26
 ---  
 
-**Hello World!**   
-printf를 사용하여 문자 출력하기  
-<br/>
-<br/>  
+***
+<br>
 
-<hr/>
+### Hello World!  
+printf를 사용하여 문자 출력하기  
+
+<br/>
 
 ``` c
 #include <stdio.h>
@@ -32,6 +33,8 @@ int main(void)
 }
 ```
 
+<br/>
+
 ### 1. #include \<stdio.h>
 
 printf(출력)을 사용하기 위해서 헤더 파일을 추가하는 명령어이다.
@@ -40,7 +43,7 @@ printf(출력)을 사용하기 위해서 헤더 파일을 추가하는 명령어
   * \#include: 컴파일 하기전에 다른 소스를 추가시키는 명령어  
   * \<stdio.h>: 기본 입출력 헤더 파일(Standard Input Output Header) 
   
-<br/><br/>
+<br/>
 
 ### 2. int main(void), return 0;
   
@@ -50,7 +53,7 @@ printf(출력)을 사용하기 위해서 헤더 파일을 추가하는 명령어
   * main(void): 메인 함수, 프로그램이 시작될 때 가장 먼저 호출되는 함수(엔트리 포인트)  
   * return 0;: 0을 반환하고 함수를 종료한다.  
   
-<br/><br/>
+<br/>
 
 ### 3. printf("Hello World!\n");  
   
@@ -58,6 +61,8 @@ printf(출력)을 사용하기 위해서 헤더 파일을 추가하는 명령어
   * ("Hello World!\n"): 큰 따옴표 안에 출력할 문자를 입력한다.  
   * \n: 이스케이프 명령어, 줄 바꿈 문자
 
-<br/><br/>
-실행결과  
- ![1](/assets/images/20210622_Posting/1.png)
+    <br/>  
+
+    실행결과  
+
+    ![1](/assets/images/20210622_Posting/1.png)
