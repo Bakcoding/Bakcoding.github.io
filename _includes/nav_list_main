@@ -27,7 +27,7 @@
             </ul>
 \\<!-- C/Cpp category -->
 
-        <span class="nav__sub-title">Cocos2dx</sapn>
+        <span class="nav__sub-title">Cocos</sapn>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cocos2dx 4.0" %}
