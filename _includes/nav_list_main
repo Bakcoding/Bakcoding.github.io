@@ -33,7 +33,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cocos" %}
-                        <li><a href="/categories/cpp" class="toc__menu">Cocos2dx ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cocos" class="toc__menu">Cocos2dx ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
