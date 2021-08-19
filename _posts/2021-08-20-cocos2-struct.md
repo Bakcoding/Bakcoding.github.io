@@ -5,7 +5,7 @@ excerpt: "cocos, 2dx, 4.0"
 categories:
   - Cocos
 tags:
-  - [cocos, 2dx, \4.0]
+  - [cocos, 2dx]
 
 toc: true
 toc_sticky: true
