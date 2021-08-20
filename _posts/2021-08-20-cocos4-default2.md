@@ -1,5 +1,5 @@
 ---
-title:  "HelloWorld"
+title:  "프로젝트 기본 세팅하기"
 excerpt: "cocos, 2dx, hello"
 
 categories:
