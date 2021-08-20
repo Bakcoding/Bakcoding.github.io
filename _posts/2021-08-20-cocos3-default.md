@@ -1,11 +1,11 @@
 ---
 title:  "HelloWorld"
-excerpt: "cocos, 2dx, hello, cocos"
+excerpt: "cocos, 2dx, hello"
 
 categories:
   - Cocos
 tags:
-  - [cocos, 2dx, hello, cocos]
+  - [cocos, 2dx, hello]
 
 toc: true
 toc_sticky: true
