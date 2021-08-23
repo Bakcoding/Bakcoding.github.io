@@ -1,9 +1,9 @@
 ---
-title:  "ThreeBullets 개발일지 1"
+title:  "ThreeBullets #1"
 excerpt: "cocos, myproject, threebullets, proposal"
 
 categories:
-  - Cocos
+  - ThreeBullets
 tags:
   - [cocos, myproject, threebullets, proposal]
 
