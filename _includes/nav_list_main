@@ -36,6 +36,12 @@
                         <li><a href="/categories/cocos" class="toc__menu">Cocos2dx ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                
+                {% for category in site.categories %}
+                    {% if category[0] == "ThreeBullets" %}
+                        <li><a href="/categories/threebullets" class="toc__menu">ThreeBullets ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
       </li>
 
