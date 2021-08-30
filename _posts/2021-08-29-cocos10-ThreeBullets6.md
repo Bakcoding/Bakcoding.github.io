@@ -90,5 +90,5 @@ BulletSprite에서 화면밖으로 나가는걸 확인하는 bool값을 이용�
 
 <br/>
 
-![play](/assets/images/20210829_Posting/1.git)
+![play](/assets/images/20210829_Posting-cocos/1.git)
 
