@@ -1,11 +1,11 @@
 ---
 title:  "ThreeBullets #11"
-excerpt: "cocos, myproject, threebullets, hit, effect, onaction"
+excerpt: "cocos, myproject, threebullets, hiteffect, onaction"
 
 categories:
   - ThreeBullets
 tags:
-  - [cocos, myproject, threebullets, static, hit, effect, onaction]
+  - [cocos, myproject, threebullets, hiteffect, onaction]
 
 toc: true
 toc_sticky: true
