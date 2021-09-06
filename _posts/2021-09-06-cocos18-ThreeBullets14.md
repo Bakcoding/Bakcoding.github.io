@@ -17,7 +17,7 @@ last_modified_at: 2021-09-06
 ***
 
 ### 플레이 스토어에 출시하기
-플레이 스토어에 출시하기 위해서는 우선 ![Google Playe Console](https://play.google.com/console)의 계정을 만들어야한다.  
+플레이 스토어에 출시하기 위해서는 우선 [Google Playe Console](https://play.google.com/console)의 계정을 만들어야한다.  
 개발자를 등록하기 위해서는 2.5$의 비용이 발생한다.  
 
 그리고 구글에서 정한 지켜야할 양식들이 있다.  
@@ -25,7 +25,7 @@ last_modified_at: 2021-09-06
 <br/>
 
 ### 타겟 API 수준  
-앱을 등록하기 위해서는 ![Google Play의 타겟 API 수준 요구사항](https://developer.android.com/distribute/best-practices/develop/target-sdk?hl=ko) 
+앱을 등록하기 위해서는 [Google Play의 타겟 API 수준 요구사항](https://developer.android.com/distribute/best-practices/develop/target-sdk?hl=ko) 
 을 충족해 주어야한다. 안드로이드 버전에 따라 요구되는 수준이 다르지만 앞으로 계속해서 변화되는 부분이기 때문에 최신버전에 맞춰서 설정해 놓는게 나은 선택일 것이다.  
 
 안드로이드 스튜디오에서 Tools > SDK Manager를 열어서 SKD Platforms를 보면 안드로이드 버전에 따른 API Level들을 알 수 있고 
@@ -69,7 +69,7 @@ PROP_TARGET_SDK_VERSION=30
 <br/>
 
 ### 64비트 아키텍처  
-2019년 8월 1일부터 구글 플레이는 ![64비트만 지원](https://developer.android.com/distribute/best-practices/develop/64-bit#test-64-bit-hardware) 하게 된다.  
+2019년 8월 1일부터 구글 플레이는 [64비트만 지원](https://developer.android.com/distribute/best-practices/develop/64-bit#test-64-bit-hardware) 하게 된다.  
 페이지에 들어가서 보면 그 이유와 방법들을 잘 설명해 놓았다.  
 
 우선 내 프로젝트에서도 수정해 주어야할 부분들이 있다. gradle.properties 파일을 열어서 PROP_APP_ABI를 수정해준다.  
@@ -114,8 +114,8 @@ finish를 누르면 빌드가 시작되는데 시간이 좀 걸린다. 알림이
 
 ```
 // build.gradle
-        versionCode 7
-        versionName "1.7"
+versionCode 7
+versionName "1.7"
 ```
 
 여기서 버전을 바꿔 주어야하며 동일 버전은 업로드시 사용된 버전이라고 에러를 띄우기 때문에 업로드 전에 확인을 해준다.  
