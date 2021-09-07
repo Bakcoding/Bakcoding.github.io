@@ -5,53 +5,96 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
 <!--전체 글 수-->
-      <li>
-            전체 글 수 {{sum}} 개
-      </li>
+    <li>
+        전체 글 수 {{sum}} 개
+    </li>
 
 <!-- C/Cpp category -->
-      <li>
-        <span class="nav__sub-title">C/C++</sapn>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "C" %}
-                        <li><a href="/categories/c" class="toc__menu">C ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
+    <li>
+        <span class="nav__sub-title">
+            C/C++
+        </span>
 
-                {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="toc__menu">C++ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "C" %}
+                    <li>
+                        <a href="/categories/c" class="toc__menu">
+                            C ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+
+            {% for category in site.categories %}
+                {% if category[0] == "Cpp" %}
+                    <li>
+                        <a href="/categories/cpp" class="toc__menu">
+                            C++ ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
 
 <!-- Cocos2dx category -->
-      <li>
-        <span class="nav__sub-title">Cocos</sapn>
+    <li>
+        <span class="nav__sub-title">Cocos</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cocos" %}
-                        <li><a href="/categories/cocos" class="toc__menu">Cocos2dx ({{category[1].size}})</a></li>
+                        <li>
+                            <a href="/categories/cocos" class="toc__menu">
+                                Cocos2dx ({{category[1].size}})
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
                 
                 {% for category in site.categories %}
                     {% if category[0] == "ThreeBullets" %}
-                        <li><a href="/categories/threebullets" class="toc__menu">ThreeBullets ({{category[1].size}})</a></li>
+                        <li>
+                            <a href="/categories/threebullets" class="toc__menu">
+                                ThreeBullets ({{category[1].size}})
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>
       </li>
 
+<!-- Algorithm category -->
+    <li>
+        <span class="nav__sub-title">
+            Coding Test
+        </span>
+
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Programmers" %}
+                    <li>
+                        <a href="/categories/programmers" class="toc__menu">
+                            Programmers ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+            
+
 <!-- ETC category -->
       <li>
-        <span class="nav__sub-title">ETC</sapn>
+        <span class="nav__sub-title">ETC</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="toc__menu">Blog ({{category[1].size}})</a></li>
+                        <li>
+                            <a href="/categories/blog" class="toc__menu">
+                                Blog ({{category[1].size}})
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>
