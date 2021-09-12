@@ -9,10 +9,10 @@
         전체 글 수 {{sum}} 개
     </li>
 
-<!-- C/Cpp category -->
+<!-- Language category -->
     <li>
         <span class="nav__sub-title">
-            C/C++
+            Language
         </span>
 
         <ul>
