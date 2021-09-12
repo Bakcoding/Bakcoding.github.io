@@ -75,7 +75,7 @@
                 {% if category[0] == "Algorithm" %}
                     <li>
                         <a href="/categories/algorithm" class="toc__menu">
-                            Programmers ({{category[1].size}})
+                            Algorithm ({{category[1].size}})
                         </a>
                     </li>
                 {% endif %}
