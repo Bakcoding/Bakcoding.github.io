@@ -1,11 +1,11 @@
 ---
 title:  "알고리즘의 복잡도"
-excerpt: "algorithm, inflearn"
+excerpt: "algorithm, complexity, asymptotic"
 
 categories:
   - Algorithm
 tags:
-  - [algorithm, inflearn]
+  - [algorithm, complexity, asymptotic]
 
 toc: true
 toc_sticky: true
