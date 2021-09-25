@@ -64,6 +64,22 @@
             </ul>
     </li>
 
+<!-- Unity3D category -->
+    <li>
+        <span class="nav__sub-title">Unity3D</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity3D" %}
+                        <li>
+                            <a href="/categories/unity3d" class="toc__menu">
+                                Unity3D Engine ({{category[1].size}})
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+    </li>
+
 <!-- Coding Test category -->
     <li>
         <span class="nav__sub-title">
