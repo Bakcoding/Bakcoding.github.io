@@ -1,5 +1,5 @@
 ---
-title:  "[영리한 프로그래밍을 위한 알고리즘 강좌] #1 순환 1"
+title:  "[영리한 프로그래밍을 위한 알고리즘] #1 순환1"
 excerpt: "algorithm, recursion, inflearn, java"
 
 categories:
