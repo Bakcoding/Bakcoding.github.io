@@ -1,5 +1,5 @@
 ---
-title:  "[영리한 프로그래밍을 위한 알고리즘] #8 정렬 알고리즘"
+title:  "[영리한 프로그래밍을 위한 알고리즘] #8 정렬 알고리즘1"
 excerpt: "algorithm, sort, inflearn, java"
 
 categories:
