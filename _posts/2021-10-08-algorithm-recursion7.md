@@ -1,5 +1,5 @@
 ---
-title:  "[영리한 프로그래밍을 위한 알고리즘] #6 순환_멱집합"
+title:  "[영리한 프로그래밍을 위한 알고리즘] #7 순환_멱집합"
 excerpt: "algorithm, recursion, inflearn, java"
 
 categories:
