@@ -12,7 +12,7 @@
 <!-- Language category -->
     <li>
         <span class="nav__sub-title">
-            Language
+            C/C++
         </span>
 
         <ul>
@@ -37,6 +37,26 @@
             {% endfor %}
         </ul>
     </li>
+
+<!-- Js/Html/Css category -->    
+    <li>
+        <span class="nav__sub-title">
+            JS/HTML/CSS
+        </span>
+
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Javascript" %}
+                    <li>
+                        <a href="/categories/js" class="toc__menu">
+                            Javascript ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+
 
 <!-- Cocos2dx category -->
     <li>
