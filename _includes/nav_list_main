@@ -99,10 +99,10 @@
                 {% endfor %}
 
                 {% for category in site.categories %}
-                    {% if category[0] == "Unity Example" %}
+                    {% if category[0] == "UnityExample" %}
                         <li>
                             <a href="/categories/unity-example" class="toc__menu">
-                                Unity3D Engine ({{category[1].size}})
+                                Unity Example ({{category[1].size}})
                             </a>
                         </li>
                     {% endif %}
