@@ -54,60 +54,76 @@
                     </li>
                 {% endif %}
             {% endfor %}
+
+            {% for category in site.categories %}
+                {% if category[0] == "HTML" %}
+                    <li>
+                        <a href="/categories/html" class="toc__menu">
+                            HTML ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </li>
 
 
 <!-- Cocos2dx category -->
     <li>
-        <span class="nav__sub-title">Cocos</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Cocos" %}
-                        <li>
-                            <a href="/categories/cocos" class="toc__menu">
-                                Cocos2dx ({{category[1].size}})
-                            </a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
+        <span class="nav__sub-title">
+            Cocos
+        </span>
+            
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Cocos" %}
+                    <li>
+                        <a href="/categories/cocos" class="toc__menu">
+                            Cocos2dx ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
                 
-                {% for category in site.categories %}
-                    {% if category[0] == "ThreeBullets" %}
-                        <li>
-                            <a href="/categories/threebullets" class="toc__menu">
-                                ThreeBullets ({{category[1].size}})
-                            </a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+                {% if category[0] == "ThreeBullets" %}
+                    <li>
+                        <a href="/categories/threebullets" class="toc__menu">
+                            ThreeBullets ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </li>
 
 <!-- Unity3D category -->
     <li>
-        <span class="nav__sub-title">Unity3D</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Unity3D" %}
-                        <li>
-                            <a href="/categories/unity3d" class="toc__menu">
-                                Unity3D Engine ({{category[1].size}})
-                            </a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
+        <span class="nav__sub-title">
+            Unity3D
+        </span>
+            
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Unity3D" %}
+                    <li>
+                        <a href="/categories/unity3d" class="toc__menu">
+                            Unity3D Engine ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
 
-                {% for category in site.categories %}
-                    {% if category[0] == "UnityExample" %}
-                        <li>
-                            <a href="/categories/unity-example" class="toc__menu">
-                                Unity Example ({{category[1].size}})
-                            </a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+                {% if category[0] == "UnityExample" %}
+                    <li>
+                        <a href="/categories/unity-example" class="toc__menu">
+                            Unity Example ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </li>
 
 <!-- Coding Test category -->
@@ -139,25 +155,27 @@
                 {% endif %}
             {% endfor %}
         </ul>
-
     </li>
             
 
 <!-- ETC category -->
-      <li>
-        <span class="nav__sub-title">ETC</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li>
-                            <a href="/categories/blog" class="toc__menu">
-                                Blog ({{category[1].size}})
-                            </a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
+    <li>
+        <span class="nav__sub-title">
+            ETC
+        </span>
+            
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Blog" %}
+                    <li>
+                        <a href="/categories/blog" class="toc__menu">
+                            Blog ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
 
   </ul>
 </nav>
