@@ -1,5 +1,5 @@
 ---
-title:  "문서의 구조"
+title:  "페이지 만들기 연습"
 excerpt: "html, tutorial"
 
 categories:
