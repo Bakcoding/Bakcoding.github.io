@@ -1,11 +1,11 @@
 ---
 title:  "brackets 에디터"
-excerpt: "css, bracket, opensource, editor"
+excerpt: "html, bracket, opensource, editor"
 
 categories:
-  - CSS
+  - HTML
 tags:
-  - [css, bracket, opensource, editor]
+  - [html, bracket, opensource, editor]
 
 toc: true
 toc_sticky: true
