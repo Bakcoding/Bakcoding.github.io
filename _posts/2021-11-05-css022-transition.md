@@ -81,25 +81,6 @@ transition
 
   transition: 속성 시간;
 
-
-<head>
-    <style>
-        .transition{
-            font-size:3rem;
-            display:inline-block;
-            transition: font-size 0.5s, transform 0.5s;
-            transition-delay:1s;
-        }
-        .transition:active{
-            transform:translate(20px, 20px);
-            font-size:2rem;
-        }
-    </style>
-</head>
-<body>
-    <a class="transition"href="#">Click</a>
-</body><br>
-
 <br>
 
 ### timing func
