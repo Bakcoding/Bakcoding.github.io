@@ -173,26 +173,13 @@ transition
 </html>
 ```
 
-<section>
-<style>
-    .func{
-        background-color: black;
-        color:white;
-        padding:10px;
-        width:100px;
-        height:50px;
-        transition:height 1s;
-        transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-        }
-        div:hover{
-        height:400px;
-        }
-</style>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoKQyEP" data-user="bakcoding" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/bakcoding/pen/PoKQyEP">
+  Untitled</a> by Bakcoding (<a href="https://codepen.io/bakcoding">@bakcoding</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>
 
-<div class="func">
-    TRANSITION
-</div>
-</section>
 
 <br>
 
