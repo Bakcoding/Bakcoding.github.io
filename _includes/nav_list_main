@@ -74,6 +74,16 @@
                 </li>
             {% endif %}
             {% endfor %}
+
+            {% for category in site.categories %}
+            {% if category[0] == "WebPage" %}
+                <li>
+                    <a href="/categories/webpage" class="toc__menu">
+                        Web Page ({{category[1].size}})
+                    </a>
+                </li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </li>
 
