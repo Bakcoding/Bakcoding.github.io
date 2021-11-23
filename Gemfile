@@ -1,5 +1,4 @@
 source "https://rubygems.org"
 gemspec
-
-gem 'jekyll-admin', group :kekyll_plugins
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'jekyll-sitemap'
