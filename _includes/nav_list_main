@@ -195,6 +195,17 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Note" %}
+                    <li>
+                        <a href="/categories/note" class="toc__menu">
+                            Note ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </li>
 
   </ul>
