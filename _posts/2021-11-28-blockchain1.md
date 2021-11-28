@@ -1,11 +1,11 @@
 ---
 title:  "블록체인"
-excerpt: "blockchain, hash, js"
+excerpt: "blockchain, hash"
 
 categories:
   - Note
 tags:
-  - [blockchain, hash, js]
+  - [blockchain, hash]
 
 toc: true
 toc_sticky: true
@@ -16,7 +16,7 @@ last_modified_at: 2021-11-28
 
 ***
 
-<iframe src="https://www.youtube.com/watch?v=bBC-nXj3Ng4">But how does bitcoin actually work?</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bBC-nXj3Ng4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 블록체인  
 
