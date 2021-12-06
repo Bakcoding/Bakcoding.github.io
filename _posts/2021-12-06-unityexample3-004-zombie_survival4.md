@@ -59,9 +59,12 @@ Follow 필드와 Look At 필드에 Player Character 게임 오브젝트를 드�
 
 **guide line**
 
-오브젝트를 할당하고 Game Window Guide 옵션이 체크가 된 상태라면 게임화면에 가이드 라인이 그려지는걸 볼 수 있다.  
+오브젝트를 할당하고 Game Window Guide 옵션이 체크가 된 상태라면 게임화면에 가이드 라인이 그려지는걸 볼 수 있다.
+
+<br>
 
 ![guide_line.png](/assets/images/20211206_posting/guide_line.png)  
+
 
 시네머신 카메라는 대상을 주시하는 동안 카메라 연출이 자연스럽게 느껴지도록 지연시간을 두고 카메라를 부드럽게 회전한다.  
 
