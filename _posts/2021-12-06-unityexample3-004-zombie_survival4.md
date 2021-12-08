@@ -1,11 +1,11 @@
 ---
-title:  "[레트로의 유니티] 좀비서바이벌3 - 카메라"
-excerpt: "unity3d, retro, example, zombie"
+title:  "[레트로의 유니티] 좀비서바이벌4 - 카메라"
+excerpt: "unity3d, retro, example, zombie, cinemachine"
 
 categories:
   - UnityExample
 tags:
-  - [unity3d, retro, example, zombie]
+  - [unity3d, retro, example, zombie, cinemachine]
 
 toc: true
 toc_sticky: true

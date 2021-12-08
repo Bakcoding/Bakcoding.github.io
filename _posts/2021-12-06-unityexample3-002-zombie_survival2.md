@@ -1,11 +1,11 @@
 ---
 title:  "[레트로의 유니티] 좀비서바이벌2 - 라이팅 설정"
-excerpt: "unity3d, retro, example, zombie"
+excerpt: "unity3d, retro, example, zombie, lighting, bake"
 
 categories:
   - UnityExample
 tags:
-  - [unity3d, retro, example, zombie]
+  - [unity3d, retro, example, zombie, lighting, bake]
 
 toc: true
 toc_sticky: true
