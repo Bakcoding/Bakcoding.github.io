@@ -147,6 +147,16 @@ post processing
 
 마지막으로 배경음을 추가하고 게임을 빌드한다.  
 
-* Audio > Music 클립을 Game Manager로 드래그앤드롭
+* 배경음 추가  
 
-* Game Manager 오브젝트의 Audio Source 컴포넌트 Loop 체크
+  * Audio > Music 클립을 Game Manager로 드래그앤드롭
+
+  * Game Manager 오브젝트의 Audio Source 컴포넌트 Loop 체크  
+
+* 빌드  
+
+  * File > Build Settings > Add Open Scenes
+
+    현재 씬을 빌드 목록에 등록한다.  
+
+  * Build and Run 경로 선택하고 빌드 시작
