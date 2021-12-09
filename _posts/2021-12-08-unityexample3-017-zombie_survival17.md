@@ -1,11 +1,11 @@
 ---
-title:  "[레트로의 유니티] 좀비서바이벌16 - 마무리"
-excerpt: "unity3d, retro, example, zombie, item, spawner"
+title:  "[레트로의 유니티] 좀비서바이벌17 - 마무리"
+excerpt: "unity3d, retro, example, zombie, build"
 
 categories:
   - UnityExample
 tags:
-  - [unity3d, retro, example, zombie, item, spawner]
+  - [unity3d, retro, example, zombie, build]
 
 toc: true
 toc_sticky: true
