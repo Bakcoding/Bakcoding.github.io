@@ -1,5 +1,5 @@
 ---
-title:  "[레트로의 유니티] 좀비서바이벌25 - 네트워크 - 적 생성기"
+title:  "[레트로의 유니티] 좀비서바이벌26 - 네트워크 - 적 생성기"
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
