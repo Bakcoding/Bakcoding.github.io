@@ -33,7 +33,7 @@ Head Mounted Display
 
 머리에 착용하는 형태의 영상표시기기이다.  
 
-<img src="../assets/images/20211223_Posting/HMD.jpg" title="HMD" width="
+<img src="/assets/images/20211223_Posting/HMD.jpg" title="HMD" width="
 300px">
 
 흔히 VR 장비라고 말할 때 대표적으로 떠오르는 것이다.  
@@ -44,7 +44,7 @@ Head Mounted Display
 
 사람의 두 눈 사이에는 거리가 존재한다 따라서 각 각의 시야에 비치는 영상의 정보를 뇌에서 조합하여 입체감, 원근감을 표현하여 현실감을 느끼게한다.
 
-<img src="../assets/images/20211223_Posting/twoeyes.png" title="twoeyes" width="400px">
+<img src="/assets/images/20211223_Posting/twoeyes.png" title="twoeyes" width="400px">
 
 VR에서는 양안 시차를 활용하여 영상을 표현한다.
 
@@ -54,7 +54,7 @@ VR에서는 양안 시차를 활용하여 영상을 표현한다.
 
     인간이 시각적으로 느끼는 원리를 모방하여 입체적 영상으로 구현하는 방식을 말한다.  
 
-    <img src="../assets/images/20211223_Posting/streoscopic.png" title="twoeyes" width="400px">
+    <img src="/assets/images/20211223_Posting/streoscopic.png" title="twoeyes" width="400px">
      
     2대의 카메라로 시점을 달리하여 영상을 촬영하여 두 눈에 다른 두 영상을 보여주어 양안 시차로 인한 효과로 뇌에서는 영상을 조합해 입체로 인식하게 된다. 
 
@@ -147,13 +147,13 @@ VR 기술의 대부분은 3D 모델링의 게임 컨텐츠이지만 갈수록 �
     
     360도 카메라를 사용하여 실사촬영한 영상이나 이미지들을 활용한 컨텐츠
 
-    <img src="../assets/images/20211223_Posting/vrmedia.png" title="media" width="400px">
+    <img src="/assets/images/20211223_Posting/vrmedia.png" title="media" width="400px">
 
 * 쇼핑
 
     쇼핑센터를 돌아다니며 가상의 쇼핑을 체험할 수 있다.
 
-    <img src="../assets/images/20211223_Posting/vrshopping.png" title="vrshopping" width="400px">
+    <img src="/assets/images/20211223_Posting/vrshopping.png" title="vrshopping" width="400px">
 
 그 외에도 군사훈련이나 운전면허 시험 등 안전도를 높이면서 시간과 비용을 절감할 수 있는 곳에도 사용되어진다.  
 
