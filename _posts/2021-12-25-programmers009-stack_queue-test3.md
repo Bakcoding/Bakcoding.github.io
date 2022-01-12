@@ -207,7 +207,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
 <img src="/assets/images/20211227_Posting/result.png" title="result" width="300px">
 <br>
 
-처음 생각보다 고려할 부분이 더 있었던거 같다. 뭔가 한 부분만 해결하면 될거같은데 오히려 계속 붙잡고 있다보니 더 꼬이게 되어 그냥 시간을 증가시키는 방식을 사용했다. 
+생각했던 방식에 고려할 부분이 더 있었던거 같다. 뭔가 한 부분만 해결하면 될거같은데 오히려 계속 붙잡고 있다보니 더 꼬이게 되어 그냥 시간을 증가시키는 방식을 사용했다. 
 
 <br>
 
