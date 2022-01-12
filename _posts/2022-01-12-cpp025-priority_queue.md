@@ -5,7 +5,7 @@ excerpt: "cpp, algorithm, queue"
 categories:
   - Cpp
 tags:
-  - [cpp, algorithm, 2d, queue]
+  - [cpp, algorithm, queue]
 
 toc: true
 toc_sticky: true
