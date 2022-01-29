@@ -143,6 +143,16 @@
                     </li>
                 {% endif %}
             {% endfor %}
+
+            {% for category in site.categories %}
+                {% if category[0] == "CSharp" %}
+                    <li>
+                        <a href="/categories/csharp" class="toc__menu">
+                            C# ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </li>
 
