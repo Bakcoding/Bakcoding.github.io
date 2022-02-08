@@ -5,7 +5,7 @@ excerpt: "csharp, ms, console"
 categories:
   - CSharp
 tags:
-  - [csharp, ms, console]
+  - [csharp, console]
 
 toc: true
 toc_sticky: true

@@ -1,11 +1,11 @@
 ---
 title:  "C# 언어"
-excerpt: "csharp, ms, unity"
+excerpt: "csharp, unity"
 
 categories:
   - CSharp
 tags:
-  - [csharp, ms, unity]
+  - [csharp, unity]
 
 toc: true
 toc_sticky: true
@@ -22,3 +22,10 @@ last_modified_at: 2022-01-29
 
 특히 유니티엔진의 스크립트 언어로 사용되고 있기 때문에 좀 더 유니티 엔진을 잘 다루고 싶기 때문에 C#언어에 대한 공부를 시작한다. 
 
+<br>
+
+### .net
+
+닷넷 프레임워크는 윈도우에서 만든 개발 환경이다. 일반적인 네이티브 언어들로 만들어진 프로그램들은 운영체제에서 바로 실행되는 것과 달리 닷넷 프레임워크를 기반으로 만들어진 프로그램은 반드시 닷넷 프레임워크가 설치된 환경이어야 한다.
+
+C#은 이런 닷넷 프레임워크 상에서 잘 표현할 수 있도록 만들어진 언어라고 할 수 있다. 
