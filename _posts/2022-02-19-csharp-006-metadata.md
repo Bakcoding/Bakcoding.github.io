@@ -1,17 +1,17 @@
 ---
 title:  "메타데이터"
-excerpt: "csharp, identifier"
+excerpt: "csharp, metadata"
 
 categories:
   - CSharp
 tags:
-  - [csharp, identifier]
+  - [csharp, metadata]
 
 toc: true
 toc_sticky: true
  
-date: 2022-02-15 
-last_modified_at: 2022-02-15
+date: 2022-02-19 
+last_modified_at: 2022-02-19
 ---
 
 ### 데이터와 메타데이터
