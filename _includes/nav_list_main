@@ -153,6 +153,16 @@
                     </li>
                 {% endif %}
             {% endfor %}
+
+            {% for category in site.categories %}
+                {% if category[0] == "VR" %}
+                    <li>
+                        <a href="/categories/vr" class="toc__menu">
+                            VR ({{category[1].size}})
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </li>
 
