@@ -1,244 +1,273 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-<!--전체 글 수-->
-    <li>
-        전체 글 수 {{sum}} 개
-    </li>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <!--전체 글 수-->
+        <li>
+            전체 글 수 {{sum}} 개
+        </li>
 
-<!-- Language category -->
-    <li>
-        <span class="nav__sub-title">
-            C/C++
-        </span>
+        <!-- Language category -->
+        <li>
+            <span class="nav__sub-title">
+                C/C++
+            </span>
 
-        <ul>
-            {% for category in site.categories %}
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "C" %}
-                    <li>
-                        <a href="/categories/c" class="toc__menu">
-                            C ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/c" class="toc__menu">
+                        C ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
-            {% for category in site.categories %}
+                {% for category in site.categories %}
                 {% if category[0] == "Cpp" %}
-                    <li>
-                        <a href="/categories/cpp" class="toc__menu">
-                            C++ ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/cpp" class="toc__menu">
+                        C++ ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-    </li>
+                {% endfor %}
+            </ul>
+        </li>
 
-<!-- Js/Html/Css category -->    
-    <li>
-        <span class="nav__sub-title">
-            JS/HTML/CSS
-        </span>
+        <!-- Js/Html/Css category -->
+        <li>
+            <span class="nav__sub-title">
+                JS/HTML/CSS
+            </span>
 
-        <ul>
-            {% for category in site.categories %}
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Javascript" %}
-                    <li>
-                        <a href="/categories/js" class="toc__menu">
-                            Javascript ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/js" class="toc__menu">
+                        Javascript ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
-            {% for category in site.categories %}
+                {% for category in site.categories %}
                 {% if category[0] == "HTML" %}
-                    <li>
-                        <a href="/categories/html" class="toc__menu">
-                            HTML ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/html" class="toc__menu">
+                        HTML ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
-            {% for category in site.categories %}
-            {% if category[0] == "CSS" %}
+                {% for category in site.categories %}
+                {% if category[0] == "CSS" %}
                 <li>
                     <a href="/categories/css" class="toc__menu">
                         CSS ({{category[1].size}})
                     </a>
                 </li>
-            {% endif %}
-            {% endfor %}
+                {% endif %}
+                {% endfor %}
 
-            {% for category in site.categories %}
-            {% if category[0] == "WebPage" %}
+                {% for category in site.categories %}
+                {% if category[0] == "WebPage" %}
                 <li>
                     <a href="/categories/webpage" class="toc__menu">
                         Web Page ({{category[1].size}})
                     </a>
                 </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
 
 
-<!-- Cocos2dx category -->
-    <li>
-        <span class="nav__sub-title">
-            Cocos
-        </span>
-            
-        <ul>
-            {% for category in site.categories %}
+        <!-- Cocos2dx category -->
+        <li>
+            <span class="nav__sub-title">
+                Cocos
+            </span>
+
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Cocos" %}
-                    <li>
-                        <a href="/categories/cocos" class="toc__menu">
-                            Cocos2dx ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/cocos" class="toc__menu">
+                        Cocos2dx ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-                
-            {% for category in site.categories %}
+                {% endfor %}
+
+                {% for category in site.categories %}
                 {% if category[0] == "ThreeBullets" %}
-                    <li>
-                        <a href="/categories/threebullets" class="toc__menu">
-                            ThreeBullets ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/threebullets" class="toc__menu">
+                        ThreeBullets ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-    </li>
+                {% endfor %}
+            </ul>
+        </li>
 
-<!-- Unity3D category -->
-    <li>
-        <span class="nav__sub-title">
-            Unity3D
-        </span>
-            
-        <ul>
-            {% for category in site.categories %}
+        <!-- Unity3D category -->
+        <li>
+            <span class="nav__sub-title">
+                Unity3D
+            </span>
+
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Unity3D" %}
-                    <li>
-                        <a href="/categories/unity3d" class="toc__menu">
-                            Unity3D Engine ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/unity3d" class="toc__menu">
+                        Unity3D Engine ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
-            {% for category in site.categories %}
+                {% for category in site.categories %}
                 {% if category[0] == "UnityExample" %}
-                    <li>
-                        <a href="/categories/unity-example" class="toc__menu">
-                            Unity Example ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/unity-example" class="toc__menu">
+                        Unity Example ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
-            {% for category in site.categories %}
+                {% for category in site.categories %}
                 {% if category[0] == "CSharp" %}
-                    <li>
-                        <a href="/categories/csharp" class="toc__menu">
-                            C# ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/csharp" class="toc__menu">
+                        C# ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
-            {% for category in site.categories %}
+                {% for category in site.categories %}
                 {% if category[0] == "VR" %}
-                    <li>
-                        <a href="/categories/vr" class="toc__menu">
-                            VR ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/vr" class="toc__menu">
+                        VR ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-    </li>
+                {% endfor %}
+            </ul>
+        </li>
 
-<!-- Coding Test category -->
-    <li>
-        <span class="nav__sub-title">
-            Coding Test
-        </span>
+        <!-- Graphics category -->
+        <li>
+            <span class="nav__sub-title">
+                Graphics
+            </span>
 
-        <ul>
-            {% for category in site.categories %}
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "API" %}
+                <li>
+                    <a href="/categories/api" class="toc__menu">
+                        API ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+
+                {% for category in site.categories %}
+                {% if category[0] == "Shader" %}
+                <li>
+                    <a href="/categories/shader" class="toc__menu">
+                        Shader ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        
+        <!-- Coding Test category -->
+        <li>
+            <span class="nav__sub-title">
+                Coding Test
+            </span>
+
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Algorithm" %}
-                    <li>
-                        <a href="/categories/algorithm" class="toc__menu">
-                            Algorithm ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/algorithm" class="toc__menu">
+                        Algorithm ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
+                {% endfor %}
+            </ul>
 
-        <ul>
-            {% for category in site.categories %}
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Programmers" %}
-                    <li>
-                        <a href="/categories/programmers" class="toc__menu">
-                            Programmers ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/programmers" class="toc__menu">
+                        Programmers ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-    </li>
-            
+                {% endfor %}
+            </ul>
+        </li>
 
-<!-- ETC category -->
-    <li>
-        <span class="nav__sub-title">
-            ETC
-        </span>
-            
-        <ul>
-            {% for category in site.categories %}
+
+        <!-- ETC category -->
+        <li>
+            <span class="nav__sub-title">
+                ETC
+            </span>
+
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Blog" %}
-                    <li>
-                        <a href="/categories/blog" class="toc__menu">
-                            Blog ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/blog" class="toc__menu">
+                        Blog ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-        <ul>
-            {% for category in site.categories %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Note" %}
-                    <li>
-                        <a href="/categories/note" class="toc__menu">
-                            Note ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/note" class="toc__menu">
+                        Note ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
+                {% endfor %}
+            </ul>
 
-        <ul>
-            {% for category in site.categories %}
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Git" %}
-                    <li>
-                        <a href="/categories/git" class="toc__menu">
-                            Git ({{category[1].size}})
-                        </a>
-                    </li>
+                <li>
+                    <a href="/categories/git" class="toc__menu">
+                        Git ({{category[1].size}})
+                    </a>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-    </li>
+                {% endfor %}
+            </ul>
+        </li>
 
-  </ul>
+    </ul>
 </nav>
