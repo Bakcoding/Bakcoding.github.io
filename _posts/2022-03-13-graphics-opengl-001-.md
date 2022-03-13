@@ -1,11 +1,11 @@
 ---
 title:  "OpenGL"
-excerpt: "Graphics, opengl"
+excerpt: "Graphics, OpenGL"
 
 categories:
-  - Note
+  - OpenGL
 tags:
-  - [Graphics, opengl]
+  - [Graphics, OpenGL]
 
 toc: true
 toc_sticky: true
@@ -40,8 +40,24 @@ OpenGL은 해당 그래픽 카드를 제어하기 위한 구현에 대한 spcifi
 
 OpenGL을 찾아보면 API라는 말이 따라온다. 
 
-그 부분에 대해서는 의견이 나누어지는데 단순히 표준 규격만 만들었기 때문에 API는 아니라는 의견도 있고 OpenGL과 관련된 다양한 라이브러리를 통해서 프로그램을 작성하는데 직접 활용할 수 있기 때문에 API도 될 수 있다는 의견도 있다.  
+그래픽 카드 개발자가 자신의 드라이버를 위한 API를 만들 수 있도록 정한 규격이 OpenGL인 셈이다.  
 
-지금은 무슨 차인지 잘모르겠다. OpenGL을 사용해보면서 직접 느껴보고 내 생각을 정리해봐야할 부분인거같다.
+즉 OpneGL을 구현하면 그래픽 카드의 해당 드라이버에서 제공하는 API를 통해서 접근이 이루어지며 이 때 개발자가 그래픽 카드의 종류별로 코드를 작성할 필요없도록 공통된 인터페이스를 생성해 주기 때문에 OpenGL이 API인가에 대해서는 의견이 다른 글들을 찾아볼 수 있다. 
 
+<br>
 
+### 특징
+
+* 범용성
+
+* 효율성
+
+* 독립성
+
+* 완전성
+
+* 상호작업성
+
+OpenGL 자체는 C기반으로 제작되었지만 크로스 플랫폼을 지향하며 어떤 OS나 프로그래밍 언어에서 사용할 수 있다. 
+
+라이브러리를 다운받고 IDE를 추가하여 include를 통해 사용할 수 있다.
