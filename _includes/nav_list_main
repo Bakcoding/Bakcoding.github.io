@@ -174,20 +174,20 @@
 
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "API" %}
+                {% if category[0] == "OpenGL" %}
                 <li>
-                    <a href="/categories/api" class="toc__menu">
-                        API ({{category[1].size}})
+                    <a href="/categories/opengl" class="toc__menu">
+                        OpenGL ({{category[1].size}})
                     </a>
                 </li>
                 {% endif %}
                 {% endfor %}
 
                 {% for category in site.categories %}
-                {% if category[0] == "Shader" %}
+                {% if category[0] == "DirectX" %}
                 <li>
-                    <a href="/categories/shader" class="toc__menu">
-                        Shader ({{category[1].size}})
+                    <a href="/categories/directx" class="toc__menu">
+                        DirectX ({{category[1].size}})
                     </a>
                 </li>
                 {% endif %}
