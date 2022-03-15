@@ -194,6 +194,35 @@
                 {% endfor %}
             </ul>
         </li>
+
+        <!-- Network category -->
+        <li>
+            <span class="nav__sub-title">
+                Network
+            </span>
+
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Mirror" %}
+                <li>
+                    <a href="/categories/mirror" class="toc__menu">
+                        Mirror ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+
+                {% for category in site.categories %}
+                {% if category[0] == "Photon" %}
+                <li>
+                    <a href="/categories/photon" class="toc__menu">
+                        Photon ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
         
         <!-- Coding Test category -->
         <li>
