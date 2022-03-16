@@ -1,5 +1,5 @@
 ---
-title:  "Mirror Guide 권한"
+title:  "Mirror Guide Authority"
 excerpt: "Network, Mirror, Authority"
 
 categories:
