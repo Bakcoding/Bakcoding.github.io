@@ -22,7 +22,7 @@ last_modified_at: 2022-03-17
 
 Mirror 에셋을 프로젝트에 설치했다면 Asset에 Mirror 패키지 폴더가 보인다.  
 
-Asset > Mirror > Example > Basic > Scene > Example 씬을 열어준다.
+Asset > Mirror > Example > Basic > Scenes > Example 씬을 열어준다.
 
 <br>
 

@@ -18,43 +18,122 @@ last_modified_at: 2022-03-18
 
 <br>
 
-## Tanks Example
+## Pong Example
 
-Asset > Mirror > Example > Tanks > Scene > Scene
+Assets > Mirror > Example > Pong > Scenes > Scene
 
-마우스와 A, W, D, Spacebar를 사용해서 상대 탱크를 공격하는 게임이다.
+고전 게임 Pong을 유니티 엔진으로 구현한 게임이다.
+
+W, S (UpArrow, DownArrow) 로 움직인다.
 
 <br>
 
-### Hierarchy
+### Hierarchy 
 
-하이어라키 창
+![hierarchy](/assets/images/20220318_Posting/pong_hierarchy.png)
 
-* Ground : 맵
+<br>
 
-* NetworkManager : 네트워크 매니저
+*   NetworkManager
 
-* Spawn : 플레이어 스폰지점
+    Network Manager를 상속한 Network Manager Pong 스크립트를 가지고 있다. 
 
-게임을 플레이해서 host를 연결하면 Tank오브젝트가 생성된다. Tank는 플레이어 오브젝트로 자식으로 체력바 UI를 가지고 잇다.
+    Pong은 2인용 게임이기 때문에 Max Connections 를 2로 해준다.
 
-체력바 UI는 Text Mesh를 사용하고 FaceCamera 스크립트로 항상 카메라를 바라보도록 만들어졌다.
+    Player Prefab에는 플레이어인 Racket 프리팹이 등록되어있고 Registered Spawnable Prefabs에는 공 Ball 프리팹이 등록되어있다.
 
-![play](/assets/images/20220318_Posting/gameplay.png)
+*   Table 
+
+    게임의 맵이다.
+
+*   RacketSpawnLeft/RacketSpawnRight
+
+    플레이어 Spawn 지점이다.
+
+
+게임을 플레이하면 플레이어(Racket)이 생성된다.
+
+![hierarchy](/assets/images/20220318_Posting/pong_play.png)
+
+<br>
+
+### Network Manager Pong Script
+
+NetworkManager를 상속받은 스크립트로 게임의 전반적인 네트워크 동작을 구현한다.
+
+플레이어의 스폰지점인 leftRacketSpawn, rightRacketSpawn 을 참조하여 플레이어를 Spawn한다.
+
+그리고 게임을 플레이하는데 중요한 Ball 오브젝트의 생성도 처리한다.
 
 ```cs
-// FaceCamera.cs
-// Useful for Text Meshes that should face the camera.
 using UnityEngine;
 
-namespace Mirror.Examples.Tanks
+/*
+	Documentation: https://mirror-networking.gitbook.io/docs/components/network-manager
+	API Reference: https://mirror-networking.com/docs/api/Mirror.NetworkManager.html
+*/
+
+namespace Mirror.Examples.Pong
 {
-    public class FaceCamera : MonoBehaviour
+    // Custom NetworkManager that simply assigns the correct racket positions when
+    // spawning players. The built in RoundRobin spawn method wouldn't work after
+    // someone reconnects (both players would be on the same side).
+    [AddComponentMenu("")]
+    public class NetworkManagerPong : NetworkManager
     {
-        // LateUpdate so that all camera updates are finished.
-        void LateUpdate()
+        public Transform leftRacketSpawn;
+        public Transform rightRacketSpawn;
+        GameObject ball;
+```
+
+OnServerAddPlayer는 서버에 클라이언트가 추가될 때마다 호출된다.
+
+클라이언트가 참가를하게되면 해당 플레이어를 생성한다. 생성 위치는 left, right Spawn지점으로 처음 입장시 leftRacketSpawn으로 생성한다.
+
+NetworkServer.AddPlayerForConnection은 AddPlayer 메시지를 서버에 보낸 후 서버에서 호출하여 연결 플레이어를 추가한다.
+
+연결을 위한 플레이어가 추가될 때 해당 클라이언트는 자동으로 Ready 상태가 된다. 플레이어 오브젝트는 자동으로 Spawn되기 때문에 NetworkServer.Spawn을 호출할 필요가 없다.
+
+만약 해당 playerControllerId의 플레이어가 이미 존재한다면 이 동작은 실패하게된다. 따라서 플레이어를 교체하는 작업으로 사용할 수 없다. (이 경우 replace 사용)
+
+```cs
+        public override void OnServerAddPlayer(NetworkConnectionToClient conn)
         {
-            transform.forward = Camera.main.transform.forward;
+            // add player at correct spawn position
+            Transform start = numPlayers == 0 ? leftRacketSpawn : rightRacketSpawn;
+            GameObject player = Instantiate(playerPrefab, start.position, start.rotation);
+            NetworkServer.AddPlayerForConnection(conn, player);
+```
+
+<br>
+
+플레이어가 2명이 되면 ball을 네트워크 상에서 생성한다.
+
+```cs
+            // spawn ball if two players
+            if (numPlayers == 2)
+            {
+                ball = Instantiate(spawnPrefabs.Find(prefab => prefab.name == "Ball"));
+                NetworkServer.Spawn(ball);
+            }
+        }
+```
+
+<br>
+
+OnServerDisconnect는 서버의 연결이 해제되면 호출된다.
+
+ball을 파괴하고 base.OnServerDisconnect를 호출한다.
+
+```cs
+        public override void OnServerDisconnect(NetworkConnectionToClient conn)
+        {
+            // destroy ball
+            if (ball != null)
+                NetworkServer.Destroy(ball);
+
+            // call base functionality (actually destroys the player)
+            base.OnServerDisconnect(conn);
         }
     }
 }
@@ -62,180 +141,34 @@ namespace Mirror.Examples.Tanks
 
 <br>
 
-### NetworkManager
-
-![networkmanager](/assets/images/20220318_Posting/networkmanager.png)
-
-따로 상속해서 사용하지 않고 Mirror의 NetworkManager 그대로 사용한다.
-
-Player Prefab에 플레이어의 프리팹을 등록하고 Registered Spawnable Prefabs에는 탱크의 탄환 프리팹을 등록한다.
-
-#### Tank Prefab
-
-![tank](/assets/images/20220318_Posting/tank-prefab.png)
-
-*   Network Identity 
-
-*   Network Transform
-
-*   Network Transform Child
-
-    Tank 오브젝트 자식의 Transform 값을 서버에 업데이트 한다.
-
-    마우스를 회전하면 탱크의 상단부분이 움직이게 되는데 이 부위의 Transform의 변화도 동기화를 해주기 위해서 필요한 컴포넌트이다.
-
-    ![turret](/assets/images/20220318_Posting/turret.png)
-
-    컴포넌트의 Target 필드에 해당 부위를 등록하면 값을 업데이트 한다.
-
-*   Tank Script
-
-    플레이어의 조작과 네트워크 동기화를 위한 스크립트이다.
-
-*   Animator
-
-*   Nav Mesh Agent
-
-    플레이어의 움직임에 Nav Mesh Agent를 사용한다.
-
-*   Sphere Collider
-
-<br>
-
-#### Tank Script
+### Player Script
 
 NetworkBehaviour를 상속한다.
 
-사용할 변수들 중 health만 서버와 동기화하여 체력이 0이 될 때 즉시 처리될 수 있게 한다.
+플레이어의 움직임을 관리한다. 
 
 ```cs
 using UnityEngine;
-using UnityEngine.AI;
 
-namespace Mirror.Examples.Tanks
+namespace Mirror.Examples.Pong
 {
-    public class Tank : NetworkBehaviour
+    public class Player : NetworkBehaviour
     {
-        [Header("Components")]
-        public NavMeshAgent agent;
-        public Animator animator;
-        public TextMesh healthBar;
-        public Transform turret;
-
-        [Header("Movement")]
-        public float rotationSpeed = 100;
-
-        [Header("Firing")]
-        public KeyCode shootKey = KeyCode.Space;
-        public GameObject projectilePrefab;
-        public Transform projectileMount;
-
-        [Header("Stats")]
-        [SyncVar] public int health = 4;
+        public float speed = 30;
+        public Rigidbody2D rigidbody2d;
 ```
 
-
-업데이트를 통해서 health의 값을 체력바에 갱신한다.
+FixedUpdate에서 로컬 플레이어를 검사하여 움직임을 처리한다. rigidbody2d의 velocity값을 조절하는 방식으로 움직인다.
 
 
 ```cs
-        void Update()
+        // need to use FixedUpdate for rigidbody
+        void FixedUpdate()
         {
-            // always update health bar.
-            // (SyncVar hook would only update on clients, not on server)
-            healthBar.text = new string('-', health);
-```
-
-플레이어의 조작은 각 클라이언트에서 자신의 로컬 플레이어만 조작할 수 있게한다.
-
-isLocalPlayer 플래그를 검사해서 조작 여부를 판단한다.
-
-
-```cs
-            // movement for local player
+            // only let the local player control the racket.
+            // don't control other player's rackets
             if (isLocalPlayer)
-            {
-                // rotate
-                float horizontal = Input.GetAxis("Horizontal");
-                transform.Rotate(0, horizontal * rotationSpeed * Time.deltaTime, 0);
-
-                // move
-                float vertical = Input.GetAxis("Vertical");
-                Vector3 forward = transform.TransformDirection(Vector3.forward);
-                agent.velocity = forward * Mathf.Max(vertical, 0) * agent.speed;
-                animator.SetBool("Moving", agent.velocity != Vector3.zero);
-
-                // shoot
-                if (Input.GetKeyDown(shootKey))
-                {
-                    CmdFire();
-                }
-
-                RotateTurret();
-            }
-        }
-```
-
-Command를 사용해서 서버에서 메서드가 호출되도록 한다.
-탱크의 탄환은 서버에서 Spawn 된다.
-
-```cs
-        // this is called on the server
-        [Command]
-        void CmdFire()
-        {
-            GameObject projectile = Instantiate(projectilePrefab, projectileMount.position, projectileMount.rotation);
-            NetworkServer.Spawn(projectile);
-            RpcOnFire();
-        }
-```
-
-Tank의 발사 애니메이션은 클라이언트에서 호출되도록 ClientRpc를 사용한다. RpcOnFire를 ClientRpc로 호출하게 되면 다른 모든 플레이어들 화면에서도 해당 탱크의 발사애니메이션 트리거가 동작한다.
-
-```cs
-        // this is called on the tank that fired for all observers
-        [ClientRpc]
-        void RpcOnFire()
-        {
-            animator.SetTrigger("Shoot");
-        }
-```
-
-탄환의 충돌검사는 서버상에서 처리한다. 현재 스크립트의 탱크가 다른 플레이어가 발사한 탄환과 충돌했다면 health를 감소시킨다.
-
-만약 health 값이 0이 된다면 서버상에서 해당 플레이어의 게임 오브젝트를 파괴시킨다.
-
-```cs
-        [ServerCallback]
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.GetComponent<Projectile>() != null)
-            {
-                --health;
-                if (health == 0)
-                    NetworkServer.Destroy(gameObject);
-            }
-        }
-```
-
-탱크의 상단부를 회전시킨다. 방식은 마우스의 위치에서 ray를 발사시켜 맵과 충돌하는 지점을 바라보도록 회전시킨다.
-
-따라서 지형이 없는 위치에서 마우스를 움직여도 포신은 회전하지 않는다.
-
-
-
-
-```cs
-        void RotateTurret()
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 100))
-            {
-                Debug.DrawLine(ray.origin, hit.point);
-                Vector3 lookRotation = new Vector3(hit.point.x, turret.transform.position.y, hit.point.z);
-                turret.transform.LookAt(lookRotation);
-            }
+                rigidbody2d.velocity = new Vector2(0, Input.GetAxisRaw("Vertical")) * speed * Time.fixedDeltaTime;
         }
     }
 }
@@ -243,95 +176,96 @@ Tank의 발사 애니메이션은 클라이언트에서 호출되도록 ClientRp
 
 <br>
 
-#### Projectile Prefab
-
-![projectile](/assets/images/20220318_Posting/projectile.png)
-
-<br>
-
-*   Network Identity
-
-    서버상에서 Spawn되기 때문에 필요하다.
-
-*   Projectile Script
-
-    탄환의 충돌과 라이프 사이클을 다룬다.
-
-*   Capsule Collider
-
-*   Rigidbody
-
-<br>
-
-
-#### Projectile Script
+### Ball Script
 
 NetworkBehaviour를 상속한다.
 
-탄환은 생성되는 순간 정면을 향해서 날라간다. 그리고 충돌이 없다면 일정시간 후 알아서 파괴되도록 처리한다.
+ball이 생성되었을 때 그리고 플레이어와 충돌을 처리한다.
 
-탄환의 움직임은 Rigidbody를 사용해서 힘을 작용한다.
 
 ```cs
 using UnityEngine;
 
-namespace Mirror.Examples.Tanks
+namespace Mirror.Examples.Pong
 {
-    public class Projectile : NetworkBehaviour
+    public class Ball : NetworkBehaviour
     {
-        public float destroyAfter = 2;
-        public Rigidbody rigidBody;
-        public float force = 1000;
+        public float speed = 30;
+        public Rigidbody2D rigidbody2d;
 ```
 
-Projectile 스크립트는 탄환이 생성될 때 시작된다. 
+OnStartServer가 호출되면 base.OnStartServer를 호출하고 rigidbody2d.simulated 옵션을 true로 한다. 
 
-따라서 플레이어가 발사를 누르게 되면 서버상에서 탄환이 Spawn되고 탄환은 NetworkBehaviour를 상속했기 때문에 바로 OnStartServer 가 호출된다.
+**Simulated true**  
 
-즉 탄환의 라이프 사이클은 생성과 동시에 어떠한 충돌이 없어도 2초 뒤에 파괴된다. 탄환이 사라지지 않고 무한히 맵을 뻗어나가는것을 방지한다.
+* 시뮬레이션을 통해 Rigidbody2D 이동(중력 및 물리력 적용)한다.
+
+* 부착된 모든 Collider2D는 계속해서 새로운 접촉점이 생성되고 지속적으로 접촉점을 검사해야한다.
+
+* 부착된 모든 Joint2D를 Simulated하고 Rigidbody2D부착을 강요한다.
+
+* 리지드바디 2D, 충돌기 2D 및 조인트 2D의 모든 내부 물리학 물체가 메모리에 남아 있음
+
+**Simulated false**
+
+* 강체 2D는 시뮬레이션에 의해 움직이지 않는다(중력 및 물리력은 적용되지 않음)
+
+* 강체 2D는 새로운 접점을 만들지 않으며, 부착된 모든 충돌체 2D 접점은 파괴된다.
+
+* 부착된 조인트 2D는 시뮬레이션되지 않으며 부착된 강체 2Ds를 구속하지 않는다.
+
+* 리지드바디 2D, 충돌기 2D 및 조인트 2D의 모든 내부 물리학 물체는 메모리에 남아 있다.
 
 ```cs
         public override void OnStartServer()
         {
-            Invoke(nameof(DestroySelf), destroyAfter);
+            base.OnStartServer();
+
+            // only simulate ball physics on server
+            rigidbody2d.simulated = true;
+
+            // Serve the ball from left player
+            rigidbody2d.velocity = Vector2.right * speed;
         }
 
-        // set velocity for server and client. this way we don't have to sync the
-        // position, because both the server and the client simulate it.
-```
-
-탄환은 생성되자마자 정면 방향으로 움직인다.
-
-```cs
-        void Start()
+        float HitFactor(Vector2 ballPos, Vector2 racketPos, float racketHeight)
         {
-            rigidBody.AddForce(transform.forward * force);
+            // ascii art:
+            // ||  1 <- at the top of the racket
+            // ||
+            // ||  0 <- at the middle of the racket
+            // ||
+            // || -1 <- at the bottom of the racket
+            return (ballPos.y - racketPos.y) / racketHeight;
         }
-```
 
-Tank 스크립트에서 Command를 사용해서 플레이어가 발사시 네트워크상에서 탄환이 Spawn되도록 하였다.
-
-따라서 총알의 파괴도 서버상에서 이루어진다.
-
-
-```cs
-        // destroy for everyone on the server
-        [Server]
-        void DestroySelf()
-        {
-            NetworkServer.Destroy(gameObject);
-        }
-```
-
-탄환은 일단 무엇이든지 충돌이 있으면 파괴된다. 체력에 관한 처리는 Tank 스크립트에서 이루어진다.
-
-```cs
-        // ServerCallback because we don't want a warning
-        // if OnTriggerEnter is called on the client
+        // only call this on server
         [ServerCallback]
-        void OnTriggerEnter(Collider co)
+        void OnCollisionEnter2D(Collision2D col)
         {
-            NetworkServer.Destroy(gameObject);
+            // Note: 'col' holds the collision information. If the
+            // Ball collided with a racket, then:
+            //   col.gameObject is the racket
+            //   col.transform.position is the racket's position
+            //   col.collider is the racket's collider
+
+            // did we hit a racket? then we need to calculate the hit factor
+            if (col.transform.GetComponent<Player>())
+            {
+                // Calculate y direction via hit Factor
+                float y = HitFactor(transform.position,
+                                    col.transform.position,
+                                    col.collider.bounds.size.y);
+
+                // Calculate x direction via opposite collision
+                float x = col.relativeVelocity.x > 0 ? 1 : -1;
+
+                // Calculate direction, make length=1 via .normalized
+                Vector2 dir = new Vector2(x, y).normalized;
+
+                // Set Velocity with dir * speed
+                rigidbody2d.velocity = dir * speed;
+            }
         }
     }
 }

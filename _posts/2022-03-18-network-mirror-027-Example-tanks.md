@@ -20,7 +20,7 @@ last_modified_at: 2022-03-18
 
 ## Tanks Example
 
-Asset > Mirror > Example > Tanks > Scene > Scene
+Asset > Mirror > Example > Tanks > Scenes > Scene
 
 마우스와 A, W, D, Spacebar를 사용해서 상대 탱크를 공격하는 게임이다.
 
