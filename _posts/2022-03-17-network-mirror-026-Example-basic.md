@@ -18,11 +18,13 @@ last_modified_at: 2022-03-17
 
 <br>
 
-### Basic Example
+## Basic Example
 
 Mirror 에셋을 프로젝트에 설치했다면 Asset에 Mirror 패키지 폴더가 보인다.  
 
-Asset > Mirrkr > Example > Basic > Scene > Example 씬을 열어준다.
+Asset > Mirror > Example > Basic > Scene > Example 씬을 열어준다.
+
+<br>
 
 <br>
 
@@ -37,6 +39,8 @@ Asset > Mirrkr > Example > Basic > Scene > Example 씬을 열어준다.
 ### Hierarchy
 
 하이어라키 창에는 NetworkManager, Canvas 게임 오브젝트를 볼 수 있다.
+
+<br>
 
 #### NetworkManager
 
