@@ -140,7 +140,7 @@ namespace Mirror.Examples.Basic
 
 <br>
 
-#### Player
+#### PlayerUI
 
 ![hierarchy](/assets/images/20220317_Posting/hierarchy.png)
 
@@ -148,7 +148,65 @@ namespace Mirror.Examples.Basic
 
 게임을 플레이하고 Host를 선택하면 오브젝트가 생성되면서 Canvas의 자식들이 활성화 된다.
 
-이 동작들은 모두 Player 스크립트와 관련있다.
+PlayersPanel에 PlayerUI가 생성된다. PlayerUI는 플레이어의 번호와 데이터 정보가 표시된다.
+
+```cs
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Mirror.Examples.Basic
+{
+    public class PlayerUI : MonoBehaviour
+    {
+        [Header("Player Components")]
+        public Image image;
+
+        [Header("Child Text Objects")]
+        public Text playerNameText;
+        public Text playerDataText;
+
+        /// <summary>
+        /// Caches the controlling Player object, subscribes to its events
+        /// </summary>
+        /// <param name="player">Player object that controls this UI</param>
+        /// <param name="isLocalPlayer">true if the Player object is the Local Player</param>
+        public void SetLocalPlayer()
+        {
+            // add a visual background for the local player in the UI
+            image.color = new Color(1f, 1f, 1f, 0.1f);
+        }
+
+        // This value can change as clients leave and join
+        public void OnPlayerNumberChanged(byte newPlayerNumber)
+        {
+            playerNameText.text = string.Format("Player {0:00}", newPlayerNumber);
+        }
+
+        // Random color set by Player::OnStartServer
+        public void OnPlayerColorChanged(Color32 newPlayerColor)
+        {
+            playerNameText.color = newPlayerColor;
+        }
+
+        // This updates from Player::UpdateData via InvokeRepeating on server
+        public void OnPlayerDataChanged(ushort newPlayerData)
+        {
+            // Show the data in the UI
+            playerDataText.text = string.Format("Data: {0:000}", newPlayerData);
+        }
+    }
+}
+```
+
+OnPlayerNumberChanged
+OnPlayerColorChanged
+OnPlayerDataChanged
+
+이 메서드들이 Player 스크립트에서 Handler를 subscribe하여 클라이언트마다 다른 UI가 반영된다.
+
+<br>
+
+#### Player
 
 ```cs
 //Player.cs
@@ -344,7 +402,16 @@ namespace Mirror.Examples.Basic
     public event System.Action<byte> OnPlayerNumberChanged;
     public event System.Action<Color32> OnPlayerColorChanged;
     public event System.Action<ushort> OnPlayerDataChanged;
+    ```
 
+    위 event를 PlayerUI 함수가 subscribe하면서 정보가 서버에 업데이트 될 때 UI의 요소들도 업데이트 된다.
+
+
+    <br>
+    
+* SyncVar
+
+    ```cs
     [SyncVar(hook = nameof(PlayerNumberChanged))]
     public byte playerNumber = 0;
     [SyncVar(hook = nameof(PlayerColorChanged))]
@@ -353,9 +420,9 @@ namespace Mirror.Examples.Basic
     public ushort playerData = 0;
     ```
 
-    플레이어 오브젝트가 생성되면 event는 PlayerUI 에 요청된다.
-    각각 플레이어 이름, 색, 데이터로 모든 클라이언트가 공유해야할 정보이기 때문에 SyncVar가 사용되었다.
+    각각 플레이어 이름, 색, 데이터로 모든 클라이언트가 공유해야할 정보이기 때문에 SyncVar를 사용해서 변수를 동기화한다.
     
+    <br>
 
 *   Changed
 
@@ -368,7 +435,207 @@ namespace Mirror.Examples.Basic
     void PlayerDataChanged(ushort _, ushort newPlayerData){}
     ```
 
-    Hook 이 호출되고 나서 동작하는 함수이다. 플레이어가 추가될 때마다 새로운 정보로 갱신한다.
+    SyncVar를 통해서 동기화시킨 변수들에 의해서 호출되는 메서드이다. 
 
-    EventHandler?.Invoke() : 해당 이벤트가 실행되고 나서 input이 진행된다.
+    <br>
 
+*   OnStartServer
+
+    서버에 NetworkBehivour 오브젝트가 활성화되면 호출된다.
+     
+    따라서 Host로 접속하거나 ServerOnly로 접속해서 클라이언트가 들어올 때 호출된다.
+
+    ```cs
+    public override void OnStartServer()
+    {
+        base.OnStartServer();
+        playersList.Add(this);
+        playerColor = Random.ColorHSV(0f, 1f, 0.9f, 0.9f, 1f, 1f);
+        playerData = (ushort)Random.Range(100, 1000);
+        InvokeRepeating(nameof(UpdateData), 1, 1);
+    }
+    ```
+
+    상속받은 NetworkManager에서 OnStartServer메서드를 실행한다.
+
+    플레이어를 저장하는 리스트에 현재 클라이언트의 플레이어를 저장한다.
+
+    색상과 데이터는 범위 내에서 랜덤하게 찍어낸다.
+
+    데이터의 경우 InvokeReapeating으로 실행시켜 주기적으로 값이 변한다.
+
+    >InvokeRepeating(string methodName, float time, float repeatRate)
+    >메서드를 time 동안 실행하고 repeatRate간격으로 반복한다.
+
+<br>
+
+*   \[ServerCallback\]
+
+    서버에서 호출할 수 있는 메서드이다. \[Server\] 와 유사하지만 클라이언트에서 호출해도 에러가 발생하지 않는다는 차이가 있다.
+
+
+    ResetPlayerNumbers 메서드는 BasicNetManager, OnServerAddPlayer, OnServerDisconnect에서 호출된다. 
+
+    Player 숫자는 참가/ 퇴장시 초기화 된다.
+
+    ```cs
+    [ServerCallback]
+    internal static void ResetPlayerNumbers()
+    {
+        byte playerNumber = 0;
+        foreach (Player player in playersList)
+            player.playerNumber = playerNumber++;
+    }
+    ```
+
+    서버에서만 호출된다. InvokeRepeating을 통해서 OnStartSever에서 호출된다.
+
+    ```cs
+    [ServerCallback]
+    void UpdateData()
+    {
+        playerData = (ushort)Random.Range(100, 1000);
+    }
+    ```
+
+    <br>
+
+*   OnStopServer
+
+    서버에서 오브젝트가 unspawned 될 때 호출된다.
+
+    스토리지의 지속적인 오브젝트 데이터를 절약하는데 유용하다.
+
+    ```cs
+    public override void OnStopServer()
+    {
+        CancelInvoke();
+        playersList.Remove(this);
+    }  
+    ```
+
+    CancelInvoke()로 playerDate가 변경되는걸 멈춘다.
+    리스트에서 해당 플레이어를 지운다.
+
+    >CancelInvoke()
+    >모든 Invoke 호출을 중단시킨다.
+
+    <br>
+
+*   OnStartClient
+
+    클라이언트가 활성화 됐을 때 모든 NetworkBehaviour에서 호출된다.
+
+    로컬 클라이언트가 있는 호스트에서도 호출된다. 
+
+    플레이어를 PlayersPanel 위치에 프리팹을 통해서 생성한다.
+
+    ```cs
+    public override void OnStartClient()
+    {
+        Debug.Log("OnStartClient");
+
+        playerUIObject = Instantiate(playerUIPrefab, CanvasUI.instance.playersPanel);
+        playerUI = playerUIObject.GetComponent<PlayerUI>();
+    ```
+
+    PlayerUI 스크립트의 UI를 갱신하는 메서드를 Handler에 등록한다.
+
+    ```cs
+        OnPlayerNumberChanged = playerUI.OnPlayerNumberChanged;
+        OnPlayerColorChanged = playerUI.OnPlayerColorChanged;
+        OnPlayerDataChanged = playerUI.OnPlayerDataChanged;
+    ```
+
+    각 handler에 있는 모든 이벤트를 Invoke로 실행시켜서 해당 값으로 플레이어에 반영시킨다.
+
+    ```cs
+        OnPlayerNumberChanged.Invoke(playerNumber);
+        OnPlayerColorChanged.Invoke(playerColor);
+        OnPlayerDataChanged.Invoke(playerData);
+    }
+    ```
+
+    >핸들러의 Invoke는 지연시켜 실행하는 함수인 MonoBehaviour.Invoke와 달리
+    >강제로 이벤트를 발동시키는 동작을 한다.
+
+    <br>
+
+*   OnStartLocalPlayer
+
+    로컬 플레이어가 만들어졌을 때 호출된다. 
+
+    로컬 플레이어가 만들어지면 playerUI를 생성하고 오브젝트를 활성화시킨다.
+
+    ```cs
+    public override void OnStartLocalPlayer()
+    {
+        Debug.Log("OnStartLocalPlayer");
+        playerUI.SetLocalPlayer();
+        CanvasUI.instance.mainPanel.gameObject.SetActive(true);
+    }
+    ```
+
+    <br>
+
+*   OnStopLocalPlayer
+
+    로컬 플레이어 오브젝트가 정지할 때 호출된다. OnStopClient 이전에 호출된다.
+
+    CanvasUI를 비활성화 시킨다.
+
+    ```cs
+    public override void OnStopLocalPlayer()
+    {
+        CanvasUI.instance.mainPanel.gameObject.SetActive(false);
+    }
+    ```
+
+*   OnStopClient
+
+    서버에서 오브젝트가 파괴될 때 클라이언트에서 동작한다.
+
+    사용한 변수 값들을 null로 만들고 playerUI 오브젝트를 파괴한다.
+
+    ```cs
+    public override void OnStopClient()
+    {
+        OnPlayerNumberChanged = null;
+        OnPlayerColorChanged = null;
+        OnPlayerDataChanged = null;
+
+        Destroy(playerUIObject);
+    }
+    ```
+    
+    <br>
+
+### 전체적인 코드의 흐름
+
+**호스트 연결**
+
+*   BasicNetManager의 OnServerAddPlayer 내부의 base.OnServerAddPlayer 동작
+
+*   Player의 OnStartServer의 base.OnStartServer 실행, PlayerList에 현재 플레이어 추가
+
+*   playerColor가 랜덤으로 세팅되면서 PlayerColorChanged가 실행되고 색상이 정해진 다음 playerData는 RepeatInvoke에 등록된다.
+
+*   다시 BasicNetManager로 가서 다음 코드인 Player.ResetPlayerNumbers를 동작시켜 플레이어의 숫자가 초기화 후 다시 설정된다. 
+
+*   이 때 PlayerNumberChanged가 실행되면서 플레이어의 숫자가 동기화된다.
+
+    이 프로젝트에서 플레어의 번호는 들어온 순서대로 매겨지며 중간에 참여하거나 나갔을을 경우 전체 플레이어의 번호가 다시 매겨진다.
+
+*   playerNumber 설정이 끝나면 OnStartClient로 넘어간다. 그리고 playerUI 오브젝트를 해당 위치에서 인스턴스화한 다음 UI값들을 해당 플레이어의 값들로 변경시킨다.
+
+<br>
+
+**호스트 연결해제**
+
+* BasicNetManager의 OnServerDisconnect에서 base.OnServerDisconnect가 실행된다.
+
+* Player의 OnStopLocalPlayer가 호출되면서 CanvasUI 오브젝트가 비활성화된다.
+
+* OnStopClient에서 Player의 변수 값들을 null로 만들고 PlayerUI 오브젝트를 파괴한다. 
+
+* OnStopServer가 호출되면서 playerList 안에 해당 플레이어가 제거되고 연결이 해제된다.
