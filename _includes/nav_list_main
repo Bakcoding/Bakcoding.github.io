@@ -203,6 +203,16 @@
 
             <ul>
                 {% for category in site.categories %}
+                {% if category[0] == "Network" %}
+                <li>
+                    <a href="/categories/network" class="toc__menu">
+                        Network ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+
+                {% for category in site.categories %}
                 {% if category[0] == "Mirror" %}
                 <li>
                     <a href="/categories/mirror" class="toc__menu">
