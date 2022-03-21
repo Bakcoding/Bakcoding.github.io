@@ -1,11 +1,11 @@
 ---
-title:  "Mirror Example - Tanks"
-excerpt: "Network, Mirror, Example, Tanks"
+title:  "Mirror Example - Pong"
+excerpt: "Network, Mirror, Example, Pong"
 
 categories:
   - Mirror
 tags:
-  - [Network, Mirror, Example, Tanks]
+  - [Network, Mirror, Example, Pong]
 
 toc: true
 toc_sticky: true
