@@ -1,11 +1,11 @@
 ---
-title:  "Mirror Example - Additive"
-excerpt: "Network, Mirror, Example, Additive"
+title:  "Mirror Example - Additive Levels"
+excerpt: "Network, Mirror, Example, Additive-Levels"
 
 categories:
   - Mirror
 tags:
-  - [Network, Mirror, Example, Additive]
+  - [Network, Mirror, Example, Additive-Levels]
 
 toc: true
 toc_sticky: true
