@@ -14,6 +14,10 @@ date: 2022-03-19
 last_modified_at: 2022-03-19
 ---
 
+***
+
+<br>
+
 ### 상속
 
 inheritance

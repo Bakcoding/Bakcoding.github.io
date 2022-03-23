@@ -14,6 +14,10 @@ date: 2022-03-19
 last_modified_at: 2022-03-19
 ---
 
+***
+
+<br>
+
 ### Oject
 
 System.Object 는 모든 타입의 조상이다.
