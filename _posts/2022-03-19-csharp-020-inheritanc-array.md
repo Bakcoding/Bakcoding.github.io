@@ -68,7 +68,7 @@ namespace ConsoleApp1
     }
     static void Main(string[] args)
     {
-      bool[,] boolArray = new bool[,] {{true, false}, {false, false}};
+      //bool[,] boolArray = new bool[,] {{true, false}, {false, false}};
       OutputArrayInfo(intArray);
 
       int[] intArray = new int[] { 5, 4, 3, 2, 1, 0 };
