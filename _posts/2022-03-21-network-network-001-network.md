@@ -3,7 +3,7 @@ title:  "네트워크 - 웹 브라우저"
 excerpt: "Network, Web-browser, http"
 
 categories:
-  - Mirror
+  - Network
 tags:
   - [Network, Web-browser, http]
 

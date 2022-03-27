@@ -3,7 +3,7 @@ title:  "네트워크 - IP 주소"
 excerpt: "Network, IP, Netmask"
 
 categories:
-  - Mirror
+  - Network
 tags:
   - [Network, IP, Netmask]
 
