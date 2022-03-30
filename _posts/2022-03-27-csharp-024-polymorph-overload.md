@@ -1,11 +1,11 @@
 ---
 title:  "오버로드"
-excerpt: "csharp, overload"
+excerpt: "csharp, polymorphism, overload"
 
 categories:
   - CSharp
 tags:
-  - [csharp,  overload]
+  - [csharp, polymorphism, overload]
 
 toc: true
 toc_sticky: true
