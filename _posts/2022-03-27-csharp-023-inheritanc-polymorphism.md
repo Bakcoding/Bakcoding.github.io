@@ -1,11 +1,11 @@
 ---
 title:  "다형성"
-excerpt: "csharp, polymorphism"
+excerpt: "csharp, polymorphism, override"
 
 categories:
   - CSharp
 tags:
-  - [csharp,  polymorphism]
+  - [csharp,  polymorphism, override]
 
 toc: true
 toc_sticky: true
