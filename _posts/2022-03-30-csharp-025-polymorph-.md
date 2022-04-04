@@ -5,7 +5,7 @@ excerpt: "csharp, polymorphism, class"
 categories:
   - CSharp
 tags:
-  - [csharp,  polymorphism, class]
+  - [csharp, polymorphism, class]
 
 toc: true
 toc_sticky: true
