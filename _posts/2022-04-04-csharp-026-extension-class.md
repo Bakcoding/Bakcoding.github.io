@@ -1,11 +1,11 @@
 ---
 title:  "클래스 확장"
-excerpt: "csharp, class"
+excerpt: "csharp, abstract"
 
 categories:
   - CSharp
 tags:
-  - [csharp, class]
+  - [csharp, abstract]
 
 toc: true
 toc_sticky: true
