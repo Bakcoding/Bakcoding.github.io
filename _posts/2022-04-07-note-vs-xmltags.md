@@ -1,11 +1,11 @@
 ---
-title:  "C# XML 주석"
-excerpt: "csharp, xml, tags, summary"
+title:  "비주얼스튜디오 XML 주석"
+excerpt: "vs, xml, tags, summary"
 
 categories:
-  - CSharp
+  - Note
 tags:
-  - [csharp, xml, tags, summary]
+  - [vs, xml, tags, summary]
 
 toc: true
 toc_sticky: true
