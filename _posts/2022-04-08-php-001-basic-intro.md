@@ -1,11 +1,11 @@
 ---
 title:  "PHP란"
-excerpt: "php"
+excerpt: "php, web, text, html, js"
 
 categories:
   - PHP
 tags:
-  - [php]
+  - [php, web, text, html, js]
 
 toc: true
 toc_sticky: true
