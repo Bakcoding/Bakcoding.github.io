@@ -306,6 +306,18 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "PHP" %}
+                <li>
+                    <a href="/categories/php" class="toc__menu">
+                        PHP ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
         </li>
 
     </ul>
