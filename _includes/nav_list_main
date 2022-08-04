@@ -234,6 +234,26 @@
             </ul>
         </li>
         
+        <!-- Server category -->
+        <li>
+            <span class="nav__sub-title">
+                Server
+            </span>
+
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Server" %}
+                <li>
+                    <a href="/categories/server" class="toc__menu">
+                        Server ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+
+
         <!-- Coding Test category -->
         <li>
             <span class="nav__sub-title">
