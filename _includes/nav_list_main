@@ -12,7 +12,7 @@
         <!-- Language category -->
         <li>
             <span class="nav__sub-title">
-                C/C++
+                Language
             </span>
 
             <ul>
@@ -35,16 +35,28 @@
                 </li>
                 {% endif %}
                 {% endfor %}
-            </ul>
-        </li>
 
-        <!-- Js/Html/Css category -->
-        <li>
-            <span class="nav__sub-title">
-                JS/HTML/CSS
-            </span>
+                {% for category in site.categories %}
+                {% if category[0] == "CSharp" %}
+                <li>
+                    <a href="/categories/csharp" class="toc__menu">
+                        C# ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
 
-            <ul>
+
+                {% for category in site.categories %}
+                {% if category[0] == "PHP" %}
+                <li>
+                    <a href="/categories/php" class="toc__menu">
+                        PHP ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+                
                 {% for category in site.categories %}
                 {% if category[0] == "Javascript" %}
                 <li>
@@ -65,11 +77,30 @@
                 {% endif %}
                 {% endfor %}
 
+
                 {% for category in site.categories %}
                 {% if category[0] == "CSS" %}
                 <li>
                     <a href="/categories/css" class="toc__menu">
                         CSS ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+
+        <!-- Develop category -->
+        <li>
+            <span class="nav__sub-title">
+                Develop
+            </span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "ThreeBullets" %}
+                <li>
+                    <a href="/categories/threebullets" class="toc__menu">
+                        ThreeBullets ({{category[1].size}})
                     </a>
                 </li>
                 {% endif %}
@@ -88,12 +119,11 @@
         </li>
 
 
-        <!-- Cocos2dx category -->
+        <!-- Engine category -->
         <li>
             <span class="nav__sub-title">
-                Cocos
+                Engine
             </span>
-
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Cocos" %}
@@ -106,10 +136,10 @@
                 {% endfor %}
 
                 {% for category in site.categories %}
-                {% if category[0] == "ThreeBullets" %}
+                {% if category[0] == "Unity3D" %}
                 <li>
-                    <a href="/categories/threebullets" class="toc__menu">
-                        ThreeBullets ({{category[1].size}})
+                    <a href="/categories/unity3d" class="toc__menu">
+                        Unity3D Engine ({{category[1].size}})
                     </a>
                 </li>
                 {% endif %}
@@ -125,16 +155,6 @@
 
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "Unity3D" %}
-                <li>
-                    <a href="/categories/unity3d" class="toc__menu">
-                        Unity3D Engine ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
-                {% for category in site.categories %}
                 {% if category[0] == "UnityExample" %}
                 <li>
                     <a href="/categories/unity-example" class="toc__menu">
@@ -144,15 +164,6 @@
                 {% endif %}
                 {% endfor %}
 
-                {% for category in site.categories %}
-                {% if category[0] == "CSharp" %}
-                <li>
-                    <a href="/categories/csharp" class="toc__menu">
-                        C# ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
 
                 {% for category in site.categories %}
                 {% if category[0] == "VR" %}
@@ -203,6 +214,16 @@
 
             <ul>
                 {% for category in site.categories %}
+                {% if category[0] == "Server" %}
+                <li>
+                    <a href="/categories/server" class="toc__menu">
+                        Server ({{category[1].size}})
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+
+                {% for category in site.categories %}
                 {% if category[0] == "Network" %}
                 <li>
                     <a href="/categories/network" class="toc__menu">
@@ -233,26 +254,6 @@
                 {% endfor %}
             </ul>
         </li>
-        
-        <!-- Server category -->
-        <li>
-            <span class="nav__sub-title">
-                Server
-            </span>
-
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Server" %}
-                <li>
-                    <a href="/categories/server" class="toc__menu">
-                        Server ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
-
 
         <!-- Coding Test category -->
         <li>
@@ -291,65 +292,46 @@
             <span class="nav__sub-title">
                 ETC
             </span>
+            {% for category in site.categories %}
+            {% if category[0] == "Blog" %}
+            <li>
+                <a href="/categories/blog" class="toc__menu">
+                    Blog ({{category[1].size}})
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
 
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Blog" %}
-                <li>
-                    <a href="/categories/blog" class="toc__menu">
-                        Blog ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Note" %}
-                <li>
-                    <a href="/categories/note" class="toc__menu">
-                        Note ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+            {% if category[0] == "Note" %}
+            <li>
+                <a href="/categories/note" class="toc__menu">
+                    Note ({{category[1].size}})
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
 
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Git" %}
-                <li>
-                    <a href="/categories/git" class="toc__menu">
-                        Git ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+            {% if category[0] == "Git" %}
+            <li>
+                <a href="/categories/git" class="toc__menu">
+                    Git ({{category[1].size}})
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
 
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "PHP" %}
-                <li>
-                    <a href="/categories/php" class="toc__menu">
-                        PHP ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
 
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "SOC" %}
-                <li>
-                    <a href="/categories/soc" class="toc__menu">
-                        SOC ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+            {% if category[0] == "SOC" %}
+            <li>
+                <a href="/categories/soc" class="toc__menu">
+                    SOC ({{category[1].size}})
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
         </li>
 
     </ul>
