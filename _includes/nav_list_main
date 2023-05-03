@@ -11,11 +11,11 @@
 
         <!-- Language category -->
         <li>
-            <span class="nav__sub-title">
+            <span class="nav__title">
                 PROGRAMMING
             </span>
         <li>
-            <span>
+            <span class="nav__sub-title">
                 Language
             </span>
             <ul>
