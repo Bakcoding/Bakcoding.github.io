@@ -1,10 +1,10 @@
 ---
-title: "C#"  
+title: "CSS"  
 layout: archive   
-permalink: /categories/csharp 
+permalink: /categories/web-frontend-css   
 author_profile: true   
 sidebar_main: true  
 ---
 
-{% assign posts = site.categories.CSharp %}
+{% assign posts = site.categories.CSS %}
 {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}

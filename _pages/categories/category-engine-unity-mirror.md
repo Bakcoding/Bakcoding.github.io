@@ -1,7 +1,7 @@
 ---
 title: "Mirror Network"  
 layout: archive   
-permalink: /categories/mirror   
+permalink: /categories/engine-unity-mirror   
 author_profile: true   
 sidebar_main: true  
 ---

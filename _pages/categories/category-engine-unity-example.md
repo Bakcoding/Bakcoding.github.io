@@ -1,10 +1,10 @@
 ---
-title: "셰이더"  
+title: "유니티 예제"  
 layout: archive   
-permalink: /categories/shader  
+permalink: /categories/engine-unity-example   
 author_profile: true   
 sidebar_main: true  
 ---
 
-{% assign posts = site.categories.Shader %}
+{% assign posts = site.categories.UnityExample %}
 {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}

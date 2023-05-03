@@ -1,7 +1,7 @@
 ---
 title: "Phaser"  
 layout: archive   
-permalink: /categories/phaser    
+permalink: /categories/engine-phaser    
 author_profile: true   
 sidebar_main: true  
 ---

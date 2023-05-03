@@ -1,10 +1,10 @@
 ---
-title: "프로그래밍 알고리즘"  
+title: "Web Page"  
 layout: archive   
-permalink: /categories/algorithm   
+permalink: /categories/web-webpage 
 author_profile: true   
 sidebar_main: true  
 ---
 
-{% assign posts = site.categories.Algorithm %}
+{% assign posts = site.categories.WebPage %}
 {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: "DirectX"  
 layout: archive   
-permalink: /categories/directx   
+permalink: /categories/computer-graphics-directx   
 author_profile: true   
 sidebar_main: true  
 ---

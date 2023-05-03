@@ -1,10 +1,10 @@
 ---
-title: "코딩 테스트 : 프로그래머스"  
+title: "Network"  
 layout: archive   
-permalink: /categories/programmers   
+permalink: /categories/computer-network-network   
 author_profile: true   
 sidebar_main: true  
 ---
 
-{% assign posts = site.categories.Programmers %}
+{% assign posts = site.categories.Network %}
 {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}

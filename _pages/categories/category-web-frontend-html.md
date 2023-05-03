@@ -1,10 +1,10 @@
 ---
-title: "PUN"  
+title: "HTML"  
 layout: archive   
-permalink: /categories/pun 
+permalink: /categories/web-frontend-html   
 author_profile: true   
 sidebar_main: true  
 ---
 
-{% assign posts = site.categories.PUN %}
+{% assign posts = site.categories.HTML %}
 {% for post in posts%} {% include archive-single.html type=page.entries_layout %} {% endfor %}
