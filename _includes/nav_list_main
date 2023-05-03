@@ -12,9 +12,12 @@
         <!-- Language category -->
         <li>
             <span class="nav__sub-title">
+                PROGRAMMING
+            </span>
+        <li>
+            <span>
                 Language
             </span>
-
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "C" %}
@@ -56,7 +59,7 @@
                 </li>
                 {% endif %}
                 {% endfor %}
-                
+
                 {% for category in site.categories %}
                 {% if category[0] == "Javascript" %}
                 <li>
@@ -88,6 +91,8 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+        </li>
+
         </li>
 
         <!-- Develop category -->
@@ -294,44 +299,44 @@
             </span>
             {% for category in site.categories %}
             {% if category[0] == "Blog" %}
-            <li>
-                <a href="/categories/blog" class="toc__menu">
-                    Blog ({{category[1].size}})
-                </a>
-            </li>
-            {% endif %}
-            {% endfor %}
+        <li>
+            <a href="/categories/blog" class="toc__menu">
+                Blog ({{category[1].size}})
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
 
-            {% for category in site.categories %}
-            {% if category[0] == "Note" %}
-            <li>
-                <a href="/categories/note" class="toc__menu">
-                    Note ({{category[1].size}})
-                </a>
-            </li>
-            {% endif %}
-            {% endfor %}
+        {% for category in site.categories %}
+        {% if category[0] == "Note" %}
+        <li>
+            <a href="/categories/note" class="toc__menu">
+                Note ({{category[1].size}})
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
 
-            {% for category in site.categories %}
-            {% if category[0] == "Git" %}
-            <li>
-                <a href="/categories/git" class="toc__menu">
-                    Git ({{category[1].size}})
-                </a>
-            </li>
-            {% endif %}
-            {% endfor %}
+        {% for category in site.categories %}
+        {% if category[0] == "Git" %}
+        <li>
+            <a href="/categories/git" class="toc__menu">
+                Git ({{category[1].size}})
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
 
 
-            {% for category in site.categories %}
-            {% if category[0] == "SOC" %}
-            <li>
-                <a href="/categories/soc" class="toc__menu">
-                    SOC ({{category[1].size}})
-                </a>
-            </li>
-            {% endif %}
-            {% endfor %}
+        {% for category in site.categories %}
+        {% if category[0] == "SOC" %}
+        <li>
+            <a href="/categories/soc" class="toc__menu">
+                SOC ({{category[1].size}})
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
         </li>
 
     </ul>
