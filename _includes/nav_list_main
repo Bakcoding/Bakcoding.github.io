@@ -445,7 +445,7 @@
                     {% endif %}
                     {% endfor %}
                 </ul>
-            </li>>
+            </li>
         </p>
     </ul>
 </nav>
