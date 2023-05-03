@@ -3,7 +3,7 @@ title:  "유니티 라이프 사이클"
 excerpt: "unity3d, engine, lifecycle"
 
 categories:
-  - Unity3D
+  - Unity
 tags:
   - [unity3d, engine, lifecycle]
 

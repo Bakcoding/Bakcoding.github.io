@@ -1,7 +1,7 @@
 ---
 title: "유니티"  
 layout: archive   
-permalink: /categories/engine-unity 
+permalink: /categories/engine-unity-unity 
 author_profile: true   
 sidebar_main: true  
 ---

@@ -3,7 +3,7 @@ title:  "오브젝트 움직이기"
 excerpt: "unity3d, engine, move"
 
 categories:
-  - Unity3D
+  - Unity
 tags:
   - [unity3d, engine, move]
 

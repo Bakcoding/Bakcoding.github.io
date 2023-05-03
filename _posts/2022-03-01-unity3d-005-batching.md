@@ -3,7 +3,7 @@ title:  "배칭"
 excerpt: "unity3d, engine, batching"
 
 categories:
-  - Unity3D
+  - Unity
 tags:
   - [unity3d, engine, batching]
 
