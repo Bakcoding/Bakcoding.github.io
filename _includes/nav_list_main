@@ -5,51 +5,139 @@
     <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
     <ul class="nav__items" id="category_tag_menu">
         <!--전체 글 수-->
-        <li>
+        <!-- <li>
             전체 글 수 {{sum}} 개
-        </li>
+        </li> -->
+        <br><br>
 
-        <!-- Language category -->
-        <li>
+        <!-- Programming -->
+        <p>
             <span class="nav__title">
                 PROGRAMMING
             </span>
-        <li>
-            <span class="nav__sub-title">
-                Language
+            <li>
+                <!-- Language category -->
+                <span class="nav__sub-title">
+                    Language
+                </span>
+                <ul>
+                    {% for category in site.categories %}
+                    {% if category[0] == "C" %}
+                    <li>
+                        <a href="/categories/c" class="toc__menu">
+                            C ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% for category in site.categories %}
+                    {% if category[0] == "Cpp" %}
+                    <li>
+                        <a href="/categories/cpp" class="toc__menu">
+                            C++ ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% for category in site.categories %}
+                    {% if category[0] == "CSharp" %}
+                    <li>
+                        <a href="/categories/csharp" class="toc__menu">
+                            C# ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+
+
+
+                </ul>
+            </li>
+
+            <li>
+                <!-- Coding Test category -->
+                <span class="nav__sub-title">
+                    Coding Test
+                </span>
+                <ul>
+                    {% for category in site.categories %}
+                    {% if category[0] == "HTML" %}
+                    <li>
+                        <a href="/categories/html" class="toc__menu">
+                            HTML ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+
+                    {% for category in site.categories %}
+                    {% if category[0] == "CSS" %}
+                    <li>
+                        <a href="/categories/css" class="toc__menu">
+                            CSS ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% for category in site.categories %}
+                    {% if category[0] == "Javascript" %}
+                    <li>
+                        <a href="/categories/js" class="toc__menu">
+                            Javascript ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+        </p>
+
+
+        <!-- Web -->
+        <p>
+            <span class="nav__title">
+                Web
             </span>
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "C" %}
-                <li>
-                    <a href="/categories/c" class="toc__menu">
-                        C ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
-                {% for category in site.categories %}
-                {% if category[0] == "Cpp" %}
-                <li>
-                    <a href="/categories/cpp" class="toc__menu">
-                        C++ ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
-                {% for category in site.categories %}
-                {% if category[0] == "CSharp" %}
-                <li>
-                    <a href="/categories/csharp" class="toc__menu">
-                        C# ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
+            <li>
+                <!-- Frontend category -->
+                <span class="nav__sub-title">
+                    Frontend
+                </span>
+                <ul>
+                    {% for category in site.categories %}
+                    {% if category[0] == "HTML" %}
+                    <li>
+                        <a href="/categories/html" class="toc__menu">
+                            HTML ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
 
 
+                    {% for category in site.categories %}
+                    {% if category[0] == "CSS" %}
+                    <li>
+                        <a href="/categories/css" class="toc__menu">
+                            CSS ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+
+            <li>
+                <!-- Backend category -->
+                <span class="nav__sub-title">
+                    Backend
+                </span>
+                
                 {% for category in site.categories %}
                 {% if category[0] == "PHP" %}
                 <li>
@@ -59,41 +147,9 @@
                 </li>
                 {% endif %}
                 {% endfor %}
+            </li>
+        </p>
 
-                {% for category in site.categories %}
-                {% if category[0] == "Javascript" %}
-                <li>
-                    <a href="/categories/js" class="toc__menu">
-                        Javascript ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
-                {% for category in site.categories %}
-                {% if category[0] == "HTML" %}
-                <li>
-                    <a href="/categories/html" class="toc__menu">
-                        HTML ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
-
-                {% for category in site.categories %}
-                {% if category[0] == "CSS" %}
-                <li>
-                    <a href="/categories/css" class="toc__menu">
-                        CSS ({{category[1].size}})
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
-
-        </li>
 
         <!-- Develop category -->
         <li>
