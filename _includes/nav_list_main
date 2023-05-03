@@ -389,7 +389,8 @@
                             Network ({{category[1].size}})
                         </a>
                     </li>
-
+                    {% endif %}
+                    {% endfor %}
 
                 </ul>
             </li>
