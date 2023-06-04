@@ -1,5 +1,5 @@
 ---
-title:  "포스팅하기"
+title:  "Github 블로그 포스팅"
 excerpt: "Github, Jekyll, Blog, Ruby, VScode"
 
 categories:
@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-05-28
-last_modified_at: 2021-05-28
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -25,9 +25,9 @@ github에 올린 블로그 데이터를 관리를 로컬에서 수정하고 업�
   
 Jekyll에서 사용하는 언어인 Ruby의 설치부터 해준다.
   
-[https://rubyinstaller.org/downloads](https://rubyinstaller.org/downloads/)  
+[Ruby Download](https://rubyinstaller.org/downloads/)  
   
- ![1](/assets/images/20210528_Posting/1.png)  
+ ![ruby installer page](/assets/images/posting/20210528/ruby_installer_page.png)  
 
 Ruby설치가 끝나면 추가로 Bundler로 Jekyll을 설치해준다.  
   
@@ -44,11 +44,11 @@ Github에 생성한 저장소를 내 컴퓨터 로컬에 받아서 관리한다.
   
 Git이 설치되어 있지 않다면 Git설치부터 해준다.  
 
- ![1](/assets/images/20210528_Posting/2.png)  
+ ![git_installer_page](/assets/images/posting/20210528/git_installer_page.png)  
   
 블로그 테마를 설치했던 Github저장소를 열어서 클론으로 만들 URL을 복사해 놓는다.  
 
- ![1](/assets/images/20210528_Posting/3.png)  
+ ![github_clone_repository](/assets/images/posting/20210528/github_clone_repository.png)  
   
 클론을 저장할 위치에 폴더를 미리 만들어 놓거나 명령어를 통해 만들어준다.
   
@@ -71,20 +71,20 @@ git push origin master  #변경 사항들을 원격 Github 저장소에 반영�
 <br/> 
 
 ### 3. VScode를 이용하여 git commit/push    
-VSCode를 사용하면 Git Bash보다 비교적 간단하게 포스팅이 가능하다.
+VSCode를 사용하면 Git Bash보다 간편하게 블로그 관리를 할 수 있다.
   
 [Visual Studio Code](https://code.visualstudio.com/)  
   
-VScode를 열고 클론을 저장한 폴더를 열어준다.  
+VScode를 열고 생성한 클론 폴더를 연다.  
   
- ![1](/assets/images/20210528_Posting/4.png)  
+ ![vs_open_blog_folder](/assets/images/posting/20210528/vs_open_blog_folder.png)  
   
-클론 폴더 안에 _post 폴더가 없다면 폴더를 만들어 준다.  
-포스팅 글은 _post 안에 Markdown으로 작성된 md 파일을 불러오기 때문에 꼭 해주어야한다.  
+Jekyll 테마를 사용하게 되면 블로그에 포스팅되는 글들은 _post 폴더 내부에 md 확장자의 파일을 생성하고 
+해당 파일에 글을 작성해야하는 규칙이 있다. 
   
- ![1](/assets/images/20210528_Posting/5.png)  
+ ![create_blog_file](/assets/images/posting/20210528/create_blog_file.png)  
   
-폴더안에 파일을 생성해주고 이름은 `yyyy-mm-dd-title.md` 형식으로 만들어 준다.  
+포스팅할 파일의 이름은 `yyyy-mm-dd-title.md` 형식으로 만들어야한다.  
   
 ```
 --- #타이틀 영역 지정
@@ -101,11 +101,14 @@ last_modified_at: 2021-05-28    #최종 수정 날짜
 ---  #여기까지 내용이 타이틀 내용
 ```
 
-포스팅할 파일의 작성이 끝났다면 이걸 블로그 페이지에 반영시키기 위해서 commit과 push가 필요하다.  
+실질적으로 블로그에 나타나는 정보들은 Github 저장소에 있는 파일들의 내용이기 때문에 이 정보들을 수정해야 페이지의 정보들도 수정된다. 프로젝트를 클론할 필요없이 원본 파일들을 직접 수정해도 가능은 하지만 이렇게 할 경우 작업을 되돌리는 등의 버전 관리가 어려워지기 때문에 수정작업용 프로젝트를 클로닝할 필요가 있다.
 
- ![1](/assets/images/20210528_Posting/6.png)
- ![1](/assets/images/20210528_Posting/7.png)
+클론한 이후 파일을 수정하거나 추가한 다음에 원본에 반영하기 위해서는 commit & push를 해준다.
+
+ ![vscode_git_commit](/assets/images/posting/20210528/vscode_git_commit.png)
+ ![vscode_git_push](/assets/images/posting/20210528/vscode_git_push.png)
 
 commit을 실행하면 경로를 설정하는 창이 뜨고 한 번 경로를 잡아주면 이후에는 간단하게 클릭으로 commit과 push가 가능하다.  
 
-포스팅에 익숙해지려면 Markdown를 한번 공부할 필요가 있는거 같다.
+포스팅을 할때는 마크다운 언어를 통해서 작성해야하기 때문에 기본적인 언어에 대한 학습이 필요하다.
+다행히도 마크다운은 아주 간단한 언어이기 때문에 크게 무리없이 진행할 수 있다. 일부분은 html을 사용할 수 있기도 하지만 너무 활용을 많이 하려다보면 짜여진 틀과 겹치거나 충돌될 수 있어 의도하지 않게 동작할 수 있어 마크다운을 사용하는게 추천된다.
