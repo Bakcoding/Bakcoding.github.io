@@ -24,7 +24,7 @@
                     {% for category in site.categories %}
                     {% if category[0] == "C" %}
                     <li>
-                        <a href="/categories/programing-language-c" class="toc__menu">
+                        <a href="/categories/programming-language-c" class="toc__menu">
                             C ({{category[1].size}})
                         </a>
                     </li>
@@ -34,7 +34,7 @@
                     {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
                     <li>
-                        <a href="/categories/programing-language-cpp" class="toc__menu">
+                        <a href="/categories/programming-language-cpp" class="toc__menu">
                             C++ ({{category[1].size}})
                         </a>
                     </li>
@@ -44,7 +44,7 @@
                     {% for category in site.categories %}
                     {% if category[0] == "CSharp" %}
                     <li>
-                        <a href="/categories/programing-language-csharp" class="toc__menu">
+                        <a href="/categories/programming-language-csharp" class="toc__menu">
                             C# ({{category[1].size}})
                         </a>
                     </li>
