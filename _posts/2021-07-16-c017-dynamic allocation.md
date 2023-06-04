@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-07-16
-last_modified_at: 2021-07-16
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -71,7 +71,7 @@ last_modified_at: 2021-07-16
      동적할당할 메모리의 크기와 수를 결정한다. 여러개를 할당하면 배열처럼 사용이 가능하다.  
 
 
-    ![malloc](/assets/images/20210716_Posting/1.png)  
+    ![dynamic_allocate](/assets/images/posting/20210716/dynamic_allocate.png)  
 
     배열처럼 접근이 가능하며 메모리 주소도 연속한다. 
 
@@ -105,7 +105,7 @@ last_modified_at: 2021-07-16
     }
     ```
 
-    하지만 이 방식은 때때로 에러를 발생시키기도 한다.
+    하지만 이 방식은 에러를 발생시킬 여지가 있다.
 
     ```c
     if (*ipVal > 5)

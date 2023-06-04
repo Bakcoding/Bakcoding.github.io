@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-19
-last_modified_at: 2021-08-19
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -52,9 +52,9 @@ cocos2dx는 파이썬을 기반으로 만들어진 프레임워크이기 때문�
 
 [python 2.7.18](https://www.python.org/downloads/release/python-2718/) 작성일 기준 최신버전
 
-python 설치가 끝났다면 환경 변수 설정을 해준다.  
+python 설치가 끝났다면 환경 변수 설정이 필요하다. 
 
- ![환경변수](/assets/images/20210819_Posting/1.png)
+ ![environment_setting](/assets/images/posting/20210819/environment_setting.png)
 
 리스트에 위 처럼 추가되었다면 제대로 설치되었는지 확인하기 위해 프롬프트 창을 켜서 명령어를 입력한다.  
   ```cmd
@@ -62,11 +62,13 @@ python 설치가 끝났다면 환경 변수 설정을 해준다.
   python    --python 실행
   ```
 
- ![python](/assets/images/20210819_Posting/2.png)
+ ![check_python_install](/assets/images/posting/20210819/check_python_install.png)
 
-실행 결과 위 처럼 뜨면 성공한 것이다. 만약 안된다면 다양한 이유가 있겠지만 대부분이 환경변수가 제대로 적용이 안됐을 경우이다.  
+실행 결과 위와 같다면 성공적으로 설치가 완료된것이다.
 
-내가 겪었던 문제 중 c드라이브 권한 문제 때문에 접근이 안됐던 적이 있었다. 컴퓨터 로그인시 관리자 권한이 있는 계정으로 접속했는지 확인해 보자.  
+만약 명령어를 실행시키지 못한다면 환경변수가 제대로 적용이 제대로 안됐을 수 있다. python의 설치 경로를 확인하고 올바르게 환경변수에 경로가 등록되었는지 확인해 볼 필요가 있다. 
+
+만약 위 경우가 아니라면 직접 겪었던 문제 중 c드라이브 권한 문제 때문에 접근이 안됐던 상황이 있었다. 컴퓨터 로그인시 관리자 권한이 있는 계정으로 접속했는지 확인을 해본다.
 
 <br/>
 
@@ -79,12 +81,13 @@ makefile은 incremental build 방식을 사용하는데 이 방식은 규모가 
 
 설치를 진행하다보면 환경 설정에 대한 선택창이 나온다.  
 
- ![python](/assets/images/20210819_Posting/3.png)
+ ![python](/assets/images/posting/20210819/install_cmake.png)
 
 <br/>
 
 ### 4. Cocos2d 설치  
-이제 준비물은 끝났고 [Cocos2d-x 4.0](https://www.cocos.com/en/)를 설치해준다.  
+
+[Cocos2d-x 4.0](https://www.cocos.com/en/)를 설치해준다.  
 
 명령 프롬프트 창에서 작업이 필요하기 때문에 설치 경로는 c드라이브로 해주는 것이 편하다.  
 
@@ -98,7 +101,7 @@ makefile은 incremental build 방식을 사용하는데 이 방식은 규모가 
     python setup.py     --파일을 python으로 실행
     ```
 
-  ![install](/assets/images/20210819_Posting/4.png)
+  ![install_cocos2dx_framework](/assets/images/posting/20210819/install_cocos2dx_framework.png)
 
   중간에 SDK, NDK 경로에 대해서 묻는데 엔터로 스킵해준다.  
 
@@ -110,9 +113,9 @@ makefile은 incremental build 방식을 사용하는데 이 방식은 규모가 
     cd c:\     --생성할 위치로 이동, 찾기 쉬운 곳으로
     cocos new HelloCocos -p com.bakcoding -l cpp --새 프로젝트 생성
     ```
-  ![proj](/assets/images/20210819_Posting/5.png)
+  ![create_project](/assets/images/posting/20210819/create_project.png)
 
-  **HelloCocos**원하는 이름으로 해준다.  
+  **HelloCocos** 부분에 원하는 이름으로 작성한다.
         
   **-p com.pjy.hello**는 패키지명을 만드는 부분으로 생략해도 무방하다. 패키지명은 프로그램이 업데이트가 될 때 이미 설치된 경우 패키지명을 보고 찾아가서 갱신시킬 수 있는 역할을 한다. 보통 -p com.회사명.프로젝트명 으로 만들어지는데 폰으로 게임을 받아서 파일관리자로 경로를 찾아가보면 위 와 같은 파일명을 볼 수 도 있을 것이다. 
 
@@ -129,7 +132,7 @@ makefile은 incremental build 방식을 사용하는데 이 방식은 규모가 
     cd win32-build  --win32-build 폴더로 이동
     cmake .. -G"Visual Studio 16 2019" -A win32
     ```
-  ![result](/assets/images/20210819_Posting/6.png)
+  ![create_project_complete](/assets/images/posting/20210819/create_project_complete.png)
 
   **cmake ..**  현재 폴더에서 상위 폴더인 HelloCocos에 있는 CMakeLists.txt를 참조하여 makefile을 생성한다.  
         
@@ -141,21 +144,21 @@ makefile은 incremental build 방식을 사용하는데 이 방식은 규모가 
 
 ### 실행
 
-이제 솔루션 파일을 실행시켜서 기본적인 세팅과 테스트를 해본다.
+솔루션 파일을 실행시켜서 기본적인 세팅과 테스트를 해본다.
 
-![start](/assets/images/20210819_Posting/7.png)
+![projcet_solution](/assets/images/posting/20210819/projcet_solution.png)
 
 
 cocos의 기능들이 포함된 비주얼스튜디오가 열린다. 
-딱봐도 많은 파일들이 보이는데 이 상태로 빌드를 돌리면 시간이 오래걸리게 되므로 빌드할 프로젝트를 설정해준다.
 
-![build](/assets/images/20210819_Posting/8.png)
+많은 파일들이 보이는데 이 상태로 빌드를 돌리면 시간이 오래걸리게 되므로 빌드할 프로젝트를 설정해준다.
+
+![set_as_startup_project](/assets/images/posting/20210819/set_as_startup_project.png)
 
 세팅을 하고 나서 빌드를 돌려보면
 
-![build](/assets/images/20210819_Posting/9.png)
+![project_result](/assets/images/posting/20210819/project_result.png)
 
 기본값으로 세팅되어있는 cocos2d의 창이 뜨는걸 확인할 수 있다. 
 
-이제 cocos2d를 사용할 모든 준비가 끝났고 코드를 만지기만 하면 된다.
-
+cocos2d를 사용할 준비가 완료된 상태로 이제 코드를 작성하여 게임을 만들 수 있다.

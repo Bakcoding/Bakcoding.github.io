@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-02 
-last_modified_at: 2021-09-02
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -87,5 +87,5 @@ void EnemySprite::OnAction()
 
 회전 동작을 추가해주는 RotateBy를 사용한다. 이 동작을 세팅한 함수를 적이 생성되는 곳에서 호출해준다.  
 
-![play](/assets/images/20210902_Posting_cocos/2.gif)
+![play](/assets/images/posting/20210902/play_test_2.gif)
   

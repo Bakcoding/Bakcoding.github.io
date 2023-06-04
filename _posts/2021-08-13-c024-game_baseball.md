@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-13
-last_modified_at: 2021-08-13
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -111,6 +111,6 @@ int main()
 
 
 
-![baseball](/assets/images/20210813_Posting/baseball.gif)
+![baseball_game](/assets/images/posting/20210813/baseball_game.gif)
 
-숫자 중복을 방지하는 방법이 마음에 들지 않는다. 좀 더 깔끔하게 할 수 있는 방법이 없나 생각해봐야겠다.
+숫자의 중복을 방지하는 코드를 개선할 여지가 있다.

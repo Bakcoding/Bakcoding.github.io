@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-30 
-last_modified_at: 2021-08-30
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -133,7 +133,7 @@ void EnemyLayer::removeEnemy()
 }
 ```
 
-![play](/assets/images/20210830_Posting_cocos/1.gif)
+![play](/assets/images/posting/20210829/play_test.gif)
 
 * 일정 간격으로 적을 생성하는 방법  
 특정 동작을 간격을 두고 반복하기 위해서 CC_SCHEDULE_SELECTOR를 활용한다.  

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-07-17
-last_modified_at: 2021-07-17
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -45,7 +45,7 @@ last_modified_at: 2021-07-17
 
     변수들은 다음과 같이 값을 저장하고 접근한다.  
 
-    ![doubleP](/assets/images/20210720_Posting/1.png)  
+    ![dynamic_allocate_2d_array_memory](/assets/images/posting/20210720/dynamic_allocate_2d_array_memory.png)  
 
 <br/>
 
@@ -105,7 +105,7 @@ last_modified_at: 2021-07-17
 
     사용하는 방식과 구조는 동일하지만 각 메모리 주소를 출력해보면 차이가 있다.  
 
-    ![doubleP](/assets/images/20210720_Posting/2.png)
+    ![dynamic_allocate_2d_array_memory_adress](/assets/images/posting/20210720/dynamic_allocate_2d_array_memory_adress.png)
 
     ```c
     *(ppArr2D + 0) = (int*)malloc(sizeof(int) * 3);
@@ -115,7 +115,7 @@ last_modified_at: 2021-07-17
     메모리 주소를 할당할 때 개별적으로 선언하기 때문에 행끼리 주소가 연속되지가 않는다. 그래서 2차원 배열을 1차원 형식으로 접근할시 동적할당 배열은 제대로 동작하지 않게된다.  
   
   
-    ![doubleP](/assets/images/20210720_Posting/3.png)
+    ![dynamic_allocate_2d_array_memory_struct](/assets/images/posting/20210720/dynamic_allocate_2d_array_memory_struct.png)
 
   * 해제    
     해제는 할당한 메모리 모두 각 각 해주어야한다. 이 때 해제는 할당의 역순으로 해주어야지 사용중인 공간이 해제되어서 에러가 발생하는 일이 생기지 않는다.  

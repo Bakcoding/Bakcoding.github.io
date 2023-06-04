@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-07-24
-last_modified_at: 2021-07-24
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -78,7 +78,7 @@ int main()
 }
 ```
 
-![instance](/assets/images/20210724_Posting/1.png)  
+![default_constructor](/assets/images/posting/20210724/default_constructor.png)  
 
 
 각 생성자에 출력을 만들어 놓고 인스턴시 어떻게 호출되는지 확인해본다.  
@@ -106,7 +106,7 @@ class CTest
 소멸자도 생성자 처럼 반환형은 쓰지 않으며 클래스 이름과 똑같이 만들고 앞에 ~를 붙여준다.  
 소멸자의 호출 시점을 출력을 사용해서 확인해 본다.
 
-![instance](/assets/images/20210724_Posting/2.png)  
+![distructor](/assets/images/posting/20210724/distructor.png)  
 
 각 인스턴스가 소멸될 때 마다 소멸자가 호출되는걸 볼 수 있다.
 

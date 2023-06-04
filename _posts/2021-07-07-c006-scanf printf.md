@@ -11,13 +11,14 @@ toc: true
 toc_sticky: true
  
 date: 2021-07-07
-last_modified_at: 2021-07-07
+last_modified_at: 2023-06-04
 ---  
 
 ***
 
 ### C언어에서 입력과 출력  
-c에서 입력과 출력은 scanf와 printf 함수를 사용한다. 두 함수는 stdio.h 의 라이브러리를 사용하기 때문에 include를 해주어야한다. 
+c에서 입력과 출력은 scanf와 printf 함수를 사용한다.  
+두 함수 모두 stdio.h 의 라이브러리에 포함되어있기 때문에 해당 라이브러리를 include를 해야 사용이 가능하다. 
 
 <br/>
 
@@ -56,4 +57,5 @@ int main()
 
 <br/>
 
-![scanf_printf](/assets/images/20210707_Posting/1.gif)  
+결과  
+![scanf_printf](/assets/images/posting/20210707/using_scanf.gif)  

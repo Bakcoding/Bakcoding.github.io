@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-02 
-last_modified_at: 2021-09-02
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -79,7 +79,7 @@ public:
 
 <br/>
 
-![play](/assets/images/20210902_Posting_cocos/1.gif)
+![play_test_1](/assets/images/posting/20210902/play_test_1.gif)
 
 
 게임을 동작시키기 위해서 코드를 연결시키다 보니 전체적으로 지저분해진 느낌이 든다. 정리를 한번 해야되겠다.  

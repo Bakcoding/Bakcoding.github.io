@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-06 
-last_modified_at: 2021-09-06
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -31,7 +31,7 @@ last_modified_at: 2021-09-06
 안드로이드 스튜디오에서 Tools > SDK Manager를 열어서 SKD Platforms를 보면 안드로이드 버전에 따른 API Level들을 알 수 있고 
 자신의 앱이 지원할 최소 버전부터 타겟 버전까지 설치가 필요하다.
 
-![NDK_API](/assets/images/20210906_Posting_cocos/1.png)
+![ndk_api](/assets/images/posting/20210906/ndk_api.png)
 
 안드로이드 스튜디오에서 Gradle Scripts에 build.gradle (Module: proj.MyApp...)를 보면  
 
@@ -92,7 +92,7 @@ arm64-v8a가 64비트, x86가 32비트 아키텍처를 말하며 64비트만을 
 Build > Generate Signed Bundle or APK를 눌러 Android App Bundle을 선택해서 번들을 생성해 준다.  
 경로를 잘 보이는 곳으로 해주고 key가 없다면 새로 생성을 해주며 비밀번호는 까먹지 않도록 한다.  
 
-![build_1](/assets/images/20210906_Posting_cocos/2.png)  
+![try_build](/assets/images/posting/20210906/try_build.png)  
 
 finish를 누르면 빌드가 시작되는데 시간이 좀 걸린다. 알림이 뜰 때 까지 기다려 주도록한다.  
 
@@ -103,11 +103,11 @@ finish를 누르면 빌드가 시작되는데 시간이 좀 걸린다. 알림이
 ### 등록하기  
 플레이 콘솔로 간 다음 앱 만들기를 눌러서 본인의 앱에 해당하는 사항을 체크해 준다.  
 
-![build_1](/assets/images/20210906_Posting_cocos/2.png)  
+![dashboard](/assets/images/posting/20210906/dashboard.png)  
 
 기본적인 체크가 끝났다면 프로덕션 탭으로 가서 .abb 파일을 업로드 해주고 에러가 없는지 확인이 끝났다면 출시를 한다.  
 
-![build_1](/assets/images/20210906_Posting_cocos/4.png)  
+![product_complete](/assets/images/posting/20210906/product_complete.png)  
 
 출시를 누른다고 바로 출시가 되지는 않고 약 7일 정도의 검토를 거친 후에 플레이 스토어에 등록이 된다.  
 앱을 새로 업로드 할 때 마다 버전을 갱신해 주어야하는데 

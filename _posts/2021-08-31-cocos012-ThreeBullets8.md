@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-31 
-last_modified_at: 2021-08-31
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -131,5 +131,5 @@ void GameScene::matchResult(int _val, int _eCount, int _bCount)
 
 <br/>
 
-![play](/assets/images/20210831_Posting_cocos/1.gif)
+![play](/assets/images/posting/20210831/play_test.gif)
 

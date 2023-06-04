@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-14
-last_modified_at: 2021-08-14
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -19,7 +19,7 @@ last_modified_at: 2021-08-14
 ### 피타고라스 정리
 직각 삼각형에서 빗변의 제곱은 수직하는 두 변의 제곱의 합과 같다.
 
-![pytha](/assets/images/20210814_Posting/pyth.png)
+![pythagorean_theorem](/assets/images/posting/20210814/pythagorean_theorem.png)
 
 이 공식은 2차원 평면좌표에서 서로 다른 위치에 찍힌 두 점 사이의 거리를 구하는데 사용할 수 있다.  
 
@@ -29,6 +29,7 @@ c에서 지원되는 math.h 헤더파일은 수학과 관련된 공식들이 모
 
 ### pow(double, double)
 제곱을 뜻하는 power의 줄임말이다. 인자로 받은 첫 번재 인자로 제곱할 수를 받고 두 번째 인자로 제곱할 수 즉, 지수를 받는다.  
+
 ```cpp
 double result = pow(2.0, 2.0);
 printf("result : %lf", result);
@@ -79,7 +80,7 @@ double GetDistance(double _x1, double _y1, double _x2, double _y2)
 }
 ```
 
-![dist](/assets/images/20210814_Posting/dist.png)
+![two_point_distance](/assets/images/posting/20210814/two_point_distance.png)
 
 
 

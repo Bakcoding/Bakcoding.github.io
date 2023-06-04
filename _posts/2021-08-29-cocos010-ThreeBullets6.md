@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-29 
-last_modified_at: 2021-08-29
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -90,5 +90,5 @@ BulletSprite에서 화면밖으로 나가는걸 확인하는 bool값을 이용�
 
 <br/>
 
-![play](/assets/images/20210829_Posting_cocos/1.gif)
+![play](/assets/images/posting/20210828/play_test.gif)
 

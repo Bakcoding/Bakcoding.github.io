@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-03 
-last_modified_at: 2021-09-03
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -41,18 +41,18 @@ list(APPEND GAME_HEADER
 수정이 끝나고 프로젝트 폴더를 다시보면 proj.운영체제 이름 의 폴더들이 있는데 이 폴더들이 cocos2dx가 멀티플랫폼에 대응하기 위해 지원하는 것들이다.  
 안드로이드 스튜디오를 켜고 import project를 눌러 이 폴더에 있는 proj.android 폴더를 선택해서 열어주면 된다.  
 
-![import](/assets/images/20210903_Posting_cocos/1.png)
+![import](/assets/images/posting/20210903/android_studio_project_compile.png)
 
 안드로이드 스튜디오는 기반 언어가 java이지만 JNI(java native interface)를 사용해서 다른 언어들도 실행이 가능하게 된다. 독자적인 언어인 kotlin도 사용하기 때문에 조만간 알아보기로 한다. 
 우선 내가 사용할 ndk와 sdk를 설정해주는 과정이 필요하다.  
 
 Tools > SDK Manager를 열어준다.
 
-![import](/assets/images/20210903_Posting_cocos/3.png)  
+![android_studio_sdk_manager](/assets/images/posting/20210903/android_studio_sdk_manager.png)  
 
 sdk는 필요에 따라서 버전을 골라서 받으면 된다. 우선 이것저것 다운받아 놓았다.
 
-![setting](/assets/images/20210903_Posting_cocos/4.png)  
+![android_studio_sdk_import](/assets/images/posting/20210903/android_studio_sdk_import.png)  
 
 옆에 카테고리 sdk tools에서 ndk(side by sied)와 cmake는 프로젝트 실행을 위해서 꼭 필요하고 나머지는 부가적인 기능들로 검색해보고 필요에 따라서 설치한다.  
 
@@ -63,7 +63,7 @@ bool 반환형 함수에서 return true를 안하거나 상속받은 함수를 �
 
 에러들을 고치고 핸드폰을 연결해서 실행시켜보니
 
-![play](/assets/images/20210903_Posting_cocos/2.jpg)
+![device_play_resolution_issue](/assets/images/posting/20210903/device_play_resolution_issue.jpg)
 
  
 해상도가 달라서 이미지 스케일이 다 바뀌게 되었는데 이걸 수정하기 위해서 직접 보정 코드를 만든다.  
@@ -90,7 +90,7 @@ bool 반환형 함수에서 return true를 안하거나 상속받은 함수를 �
      }
 ```
 
-![play](/assets/images/20210903_Posting_cocos/1.gif)
+![play_test](/assets/images/posting/20210903/play_test.gif)
 
 잘 적용되었다.  
  

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-01 
-last_modified_at: 2021-09-01
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -119,5 +119,5 @@ int BackgroundSprite::getImageLastIndex()
 
 <br/>
 
-![play](/assets/images/20210901_Posting_cocos/1.gif)
+![play](/assets/images/posting/20210901/play_test.gif)
 

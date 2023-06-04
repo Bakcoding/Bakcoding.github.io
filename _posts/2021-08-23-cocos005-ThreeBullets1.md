@@ -11,14 +11,15 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-23  
-last_modified_at: 2021-08-23
+last_modified_at: 2023-06-04
 ---  
 
 ***
 
 ### 게임 개발
 Cocos를 다루는데 익숙해지기 위해서 간단한 게임을 개발해본다.  
-공부를 목적으로 하지만 기획부터 출시까지를 목표로 해본다.
+
+공부를 목적으로 하지만 기획부터 출시까지를 목표로 한다.
 
 <br/>
 
@@ -27,8 +28,7 @@ Cocos를 다루는데 익숙해지기 위해서 간단한 게임을 개발해본
 
 |\<Missile Command\>|\<Space Invaders\>|
 |:----:|:----:|
-|![MC](/assets/images/20210823_Posting/2.png)|![SI](/assets/images/20210823_Posting/3.png)|
-
+|![missile_command](/assets/images/posting/20210823/missile_command.png)|![space_invaders](/assets/images/posting/20210823/space_invaders.png)|
 
 <br/>
 
@@ -49,7 +49,7 @@ Cocos를 다루는데 익숙해지기 위해서 간단한 게임을 개발해본
 
 \<모바일로 구현했을 경우\>
 
-![Play](/assets/images/20210823_Posting/1.png)
+![plan_game_play](/assets/images/posting/20210823/plan_game_play.png)
 
 <br/>
 
@@ -63,7 +63,7 @@ Cocos를 다루는데 익숙해지기 위해서 간단한 게임을 개발해본
 
 * 상성관계  
 
-  ![counter](/assets/images/20210823_Posting/4.png)  
+  ![counter_system](/assets/images/posting/20210823/counter_system.png)  
 
   단조로울 수 있는 슈팅게임의 공격 방식에 플레이어로 하여금 판단의 여지를 주고 게임이 끝날 때 까지 몰입할 수 있게 만든다.  
 
@@ -89,7 +89,7 @@ Cocos를 다루는데 익숙해지기 위해서 간단한 게임을 개발해본
 ### 클래스 다이어그램
 구체적인 설계는 못하겠지만 대략적으로 구조를 만들어 보면
 
-![class](/assets/images/20210823_Posting/5.png)
+![class_diagram](/assets/images/posting/20210823/class_diagram.png)
 
 게임에 필요한 씬들은 하나의 매니저를 통해 관리한다. 게임씬에서 사용되는 클래스가 많을 것인데 크게 player, enemy, bullet으로 나누고 셋을 묶어서 게임매니저에서 관리한다. 게임오버씬에서 스코어를 표시하고 싶기 때문에 게임매니저에서 스코어를 스태틱으로 두고 정보를 가져다 쓸 수 있도록 해야겠다.
 

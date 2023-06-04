@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-27 
-last_modified_at: 2021-08-27
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -55,8 +55,8 @@ this->addChild(button);
 
 <br/>
 
-### 나만의 Button 클래스  
-Button을 편하게 만들어서 사용하기 위해서 나만의 클래스로 만든다.
+### Button 클래스 상속  
+Button을 편하게 만들어서 사용하기 위해서 기존의 버튼을 상속한 클래스를 만든다.
 
 ```cpp
 // CreateButton.h
@@ -136,7 +136,7 @@ void CreateButton::alignmentVertical(Button* _target, float _padding)
 
 타이틀씬의 메뉴나 게임씬의 조작키에서 활용을 할 생각이다.
 
-![play](/assets/images/20210827_Posting_cocos/1.gif)
+![play_test](/assets/images/posting/20210827/play_test.gif)
 
 
 

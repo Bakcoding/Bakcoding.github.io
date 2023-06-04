@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-06-26
-last_modified_at: 2021-06-28
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -42,10 +42,10 @@ int main()
 
 실행 결과  
   
- ![datatype size](/assets/images/20210626_Posting/4.PNG)  
+ ![floating_point_result](/assets/images/posting/20210626/floating_point_result.png)  
 
  0.001을 1000번 더하는 반복문이다. 1이 나와야할 계산이지만 0.999991이라는 근사값이 나오는데 이것이 부동소수점 오차 때문이다.  
-  <br/><br/>
+  <br/>
 
 ### 1. 이진법(binary)  
   * 소수를 2진법으로 변환시키는 방법  
@@ -53,7 +53,7 @@ int main()
     소수점 뒤(소수부)부터는 정수부에서 0과 1을 뽑아내는 방식을 반대로 적용시키면 된다.
   <br/>  
      2를 곱해주면서 나머지가 0이 될 때 까지 0과 1을 뽑아낸다.  
-     예) 0.25  
+     예\) 0.25  
       0.25에 2를 곱하고 정수부 0을 뺀 나머지 => 0.5  
       0.5에 2를 곱하고 정수부 1을 뺀 나머지 => 0  
       소수부 자리에 위 계산에서 나온 정수부 값을 넣어준다.  
@@ -67,10 +67,11 @@ int main()
 ### 2. 고정소수점(fixed point) 
   * 실수를 정수부와 소수부로 나눈다.
   * 소수점을 고정시키고 10진법을 2진법으로 변환시킨 숫자를 그대로 옮기는 방식이다.  
-  * 예) 6.25라는 실수가 있다. 이 숫자를 2진법으로 변환하면 110.01이고 32bit 체계에서 다음과 같이 저장된다.  
+    
+    예) 6.25라는 실수가 있다. 이 숫자를 2진법으로 변환하면 110.01이고 32bit 체계에서 다음과 같이 저장된다.  
   
 
-   ![memory](/assets/images/20210626_Posting/3.png)  
+   ![banary_scale_data_type](/assets/images/posting/20210626/banary_scale_data_type_1.png)  
   * 맨 앞 자리는 부호 비트이며 0이면 양수, 1이면 음수를 나타낸다.
   * 나머지 비트들은 소수점을 기준으로 정수부와 소수부를 표현하는 비트로 나누어지고 이 때 소수점의 위치는 정해진다.
   * 소수부의 경우 앞에서 부터 채우며 남은 자리는 모두 0으로 채워진다.
@@ -91,7 +92,7 @@ int main()
      <br/> 
   
     비트구조는 다음과 같다. (32비트 기준)
-    ![bit_constr](/assets/images/20210626_Posting/5.png)  
+    ![banary_scale_data_type_2](/assets/images/posting/20210626/banary_scale_data_type_2.png)  
 
   * 고정소수점과 마찬가지로 부호비트를 가진다.  
  가수부에는 정규화 결과 소수점 오른쪽에 있는 숫자들이 왼쪽부터 채워지며 남는 자리는 0으로 채워진다.  
@@ -110,6 +111,6 @@ int main()
 
     비트에 다음과 같이 담긴다.  
 
-    ![result](/assets/images/20210626_Posting/6.png)   
+    ![result](/assets/images/posting/20210626/banary_scale_data_type_3.png/)   
     부호 양수 0, 지수부 = 10000001, 가수부 1001  
  
