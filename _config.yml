@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default",  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -25,7 +25,7 @@ url                      : "https://Bakcoding.github.io"
 baseurl                  : # 서브 경로 있는 경우 기재 the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logoimage.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logoimage_g.png" # "/assets/images/logoimage.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -41,9 +41,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "default" # "light" (default), "dark"
+    colorscheme          : "dark" # "default" # "light" (default), "dark"
   utterances:
-    theme                : "default" # "github-light" (default), "github-dark"
+    theme                : "github-dark" # "default" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"
@@ -79,7 +79,7 @@ facebook:
   app_id                 :
   publisher              :
 # sns 등에서 어떤 링크에 대한 미리보기 제목, 설명, 이미지를 구성할 때 메타 데이터 표기 방법
-og_image                 : "/assets/images/logoimage.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/logoimage_g.png" #"/assets/images/logoimage.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
