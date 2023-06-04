@@ -3,7 +3,7 @@ title:  "Serialization"
 excerpt: "Serialization, Deserialization"
 
 categories:
-  - Note
+  - Blog-Memo
 tags:
   - [Serialization, Deserialization]
 

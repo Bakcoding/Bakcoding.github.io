@@ -3,7 +3,7 @@ title:  "API"
 excerpt: "Graphics, API"
 
 categories:
-  - Note
+  - Blog-Memo
 tags:
   - [Graphics, API]
 
