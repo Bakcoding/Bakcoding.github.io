@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-27
-last_modified_at: 2021-09-27
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -20,7 +20,7 @@ last_modified_at: 2021-09-27
 뜻처럼 데이터를 차곡 차곡 쌓는 느낌이다.  
 순차적으로 데이터를 저장하기 때문에 먼저 넣은것이 마지막에 나오고 마지막에 넣은것이 가장 먼저 나오는 후입선출 방식이다.  
 
-![stack](/assets/images/20210927_Posting/3.png) 
+![stack](/assets/images/posting/20210927/stack.png) 
 
 C++ 에서는 \<stack\> 헤더 파일을 추가하면 stack 함수를 사용할 수 있다. 
 

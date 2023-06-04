@@ -47,7 +47,7 @@ Window > AI > Navigation 으로 창을 연다.
 
 Bake 탭을 누르고 Bake를 눌러 맵을 구워준다.
 
-<img src="/assets/images/20211224_Posting/bakemap.png" title="eulerAngle" width="400px">
+<img src="/assets/images/posting/20211224/bakemap.png" title="bakemap" width="400px">
 
 구워진 맵을 보면 푸른색 장판이 깔려있다 자세히보면 지형지물 아래는 채워지지 않았는데 이 장판에 AI가 움직일 수 있는 경로를 계산할 결과이다.
 

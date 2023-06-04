@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-20 
-last_modified_at: 2021-10-20
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -25,7 +25,7 @@ last_modified_at: 2021-10-20
 
   생성된 오브젝트의 위치는 (0, 0, 0), 스케일은 (2, 1, 2)
 
-  ![1](/assets/images/20211020_Posting/1.png)
+  ![object_plane](/assets/images/posting/20211020/object_plane.png)
 
 
 * 머티리얼 만들기  
@@ -36,7 +36,7 @@ last_modified_at: 2021-10-20
 
   머티이얼의 albedo 값은 (0, 0 ,0)으로 변경, 플랜 오브젝트에 드래그앤드롭해서 머티리얼을 적용해준다.  
 
-  ![2](/assets/images/20211020_Posting/2.png)
+  ![object_plane_material](/assets/images/posting/20211020/object_plane_material.png)
 
 * 벽 만들기  
 
@@ -50,7 +50,7 @@ last_modified_at: 2021-10-20
   Wall (2) 위치 (10, 0.5, 0), 스케일 (1, 1, 20)
   wall (3) 위치 (-10, 0.5, 0), 스케일 (1, 1, 20)
 
-  ![3](/assets/images/20211020_Posting/3.png)  
+  ![object_plane_walls](/assets/images/posting/20211020/object_plane_walls.png)  
 
 * Level 게임 오브젝트 만들기  
 
@@ -62,7 +62,7 @@ last_modified_at: 2021-10-20
 
   바닥과 벽을 Level 오브젝트의 자식으로 만들어준다.  
 
-  ![4](/assets/images/20211020_Posting/4.png)   
+  ![object_struct](/assets/images/posting/20211020/object_struct.png)   
 
   하이어라키 창을 정리하기 위해 Level은 접어둔다.  
 
@@ -80,7 +80,7 @@ last_modified_at: 2021-10-20
 
   Main Camera 오브젝트의 Camera 컴포넌트에서 Clear Flags의 값을 Solid Color로 변경하고, Background의 컬러를 (36, 36, 36)으로 변경한다.  
 
-  ![5](/assets/images/20211020_Posting/5.png) 
+  ![background_change_color](/assets/images/posting/20211020/background_change_color.png) 
 
 
 <br/>
@@ -107,7 +107,7 @@ last_modified_at: 2021-10-20
 
   생성된 머티리얼 이름은 PlayerColor, albedo 컬러는 (0, 100, 164)로 변경해준 뒤 드래그앤드롭으로 적용시킨다.  
 
-  ![6](/assets/images/20211020_Posting/6.png)
+  ![object_player](/assets/images/posting/20211020/object_player.png)
 
 * 태그 할당  
 
@@ -123,7 +123,7 @@ last_modified_at: 2021-10-20
 
   리지드바디 컴포넌트에서 Constraints 필드를 펼치고 옵션을 바꾸어준다.  
 
-  ![7](/assets/images/20211020_Posting/7.png)
+  ![player_rigidbody](/assets/images/posting/20211020/player_rigidbody.png)
 
   플레이어의 Y축의 이동과 X, Z축의 회전을 제한한다.  
 
@@ -182,11 +182,11 @@ last_modified_at: 2021-10-20
   ```     
   Player를 드래그앤드롭으로 스크립트에 등록시켜준다.  
 
-  ![8](/assets/images/20211020_Posting/8.png)
+  ![player_controll_script](/assets/images/posting/20211020/player_controll_script.png)
 
   에디터창에서 게임을 실행시켜 움직이는지 테스트 해본다.  
 
-  ![1](/assets/images/20211020_Posting/1.gif)
+  ![player_move_test](/assets/images/posting/20211020/player_move_test.gif)
 
   AddForce를 통한 조작은 관성이 적용되어 움직임에 무게감이 느껴진다.  
 
@@ -226,7 +226,7 @@ last_modified_at: 2021-10-20
   }
   ```
 
-  ![2](/assets/images/20211020_Posting/2.gif)
+  ![player_move_test_2](/assets/images/posting/20211020/player_move_test_2.gif)
 
   방향전환이 바로 이어진다.  
 

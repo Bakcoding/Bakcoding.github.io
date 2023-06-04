@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-25 
-last_modified_at: 2021-09-25
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -86,7 +86,7 @@ public class UnityScript : MonoBehaviour
 기능들을 제대로 활용하기 위해서 반드시 숙지해야할 부분이다.  
 
 
-![lifecycle](/assets/images/20210925_Posting/1.png)  
+![unity_life_cycle](/assets/images/posting/20210925/unity_life_cycle.png)  
 
 
 ### 1.Editor  
@@ -103,7 +103,8 @@ public class UnityScript : MonoBehaviour
       public int number = 0;
   }
   ```
-![inspector1](/assets/images/20210925_Posting/2.png) 
+
+![unity_inspector](/assets/images/posting/20210925/unity_inspector.png) 
 
 변수가 처음 할당될 때 초기화가 한 번 진행되면서 인스펙터 창에 바로 반영이 된다. 하지만 이후에 초기화 값을 변경하더라도 인스펙터 창의 값은 변하지 않는데 스크립트의 reset으로 다시 초기화를 시킬 수 있다.  
   
@@ -114,7 +115,7 @@ public class UnityScript : MonoBehaviour
 public int number = 10;
 ```
 
-![inspector2](/assets/images/20210925_Posting/3.png) 
+![unity_inspector_reset](/assets/images/posting/20210925/unity_inspector_reset.png) 
 
 
 number의 값을 바꾸고 스크립트를 Reset 해주면 값이 다시 초기화 되면서 반영된다.  

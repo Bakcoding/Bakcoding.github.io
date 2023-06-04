@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-01
-last_modified_at: 2022-03-01
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -32,7 +32,7 @@ batching
 
 draw call
 
-![draw-call-flow](/assets/images/20220301_Posting/draw-call-flow.png)
+![draw-call-flow](/assets/images/posting/20220301/draw-call-flow.png)
 
 <br>
 

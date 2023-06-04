@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-22
-last_modified_at: 2022-03-22
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -30,7 +30,7 @@ Multiple Additive 예제는 하나의 Game씬을 서버에서 여러개 만들�
 
 ### MultiSceneNetManager
 
-![multiple](/assets/images/20220322_Posting/multiple.png)
+![multiple](/assets/images/posting/20220322/multiple.png)
 
 <br>
 

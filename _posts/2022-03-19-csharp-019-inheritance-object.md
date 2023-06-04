@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-19 
-last_modified_at: 2022-03-19
+last_modified_at: 2023-06-05
 ---
 
 ***
@@ -54,7 +54,7 @@ Object는 그 자체가 참조형(class) 임에도 값 형식의 부모이기도
 
 즉 값 형식은 System.ValueType으로 상속받은 모든 타입을 의미하고 참조 형식은 Object로부터 상속받은 타입 중 System.ValueType 하위 타입을 제외한 모든 타입을 의미한다.
 
-![object](/assets/images/20220319_Posting/object.png)
+![object](/assets/images/posting/20220319/object.png)
 
 <br>
 

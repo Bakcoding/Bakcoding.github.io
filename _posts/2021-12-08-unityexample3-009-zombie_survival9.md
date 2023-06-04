@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-08 
-last_modified_at: 2021-12-08
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -26,7 +26,7 @@ last_modified_at: 2021-12-08
 
 이벤트를 구현할 때는 이벤트와 이벤트에 관심이 있는 이벤트 리스너로 오브젝트를 구분한다.  
 
-![event](/assets/images/20211208_Posting/event.png)  
+![event](/assets/images/posting/20211208/event.png)  
 
 c#에서 이벤트를 구현하는 대표적인 방법은 델리게이트를 클래스 외부로 공개하는 것이다.  
 

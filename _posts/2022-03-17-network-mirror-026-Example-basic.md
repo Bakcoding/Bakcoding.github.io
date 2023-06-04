@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-17
-last_modified_at: 2022-03-17
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -32,7 +32,7 @@ Asset > Mirror > Example > Basic > Scenes > Example 씬을 열어준다.
 
 이 예제는 SyncVars그리고 Events와 함께 PlayerUI 프리팹으로 로컬 인스턴스화된 플레이어를 사용하여 플레이어 오브젝트에서 UI 오브젝트를 관리하는 방법을 보여 준다.
 
-![basic_play](/assets/images/20220317_Posting/basic-play.png)
+![basic_play](/assets/images/posting/20220317/basic-play.png)
 
 <br>
 
@@ -44,7 +44,7 @@ Asset > Mirror > Example > Basic > Scenes > Example 씬을 열어준다.
 
 #### NetworkManager
 
-![networkMng](/assets/images/20220317_Posting/NetworkManager.png)
+![networkMng](/assets/images/posting/20220317/NetworkManager.png)
 
 <br>
 
@@ -101,7 +101,7 @@ namespace Mirror.Examples.Basic
 
 #### Canvas
 
-![canvas](/assets/images/20220317_Posting/canvas.png)
+![canvas](/assets/images/posting/20220317/canvas.png)
 
 <br>
 
@@ -146,7 +146,7 @@ namespace Mirror.Examples.Basic
 
 #### PlayerUI
 
-![hierarchy](/assets/images/20220317_Posting/hierarchy.png)
+![hierarchy](/assets/images/posting/20220317/hierarchy.png)
 
 <br>
 

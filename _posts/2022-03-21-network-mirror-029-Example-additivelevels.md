@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-22
-last_modified_at: 2022-03-22
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -35,7 +35,7 @@ Offlin 씬은 시작화면이다. 네트워크 연결, 즉 호스트나 클라�
 
 Online 씬은 SubLevel1, SubLevel2 씬과 Additive를 통해서 동시에 그려지게 되며 Player 오브젝트가 생성되는 씬의 위치에 따라 Level이 변경된다.
 
-![online](/assets/images/20220322_Posting/onlinescene.png)
+![online](/assets/images/posting/20220321/onlinescene.png)
 
 <br>
 
@@ -43,7 +43,7 @@ Online 씬은 SubLevel1, SubLevel2 씬과 Additive를 통해서 동시에 그려
 
 Network 게임 오브젝트는 AdditiveLevelsNetworkManager 스크립트를 가지고 있다.
 
-![inspector](/assets/images/20220322_Posting/inspector.png)
+![inspector](/assets/images/posting/20220321/inspector.png)
 
 <br>
 

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-17
-last_modified_at: 2022-03-17
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -39,7 +39,7 @@ Mirror에서는 오브젝트의 계층 내에서 복수의 Network Identity 컴�
 
 아래의 이미지에서 카일은 빈 게임 오브젝트인 RightHand를 손목에 추가하고 몇 개의 프리팹(Ball, Box, Cylinder)을 장착하고 이를 처리하기 위한 플레이어 장비 스크립트를 가지고 있다. 
 
-![kyle](/assets/images/20220317_Posting/kyle.png)
+![kyle](/assets/images/posting/20220317/kyle.png)
 
 <br>
 
@@ -243,7 +243,7 @@ public class SceneObject : NetworkBehaviour
 
 아래의 런타임 이미지에서 Ball은 RightHand 오브젝트에 연결되고 Box는 SceneObject에 연결되며 이는 인스펙터에 표시된다.
 
-![runtime](/assets/images/20220317_Posting/runtime.png)
+![runtime](/assets/images/posting/20220317/runtime.png)
 
 <br>
 

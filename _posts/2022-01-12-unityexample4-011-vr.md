@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-01-12 
-last_modified_at: 2022-01-12
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -24,7 +24,7 @@ Unity version 2018.1.1f1
 테스트를 위해서 스마트폰과 VR 글라스 같은 케이스를 준비한다.  
 
 <br>
-<img src="../assets/images/20220112_Posting/vr.png" title="vr" width="400px">
+<img src="../assets/images/posting/20220112/vr.png" title="vr" width="400px">
 <br>
 
 이렇게 스마트폰으로 VR 게임을 플레이한다면 공격을 입력할 수 있어야한다. 
@@ -114,5 +114,5 @@ ctrl + 마우스 : 롤
 Window > AI > Navigation > Bake 탭에서 Bake 실행
 
 <br>
-<img src="/assets/images/20220112_Posting/play2.gif" title="play" width="400px">
+<img src="../assets/images/posting/20220112/play2.gif" title="play" width="400px">
 <br>

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-11-07 
-last_modified_at: 2021-11-07
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -42,7 +42,7 @@ css가 뛰어난 언어임에도 모든 면에서 장점만 가질 수 없다. �
 
 <a href="https://stylus-lang.com/try.html#?code=body%20%7B%0A%20%20font%3A%2014px%2F1.5%20Helvetica%2C%20arial%2C%20sans-serif%3B%0A%20%20%23logo%20%7B%0A%20%20%20%20border-radius%3A%205px%3B%0A%20%20%7D%0A%7D">Try Stylus Online</a><br>
 
-<img src="/assets/images/20211107_Posting/try_stylus_onlline.png" alt="try_stylus_onlline" width="400"><br>  
+<img src="/assets/images/posting/20211107/try_stylus_onlline.png" alt="try_stylus_onlline" width="400"><br>  
 
 기본 동작 방식은 stylus로 작성된 코드를 css로 변환하여 사용하면 웹 브라우저는 stylus의 문법을 몰라도 css로 동작을 수행하게 된다.  
 
@@ -140,9 +140,7 @@ pp.styl 파일을 수정하면 페이지에 반영된다.
 
 nodejs의 설치가 선행되어야한다.  
 
-npm으로 stylus를 설치하여 사용해본다.  
-
-<img src="/assets/images/20211107_Posting/stylus_nodejs.png" alt="stylus_nodejs" width="300"><br>  
+npm으로 stylus를 설치하여 사용한다.  
 
 ```
  npm install stylus -g

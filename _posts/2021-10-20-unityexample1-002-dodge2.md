@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-20 
-last_modified_at: 2021-10-20
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -41,7 +41,7 @@ last_modified_at: 2021-10-20
 
   총알의 경우 충돌 여부만 확인하면 되기 때문에 콜라이더 컴포넌트 설정 중에 Is Trigger에 체크를 해준다.  
 
-  ![9](/assets/images/20211020_Posting/9.png)
+  ![set_collider](/assets/images/posting/20211020/set_collider.png)
 
 * Bullet 프리팹 만들기  
 
@@ -168,5 +168,5 @@ last_modified_at: 2021-10-20
   BulletSpawner (2) 위치 (0, 1, 8)
   BulletSpawner (3) 위치 (0, 1, -8)
 
-  ![3](/assets/images/20211020_Posting/3.gif)  
+  ![bullet_test](/assets/images/posting/20211020/bullet_test.gif)  
   

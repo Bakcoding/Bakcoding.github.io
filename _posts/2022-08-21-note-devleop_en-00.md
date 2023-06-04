@@ -3,7 +3,7 @@ title:  "[Udemy 강의] 개발자 영어 #Intro"
 excerpt: "udemy, developer, english"
 
 categories:
-  - Note
+  - Blog-Memo
 tags:
   - [udemy, developer, english]
 
@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-08-21 
-last_modified_at: 2022-08-21
+last_modified_at: 2023-06-05
 ---
 
 ***

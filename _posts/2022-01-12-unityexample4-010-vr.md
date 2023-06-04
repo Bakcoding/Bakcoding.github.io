@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-01-12 
-last_modified_at: 2022-01-12
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -29,7 +29,7 @@ Unity version 2018.1.1f1
 
 * Text 오브젝트 설정
 
-  <img src="/assets/images/20220112_Posting/gameoverui.png" title="gameover" width="400px">
+  <img src="../assets/images/posting/20220112/gameoverui.png" title="gameover" width="400px">
 
   Pos : 0, 95, 0
   

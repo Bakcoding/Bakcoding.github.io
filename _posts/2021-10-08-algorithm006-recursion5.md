@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-08 
-last_modified_at: 2021-10-08
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -22,7 +22,7 @@ binary 이미지에서 각 픽셀이 background pixel 또는 image pixel 일 때
 
 상하좌우 및 대각방향으로 인접한 경우에 픽셀은 연결된 것으로 간주한다.  
 
-![binary_image](/assets/images/20211008_Posting/1.png)
+![blob_count](/assets/images/posting/20211008/blob_count.png)
 
 블랍 셀 개수 세기 문제는 이미지상에 임의의 한 점의 좌표가 주어졌을 위치에 포함된 블랍의 크기를 세는 것이다.  
 

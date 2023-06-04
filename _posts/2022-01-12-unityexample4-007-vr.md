@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-01-12 
-last_modified_at: 2022-01-12
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -36,7 +36,7 @@ Unity version 2018.1.1f1
 Assets > Create > Folder 폴더명 Prefabs
 
 <br>
-<img src="/assets/images/20220112_Posting/prefabs.png" title="prefabs" width="300px">
+<img src="../assets/images/posting/20220112/prefabs.png" title="prefabs" width="300px">
 <br>
 
 
@@ -61,7 +61,7 @@ Hierachy > Create Empty 오브젝트의 이름은 DroneSpawner로 한다.
     빈 오브젝트는 씬에서 위치를 파악하기 어렵기 때문에 아이콘을 지정한다.  
 
     <br>
-    <img src="/assets/images/20220112_Posting/object-icon.png" title="object-icon" width="300px">
+    <img src="../assets/images/posting/20220112/object-icon.png" title="object-icon" width="300px">
     <br>
 
 

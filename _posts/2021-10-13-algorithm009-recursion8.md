@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-13 
-last_modified_at: 2021-10-13
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -40,7 +40,7 @@ last_modified_at: 2021-10-13
 
 찾는 값이나 교환 위치는 원하는 정렬 방식에 따라 정하면된다. 가장 작은 값을 맨앞과 교환하는 방식은 오름차순이고 반대의 경우는 내림차순이 된다.
 
-![selsort](/assets/images/20211013_Posting/1.png)
+![selsort](/assets/images/posting/20211013/select_sort.png)
 
 수도코드
 ```java
@@ -63,7 +63,7 @@ $$ O(n^2) 이다. $$
 **버블정렬(bubble sort)**  
 첫번째 값을 그 다음 값과 비교해서 더 크면 자리를 바꾸는 동작을 반복한다. 결과는 마지막에 가장 큰 값이 배치되고 그 값은 고정시킨후 다시 처음으로 돌아가서 이 동작을 반복하면 오름차순으로 정렬이된다.  
 
-![bubsort](/assets/images/20211013_Posting/2.png)
+![bubble_sort](/assets/images/posting/20211013/bubble_sort.png)
 
 수도코드  
 ```java
@@ -84,7 +84,7 @@ bubbleSort(A[], n)
 
 기준 값은 임시변수에 저장하여 앞의 값이 뒤로 밀릴 때 지워지지 않게 한다. 
 
-![insort](/assets/images/20211013_Posting/3.png)
+![insert_sort](/assets/images/posting/20211013/insert_sort.png)
 
 수도코드  
 ```java
@@ -107,7 +107,7 @@ insertionSort(A[], n)
 
 **합병정렬(merge sort)**  
 
-![merge](/assets/images/20211013_Posting/4.png)  
+![merge_sort](/assets/images/posting/20211013/merge_sort.png)  
 
 * 데이터가 저장된 배열을 절반으로 나눈다. 
 * 각각을 순환적으로 정렬한다.  
@@ -162,7 +162,7 @@ void merge( int datap[], int p, int q, int r) {
 병합정렬의 실행속도 T(n)은 n이 1일 때 0 이다. 그 이외의 경우는 
 전체를 반으로 나눈 다음 정렬하는 T([n/2\]) + T([n/2\])과 다시 병합하는 n의 합이다.
 
-![merge](/assets/images/20211013_Posting/5.png)
+![merge_sort_time](/assets/images/posting/20211013/merge_sort_time.png)
 
 $$ T(n) = T([n/2]) + T([n/2]) + n = 2*T( \frac{n}{2} ) + n $$
 
@@ -175,7 +175,7 @@ $$ O(nlogn) 이 된다 $$
 
 따라서 정복을 거치면 데이터는 정렬이 완료되므로 추가로 합병과정이 필요가 없다.
 
-![quick](/assets/images/20211013_Posting/6.png)  
+![quick_sort](/assets/images/posting/20211013/quick_sort.png)  
 
 대략적인 코드의 흐름을 다음 처럼 잡는다.
 
@@ -201,7 +201,7 @@ partition(A[], p, r)
 
 여기서 partition 함수의 역할이 가장 중요하다. 어떻게 기능을 만들지 자세히 살펴보면 
 
-![quick](/assets/images/20211013_Posting/7.png)  
+![pivot_partition](/assets/images/posting/20211013/pivot_partition.png)  
 
 x는 pivot으로 pivot을 기준으로 데이터를 비교해서 pivot보다 작은 값과 큰 값으로 구분하고 그 지점을 i로 구분한다.
 
@@ -221,8 +221,8 @@ pivot을 매번 움직이는것은 비효율적이기 때문에 우선 고정시
 
 그리고 pivot의 위치를 pivot보다 작은 값의 마지막 pivot 보다 큰 값의 첫번째로 옮겨준다.
 
-![quick](/assets/images/20211013_Posting/8.png)  
-![quick](/assets/images/20211013_Posting/9.png)  
+![quick_sort_pivot_1](/assets/images/posting/20211013/quick_sort_pivot_1.png)  
+![quick_sort_pivot_2](/assets/images/posting/20211013/quick_sort_pivot_2.png)  
 
 수도코드
 

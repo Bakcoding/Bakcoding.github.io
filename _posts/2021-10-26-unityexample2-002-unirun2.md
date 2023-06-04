@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-26 
-last_modified_at: 2021-10-26
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -115,7 +115,7 @@ public class ScrollingObject : MonoBehaviour {
 
   배경을 두개 이어붙여서 무한히 반복되게 한다.  
 
-  ![scroll](/assets/images/20211026_Posting/4.gif)
+  ![scroll_map](/assets/images/posting/20211026/scroll_map.gif)
 
 
 **오브젝트 정리**  

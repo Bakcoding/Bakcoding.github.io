@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-25 
-last_modified_at: 2021-12-25
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -60,7 +60,7 @@ solution 함수의 매개변수로 다리에 올라갈 수 있는 트럭 수 bri
 하지만 문제를 보면 트럭의 동작 방식이 고정되어있어 굳이 컨테이너를 순회하며 값을 증가시키면서 확인하는 방식이 필요없다고 생각했다.
 
 <br>
-<img src="/assets/images/20211227_Posting/pattern1.png" title="pattern1" width="300px">
+<img src="/assets/images/posting/20211225/pattern1.png" title="pattern1" width="300px">
 <br>
 
 * 모든 트럭은 1초마다 1만큼 이동하며 다리를 건너는데 걸리는 시간은 다리의 길이만큼이다. 
@@ -70,7 +70,7 @@ solution 함수의 매개변수로 다리에 올라갈 수 있는 트럭 수 bri
 * 다음 트럭과 현재 다리위의 트럭 무게의 합이 다리 하중을 넘지 않으면 바로 이어서 출발이 가능한 상태가 되고 이러한 상태는 1만큼의 추가 시간만 필요하다.  
 
 <br>
-<img src="/assets/images/20211227_Posting/pattern2.png" title="pattern2" width="300px">
+<img src="/assets/images/posting/20211227/pattern2.png" title="pattern2" width="300px">
 <br>
 
 * 차량을 하나씩 보내면서 들어오는 차량에 대한 시간계산이 필요하다.
@@ -204,7 +204,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
 ```
 
 <br>
-<img src="/assets/images/20211227_Posting/result.png" title="result" width="300px">
+<img src="/assets/images/posting/20211227/result.png" title="result" width="300px">
 <br>
 
 생각했던 방식에 고려할 부분이 더 있었던거 같다. 뭔가 한 부분만 해결하면 될거같은데 오히려 계속 붙잡고 있다보니 더 꼬이게 되어 그냥 시간을 증가시키는 방식을 사용했다. 

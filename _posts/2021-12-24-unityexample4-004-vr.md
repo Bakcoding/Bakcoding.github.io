@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-24 
-last_modified_at: 2021-12-24
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -29,7 +29,7 @@ Workshop > Scripts > CamRotate 스크립트를 메인 카메라 오브젝트에 
 
 물체의 회전은 각 축을 기준으로 회전하게 되며 이 때 x, y, z 세 축을 기준으로 회전하는것을 오일러 각이라고 한다.  
 
-<img src="/assets/images/20211224_Posting/eulerAngle.png" title="eulerAngle" width="400px">
+<img src="/assets/images/posting/20211224/eulerAngle.png" title="eulerAngle" width="400px">
 
 * X 축 기준 회전 : Pitch
 

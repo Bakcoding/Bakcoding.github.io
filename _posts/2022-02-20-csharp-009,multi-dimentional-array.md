@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-20 
-last_modified_at: 2022-02-20
+last_modified_at: 2023-06-05
 ---
 
 ### 다차원 배열
@@ -44,7 +44,7 @@ int [,,] array = new int [5, 3, 2];
 
 첫번째 숫자가 행, 두번째 숫자가 열의 수를 나타낸다. 
 
-![2darray](/assets/images/20220220_Posting/2darray.jpg)
+![2darray](/assets/images/posting/20220220/2darray.jpg)
 
 <br>
 
@@ -56,7 +56,7 @@ int [,,] array = new int [5, 3, 2];
 
 **3차원**
 
-![3darray](/assets/images/20220220_Posting/3darray.jpg)
+![3darray](/assets/images/posting/20220220/3darray.jpg)
 
 마지막 숫자가 행, 두번째 숫자가 열의 수를 나타내고 그렇게 만들어진 2차원 배열이 첫번째 수 만큼 만들어진다. 따라서 이미지상 입체적인 구조처럼 보이게 된다. 
 

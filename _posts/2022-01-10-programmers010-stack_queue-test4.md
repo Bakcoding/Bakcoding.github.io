@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-01-10
-last_modified_at: 2022-01-10
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -71,7 +71,7 @@ vector<int> solution(vector<int> prices) {
 ```
 
 <br>
-<img src="/assets/images/20220110_Posting/result1.png" title="result1" width="300px">
+<img src="/assets/images/posting/20220110/result1.png" title="result1" width="300px">
 <br>
 
 테스트는 통과했지만 스택이나 큐를 사용하지 않았고 아무래 이번 테스트에서 효율성 테스트가 있기 때문에 비용이 좋지않은 이중 반복문을 사용하지 않는 방법이 필요하다.  
@@ -135,7 +135,7 @@ vector<int> solution(vector<int> prices) {
 그리고 스택에는 값의 변동이 없던 인덱스만 남게되고 그 값들은 해당 인덱스부터 끝까지 진행되는데 걸리는 시간이다.
 
 <br>
-<img src="/assets/images/20220110_Posting/result2.png" title="result2" width="300px">
+<img src="/assets/images/posting/20220110/result2.png" title="result2" width="300px">
 <br>
 
 for문을 통해 전체를 조회면서 검사하는 방법보다. 더 빠르다는걸 확인할 수 있다.

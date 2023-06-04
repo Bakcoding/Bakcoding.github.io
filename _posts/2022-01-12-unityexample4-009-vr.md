@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-01-12 
-last_modified_at: 2022-01-12
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -63,5 +63,5 @@ Drone 오브젝트 > Sphere Coliider를 추가한다.
 ```
 
 <br>
-<img src="/assets/images/20220112_Posting/play.gif" title="play" width="400px">
+<img src="../assets/images/posting/20220112/play.gif" title="play" width="400px">
 <br>

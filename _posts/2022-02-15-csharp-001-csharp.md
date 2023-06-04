@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-15 
-last_modified_at: 2022-02-15
+last_modified_at: 2023-06-05
 ---  
 
 ### 닷넷 프레임워크
@@ -110,6 +110,4 @@ C#은 내부적으로 실행되는 CLR을 작동시키는 중간 언어(IL, inte
 
 즉 모든 닷넷 호환 언어는 CLS에 정의한 사양만큼은 구현해야하며 서로 호출해야 하는 경우에는 그 기능에 한해서 CLS를 만족시킬 수 있어야한다. 
 
-
-![cts,cls](/assets/images/20220215_Posting/cts,cls.png)<br>
-
+![cts,cls](/assets/images/posting/20220215/cts,cls.png)<br>

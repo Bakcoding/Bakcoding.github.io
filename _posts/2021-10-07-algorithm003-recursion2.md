@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-07 
-last_modified_at: 2021-10-07
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -27,7 +27,7 @@ last_modified_at: 2021-10-07
 **규칙 찾기**  
 문자열의 총 길이는 첫 번째 문자열을 제외한 나머지 문자열에 +1 한 것과 같다.  
 
-![string](/assets/images/20211007_Posting/1.png)
+![string_struct](/assets/images/posting/20211007/string_struct.png)
 
 이 규칙은 문자열을 하나씩 줄여가면서 0이 될 때 까지 반복해서 적용이 가능하다.  
 
@@ -86,7 +86,7 @@ public static int length(String str) {
 
 10진수를 2진수로 변환하려면 몫이 1이 될 때까지 2로 나누어준 후 나머지를 써주면 된다.  
 
-![binary](/assets/images/20211007_Posting/2.png)  
+![binary](/assets/images/posting/20211007/binary.png)  
 
 이를 코드로 표현한다.  
 

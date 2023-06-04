@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-07 
-last_modified_at: 2021-09-07
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -25,7 +25,7 @@ last_modified_at: 2021-09-07
 
 배열에서 인덱스가 메모리의 주소를 가리킨다면 해시는 해시 테이블의 주소를 나타내는 것으로 볼 수 있다.  
 
-![hash](/assets/images/20210907_Posting/1.png)
+![hash](/assets/images/posting/20210907/hash_func.png)
 
 <br/>
 

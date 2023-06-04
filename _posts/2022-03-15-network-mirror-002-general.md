@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-15
-last_modified_at: 2022-03-15
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -24,7 +24,7 @@ Mirror는 유니티에서 멀티플레이어 게임의 개발을 위한 시스�
 
 transport layer는 모든 종류의 네트워크 topolgy를 지원하지만 Mirror는 서버 인증 시스템이다. 단 참가자 중 한 명이 클라이언트와 서버를 동시에 사용할 수 있기 때문에 전용 서버 프로세스가 필요하지 않는다. 인터넷 서비스와 연계하여 멀티플레이어 게임을 개발자의 작업 없이 인터넷을 통해 즐길 수 있다.
 
-![layer](/assets/images/20220315_Posting/HLAPI.png)
+![layer](/assets/images/posting/20220315/HLAPI.png)
 
 <br>
 

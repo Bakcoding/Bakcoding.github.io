@@ -35,7 +35,7 @@ Max Heap 구조를 유지하면서 새로운 값을 삽입하기 위해서는 �
 
 * 삽입한 값이 heap property를 깨지 않게 위치 교환이 필요하다.  
 
-![insert](/assets/images/20211015_Posting/1.png) 
+![insert](/assets/images/posting/20211015/priority_queue_insert.png) 
 
 수도 코드
 ```java
@@ -73,7 +73,7 @@ max heap 이기 때문에 최대값은 항상 루트에 위치하기 때문에 �
 
 * heap property 깨지않게 데이터 위치 조정
 
-![extract](/assets/images/20211015_Posting/2.png) 
+![priority_queue_extract](/assets/images/posting/20211015/priority_queue_extract.png) 
 
 수도 코드
 

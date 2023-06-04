@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-09 
-last_modified_at: 2021-10-09
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -111,7 +111,7 @@ data[k\], ... , data[n-1\]의 멱집합을 구한 후 각각에 include[i\] = tr
 **상태공간트리**  
 이 문제도 상태공간트리를 사용해서 모든 경우의 수를 구조화 시킨 다음 탐색을 통하여 답을 구하는 방법이 가능하다.  
 
-![tree](/assets/images/20211009_Posting/1.png)
+![state_space_tree](/assets/images/posting/20211009/state_space_tree.png)
 
 ```java
 private static char data[] = {'a', 'b', 'c', 'd', 'e',};

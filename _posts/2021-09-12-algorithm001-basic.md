@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-13 
-last_modified_at: 2021-09-13
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -43,7 +43,7 @@ last_modified_at: 2021-09-13
 
 **자원 사용량**
 
-![dailytable](/assets/images/20210913_Posting/1.png)  
+![dailytable](/assets/images/posting/20210913/iterator_path.png)  
 
 목적지를 모두 순회하는 경로를 짠다고 할 때 최종 목적지에 도달하는 과정에서 어떻게 경로를 순회하는게 효율적인지가 중요하다.  
 
@@ -93,7 +93,7 @@ f(n) = 2n<sup>2</sup> + 2n + 1 -> n<sup>2</sup>
 ### 빅 오 표기법(Big-O notation)
 함수 f(n)과 g(n)이 모든 n ≥ n<sub>0</sub> 에서 f(n) ≤ c·g(n) 조건을 만족시키는 양의 상수 c > 0 와 양의 정수 n<sub>0</sub>  ≥ 0 이 존재한다면 f(n) ∈ O(g(n)) 또는 f(n) = O(g(n))로 쓸 수 있다.  
 
-![f(n)](/assets/images/20210913_Posting/2.png) 
+![f(n)](/assets/images/posting/20210913/f(n).png) 
 
 그래프를 보면 n<sub>0</sub> 를 기점으로 알고리즘의 복잡도인 f(n)은 n이 아무리 커져도 즉, 최악의 경우에도 c·g(n)의 실행 속도 보다 길어지는 길어지는 경우가 없으므로 c·g(n)은 f(n)의 점근적 상한이 된다.  
 
@@ -101,7 +101,7 @@ f(n) = 2n<sup>2</sup> + 2n + 1 -> n<sup>2</sup>
 이 처럼 빅 오 표기법에서는 복잡도의 증가 속도에 따라서 7가지 함수들을 사용한다.  
 
 
-![O(n)](/assets/images/20210913_Posting/3.jpg)  
+![O(n)](/assets/images/posting/20210913/O(n).jpg)  
 
 
 
@@ -300,7 +300,7 @@ f(n) = 2n<sup>2</sup> + 2n + 1 -> n<sup>2</sup>
 
 따라서 가장 빠른 경우 즉, 최상의 경우일 때 유요한 정보를 얻을 수 있다.    
 
-![bigomege](/assets/images/20210913_Posting/4.png)
+![bigomege](/assets/images/posting/20210913/bigomege.png)
 
 <br/>
 
@@ -309,7 +309,7 @@ f(n) = 2n<sup>2</sup> + 2n + 1 -> n<sup>2</sup>
 
 빅 오와 빅 오메가의 공통부분이다. 최상과 최악의 중간인 평균적인 복잡도를 뜻한다.  
 
-![bigtheta](/assets/images/20210913_Posting/5.png)  
+![bigtheta](/assets/images/posting/20210913/bigtheta.png)  
 
 <br/>
 

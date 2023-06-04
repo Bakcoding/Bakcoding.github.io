@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-18
-last_modified_at: 2022-03-18
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -40,7 +40,7 @@ Asset > Mirror > Example > Tanks > Scenes > Scene
 
 체력바 UI는 Text Mesh를 사용하고 FaceCamera 스크립트로 항상 카메라를 바라보도록 만들어졌다.
 
-![play](/assets/images/20220318_Posting/gameplay.png)
+![play](/assets/images/posting/20220318/gameplay.png)
 
 ```cs
 // FaceCamera.cs
@@ -64,7 +64,7 @@ namespace Mirror.Examples.Tanks
 
 ### NetworkManager
 
-![networkmanager](/assets/images/20220318_Posting/networkmanager.png)
+![networkmanager](/assets/images/posting/20220318/networkmanager.png)
 
 따로 상속해서 사용하지 않고 Mirror의 NetworkManager 그대로 사용한다.
 
@@ -72,7 +72,7 @@ Player Prefab에 플레이어의 프리팹을 등록하고 Registered Spawnable 
 
 #### Tank Prefab
 
-![tank](/assets/images/20220318_Posting/tank-prefab.png)
+![tank](/assets/images/posting/20220318/tank-prefab.png)
 
 *   Network Identity 
 
@@ -84,7 +84,7 @@ Player Prefab에 플레이어의 프리팹을 등록하고 Registered Spawnable 
 
     마우스를 회전하면 탱크의 상단부분이 움직이게 되는데 이 부위의 Transform의 변화도 동기화를 해주기 위해서 필요한 컴포넌트이다.
 
-    ![turret](/assets/images/20220318_Posting/turret.png)
+    ![turret](/assets/images/posting/20220318/turret.png)
 
     컴포넌트의 Target 필드에 해당 부위를 등록하면 값을 업데이트 한다.
 
@@ -245,7 +245,7 @@ Tank의 발사 애니메이션은 클라이언트에서 호출되도록 ClientRp
 
 #### Projectile Prefab
 
-![projectile](/assets/images/20220318_Posting/projectile.png)
+![projectile](/assets/images/posting/20220318/projectile.png)
 
 <br>
 

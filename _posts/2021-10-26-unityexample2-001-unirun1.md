@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-26 
-last_modified_at: 2021-10-26
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -40,7 +40,7 @@ ctrl+s를 눌러서 main이라는 이름의 새로운 씬을 생성한다.
 
 * 플레이어가 서있기 위해서 콜라이더를 추가해준다. 스프라이트이기 때문에 2D Collider를 선택한다.  
 
-  ![platform](/assets/images/20211026_Posting/1.png)
+  ![object_platform](/assets/images/posting/20211026/object_platform.png)
 
 **데드존**
 
@@ -64,7 +64,7 @@ ctrl+s를 눌러서 main이라는 이름의 새로운 씬을 생성한다.
 
   Slice > Type 을 Grid By Cell Size로 변경( X : 64, Y : 64 ) Slice를 해준다음 Apply를 누르면 스프라이트가 동작별로 구분되어 잘라진다.  
 
-  ![run](/assets/images/20211026_Posting/2.png)
+  ![player_running_atals](/assets/images/posting/20211026/player_running_atals.png)
 
 **플레이어 오브젝트**  
 
@@ -107,9 +107,9 @@ Toko_Run 스프라이트를 펼치고 모두 선택한 다음 애니메이션 �
 
 samples의 60을 16으로 변경해서 프레임 재생 속도를 조절한다.  
 
-![60](/assets/images/20211026_Posting/1.gif)
+![player_running_animation_60fps](/assets/images/posting/20211026/player_running_animation_60fps.gif)
 
-![16](/assets/images/20211026_Posting/2.gif)
+![player_running_animation_16fps](/assets/images/posting/20211026/player_running_animation_16fps.gif)
 
 같은 방법으로 Jump와 Die도 수정한다. (Samples : 6)
 
@@ -119,7 +119,7 @@ Die의 경우 애니메이션이 반복해서 재생될 필요가 없기 때문�
 
 Window > Animation > Animator  
 
-![animator](/assets/images/20211026_Posting/3.png)
+![player_animator](/assets/images/posting/20211026/player_animator.png)
 
 사진처럼 전이를 이어준 다음 Parameter를 통해서 애니메이션이 넘어갈 조건을 설정한다.  
 
@@ -282,6 +282,7 @@ isGrounded = false;
 
 컴포넌트를 설정한다.  
 
+![player_death_animation](/assets/images/posting/20211026/player_death_animation.gif)
+
 Player 오브젝트에서 PlayerController 컴포넌트의 DeathClip에 Die 추가
 
-![play](/assets/images/20211026_Posting/3.gif)

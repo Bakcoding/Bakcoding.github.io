@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-11-08 
-last_modified_at: 2021-11-08
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -36,7 +36,7 @@ NodeJS를 사용해서 설치하여 사용하는 방법과 압축 파일을 다�
 
 **NodeJS**  
 
-<img src="/assets/images/20211108_Posting/semantic_install.png" alt="semantic_install" width="400">
+<img src="/assets/images/posting/20211108/semantic_install.png" alt="semantic_install" width="400">
 
 * gulp 설치  
 
@@ -56,7 +56,7 @@ NodeJS를 사용해서 설치하여 사용하는 방법과 압축 파일을 다�
 
   프로젝트 폴더로 이동해서 npm을 사용해 semantic-ui를 설치한다.  
 
-  <img src="/assets/images/20211108_Posting/gulp_choice.png" alt="gulp_choice" width="400"><br>
+  <img src="/assets/images/posting/20211108/gulp_choice.png" alt="gulp_choice" width="400"><br>
 
   gulp를 사용하여 설치가 진행되며 도중에 몇가지 옵션을 설정해주면 된다.  
   
@@ -64,7 +64,7 @@ NodeJS를 사용해서 설치하여 사용하는 방법과 압축 파일을 다�
 
 **압축 파일 다운로드**  
 
-<img src="/assets/images/20211108_Posting/compress_install.png" alt="compress_install" width="400"><br>  
+<img src="/assets/images/posting/20211108/compress_install.png" alt="compress_install" width="400"><br>  
 
 다운 받은 압축파일을 해제하여 프로젝트 폴더에 위치시킨다.  
 
@@ -104,11 +104,11 @@ html 파일을 브라우저를 열고 개발자 툴을 사용하여 확인해 �
 
 크롬의 경우  
 
-<img src="/assets/images/20211108_Posting/check_files.png" alt="check_files" width="400"><br>
+<img src="/assets/images/posting/20211108/check_files.png" alt="check_files" width="400"><br>
 
 이제 카테고리에서 원하는 ui를 선택하면 디자인과 그것을 만들 수 있는 소스 코드를 얻을 수 있다. 
 
-<img src="/assets/images/20211108_Posting/button_example.png" alt="button_example" width="300"><br>
+<img src="/assets/images/posting/20211108/button_example.png" alt="button_example" width="300"><br>
 
 ```html
 <!doctype html>

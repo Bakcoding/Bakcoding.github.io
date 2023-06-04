@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-16
-last_modified_at: 2022-03-16
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -28,7 +28,7 @@ RPC에는 2종류가 있다.
 
 * 서버에서 호출되어 클라이언트에서 실행되는 ClientRpc
 
-![RPC](/assets/images/20220316_Posting/RPC.png)
+![RPC](/assets/images/posting/20220316/RPC.png)
 
 <br>
 

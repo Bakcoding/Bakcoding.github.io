@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-11-01 
-last_modified_at: 2021-11-01
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -20,7 +20,7 @@ last_modified_at: 2021-11-01
 
 <a href="https://flukeout.github.io/">flukeout</a><br>
 
-<img src="/assets/images/20211101_Posting/selector_game.png" alt="selector_game"><br>
+![selector_game](/assets/images/posting/20211101/selector_game.png)
 
 이미지 영역을 보면 움직이는 이미지가 있다. 마우스를 올려보면 해당하는 이름이 뜨며 이름은 태그나 id 등 선택자를 나타낸다.  
 
@@ -34,4 +34,4 @@ last_modified_at: 2021-11-01
 
 해석하면 컨닝페이퍼이다. 구글에서 css cheatsheet selector를 이미지 탭으로 검색하면 수 많은 이미지들이 나오는데 거기서 마음에 드는걸 골라서 저장해두고 필요할 때마다 찾아서 볼 수 있는 자료로 활용한다.  
 
-<img src="/assets/images/20211101_Posting/cheat_sheet.png" alt="cheat_sheet">
+![selector_game](/assets/images/posting/20211101/cheat_sheet.png)

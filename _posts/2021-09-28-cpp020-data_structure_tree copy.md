@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-30
-last_modified_at: 2021-09-30
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -49,7 +49,7 @@ last_modified_at: 2021-09-30
 * 깊이(depth)  
 	트리에서 노드가 가질 수 있는 최대 level
 
-	![tree](/assets/images/20210930_Posting/1.png)
+	![tree](/assets/images/posting/20210930/tree.png)
 
 <br/>
 
@@ -206,7 +206,7 @@ Node* Remove(Node* _node, int _data)
 
 * 전위 순회(preorder traversal)  
 
-	![preorder](/assets/images/20210930_Posting/2.png)
+	![preorder](/assets/images/posting/20210930/preorder.png)
 
 	뿌리 > 왼쪽 자식 > 오른쪽 자식 순서대로 순회한다.  
 	
@@ -216,7 +216,7 @@ Node* Remove(Node* _node, int _data)
 
 * 중위 순회(inorder traversal)  
 
-	![inorder](/assets/images/20210930_Posting/3.png)
+	![inorder](/assets/images/posting/20210930/inorder.png)
 
 	왼쪽 자식 > 뿌리 > 오른쪽 자식 순서로 순회한다.  
 
@@ -226,7 +226,7 @@ Node* Remove(Node* _node, int _data)
 
 * 후위 순회(postorder traversal)
 
-	![inorder](/assets/images/20210930_Posting/4.png)
+	![postorder](/assets/images/posting/20210930/postorder.png)
 
 	왼쪽 자식 > 오른쪽 자식 > 뿌리 순서로 순회한다.  
 

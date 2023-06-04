@@ -3,7 +3,7 @@ title:  "비주얼스튜디오 XML 주석"
 excerpt: "vs, xml, tags, summary"
 
 categories:
-  - Note
+  - Blog-Memo
 tags:
   - [vs, xml, tags, summary]
 
@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-04-07 
-last_modified_at: 2022-04-07
+last_modified_at: 2023-06-05
 ---
 
 ***
@@ -45,7 +45,7 @@ last_modified_at: 2022-04-07
 	string name = "";
   ```
 
-  ![summary](/assets/images/20220407_Posting/summary.png)
+  ![summary](/assets/images/posting/20220407/summary.png)
   <br>
 
 * prama
@@ -65,7 +65,7 @@ last_modified_at: 2022-04-07
 	}
   ```
 
-  ![param](/assets/images/20220407_Posting/param.png)
+  ![param](/assets/images/posting/20220407/param.png)
   <br>
 
 * remarks
@@ -85,8 +85,7 @@ last_modified_at: 2022-04-07
 	}
   ```
 
-  ![returns](/assets/images/20220407_Posting/returns.png)
+  ![returns](/assets/images/posting/20220407/returns.png)
   <br>
-
 
 <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags#remarks">태그 더 보기</a>

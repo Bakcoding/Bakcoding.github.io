@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-26 
-last_modified_at: 2021-10-26
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -194,4 +194,4 @@ public void OnPlayerDead() {
   Score Text = Score Text 오브젝트  
   Gameover UI = GameManager Text 오브젝트  
 
-  ![play](/assets/images/20211026_Posting/5.gif)
+  ![play_score_ui](/assets/images/posting/20211026/play_score_ui.gif)

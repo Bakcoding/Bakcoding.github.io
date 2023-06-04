@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-23
-last_modified_at: 2022-03-23
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -49,7 +49,7 @@ last_modified_at: 2022-03-23
 
 NetworkRoomManager 오브젝트에 있는 NetworkRoomManagerExt 스크립트로 기본적으로 네트워크가 만들어진다.
 
-![room](/assets/images/20220323_Posting/room.png)
+![room](/assets/images/posting/20220323/room.png)
 
 <br>
 

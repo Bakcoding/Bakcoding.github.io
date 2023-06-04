@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-23
-last_modified_at: 2022-03-23
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -34,7 +34,7 @@ OS에게 송신을 의뢰하고 OS는 브라우저가 해독한 URL 중 도메�
 
 이 과정을 조금 더 자세히 보면 다음과 같이 이루어진다.
 
-![send](/assets/images/20220323_Posting/send.png)
+![send](/assets/images/posting/20220323/send.png)
 
 <br>
 

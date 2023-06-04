@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-26 
-last_modified_at: 2021-10-26
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -209,5 +209,5 @@ Assets > Audio 폴더에 music 파일을 하이어라키 창으로 드래그앤�
 
 반복해서 재생될 수 있도록 Audio Source 컴포넌트의 Loop 옵션을 체크해준다.  
 
-![run](/assets/images/20211026_Posting/6.gif)
+![play](/assets/images/posting/20211026/play.gif)
 

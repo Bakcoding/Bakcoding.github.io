@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-19 
-last_modified_at: 2022-03-19
+last_modified_at: 2023-06-05
 ---
 
 ***
@@ -72,7 +72,7 @@ casting
 
 **자료형의 관계**
 
-![casting](/assets/images/20220319_Posting/casting.png)
+![casting](/assets/images/posting/20220319/casting.png)
 
 <br>
 

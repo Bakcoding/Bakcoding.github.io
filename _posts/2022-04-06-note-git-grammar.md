@@ -3,7 +3,7 @@ title:  "Git 로컬에 덮어쓰기"
 excerpt: "git, fetch, reset"
 
 categories:
-  - Note
+  - VCS-Git
 tags:
   - [git, fetch, reset]
 

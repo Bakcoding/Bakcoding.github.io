@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-27
-last_modified_at: 2021-09-27
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -21,7 +21,7 @@ last_modified_at: 2021-09-27
 
 스택과 차이점은 큐는 front와 back 두 개의 포인터를 가지고 있으며 한쪽으로는 삽입만 한쪽으로는 삭제만 이루어지기 때문에 먼저 넣은 것이 먼저 나오는 선입선출로 동작한다.
 
-![stack](/assets/images/20210927_Posting/4.png) 
+![queue](/assets/images/posting/20210927/queue.png) 
 
 C++ 에서는 \<queue\> 헤더 파일을 추가하면 queue 함수를 사용할 수 있다. 
 

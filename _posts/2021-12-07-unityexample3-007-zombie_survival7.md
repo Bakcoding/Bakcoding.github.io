@@ -159,4 +159,4 @@ Left Handle 게임 오브젝트를 Left Hand Mount 필드로
 
 Right Handle 게임 오브젝트를 Right Hand Mount 필드로  
 
-![play](/assets/images/20211207_Posting/play_scene.gif)
+![play](/assets/images/posting/20211207/play_scene.gif)

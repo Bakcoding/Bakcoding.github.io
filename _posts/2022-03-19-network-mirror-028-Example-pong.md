@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-18
-last_modified_at: 2022-03-18
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -30,7 +30,7 @@ W, S (UpArrow, DownArrow) 로 움직인다.
 
 ### Hierarchy 
 
-![hierarchy](/assets/images/20220318_Posting/pong_hierarchy.png)
+![hierarchy](/assets/images/posting/20220319/pong_hierarchy.png)
 
 <br>
 
@@ -53,7 +53,7 @@ W, S (UpArrow, DownArrow) 로 움직인다.
 
 게임을 플레이하면 플레이어(Racket)이 생성된다.
 
-![hierarchy](/assets/images/20220318_Posting/pong_play.png)
+![hierarchy](/assets/images/posting/20220319/pong_play.png)
 
 <br>
 

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-21
-last_modified_at: 2022-03-21
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -22,7 +22,7 @@ last_modified_at: 2022-03-21
 
 브라우저에서 웹 서버에 액세스한다고 할 때 전체적인 작동 모습은 다음과 같다.
 
-![network](/assets/images/20220321_Posting/network.png)
+![network](/assets/images/posting/20220321/network.png)
 <br>
 
 브라우저에서 데이터를 요청하면 웹 서버는 요청에 따라 결과를 브라우저로 보낸다.  

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-30
-last_modified_at: 2021-09-30
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -103,7 +103,7 @@ last_modified_at: 2021-09-30
 
 	피보나치 수열은 0부터 시작해서 그 다음 수 1이 올 때 그 다음의 수는 이전의 수의 합이 된다. 
 
-	![fibonacci](/assets/images/20211001_Posting/1.png)
+	![fibonacci](/assets/images/posting/20211001/fibonacci.png)
 
 
 	```cpp

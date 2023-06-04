@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-08 
-last_modified_at: 2021-10-08
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -20,19 +20,19 @@ last_modified_at: 2021-10-08
 
 N * N 크기의 2차원 좌표상에 N개의 말을 놓을 때 각 말들은 같은 행과 열 그리고 대각선 방향에 다른말이 존재하지 않게 배치할 수 있는지에 대한 문제이다.  
 
-![N_Queens](/assets/images/20211008_Posting/2.png)  
+![n_queen](/assets/images/posting/20211008/n_queen.png)  
 
 알고리즘을 생각해보면  
 하나의 말을 배치한다음 조건에 맞는 다음 말을 배치해 본다. 그리고 다시 다음 말을 배치할 때 행이 끝날 때 까지 조건을 만족하는 위치가 없다면 최근에 배치한 말을 무르고 조건을 만족하는 또다른 위치에 배치시키는 방식으로 진행한다.  
 
-![N=4](/assets/images/20211008_Posting/3.png)
+![n_4](/assets/images/posting/20211008/n_4.png)
 
 이런 방식의 문제 해결법을 backtracking 이라고 한다.  
 
 이 과정을 체계화시켜서 시각적 구조로 표현한 것을 상태공간트리(state-space tree)라고 한다.  
 
 
-![sst](/assets/images/20211008_Posting/4.png)
+![sst](/assets/images/posting/20211008/sst.png)
 
 즉 이구조는 말을 놓을 수 있는 모든 경우의 수를 나타낸 것이기 때문에 원하는 답이 반드시 포함하게 되는 것이다. 
 
@@ -43,7 +43,7 @@ N * N 크기의 2차원 좌표상에 N개의 말을 놓을 때 각 말들은 같
 ### 되추적 기법(backtracking)
 상태공간 트리를 깊이 우선 탐색(DFS, depth-first search)하여 답을 찾는 알고리즘을 말한다.  
 
-![dfs](/assets/images/20211008_Posting/5.png)
+![dfs](/assets/images/posting/20211008/dfs.png)
 
 (1, 1)에 1번 말이 위치할 때 2번 말이 (2, 1) (2, 2)에 위치한 경우는 살펴볼 필요도 없는 infeasible이기 때문에 (2, 3)으로 넘어가게 되고 (2, 3)에 위치한 경우는 그림에서 확인한거 처럼 다음 말이 위치할 곳이 없기 때문에 (2, 4) 노드로 탐색이 넘어가는 방식이다.  
 
@@ -128,7 +128,7 @@ recursion을 호출할 때 현재 위치한 노드를 파악하기 위한 매개
 
   위에서 정한대로 현재 level의 값만큼 말이 배치되어있고 이 말들의 위치 정보는 배열 cols에 저장되어있다.
 
-  ![cols](/assets/images/20211008_Posting/6.png)
+  ![cols](/assets/images/posting/20211008/cols.png)
 
   코드에서 promsing test를 가장 먼저 진행하기 때문에 순환함수가 호출되면서 이 테스트가 통과되어야 말이 놓이게 된다.  
 
@@ -155,14 +155,15 @@ recursion을 호출할 때 현재 위치한 노드를 파악하기 위한 매개
   **동일 대각선 검사**  
   같은 대각선에 위치한다는 것은 행과 열의 거리가 같다고 볼 수 있다.  
 
-    ![cols](/assets/images/20211008_Posting/7.png)
+    ![cross_distance](/assets/images/posting/20211008/cross_distance.png)
 
   즉 ```level - i = |cols[level] - cols[i]|``` 로 볼 수 있고 대각선의 방향에 따라 값이 바뀌는 걸 고려해 절대값으로 해준다.  
 
     ```java
     boolean promising( int level)
     { 
-      ~
+      {
+        ~
         // 같은 대각선에 놓였는지 검사
         else if (level - i == Math.abs(cols[level] - cols[i])
           return false;

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-11-16 
-last_modified_at: 2021-11-16
+last_modified_at: 2023-06-06
 ---  
 
 ***
@@ -30,7 +30,7 @@ last_modified_at: 2021-11-16
 
 iframe 태그가 생기면서 페이지 내에서 부분적으로 문서를 받아와서 업데이트하는 방식이 사용되었다.  
 
-![iframe_naver](/assets/images/20211116_Posting/naver_iframe.png)  
+![naver_iframe](/assets/images/posting/20211116/naver_iframe.png)  
 
 <br>
 

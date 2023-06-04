@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-11-03 
-last_modified_at: 2021-11-03
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -142,7 +142,7 @@ css선언이 엘리먼트를 상세하게 특정할수록 우선순위가 높아
 
 순위가 제일 낮은 태그 선택자가 !important를 통해서 제일 우선적으로 적용된다.  
 
-<img src="/assets/images/20211103_Posting/evince.png" alt="evince" title="https://stuffandnonsense.co.uk/archives/css_specificity_wars.html" width="400"><br>
+<img src="/assets/images/posting/20211103/evince.png" alt="evince" title="https://stuffandnonsense.co.uk/archives/css_specificity_wars.html" width="400"><br>
 
 <br>
 

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-19 
-last_modified_at: 2022-02-19
+last_modified_at: 2023-06-05
 ---
 
 ### 어셈블리
@@ -36,7 +36,7 @@ manifest
 
 매니페스트는 다른 모듈의 목록을 관리하는 데이터이다. 
 
-![assembly](/assets/images/20220219_Posting/assembly.jpg)
+![assembly](/assets/images/posting/20220219/assembly.jpg)
 
 <br>
 

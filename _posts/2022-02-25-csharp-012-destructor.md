@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-25 
-last_modified_at: 2022-02-25
+last_modified_at: 2023-06-05
 ---
 
 ### 종료자
@@ -52,7 +52,7 @@ C++에서는 동적으로 할당된 메모리는 수동으로 delete 연산자�
 
 따라서 종료자가 호출되는 시점 또한 알 수 없게 되므로 종료자를 정의하는 것에 대해서는 신중함이 필요하다. 그 이유는 가비지 수집가 입장에서는 일반 참조 객체와 달리 종료자가 정의된 클래스 객체를 관리하려면 더 복잡한 과정을 거치기 때문에 성능면에서 더 부하를 줄 수 있게된다. 
 
-![destructor](/assets/images/20220225_Posting/destructor.png)
+![destructor](/assets/images/posting/20220225/destructor.png)
 <br>
 
 공식에서도 이 문제에 대해서 말해주고 있다. 하지만 정의할 수 있게 구현해 놓았다는것은 어떻게든 쓰는 구석이 있다는 것이지만 아직은 거기에 대해서 모르고 넘어가도 될거같다.

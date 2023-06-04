@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-09 
-last_modified_at: 2021-12-09
+last_modified_at: 2023-06-05
 ---  
 
 ***  
@@ -22,7 +22,7 @@ last_modified_at: 2021-12-09
 
 클라이언트는 서버에 접속하여 서비스를 제공받는 단말기, 프로그램, 사용자를 뜻한다.  
 
-![network](/assets/images/20211209_Posting/network.png)
+![network](/assets/images/posting/20211209/network.png)
 
 
 위 이미지에서 게임 월드  속의 A, B, C, D는 플레이어 캐릭터로 동작하는 게임 오브젝트이다. 
@@ -105,7 +105,7 @@ void Update() {
 
 서버의 모든 자원이 온전히 네트워크 서비스를 유지하는데 사용되며, 서버가 플레이어로서 게임에 직접 참가하지 않는 형태이다.  
 
-![dedicated](/assets/images/20211209_Posting/dedicated.png)  
+![dedicated](/assets/images/posting/20211209/dedicated.png)  
 
 전용 서버 방식에는 언제든지 참가 가능하며, 고정된 고성능 서버를 제공하기 때문에 서버에 접속한 클라이언트는 쾌적한 환경에서 게임을 즐길 수 있지만 다른 방식에 비해 고정비용이 많이 발생한다.  
 
@@ -117,7 +117,7 @@ void Update() {
 
 서버 역할을 맡은 클라이언트를 방장, 호스트, 마스터 클라이언트 등으로 부른다.  
 
-![listen](/assets/images/20211209_Posting/listen.png)  
+![listen](/assets/images/posting/20211209/listen.png)  
 
 전용 서버 방식에 비해 서비스 유지비용이 적다. 또한 물리적으로 매우 가까운 위치에 있는 플레이어들 간에는 너트워크 반응 속도가 전용 서버보다 빠를 수 있다.  
 
@@ -133,7 +133,7 @@ void Update() {
 
 반면 P2P 방식에서는 연산 대부분을 독점하는 특정 호스트가 없어 클라이언트 각자 자신의 월드에서 자신의 담당 연산을 실행하고 다른 클라이언트에 결과를 전파한다.
 
-![p2p](/assets/images/20211209_Posting/p2p.png)  
+![p2p](/assets/images/posting/20211209/p2p.png)  
 
 전용 서버가 없다는 점에서 리슨 서버 바식과 유사하지만, 호스트가 게임 도중 접속을 종료했을 때 호스트를 교체하는 과정이 불필요하다. 서버 유지비용 또한 발생하지 않으며 클라이언트끼리 직접 연결되기 때문에 클라이언트 수가 적은 경우에 한해서 다른 방법보다 네트워크 반응 속도가 빠르며 또한 개발자 입장에서 P2P를 사용하면 프로그램의 처리 흐름을 직관적으로 설계할 수 있다.  
 

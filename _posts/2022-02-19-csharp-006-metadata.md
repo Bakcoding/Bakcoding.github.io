@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-19 
-last_modified_at: 2022-02-19
+last_modified_at: 2023-06-05
 ---
 
 ### 데이터와 메타데이터
@@ -20,7 +20,7 @@ last_modified_at: 2022-02-19
 
 <br>
 
-![file-data](/assets/images/20220219_Posting/data-metadata.jpg)
+![file-data](/assets/images/posting/20220219/data-metadata.jpg)
 
 <br>
 
@@ -32,7 +32,7 @@ last_modified_at: 2022-02-19
 
 개발자가 구현한 코드가 데이터라고 한다면 그 코드가 어떤 클래스와 메서드로 구성되어있는지 코드의 성격에 대한 설명이 메타데이터가 된다.
 
-![code-data](/assets/images/20220219_Posting/codedata.jpg)
+![code-data](/assets/images/posting/20220219/codedata.jpg)
 
 <br>
 

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-09-27
-last_modified_at: 2021-09-27
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -24,7 +24,7 @@ last_modified_at: 2021-09-27
 ### 선형 자료구조(linear data)  
 자료를  구성하는 원소들을 순차적으로 나열시킨 형태를 의미한다.  
 
-![linear](/assets/images/20210927_Posting/1.png)
+![linear](/assets/images/posting/20210927/linear.png)
 
 **종류**  
 * 배열  
@@ -59,7 +59,7 @@ last_modified_at: 2021-09-27
 ### 비선형 자료구조(non-linear data structure)  
 하나의 자료 뒤에 여러개의 자료가 존재할 수 있는 구조이다.  
 
-![non-linear](/assets/images/20210927_Posting/2.png)
+![none_linear](/assets/images/posting/20210927/none_linear.png)
 
   * 트리  
     노드들의 집합으로 각 노드들은 서로 다른 자식을 가지며 이 때 노드들은 재사용 되지 않는 구조이다. 

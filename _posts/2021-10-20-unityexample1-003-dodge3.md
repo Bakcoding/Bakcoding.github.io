@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-10-20 
-last_modified_at: 2021-10-20
+last_modified_at: 2023-06-04
 ---  
 
 ***
@@ -192,7 +192,7 @@ public class Rotator : MonoBehaviour
 
   그리고 Gameover Text, Time Text, Record Text에 오브젝트를 등록해준다.  
 
-  ![4](/assets/images/20211020_Posting/4.gif)
+  ![play](/assets/images/posting/20211020/play.gif)
 
   재시작시 화면이 어두워지는 문제가 있다. 이는 조명이 구워지지 않았기 때문에 씬을 다시 실행할 때 Light가 생성되지않아서 발생한다.  
 

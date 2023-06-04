@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-16
-last_modified_at: 2022-03-16
+last_modified_at: 2023-06-05
 ---  
 
 ***
@@ -24,7 +24,7 @@ last_modified_at: 2022-03-16
 
 여기서 데이터 오브젝트는 데이터 스토리지 영역 내에서 표현되는 코드와 데이터의 조합을 말한다.
 
-![serialization](/assets/images/20220316_Posting/serialization.png) <br>
+![serialization](/assets/images/posting/20220316/serialization.png) <br>
 
 
 > 데이터 직렬화는 오브젝트를 바이트 스트림으로 변환하여 저장 또는 전송하기 쉽게하는 프로세스이다.
@@ -38,7 +38,7 @@ last_modified_at: 2022-03-16
 
 오브젝트를 재작성하여 데이터를 프로그래밍 언어의 네이티브 구조로 읽고 수정하기 쉽게 한다.
 
-![serialization](/assets/images/20220316_Posting/deserialization.png) <br>
+![serialization](/assets/images/posting/20220316/deserialization.png) <br>
 
 
 > 직렬화, 역직렬화 프로세스는 함께 동작하여 데이터 오브젝트를 편리한 형태로 변환/재호출한다.
