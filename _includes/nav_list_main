@@ -21,6 +21,7 @@
                     Language
                 </span>
                 <ul>
+                    <!-- C -->
                     {% for category in site.categories %}
                     {% if category[0] == "C" %}
                     <li>
@@ -31,6 +32,7 @@
                     {% endif %}
                     {% endfor %}
 
+                    <!-- C++ -->
                     {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
                     <li>
@@ -41,6 +43,7 @@
                     {% endif %}
                     {% endfor %}
 
+                    <!-- C# -->
                     {% for category in site.categories %}
                     {% if category[0] == "CSharp" %}
                     <li>
@@ -51,9 +54,49 @@
                     {% endif %}
                     {% endfor %}
 
+                    <!-- HTML -->
+                    {% for category in site.categories %}
+                    {% if category[0] == "HTML" %}
+                    <li>
+                        <a href="/categories/web-frontend-html" class="toc__menu">
+                            HTML ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
 
+                    <!-- CSS -->
+                    {% for category in site.categories %}
+                    {% if category[0] == "CSS" %}
+                    <li>
+                        <a href="/categories/web-frontend-css" class="toc__menu">
+                            CSS ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
 
-
+                    <!-- JavaScript -->
+                    {% for category in site.categories %}
+                    {% if category[0] == "Javascript" %}
+                    <li>
+                        <a href="/categories/web-frontend-js" class="toc__menu">
+                            Javascript ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+             
+                    <!-- PHP -->
+                    {% for category in site.categories %}
+                    {% if category[0] == "PHP" %}
+                    <li>
+                        <a href="/categories/web-backend-php" class="toc__menu">
+                            PHP ({{category[1].size}})
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
                 </ul>
             </li>
             <li>
@@ -116,7 +159,7 @@
         <!-- Web -->
         <p>
             <span class="nav__title">
-                Web
+                Web Design
             </span>
             <li>
                 <!-- Web Page category -->
@@ -134,67 +177,13 @@
                     {% endif %}
                     {% endfor %}
                 </ul>
-
-                <!-- Frontend category -->
-                <span class="nav__sub-title">
-                    Frontend
-                </span>
-                <ul>
-                    {% for category in site.categories %}
-                    {% if category[0] == "HTML" %}
-                    <li>
-                        <a href="/categories/web-frontend-html" class="toc__menu">
-                            HTML ({{category[1].size}})
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-
-                    {% for category in site.categories %}
-                    {% if category[0] == "CSS" %}
-                    <li>
-                        <a href="/categories/web-frontend-css" class="toc__menu">
-                            CSS ({{category[1].size}})
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-
-                    {% for category in site.categories %}
-                    {% if category[0] == "Javascript" %}
-                    <li>
-                        <a href="/categories/web-frontend-js" class="toc__menu">
-                            Javascript ({{category[1].size}})
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </li>
-
-            <li>
-                <!-- Backend category -->
-                <span class="nav__sub-title">
-                    Backend
-                </span>
-                <ul>
-                    {% for category in site.categories %}
-                    {% if category[0] == "PHP" %}
-                    <li>
-                        <a href="/categories/web-backend-php" class="toc__menu">
-                            PHP ({{category[1].size}})
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
             </li>
         </p>
 
         <!-- Engine -->
         <p>
             <span class="nav__title">
-                Engine
+                Game Engine
             </span>
             <li>
                 <!-- Cocos2dx category -->
@@ -314,7 +303,7 @@
         <!-- Develop category -->
         <p>
             <span class="nav__title">
-                Develop
+                Project
             </span>
             <li>
                 <span class="nav__sub-title">
@@ -337,7 +326,7 @@
         <!-- Computer category -->
         <p>
             <span class="nav__title">
-                Computer
+                Study
             </span>
 
             <li>
