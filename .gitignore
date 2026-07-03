@@ -28,6 +28,12 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
+# Empty generated asset directories
+assets/images/posts/**/.gitkeep
+
+# Local Codex/session notes
+_admin/
+
 
 README_JEKYLL.md
 package-lock.json

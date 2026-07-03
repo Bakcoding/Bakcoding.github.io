@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Bakcoding skin
+   ========================================================================== */
+
+/* Light mode base colors */
+$gray: #747b84 !default;
+$dark-gray: #24262b !default;
+$darker-gray: #17191d !default;
+$light-gray: #c7ccd1 !default;
+$lighter-gray: #eef0f2 !default;
+
+$background-color: #fbfbf8 !default;
+$code-background-color: #f1f4f4 !default;
+$code-background-color-dark: #e5eaea !default;
+$text-color: #24262b !default;
+$muted-text-color: #68707a !default;
+$border-color: #e0e4e2 !default;
+$form-background-color: #f4f6f5 !default;
+$footer-background-color: #eef2f0 !default;
+
+$primary-color: #24706b !default;
+$success-color: #3b7d4a !default;
+$warning-color: #a76718 !default;
+$danger-color: #b84d4d !default;
+$info-color: #287a86 !default;
+$focus-color: $primary-color !default;
+$active-color: #e4f1ef !default;
+
+$link-color: #1f6f74 !default;
+$link-color-hover: #174f54 !default;
+$link-color-visited: #5d5f87 !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: #dcebe8 !default;
+
+$notice-background-mix: 88% !default;
+$code-notice-background-mix: 94% !default;
+
+/* Syntax highlighting */
+$base00: #f7f8f6 !default;
+$base01: #ecefed !default;
+$base02: #d8dddb !default;
+$base03: #7b8580 !default;
+$base04: #68726d !default;
+$base05: #2f3438 !default;
+$base06: #24292d !default;
+$base07: #111417 !default;
+$base08: #9d4141 !default;
+$base09: #9a5a1f !default;
+$base0a: #7b6715 !default;
+$base0b: #2f7046 !default;
+$base0c: #287a78 !default;
+$base0d: #286f9a !default;
+$base0e: #7460a8 !default;
+$base0f: #7d5540 !default;
