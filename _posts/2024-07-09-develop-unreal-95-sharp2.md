@@ -96,7 +96,7 @@ source_url: https://b-note.tistory.com/95
 
 <p>그리고 이 상태에서 플레이를 해서 내가 의도한 대로 동작하는지 확인해 본다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="1512" data-origin-height="596"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/09/95-7.png" loading="lazy" width="1512" height="596" data-origin-width="1512" data-origin-height="596"/></span><figcaption>Unreal Engine - Test Play</figcaption>
+> 용량 문제로 `Unreal Engine - Test Play` 이미지는 [원문](https://b-note.tistory.com/95)에서 확인한다.
 </figure>
 </p>
 

@@ -28,7 +28,7 @@ source_url: https://b-note.tistory.com/180
 <p>그런 CPU의 부하를 대신하기 위해 GPU가 등장했다.</p>
 <p>CPU가 복잡한 논리 연산을 순차적으로 빠르게 처리하는 소수의 지휘관이라면 GPU는 단순하지만 엄청난 양의 계산을 동시에 처리하는 부대급 작업원으로 각자의 역할을 분담하기 시작했다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="1024" data-origin-height="559"><span><img src="/assets/images/posts/2026/03/12/180-1.png" loading="lazy" width="512" height="559" data-origin-width="1024" data-origin-height="559"/></span></figure>
+> 용량 문제로 해당 이미지는 [원문](https://b-note.tistory.com/180)에서 확인한다.
 </p>
 
 <p>이렇게 분담한 역할을 자세히 나열하면 다음과 같다.</p>

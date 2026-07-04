@@ -74,6 +74,6 @@ source_url: https://b-note.tistory.com/172
 
 <p>예) 두 점 사이의 가장 짧은 직선거리는 유클리드 거리이다. 실제 경로가 장애물 때문에 직선으로 갈 수 없다면, 실제 경로는 유클리드 거리보다 길어질 수밖에 없으며 유클리드 걸리도 실제 최단 거리보다 과대평가하지 않으므로 허용 가능한 휴리스틱이다.</p>
 
-<p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-filename="2025-05-30151253-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="741"><span data-alt="A* Manhattan / Euclidean"><img src="/assets/images/posts/2025/05/30/172-1.gif" loading="lazy" width="429" height="397" data-filename="2025-05-30151253-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="741"/></span><figcaption>A* Manhattan / Euclidean</figcaption>
+> 용량 문제로 `A* Manhattan / Euclidean` 애니메이션 이미지는 [원문](https://b-note.tistory.com/172)에서 확인한다.
 </figure>
 </p>

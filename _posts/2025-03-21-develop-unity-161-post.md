@@ -33,7 +33,7 @@ source_url: https://b-note.tistory.com/161
 
 <p>이 값을 변경하면 중력을 다양한 방식으로 적용할 수 있다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="gravity.gif" data-origin-width="800" data-origin-height="461"><span data-alt="unity - gravity"><img src="/assets/images/posts/2025/03/21/161-1.gif" loading="lazy" width="618" height="461" data-filename="gravity.gif" data-origin-width="800" data-origin-height="461"/></span><figcaption>unity - gravity</figcaption>
+> 용량 문제로 `unity - gravity` 애니메이션 이미지는 [원문](https://b-note.tistory.com/161)에서 확인한다.
 </figure>
 </p>
 
@@ -41,9 +41,9 @@ source_url: https://b-note.tistory.com/161
 
 <p>angular drag는 회전 항력으로 회전력에 적용되는 저항력이다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="drag.gif" data-origin-width="800" data-origin-height="463"><span data-alt="unity - drag"><img src="/assets/images/posts/2025/03/21/161-2.gif" loading="lazy" width="616" height="357" data-filename="drag.gif" data-origin-width="800" data-origin-height="463"/></span><figcaption>unity - drag</figcaption>
+> 용량 문제로 `unity - drag` 애니메이션 이미지는 [원문](https://b-note.tistory.com/161)에서 확인한다.
 </figure>
-<figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="angular_drag.gif" data-origin-width="800" data-origin-height="462"><span data-alt="unity - angular drag"><img src="/assets/images/posts/2025/03/21/161-3.gif" loading="lazy" width="613" height="354" data-filename="angular_drag.gif" data-origin-width="800" data-origin-height="462"/></span><figcaption>unity - angular drag</figcaption>
+> 용량 문제로 `unity - angular drag` 애니메이션 이미지는 [원문](https://b-note.tistory.com/161)에서 확인한다.
 </figure>
 </p>
 
@@ -53,13 +53,13 @@ source_url: https://b-note.tistory.com/161
 
 <h4>AddForce</h4>
 <p>물체에 특정 방향으로 특정 크기만큼의 힘을 가한다.</p>
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="2025-03-21213345-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="461"><span data-alt="unity - add force"><img src="/assets/images/posts/2025/03/21/161-4.gif" loading="lazy" width="612" height="353" data-filename="2025-03-21213345-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="461"/></span><figcaption>unity - add force</figcaption>
+> 용량 문제로 `unity - add force` 애니메이션 이미지는 [원문](https://b-note.tistory.com/161)에서 확인한다.
 </figure>
 </p>
 
 <h4>AddTorque</h4>
 <p>물체에 회전력을 준다.</p>
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="angular_drag.gif" data-origin-width="800" data-origin-height="462"><span data-alt="unity - add torque"><img src="/assets/images/posts/2025/03/21/161-5.gif" loading="lazy" width="613" height="354" data-filename="angular_drag.gif" data-origin-width="800" data-origin-height="462"/></span><figcaption>unity - add torque</figcaption>
+> 용량 문제로 `unity - add torque` 애니메이션 이미지는 [원문](https://b-note.tistory.com/161)에서 확인한다.
 </figure>
 </p>
 

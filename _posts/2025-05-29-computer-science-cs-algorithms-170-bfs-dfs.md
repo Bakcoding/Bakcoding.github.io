@@ -35,7 +35,7 @@ source_url: https://b-note.tistory.com/170
 <p>여기서 시작 셀 이외에 또 다른 셀을 도착 지점으로 지정하고 이 셀을 만날 때까지 탐색을 진행하고 각 셀들이 어떤 셀로부터 이어져 온 것인지에 대한 정보를 저장한다면 도착한 셀에서 이전 셀을 타고 올라가면 시작 셀에서부터 도착 셀까지 이어지는 경로를 알 수 있게 된다. 이 과정이 BFS를 응용한 길 찾기 알고리즘이다.</p>
 
 
-<p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-filename="2025-05-29212143-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="749"><span data-alt="BFS Pathfinding"><img src="/assets/images/posts/2025/05/29/170-2.gif" loading="lazy" width="318" height="749" data-filename="2025-05-29212143-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="749"/></span><figcaption>BFS Pathfinding</figcaption>
+> 용량 문제로 `BFS Pathfinding` 애니메이션 이미지는 [원문](https://b-note.tistory.com/170)에서 확인한다.
 </figure>
 </p>
 
@@ -54,6 +54,6 @@ source_url: https://b-note.tistory.com/170
 
 <p>DFS 또한 길 찾기에 적용시킬 수 있는데 BFS는 가장 인접한 노드를 탐색하기 때문에 자연스럽게 최단 경로를 찾게 되는 것과 달리 DFS의 경우에는 최단 경로는 보장하지 않지만 경로 존재 여부나 모든 경로 탐색 등의 경우에 유리하다.</p>
 
-<p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-filename="2025-05-29215717-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="691"><span data-alt="DFS Pathfinding"><img src="/assets/images/posts/2025/05/29/170-4.gif" loading="lazy" width="308" height="266" data-filename="2025-05-29215717-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="691"/></span><figcaption>DFS Pathfinding</figcaption>
+> 용량 문제로 `DFS Pathfinding` 애니메이션 이미지는 [원문](https://b-note.tistory.com/170)에서 확인한다.
 </figure>
 </p>

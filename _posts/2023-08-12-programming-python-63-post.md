@@ -17,7 +17,7 @@ source_url: https://b-note.tistory.com/63
 
 <p>프로그래밍에 대한 공부를 어느 정도 진행했을 무렵 다양한 언어들 중 평가가 좋은 언어를 따로 체크해 두고 학습해 보기로 하였다. 그렇게 미루고 미루다 언젠가 서점에서 책 하나가 눈에 들어왔다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="1080" data-origin-height="1440"><span data-alt="게임으로 배우는 파이썬"><img src="/assets/images/posts/2023/08/12/63-1.png" loading="lazy" width="293" height="391" data-origin-width="1080" data-origin-height="1440"/></span><figcaption>게임으로 배우는 파이썬</figcaption>
+> 용량 문제로 `게임으로 배우는 파이썬` 이미지는 [원문](https://b-note.tistory.com/63)에서 확인한다.
 </figure>
 </p>
 

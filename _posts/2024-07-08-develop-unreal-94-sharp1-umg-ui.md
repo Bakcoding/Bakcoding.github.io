@@ -186,7 +186,7 @@ source_url: https://b-note.tistory.com/94
 
 <p>다시 'MainLevel'로 돌아와서 플레이해 본다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="play.gif" data-origin-width="600" data-origin-height="237"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/08/94-18.gif" loading="lazy" width="600" height="237" data-filename="play.gif" data-origin-width="600" data-origin-height="237"/></span><figcaption>Unreal Engine - Test Play</figcaption>
+> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](https://b-note.tistory.com/94)에서 확인한다.
 </figure>
 </p>
 

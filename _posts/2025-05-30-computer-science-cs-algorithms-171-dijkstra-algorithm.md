@@ -82,6 +82,6 @@ pq &lt;- (dist[neighbor], neighbor) insert</code></pre>
 
 <p>pq가 완전히 비워지게 되면 dist [] 배열에는 시작 노드에서 다른 모든 노드까지의 최단거리가 저장된다.</p>
 
-<p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-filename="2025-05-30141140-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="758"><span data-alt="Dijkstra"><img src="/assets/images/posts/2025/05/30/171-2.gif" loading="lazy" width="415" height="393" data-filename="2025-05-30141140-ezgif.com-video-to-gif-converter.gif" data-origin-width="800" data-origin-height="758"/></span><figcaption>Dijkstra</figcaption>
+> 용량 문제로 `Dijkstra` 애니메이션 이미지는 [원문](https://b-note.tistory.com/171)에서 확인한다.
 </figure>
 </p>
