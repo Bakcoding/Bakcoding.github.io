@@ -26,6 +26,17 @@
           </svg>
         </button>
         {% endif %}
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="색상 모드 전환">
+          <svg class="theme-toggle__icon theme-toggle__icon--system" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
+            <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v7A2.5 2.5 0 0 1 17.5 15h-11A2.5 2.5 0 0 1 4 12.5v-7Zm2.5-.75A.75.75 0 0 0 5.75 5.5v7a.75.75 0 0 0 .75.75h11a.75.75 0 0 0 .75-.75v-7a.75.75 0 0 0-.75-.75h-11ZM8 19.25h8a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1 0-1.5Zm3.25-5h1.5v5h-1.5v-5Z"/>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--light" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
+            <path d="M12 17.25A5.25 5.25 0 1 1 12 6.75a5.25 5.25 0 0 1 0 10.5Zm0-1.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5ZM12.75 3v2.25h-1.5V3h1.5Zm0 15.75V21h-1.5v-2.25h1.5ZM21 11.25v1.5h-2.25v-1.5H21Zm-15.75 0v1.5H3v-1.5h2.25Zm12.55-6.11 1.06 1.06-1.59 1.59-1.06-1.06 1.59-1.59ZM6.73 16.21l1.06 1.06-1.59 1.59-1.06-1.06 1.59-1.59Zm12.13 1.59-1.06 1.06-1.59-1.59 1.06-1.06 1.59 1.59ZM7.79 6.73 6.73 7.79 5.14 6.2 6.2 5.14l1.59 1.59Z"/>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--dark" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
+            <path d="M20.1 14.4a.75.75 0 0 1 .96.95A8.75 8.75 0 0 1 8.65 3.94a.75.75 0 0 1 .95.96 7.25 7.25 0 0 0 10.5 9.5Z"/>
+          </svg>
+        </button>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>

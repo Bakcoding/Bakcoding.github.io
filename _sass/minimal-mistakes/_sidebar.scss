@@ -28,11 +28,8 @@
     }
 
     &.sticky {
-      overflow-y: auto;
-      /* calculate height of nav list
-         viewport height - nav height - masthead x-padding
-      */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      overflow-y: visible;
+      max-height: none;
     }
   }
 
@@ -343,4 +340,3 @@
     margin-right: initial;
   }
 }
-

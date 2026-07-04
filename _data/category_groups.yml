@@ -12,6 +12,18 @@
       slug: csharp
       categories:
         - CSharp
+    - title: Python
+      slug: python
+      categories:
+        - Python
+    - title: Programming Basics
+      slug: programming-basics
+      categories:
+        - ProgrammingBasic
+    - title: Flutter
+      slug: flutter
+      categories:
+        - Flutter
     - title: Web
       slug: web
       categories:
@@ -24,6 +36,10 @@
       slug: algorithm
       categories:
         - Algorithm
+    - title: Coding Test
+      slug: coding-test
+      categories:
+        - CodingTest
         - Programmers
 
 - title: Game Development
@@ -33,6 +49,10 @@
       categories:
         - Unity
         - UnityExample
+    - title: Unreal
+      slug: unreal
+      categories:
+        - Unreal
     - title: Mirror
       slug: mirror
       categories:
@@ -48,6 +68,14 @@
 
 - title: Computer Science
   items:
+    - title: Engineering
+      slug: engineering
+      categories:
+        - ComputerEngineering
+    - title: CS Algorithms
+      slug: cs-algorithms
+      categories:
+        - ComputerAlgorithm
     - title: Network
       slug: network
       categories:
@@ -55,10 +83,15 @@
     - title: Graphics
       slug: graphics
       categories:
+        - Graphics
         - OpenGL
 
 - title: Tools
   items:
+    - title: Server
+      slug: server
+      categories:
+        - Server
     - title: Git
       slug: git
       categories:
