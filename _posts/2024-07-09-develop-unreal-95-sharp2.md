@@ -94,9 +94,8 @@ source_url: https://b-note.tistory.com/95
 </figure>
 </p>
 
-<p>그리고 이 상태에서 플레이를 해서 내가 의도한 대로 동작하는지 확인해 본다.</p>> 용량 문제로 `Unreal Engine - Test Play` 이미지는 [원문](/develop/unreal/95-sharp2/)에서 확인한다.
-</figure>
-</p>
+<p>그리고 이 상태에서 플레이를 해서 내가 의도한 대로 동작하는지 확인해 본다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/09/95-16.png" loading="lazy" width="1512" height="596"/></span><figcaption>Unreal Engine - Test Play</figcaption></figure></p>
 
 <p>플레이 시 원하는 대로 'BP_Player'가 PlayerStart 위치에 생성된다.&nbsp;</p>
 
@@ -187,9 +186,8 @@ source_url: https://b-note.tistory.com/95
 
 <p>"플레이 시 컨트롤러에서는 전체적인 키의 인풋을 감지하게 된다. 이 중, 따로 맵핑해 놓은 키들(Input Mapping Context)이 입력될 때 특정한 값이 리턴(Input Action) 되도록 한다. 그리고 캐릭터는 위에서 키 입력 시 리턴되는 값을 가져와서 움직이는 데 사용한다."</p>
 
-<p>아직 정확한 흐름은 파악이 잘 안 되지만 일단 이렇게 이벤트 그래프를 만들고 플레이해본다.</p>> 용량 문제로 `Unreal Engine - Player Move` 애니메이션 이미지는 [원문](/develop/unreal/95-sharp2/)에서 확인한다.
-</figure>
-</p>
+<p>아직 정확한 흐름은 파악이 잘 안 되지만 일단 이렇게 이벤트 그래프를 만들고 플레이해본다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Player Move"><img src="/assets/images/posts/2024/07/09/95-17.gif" loading="lazy" width="423" height="260"/></span><figcaption>Unreal Engine - Player Move</figcaption></figure></p>
 
 <p>카메라는 너무 가까운 거 같아서 Target arm Length를 조절해 주었다.</p>
 

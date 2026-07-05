@@ -184,9 +184,8 @@ source_url: https://b-note.tistory.com/94
 
 <p>'MainLevel'과 구분될 정도로만 'PlayLevel'을 세팅한다.</p>
 
-<p>다시 'MainLevel'로 돌아와서 플레이해 본다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/94-sharp1-umg-ui/)에서 확인한다.
-</figure>
-</p>
+<p>다시 'MainLevel'로 돌아와서 플레이해 본다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/08/94-18.gif" loading="lazy" width="600" height="237"/></span><figcaption>Unreal Engine - Test Play</figcaption></figure></p>
 
 <p>'MainLevel' UI 생성 &gt; 버튼 클릭, 레벨 오픈&gt; 'PlayLevel' 오픈</p>
 
