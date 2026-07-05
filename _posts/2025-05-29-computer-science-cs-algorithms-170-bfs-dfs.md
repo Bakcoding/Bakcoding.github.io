@@ -32,9 +32,8 @@ source_url: https://b-note.tistory.com/170
 
 <p>시각적으로 확인하기 쉬운 이차원 그리드에서 이를 응용하면 특정 셀을 루트 노드로 간주하고 그 인접한 각 셀들을 자식 노드로 치환할 수 있다. 이때 셀들은 중복해서 인접하기 때문에 이를 체크하여 순차적으로 탐색을 이어가면 모든 셀을 중복 없이 탐색할 수 있다.</p>
 
-<p>여기서 시작 셀 이외에 또 다른 셀을 도착 지점으로 지정하고 이 셀을 만날 때까지 탐색을 진행하고 각 셀들이 어떤 셀로부터 이어져 온 것인지에 대한 정보를 저장한다면 도착한 셀에서 이전 셀을 타고 올라가면 시작 셀에서부터 도착 셀까지 이어지는 경로를 알 수 있게 된다. 이 과정이 BFS를 응용한 길 찾기 알고리즘이다.</p>> 용량 문제로 `BFS Pathfinding` 애니메이션 이미지는 [원문](/computer-science/cs-algorithms/170-bfs-dfs/)에서 확인한다.
-</figure>
-</p>
+<p>여기서 시작 셀 이외에 또 다른 셀을 도착 지점으로 지정하고 이 셀을 만날 때까지 탐색을 진행하고 각 셀들이 어떤 셀로부터 이어져 온 것인지에 대한 정보를 저장한다면 도착한 셀에서 이전 셀을 타고 올라가면 시작 셀에서부터 도착 셀까지 이어지는 경로를 알 수 있게 된다. 이 과정이 BFS를 응용한 길 찾기 알고리즘이다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="BFS Pathfinding"><img src="/assets/images/posts/2025/05/29/170-4.gif" loading="lazy" width="318" height="749"/></span><figcaption>BFS Pathfinding</figcaption></figure></p>
 
 
 <h2>DFS</h2>
@@ -49,6 +48,5 @@ source_url: https://b-note.tistory.com/170
 
 <p>BFS나 DFS는 트리 구조에 따라서 다르겠지만 BFS는 같은 계층의 모든 노드를 저장하기 때문에 깊이난 얕지만 계층이 넓은 경우 메모리상 불리하고 DFS는 계층이 얇지만 트리가 깊다면 또 불리하기 때문에 구조에 따라 방법을 선택해야 한다.</p>
 
-<p>DFS 또한 길 찾기에 적용시킬 수 있는데 BFS는 가장 인접한 노드를 탐색하기 때문에 자연스럽게 최단 경로를 찾게 되는 것과 달리 DFS의 경우에는 최단 경로는 보장하지 않지만 경로 존재 여부나 모든 경로 탐색 등의 경우에 유리하다.</p>> 용량 문제로 `DFS Pathfinding` 애니메이션 이미지는 [원문](/computer-science/cs-algorithms/170-bfs-dfs/)에서 확인한다.
-</figure>
-</p>
+<p>DFS 또한 길 찾기에 적용시킬 수 있는데 BFS는 가장 인접한 노드를 탐색하기 때문에 자연스럽게 최단 경로를 찾게 되는 것과 달리 DFS의 경우에는 최단 경로는 보장하지 않지만 경로 존재 여부나 모든 경로 탐색 등의 경우에 유리하다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="DFS Pathfinding"><img src="/assets/images/posts/2025/05/29/170-5.gif" loading="lazy" width="308" height="266"/></span><figcaption>DFS Pathfinding</figcaption></figure></p>

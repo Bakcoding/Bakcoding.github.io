@@ -72,6 +72,5 @@ source_url: https://b-note.tistory.com/172
 
 <p>예) 격자에서 가로/세로 이동만 가능하다고 가정할 때, 맨해튼 거리는 두 점 사이의 실제 최단 거리와 동일하거나 더 짧다. 장애물이 없는 최단 경로는 항상 맨해튼 거리보다 길거나 같을 수 없기 때문에 허용 가능한 휴리스틱이다.</p>
 
-<p>예) 두 점 사이의 가장 짧은 직선거리는 유클리드 거리이다. 실제 경로가 장애물 때문에 직선으로 갈 수 없다면, 실제 경로는 유클리드 거리보다 길어질 수밖에 없으며 유클리드 걸리도 실제 최단 거리보다 과대평가하지 않으므로 허용 가능한 휴리스틱이다.</p>> 용량 문제로 `A* Manhattan / Euclidean` 애니메이션 이미지는 [원문](/computer-science/cs-algorithms/172-a-algorithm/)에서 확인한다.
-</figure>
-</p>
+<p>예) 두 점 사이의 가장 짧은 직선거리는 유클리드 거리이다. 실제 경로가 장애물 때문에 직선으로 갈 수 없다면, 실제 경로는 유클리드 거리보다 길어질 수밖에 없으며 유클리드 걸리도 실제 최단 거리보다 과대평가하지 않으므로 허용 가능한 휴리스틱이다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="A* Manhattan / Euclidean"><img src="/assets/images/posts/2025/05/30/172-1.gif" loading="lazy" width="429" height="397"/></span><figcaption>A* Manhattan / Euclidean</figcaption></figure></p>

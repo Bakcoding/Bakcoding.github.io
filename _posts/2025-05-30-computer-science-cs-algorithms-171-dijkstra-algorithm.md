@@ -80,6 +80,5 @@ pq &lt;- (dist[neighbor], neighbor) insert</code></pre>
 
 <p>current_node를 경유할 때 인접한 노드까지의 거리가 현재 저장된 값보다 더 짧다면 해당 값으로 갱신하고 거리와 노드를 우선순위 큐에 저장한다.</p>
 
-<p>pq가 완전히 비워지게 되면 dist [] 배열에는 시작 노드에서 다른 모든 노드까지의 최단거리가 저장된다.</p>> 용량 문제로 `Dijkstra` 애니메이션 이미지는 [원문](/computer-science/cs-algorithms/171-dijkstra-algorithm/)에서 확인한다.
-</figure>
-</p>
+<p>pq가 완전히 비워지게 되면 dist [] 배열에는 시작 노드에서 다른 모든 노드까지의 최단거리가 저장된다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Dijkstra"><img src="/assets/images/posts/2025/05/30/171-2.gif" loading="lazy" width="283" height="222"/></span><figcaption>Dijkstra</figcaption></figure></p>
