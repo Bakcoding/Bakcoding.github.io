@@ -61,9 +61,8 @@ source_url: https://b-note.tistory.com/96
 
 <p>'Start'에는 'GetActorLocation'으로 캐릭터의 위치를 가져와 연결하고 'Target'에는 'ConvertMouseLocationToWorldSpace'의 'World Location'과 연결시킨다. 이렇게 구해온 회전값을 이제 캐릭터의 회전에 적용시키면 되는데 여기서 Z축의 회전값만 필요하기 때문에 'Break Rotator'와 'Make Rotator'를 사용해서 필요한 값만 리턴되도록 만들어 'Set Actor Rotation'의 'New Rotation'에 연결시킨다.</p>
 
-<p>플레이를 해서 테스트를 해본다.</p>> 용량 문제로 `Unreal Engine - Character Rotate` 애니메이션 이미지는 [원문](/develop/unreal/96-sharp3/)에서 확인한다.
-</figure>
-</p>
+<p>플레이를 해서 테스트를 해본다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Character Rotate"><img src="/assets/images/posts/2024/07/13/96-13.gif" loading="lazy" width="355" height="295"/></span><figcaption>Unreal Engine - Character Rotate</figcaption></figure></p>
 
 <p>회전만 했을 때 원하는 대로 동작하지만 움직이면서 회전시킬 경우 캐릭터의 회전이 이상하게 동작한다.</p>
 
@@ -73,9 +72,8 @@ source_url: https://b-note.tistory.com/96
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="319" data-origin-height="217"><span><img src="/assets/images/posts/2024/07/13/96-5.png" loading="lazy" width="319" height="217" data-origin-width="319" data-origin-height="217"/></span></figure>
 </p>
 
-<p>'Draw Debug Line'을 사용해서 시작점과 끝점을 각각 플레이어 위치, 마우스 커서의 위치로 값을 연결한다.</p>> 용량 문제로 `Unreal Engine - Debug Draw Line` 애니메이션 이미지는 [원문](/develop/unreal/96-sharp3/)에서 확인한다.
-</figure>
-</p>
+<p>'Draw Debug Line'을 사용해서 시작점과 끝점을 각각 플레이어 위치, 마우스 커서의 위치로 값을 연결한다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Debug Draw Line"><img src="/assets/images/posts/2024/07/13/96-14.png" loading="lazy" width="319" height="217"/></span><figcaption>Unreal Engine - Debug Draw Line</figcaption></figure></p>
 
 <p>움직이기 전에는 라인이 제대로 캐릭터와 커서 사이에 그려지는 게 보이지만 움직이기 시작하면 커서의 위치가 이상하게&nbsp;</p>
 <p>리턴되고 있다.</p>
@@ -117,9 +115,8 @@ source_url: https://b-note.tistory.com/96
 
 <p>이렇게 접근한 'Look Target' 함수에 'Convert Mouse Location To World Space'의 'World Location' 값을 연결하고 이 함수를 'Event Tick'으로 호출한다.</p>
 
-<h2>수정 후 테스트</h2>> 용량 문제로 `Unreal Engine - Play Test` 애니메이션 이미지는 [원문](/develop/unreal/96-sharp3/)에서 확인한다.
-</figure>
-</p>
+<h2>수정 후 테스트</h2>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Play Test"><img src="/assets/images/posts/2024/07/13/96-15.gif" loading="lazy" width="266" height="294"/></span><figcaption>Unreal Engine - Play Test</figcaption></figure></p>
 
 <p>테스트 결과 움직일 때도 마우스 커서를 향하도록 제대로 회전하게 되었다.</p>
 <p>하지만 여전히 디버그 라인에서 보이는 마우스 커서의 위치가 움직일 때 이상한 값이 리턴되는 걸로 보인다. 이 부분은 체크해 두고 나중에 다시 확인해야겠다.</p>
