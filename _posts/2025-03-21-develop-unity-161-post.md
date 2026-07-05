@@ -31,34 +31,29 @@ source_url: https://b-note.tistory.com/161
 
 <p>이 중력은 Vector3 값으로 기본값은 현실과 동일하게 y 축으로 -9.81으로 되어있다.</p>
 
-<p>이 값을 변경하면 중력을 다양한 방식으로 적용할 수 있다.</p>> 용량 문제로 `unity - gravity` 애니메이션 이미지는 [원문](/develop/unity/161-post/)에서 확인한다.
-</figure>
-</p>
+<p>이 값을 변경하면 중력을 다양한 방식으로 적용할 수 있다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - gravity"><img src="/assets/images/posts/2025/03/21/161-1.gif" loading="lazy" width="618" height="461"/></span><figcaption>unity - gravity</figcaption></figure></p>
 
 <p>Rigidbody 컴포넌트의 drag 값은 항력을 제어한다. 하지만 이는 선형적인 값으로 현실적인 물리와는 차이가 있다.</p>
 
-<p>angular drag는 회전 항력으로 회전력에 적용되는 저항력이다.</p>> 용량 문제로 `unity - drag` 애니메이션 이미지는 [원문](/develop/unity/161-post/)에서 확인한다.
-</figure>> 용량 문제로 `unity - angular drag` 애니메이션 이미지는 [원문](/develop/unity/161-post/)에서 확인한다.
-</figure>
-</p>
+<p>angular drag는 회전 항력으로 회전력에 적용되는 저항력이다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - drag"><img src="/assets/images/posts/2025/03/21/161-2.gif" loading="lazy" width="616" height="357"/></span><figcaption>unity - drag</figcaption></figure></p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - angular drag"><img src="/assets/images/posts/2025/03/21/161-3.gif" loading="lazy" width="613" height="354"/></span><figcaption>unity - angular drag</figcaption></figure></p>
 
 
 <h3>힘</h3>
 <p>물리적인 상태의 오브젝트에는 힘을 가해서 움직이거나 회전 또는 범위 내 오브젝트에 거리 비례 힘을 가하는 물리 기능들을 사용할 수 있다.</p>
 
 <h4>AddForce</h4>
-<p>물체에 특정 방향으로 특정 크기만큼의 힘을 가한다.</p>> 용량 문제로 `unity - add force` 애니메이션 이미지는 [원문](/develop/unity/161-post/)에서 확인한다.
-</figure>
-</p>
+<p>물체에 특정 방향으로 특정 크기만큼의 힘을 가한다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - add force"><img src="/assets/images/posts/2025/03/21/161-4.gif" loading="lazy" width="612" height="353"/></span><figcaption>unity - add force</figcaption></figure></p>
 
 <h4>AddTorque</h4>
-<p>물체에 회전력을 준다.</p>> 용량 문제로 `unity - add torque` 애니메이션 이미지는 [원문](/develop/unity/161-post/)에서 확인한다.
-</figure>
-</p>
+<p>물체에 회전력을 준다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - add torque"><img src="/assets/images/posts/2025/03/21/161-5.gif" loading="lazy" width="613" height="354"/></span><figcaption>unity - add torque</figcaption></figure></p>
 
-<h4>AddExplosionForce</h4>> 용량 문제로 `unity - add explosion force` 애니메이션 이미지는 [원문](/develop/unity/161-post/)에서 확인한다.
-</figure>
-</p>
+<h4>AddExplosionForce</h4>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - add explosion force"><img src="/assets/images/posts/2025/03/21/161-6.gif" loading="lazy" width="612" height="352"/></span><figcaption>unity - add explosion force</figcaption></figure></p>
 
 <p>AddExplosionForce는 이 함수만 호출한다고 주변에 영향을 주는 것이 아니라 특정한 객체를 기준으로 영향을 줄 주변 객체를 직접 탐색하면서 AddExpolsionForce를 적용시킨다.</p>
 

@@ -68,9 +68,8 @@ public void OnMove(InputValue value)
 	moveInput = value.Get&lt;Vector2&gt;();
 }</code></pre>
 
-<p>업데이트 안에서 이동키 입력으로 변경되는 moveInput 값을 갱신해서 플레이어를 움직인다.</p>> 용량 문제로 `unity - player move` 애니메이션 이미지는 [원문](/develop/unity/162-inputsystem/)에서 확인한다.
-</figure>
-</p>
+<p>업데이트 안에서 이동키 입력으로 변경되는 moveInput 값을 갱신해서 플레이어를 움직인다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - player move"><img src="/assets/images/posts/2025/03/25/162-5.gif" loading="lazy" width="400" height="225"/></span><figcaption>unity - player move</figcaption></figure></p>
 
 <p>Action Properties 설정을 통해서 필요에 맞춰 수정해서 쓸 수 있다.</p>
 
@@ -135,6 +134,5 @@ public void OnSprint(InputValue value)
 
 <p>InputManager의 GetAxis처럼 입력이 서서히 -1 0 1 사이에서 움직이는 선택 없이 GetAxisRaw처럼 고정된 숫자로 값이 반환되는데 이 부분이 InputSystem에서 설정으로 제어 가능한 부분이 아닌 것으로 현재 판단되어서 일단 damp를 사용해서 임의로 값을 증가, 증감시켜 범위 내 변하는 값으로 움직임을 처리한다.</p>
 
-<p>이 값이 필요한 이유는 애니메이션을 블렌딩으로 처리하기 때문에 자연스러운 애니메이션을 표현하기 위해서 시작-도착 값까지의 변화하는 값이 필요하다.</p>> 용량 문제로 `unity - move` 애니메이션 이미지는 [원문](/develop/unity/162-inputsystem/)에서 확인한다.
-</figure>
-</p>
+<p>이 값이 필요한 이유는 애니메이션을 블렌딩으로 처리하기 때문에 자연스러운 애니메이션을 표현하기 위해서 시작-도착 값까지의 변화하는 값이 필요하다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="unity - move"><img src="/assets/images/posts/2025/03/25/162-6.gif" loading="lazy" width="400" height="321"/></span><figcaption>unity - move</figcaption></figure></p>
