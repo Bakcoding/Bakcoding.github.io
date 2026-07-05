@@ -124,9 +124,7 @@ source_url: https://b-note.tistory.com/98
 
 <p>Fire 함수 호출 시 CanFire를 확인하고 True일 때만 발사가 되도록 한다.</p>
 
-<p>발사가 진행되고 나면 CanFire를 False로 만든다.</p>
-
-> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](https://b-note.tistory.com/98)에서 확인한다.
+<p>발사가 진행되고 나면 CanFire를 False로 만든다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/98-sharp5/)에서 확인한다.
 </figure>
 </p>
 

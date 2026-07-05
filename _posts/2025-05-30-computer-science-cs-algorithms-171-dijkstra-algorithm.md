@@ -58,14 +58,14 @@ dist[closest_node] + edge_weight(closest_node, neighbor) &lt; dist[neighbor]
 
 <h3>우선순위 큐를 활용한 개선된 데이크스트라</h3>
 <p>데이크스트라 알고리즘의 효율성을 높이기 위해 가장 짧은 거리 노드 선택 과정을 개선한 방식으로 우선순위 큐(Priority Queue)를 사용한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">우선순위<span>&nbsp;</span>큐는 선입선출 방식인 일반적인 큐와 달리 데이터들이 우선순위를 가지고 있어, 가장 높은(또는 낮은) 우선순위를 가진 데이터가 먼저 나가는 자료구조이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h4 style="color: #333333; text-align: start;">시간복잡도</h4>
-<p style="color: #333333; text-align: start;">- 우선순위 큐는 가장 작은 값 추출(extract_min) 및 값 삽입(insert) 연산을 각각 O(log N) (N은 큐에 있는 원소의 개수)의 시간 복잡도로 수행한다.</p>
-<p style="color: #333333; text-align: start;">- 간선의 개수를 E라고 할 때, 각 간선이 한 번씩 큐에 삽입될 수 있으므로, 전체 시간 복잡도는 O((V+E)logV) 또는 O(ElogV)로 개선된다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h4 style="color: #333333; text-align: start;">플로우</h4>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">우선순위<span>&nbsp;</span>큐는 선입선출 방식인 일반적인 큐와 달리 데이터들이 우선순위를 가지고 있어, 가장 높은(또는 낮은) 우선순위를 가진 데이터가 먼저 나가는 자료구조이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h4 style="text-align: start">시간복잡도</h4>
+<p style="text-align: start">- 우선순위 큐는 가장 작은 값 추출(extract_min) 및 값 삽입(insert) 연산을 각각 O(log N) (N은 큐에 있는 원소의 개수)의 시간 복잡도로 수행한다.</p>
+<p style="text-align: start">- 간선의 개수를 E라고 할 때, 각 간선이 한 번씩 큐에 삽입될 수 있으므로, 전체 시간 복잡도는 O((V+E)logV) 또는 O(ElogV)로 개선된다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h4 style="text-align: start">플로우</h4>
 <pre class="csharp"><code>dist[] : 최단 거리 저장 배열, 무한대 초기화
 pq(priority_queue) : 우선순위 큐, (거리, 노드) 튜플로 저장, 가장 거리가 짧은 튜플이 항상 최상단에 정렬
 시작 노드 : pq &lt;- (0, start_node) 삽입</code></pre>
@@ -80,8 +80,6 @@ pq &lt;- (dist[neighbor], neighbor) insert</code></pre>
 
 <p>current_node를 경유할 때 인접한 노드까지의 거리가 현재 저장된 값보다 더 짧다면 해당 값으로 갱신하고 거리와 노드를 우선순위 큐에 저장한다.</p>
 
-<p>pq가 완전히 비워지게 되면 dist [] 배열에는 시작 노드에서 다른 모든 노드까지의 최단거리가 저장된다.</p>
-
-> 용량 문제로 `Dijkstra` 애니메이션 이미지는 [원문](https://b-note.tistory.com/171)에서 확인한다.
+<p>pq가 완전히 비워지게 되면 dist [] 배열에는 시작 노드에서 다른 모든 노드까지의 최단거리가 저장된다.</p>> 용량 문제로 `Dijkstra` 애니메이션 이미지는 [원문](/computer-science/cs-algorithms/171-dijkstra-algorithm/)에서 확인한다.
 </figure>
 </p>

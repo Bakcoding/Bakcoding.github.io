@@ -117,7 +117,7 @@ const rex = new Dog('Rex', 'Labrador');
 rex.speak(); // "Rex barks."</code></pre>
 
 <h2>상속의 이점</h2>
-<p>상속의 특징을 제대로 이해하고 적절한 상황에 맞게 <span style="color: #333333; text-align: start;">활용하는 것이</span> 중요하다.</p>
+<p>상속의 특징을 제대로 이해하고 적절한 상황에 맞게 <span style="text-align: start">활용하는 것이</span> 중요하다.</p>
 
 <h3>코드 재사용성</h3>
 <p>상속을 통해 기존 클래스의 기능을 재사용할&nbsp; 수 있기 때문에 이를 통해 중복 코드를 줄이고 새로운 기능을 쉽게 추가할 수 있다.</p>

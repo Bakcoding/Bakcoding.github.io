@@ -34,9 +34,7 @@ source_url: https://b-note.tistory.com/100
 </figure>
 </p>
 
-<p>총알은 생성되고 3초 뒤에 사라지게 된다.</p>
-
-> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](https://b-note.tistory.com/100)에서 확인한다.
+<p>총알은 생성되고 3초 뒤에 사라지게 된다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/100-sharp7/)에서 확인한다.
 </figure>
 </p>
 

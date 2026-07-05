@@ -40,10 +40,10 @@ console.log(greet('Bob')); // "Hello, Bob!"</code></pre>
 <p><b>function(name) </b>&nbsp;: 매개변수 name을 받는 함수를 정의한다.</p>
 <p><b>{ return ~ } </b>: 함수의 본문으로 'Hello, ${name}!'을 반환한다. 템플릿 리터럴을 사용하여 매개변수 name의 값을 포함한 문자열로 반환한다.</p>
 
-<h3 style="color: #000000;">화살표 함수</h3>
-<p style="color: #333333; text-align: start;">ES6부터 도입된 것으로 함수를 간결하게 표현하는 문법이다.</p>
-<pre style="background-color: #f8f8f8; color: #383a42;"><code>let greet = (name) =&gt; `Hello, ${name}!`;
+<h3>화살표 함수</h3>
+<p style="text-align: start">ES6부터 도입된 것으로 함수를 간결하게 표현하는 문법이다.</p>
+<pre style="background-color: var(--bc-code-bg); color: var(--bc-code-text)"><code>let greet = (name) =&gt; `Hello, ${name}!`;
 console.log(greet('Charlie')); // "Hello, Charlie!"</code></pre>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">함수 키워드와 이름이 생략되고 전달받을 매개변수만 괄호 안에 표기한다.</p>
-<p style="color: #333333; text-align: start;">함수의 본문을 작성하는 중괄호와 반환 키워드가 생략되고 본문을 바로 표기할 수 있다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">함수 키워드와 이름이 생략되고 전달받을 매개변수만 괄호 안에 표기한다.</p>
+<p style="text-align: start">함수의 본문을 작성하는 중괄호와 반환 키워드가 생략되고 본문을 바로 표기할 수 있다.</p>

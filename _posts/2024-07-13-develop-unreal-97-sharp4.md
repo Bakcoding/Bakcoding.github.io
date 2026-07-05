@@ -170,8 +170,7 @@ source_url: https://b-note.tistory.com/97
 </p>
 
 
-<h2>결과&nbsp;</h2>
-> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](https://b-note.tistory.com/97)에서 확인한다.
+<h2>결과&nbsp;</h2>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/97-sharp4/)에서 확인한다.
 </figure>
 </p>
 

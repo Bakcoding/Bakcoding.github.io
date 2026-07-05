@@ -33,8 +33,8 @@ source_url: https://b-note.tistory.com/13
 
 <p>그래서 예약어는 식별자로 사용 못하는 문자 키워드는 특별한 의미를 가지고 있는 문자로 구분하고 각 언어마다 키워드와 예약어를 파악하는게 중요하는게 좋을것같다.</p>
 
-<p><span style="background-color: #f6e199;">💡키워드를 식별자로 사용하는 예 : Fortan ( <span style="color: #232629;">if then then then = else else else = then)</span></span></p>
-<p><span style="background-color: #f6e199;">💡예약어가 키워드로 사용되지 않는 예 : Java&nbsp; (goto)</span></p>
+<p><span style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-mark-text)">💡키워드를 식별자로 사용하는 예 : Fortan ( <span>if then then then = else else else = then)</span></span></p>
+<p><span style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-mark-text)">💡예약어가 키워드로 사용되지 않는 예 : Java&nbsp; (goto)</span></p>
 
 <h3>키워드 종류</h3>
 <p>키워드는 사용되는 방식과 기능 그리고 문맥에 따라서 종류가 나누어지며 언어마다 각기 다른 특징을 가지고 있기도 하지만 공통되는 부분도 많다.</p>

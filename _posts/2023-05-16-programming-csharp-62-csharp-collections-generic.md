@@ -32,27 +32,27 @@ source_url: https://b-note.tistory.com/62
 <p>대표적으로 List, Dictionary, Queue &lt;T&gt;, Stack &lt;T&gt; 등이 있다.</p>
 
 
-<table style="border-collapse: collapse; width: 100%;" border="1">
+<table style="border-collapse: collapse; width: 100%" border="1">
 <tbody>
 <tr>
-<td style="width: 50%;"><b>Collections</b></td>
-<td style="width: 50%;"><b>Generic</b></td>
+<td style="width: 50%"><b>Collections</b></td>
+<td style="width: 50%"><b>Generic</b></td>
 </tr>
 <tr>
-<td style="width: 50%;">ArrayList</td>
-<td style="width: 50%;">List&lt;T&gt;</td>
+<td style="width: 50%">ArrayList</td>
+<td style="width: 50%">List&lt;T&gt;</td>
 </tr>
 <tr>
-<td style="width: 50%;">Hashtable</td>
-<td style="width: 50%;">Dictionary&lt;TKey, TValue&gt;</td>
+<td style="width: 50%">Hashtable</td>
+<td style="width: 50%">Dictionary&lt;TKey, TValue&gt;</td>
 </tr>
 <tr>
-<td style="width: 50%;">Queue</td>
-<td style="width: 50%;">Queue&lt;T&gt;</td>
+<td style="width: 50%">Queue</td>
+<td style="width: 50%">Queue&lt;T&gt;</td>
 </tr>
 <tr>
-<td style="width: 50%;">Stack</td>
-<td style="width: 50%;">Stack&lt;T&gt;</td>
+<td style="width: 50%">Stack</td>
+<td style="width: 50%">Stack&lt;T&gt;</td>
 </tr>
 </tbody>
 </table>

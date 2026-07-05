@@ -24,14 +24,14 @@ source_url: https://b-note.tistory.com/124
 <p>두&nbsp;정수&nbsp;A와&nbsp;B가&nbsp;주어졌을&nbsp;때,&nbsp;A와&nbsp;B를&nbsp;비교하는&nbsp;프로그램을&nbsp;작성하시오.</p>
 
 <p><b>입력</b></p>
-<p><span style="color: #333333;">첫째&nbsp;줄에&nbsp;A와&nbsp;B가&nbsp;주어진다.&nbsp;A와&nbsp;B는&nbsp;공백&nbsp;한&nbsp;칸으로&nbsp;구분되어&nbsp;있다.</span></p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>출력</b></p>
-<p style="color: #333333; text-align: start;">첫째&nbsp;줄에&nbsp;다음&nbsp;세&nbsp;가지&nbsp;중&nbsp;하나를&nbsp;출력한다.&nbsp;</p>
-<p style="color: #333333; text-align: start;">-&nbsp;A가&nbsp;B보다&nbsp;큰&nbsp;경우에는&nbsp;'&gt;'를&nbsp;출력한다.&nbsp;</p>
-<p style="color: #333333; text-align: start;">-&nbsp;A가&nbsp;B보다&nbsp;작은&nbsp;경우에는&nbsp;'&lt;'를&nbsp;출력한다.&nbsp;</p>
-<p style="color: #333333; text-align: start;">-&nbsp;A와&nbsp;B가&nbsp;같은&nbsp;경우에는&nbsp;'=='를&nbsp;출력한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
+<p><span>첫째&nbsp;줄에&nbsp;A와&nbsp;B가&nbsp;주어진다.&nbsp;A와&nbsp;B는&nbsp;공백&nbsp;한&nbsp;칸으로&nbsp;구분되어&nbsp;있다.</span></p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>출력</b></p>
+<p style="text-align: start">첫째&nbsp;줄에&nbsp;다음&nbsp;세&nbsp;가지&nbsp;중&nbsp;하나를&nbsp;출력한다.&nbsp;</p>
+<p style="text-align: start">-&nbsp;A가&nbsp;B보다&nbsp;큰&nbsp;경우에는&nbsp;'&gt;'를&nbsp;출력한다.&nbsp;</p>
+<p style="text-align: start">-&nbsp;A가&nbsp;B보다&nbsp;작은&nbsp;경우에는&nbsp;'&lt;'를&nbsp;출력한다.&nbsp;</p>
+<p style="text-align: start">-&nbsp;A와&nbsp;B가&nbsp;같은&nbsp;경우에는&nbsp;'=='를&nbsp;출력한다.</p>
+<p style="text-align: start">&nbsp;</p>
 <h2>C++</h2>
 <pre class="cpp"><code>#include &lt;iostream&gt;
 #include &lt;string&gt;

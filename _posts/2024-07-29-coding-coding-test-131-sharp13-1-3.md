@@ -49,7 +49,7 @@ int main(){
     return 0;
 }</code></pre>
 
-<p><span style="color: #333333; text-align: start;"><span>&nbsp;</span>띄어쓰기와 줄 바꿈</span> 등 출력 형식에 주의한다.</p>
+<p><span style="text-align: start"><span>&nbsp;</span>띄어쓰기와 줄 바꿈</span> 등 출력 형식에 주의한다.</p>
 
 <h3>C#</h3>
 <pre class="csharp"><code>using System;
@@ -154,7 +154,7 @@ for i in range(count):
 
 <p>input은 문자열이기 때문에 int로 변환해 주는 걸 유의한다.</p>
 
-<p><span style="color: #ee2323;"><b>오답</b></span></p>
+<p><span style="color: var(--bc-emphasis-danger)"><b>오답</b></span></p>
 <pre class="javascript"><code>const readline = require('readline');
 const rl = readline.createInterface({
     input : process.stdin,

@@ -31,19 +31,19 @@ source_url: https://b-note.tistory.com/64
 <h2>PyGame</h2>
 <p>python 3.8 버전을 기준으로 작업한다.&nbsp;</p>
 <p>게임을 개발하는데 필요한 라이브러리를 설치한다.</p>
-<h3 style="color: #000000; text-align: start;">Anaconda</h3>
-<p style="color: #333333; text-align: start;">아나콘다는 파이썬에서 자주 쓰이는 패키지를 일괄적으로 설치할 수 있도록 한다.</p>
-<p style="color: #333333; text-align: start;"><a style="background-color: #e6f5ff; color: #0070d1; text-align: start;" href="https://www.anaconda.com/download">Free Download | Anaconda</a></p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">경로에 한글이 포함되어 있으면 에러가 발생할 수 있기 때문에 아나콘다를 설치하는 경로에는 한글이 포함되지 않도록 해주는 것이 좋다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">이때 환경변수를 Anaconda 폴더 내의 python.exe 가 실행되도록 경로를 맞춰야 한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">게임에서 사용할 패키지를 설치한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
+<h3 style="text-align: start">Anaconda</h3>
+<p style="text-align: start">아나콘다는 파이썬에서 자주 쓰이는 패키지를 일괄적으로 설치할 수 있도록 한다.</p>
+<p style="text-align: start"><a style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-info); text-align: start" href="https://www.anaconda.com/download">Free Download | Anaconda</a></p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">경로에 한글이 포함되어 있으면 에러가 발생할 수 있기 때문에 아나콘다를 설치하는 경로에는 한글이 포함되지 않도록 해주는 것이 좋다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">이때 환경변수를 Anaconda 폴더 내의 python.exe 가 실행되도록 경로를 맞춰야 한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">게임에서 사용할 패키지를 설치한다.</p>
+<p style="text-align: start">&nbsp;</p>
 <blockquote>pip install pygame</blockquote>
-<h4 style="color: #000000; text-align: start;">&nbsp;</h4>
-<h4 style="color: #000000; text-align: start;">Error</h4>
+<h4 style="text-align: start">&nbsp;</h4>
+<h4 style="text-align: start">Error</h4>
 <p>다음과 같은 에러가 발생하면&nbsp; pip이 설치되지 않아서 발생할 수 있기 때문에 직접 설치한다.</p>
 <blockquote>'pip'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치&nbsp;파일이&nbsp;아닙니다.</blockquote>
 <p>pip은 보통 파이썬을 설치된다. 만약 이때 설치되지 못했다면 직접 명령어를 통해서 설치한다.</p>

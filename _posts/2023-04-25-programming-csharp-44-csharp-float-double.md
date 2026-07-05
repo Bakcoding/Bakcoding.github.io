@@ -30,7 +30,7 @@ float b = 1.0F</code></pre>
 
 <p>* decimal의 경우 높은 정밀도를 제공하지만 128비트 크기로 계산 속도가 느리기 때문에 성능이 중요한 경우에는 사용에 주의가 필요하다.</p>
 
-<pre style="background-color: #f8f8f8; color: #383a42; text-align: start;"><code>double d = 1.0d;
+<pre style="background-color: var(--bc-code-bg); color: var(--bc-code-text); text-align: start"><code>double d = 1.0d;
 double e = 1.0;</code></pre>
 <p>double을 사용할 때는 접미사 d를 생략할 수 있다. 또한 double 형에 1.0f 처럼 float 값을 넣어도 암시적 형변환이 이루어져 허용이되지만 반대의 경우는 에러가 발생한다.</p>
 <pre class="csharp"><code>double d = 1.0f;	// implicitly convert

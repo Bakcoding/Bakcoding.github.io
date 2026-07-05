@@ -68,9 +68,9 @@ switch (day) {
 }
 
 console.log(dayName); // "Wednesday"</code></pre>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">break는 해당 조건에 해당하면 더 이상 다음 조건을 확인하지 않고 조건문을 종료시키는 기능을 한다.</p>
-<p style="color: #333333; text-align: start;">case는 순서대로 모든 케이스를 확인하기 때문에 break가 없다면 swich의 모든 조건을 확인한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">break는 해당 조건에 해당하면 더 이상 다음 조건을 확인하지 않고 조건문을 종료시키는 기능을 한다.</p>
+<p style="text-align: start">case는 순서대로 모든 케이스를 확인하기 때문에 break가 없다면 swich의 모든 조건을 확인한다.</p>
 <h2>반복문 (Loops)</h2>
 <p>반복문은 특정 코드 블록을 여러 번 실행하는 데 사용된다.&nbsp;</p>
 

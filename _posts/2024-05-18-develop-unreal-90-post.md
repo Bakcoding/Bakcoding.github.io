@@ -60,7 +60,7 @@ source_url: https://b-note.tistory.com/90
 <p>새로운 C++ 클래스를 추가할 때 이를 자동으로 컴파일하는 기능을 제어하는 설정이다.&nbsp;</p>
 <p>활성화시 새로운 C++ 클래스를 생성할 때마다 자동으로 컴파일이 시작된다. 이를 통해 개발자는 추가한 클래스를 바로 사용할 수 있으며 프로젝트에 제대로 통합이 되었는지 빠르게 확인할 수 있다.</p>
 
-<h2 style="color: #000000;">모듈</h2>
+<h2>모듈</h2>
 <p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-origin-width="867" data-origin-height="120"><span data-alt="Unreal Engine - Editor Setting - Live Coding - Module"><img src="/assets/images/posts/2024/05/18/90-3.png" loading="lazy" width="867" height="120" data-origin-width="867" data-origin-height="120"/></span><figcaption>Unreal Engine - Editor Setting - Live Coding - Module</figcaption>
 </figure>
 </p>

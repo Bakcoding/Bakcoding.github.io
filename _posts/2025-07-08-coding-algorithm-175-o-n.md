@@ -19,7 +19,7 @@ source_url: https://b-note.tistory.com/175
 ---
 
 <h2>O(n!) - 팩토리얼 시간</h2>
-<p>주어진 배열의 원소들을 가능한 모든 순서로 배열하는 것을 순열 생성의 모든 경우의 수이다. <span style="color: #333333; text-align: start;">여기서 순열은 일반적인 순열인 직순열로 일직선상의 배열이다.</span></p>
+<p>주어진 배열의 원소들을 가능한 모든 순서로 배열하는 것을 순열 생성의 모든 경우의 수이다. <span style="text-align: start">여기서 순열은 일반적인 순열인 직순열로 일직선상의 배열이다.</span></p>
 
 <p>이러한 연산에서 n개 원소는 n! 개의 순열이 존재하고, 각 순열을 생성하는 데 걸리는 시간을 포함한 전체 시간 복잡도는 n! * n = O(n!)이다.</p>
 
@@ -33,7 +33,7 @@ source_url: https://b-note.tistory.com/175
 <p>총 3! = 6가지 경우가 존재한다.</p>
 
 <p>코드로 표현하면 다음과 같다.</p>
-<pre class="python" style="background-color: #f8f8f8; color: #383a42; text-align: start;"><code>def permutations(arr):
+<pre class="python" style="background-color: var(--bc-code-bg); color: var(--bc-code-text); text-align: start"><code>def permutations(arr):
     if len(arr) &lt;= 1:
         return [arr]
     result = []
@@ -72,7 +72,7 @@ print(permutations([1, 2, 3]))
 <p>A -&gt; B -&gt; D -&gt; C -&gt; A</p>
 <p>...</p>
 
-<p>다시 출발점으로 돌아오기 때문에 원순열로 취급할 수 있어 <span style="color: #333333; text-align: start;">시작점을 A로 고정하고 모든 경로를 구한다.</span></p>
+<p>다시 출발점으로 돌아오기 때문에 원순열로 취급할 수 있어 <span style="text-align: start">시작점을 A로 고정하고 모든 경로를 구한다.</span></p>
 <p>나머지 n-1개 도시의 순열을 구한다. (n-1)!</p>
 <p>4개 도시 -&gt; (4 - 1)! = 6가지</p>
 
@@ -232,10 +232,10 @@ Elapsed time: 1.502671 seconds
 <p>10개의 도시인 경우 10! = 3,628,800개의 경우의 수를 처리하는데 1.5초의 소요 시간이 걸렸다.</p>
 <p>11개의 도시는 11! = 39,916,800개로 약 11배가 증가했으므로 추정 소요 시간은 16.5초로 예상된다.</p>
 <div>
-<table style="border-collapse: collapse; width: 100%;" border="1" data-end="1220" data-start="993">
+<table style="border-collapse: collapse; width: 100%" border="1" data-end="1220" data-start="993">
 <tbody>
 <tr>
-<td><span style="color: #333333; text-align: start;">도시<span>&nbsp;수</span></span></td>
+<td><span style="text-align: start">도시<span>&nbsp;수</span></span></td>
 <td>순열 수</td>
 <td>예상 시간 (초)</td>
 </tr>

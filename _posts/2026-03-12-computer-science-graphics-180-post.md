@@ -26,9 +26,7 @@ source_url: https://b-note.tistory.com/180
 
 <h3>CPU와 GPU</h3>
 <p>그런 CPU의 부하를 대신하기 위해 GPU가 등장했다.</p>
-<p>CPU가 복잡한 논리 연산을 순차적으로 빠르게 처리하는 소수의 지휘관이라면 GPU는 단순하지만 엄청난 양의 계산을 동시에 처리하는 부대급 작업원으로 각자의 역할을 분담하기 시작했다.</p>
-
-> 용량 문제로 해당 이미지는 [원문](https://b-note.tistory.com/180)에서 확인한다.
+<p>CPU가 복잡한 논리 연산을 순차적으로 빠르게 처리하는 소수의 지휘관이라면 GPU는 단순하지만 엄청난 양의 계산을 동시에 처리하는 부대급 작업원으로 각자의 역할을 분담하기 시작했다.</p>> 용량 문제로 해당 이미지는 [원문](/computer-science/graphics/180-post/)에서 확인한다.
 </p>
 
 <p>이렇게 분담한 역할을 자세히 나열하면 다음과 같다.</p>
@@ -69,7 +67,7 @@ source_url: https://b-note.tistory.com/180
 
 <p>위 CPU의 작업이 끝난 후 GPU가 Command Buffer의 명령을 CPU와 비동기적으로 처리하며 실제 픽셀을 그리며 CPU 작업과 독립적으로 진행된다.</p>
 
-<p><span style="letter-spacing: 0px;">1 ~ 4까지의 전체 과정을 넓은 의미에서 Draw Call이라 하며, 이 과정에서 발생하는 CPU 비용은 주로 다음에서 발생한다.</span></p>
+<p><span style="letter-spacing: 0px">1 ~ 4까지의 전체 과정을 넓은 의미에서 Draw Call이라 하며, 이 과정에서 발생하는 CPU 비용은 주로 다음에서 발생한다.</span></p>
 <p>- Render State 변경에 따른 오버헤드 (특히 셰이더/파이프라인 전환)</p>
 <p>- 드라이버의 유효성 검사 및 상태 추적</p>
 <p>- API 명령의 GPU 명령어 번역</p>

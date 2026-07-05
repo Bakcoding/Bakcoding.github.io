@@ -85,42 +85,42 @@ source_url: https://b-note.tistory.com/77
 <p>모드를 변경해서 Text의 크기를 확인해 보니 6kb로 처음 경우에서 2배로 사이즈가 커졌다. 증가량만 따졌을 때는 엄청난 크기 차이가 있다.</p>
 
 <p>몇 번 더 큐브를 추가해 보면서 살펴본다.</p>
-<table style="border-collapse: collapse; width: 100%; height: 123px;" border="1">
+<table style="border-collapse: collapse; width: 100%; height: 123px" border="1">
 <tbody>
-<tr style="height: 20px;">
-<td style="width: 33.3333%; height: 20px;">큐브 개수 / 파일 사이즈(kb)</td>
-<td style="width: 33.3333%; height: 20px;">&nbsp;Binary</td>
-<td style="width: 33.3333%; height: 20px;">Text</td>
+<tr style="height: 20px">
+<td style="width: 33.3333%; height: 20px">큐브 개수 / 파일 사이즈(kb)</td>
+<td style="width: 33.3333%; height: 20px">&nbsp;Binary</td>
+<td style="width: 33.3333%; height: 20px">Text</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 33.3333%; height: 17px;">1</td>
-<td style="width: 33.3333%; height: 17px;">9</td>
-<td style="width: 33.3333%; height: 17px;">3</td>
+<tr style="height: 17px">
+<td style="width: 33.3333%; height: 17px">1</td>
+<td style="width: 33.3333%; height: 17px">9</td>
+<td style="width: 33.3333%; height: 17px">3</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 33.3333%; height: 17px;">2</td>
-<td style="width: 33.3333%; height: 17px;">9</td>
-<td style="width: 33.3333%; height: 17px;">6</td>
+<tr style="height: 17px">
+<td style="width: 33.3333%; height: 17px">2</td>
+<td style="width: 33.3333%; height: 17px">9</td>
+<td style="width: 33.3333%; height: 17px">6</td>
 </tr>
-<tr style="height: 18px;">
-<td style="width: 33.3333%; height: 18px;">3</td>
-<td style="width: 33.3333%; height: 18px;">10</td>
-<td style="width: 33.3333%; height: 18px;">9</td>
+<tr style="height: 18px">
+<td style="width: 33.3333%; height: 18px">3</td>
+<td style="width: 33.3333%; height: 18px">10</td>
+<td style="width: 33.3333%; height: 18px">9</td>
 </tr>
-<tr style="height: 15px;">
-<td style="width: 33.3333%; height: 15px;">4</td>
-<td style="width: 33.3333%; height: 15px;">11</td>
-<td style="width: 33.3333%; height: 15px;">12</td>
+<tr style="height: 15px">
+<td style="width: 33.3333%; height: 15px">4</td>
+<td style="width: 33.3333%; height: 15px">11</td>
+<td style="width: 33.3333%; height: 15px">12</td>
 </tr>
-<tr style="height: 19px;">
-<td style="width: 33.3333%; height: 19px;">20</td>
-<td style="width: 33.3333%; height: 19px;">23</td>
-<td style="width: 33.3333%; height: 19px;">56</td>
+<tr style="height: 19px">
+<td style="width: 33.3333%; height: 19px">20</td>
+<td style="width: 33.3333%; height: 19px">23</td>
+<td style="width: 33.3333%; height: 19px">56</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 33.3333%; height: 17px;">100</td>
-<td style="width: 33.3333%; height: 17px;">82</td>
-<td style="width: 33.3333%; height: 17px;">276</td>
+<tr style="height: 17px">
+<td style="width: 33.3333%; height: 17px">100</td>
+<td style="width: 33.3333%; height: 17px">82</td>
+<td style="width: 33.3333%; height: 17px">276</td>
 </tr>
 </tbody>
 </table>

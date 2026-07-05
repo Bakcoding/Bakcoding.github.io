@@ -22,7 +22,7 @@ source_url: https://b-note.tistory.com/87
 <p>C# 언어를 사용하는 프로젝트에서 이외의 언어로 작성된 라이브러리 함수를 호출하는 경우는 아주 흔하게 발생하는 상황이다. 예를 들어서 C#에서 Windows API를 호출하려면 DllImport 속성을 사용해서 C# 코드에서 네이티브 코드 함수를 선언해야 한다. 이를 통해 C# 프로그램에서 운영 체제 수준의 다양한 기능을 직접적으로 사용할 수 있다.</p>
 
 <p>Windows API 중 몇 가지 간단한 함수를 사용해 본다.</p>
-<pre class="cs" style="background-color: #f8f8f8; color: #383a42; text-align: start;"><code>namespace Test
+<pre class="cs" style="background-color: var(--bc-code-bg); color: var(--bc-code-text); text-align: start"><code>namespace Test
 {
     using System;
     using System.Text;
@@ -79,7 +79,7 @@ source_url: https://b-note.tistory.com/87
 
 <p>외부 함수 SetConsoleTitle을 사용해서 실행되는 콘솔의 타이틀을 변경하고 GetConsoleTitle을 사용해서 변경한 콘솔의 타이틀을 가지고 와서 콘솔에 찍어본다. 그리고 GetSystemTime을 사용해서 현재 실행 중인 장치의 시간을 가지고 온다.</p>
 
-<p>코드를 보면 알 수 있듯이 필요한 기능을 사용하기 위해서는 <span style="color: #333333; text-align: start;">어트리뷰트를 선언할 때 추가로 필요한 값들이나 사용하고자 하는</span> 함수의 반환값, 필요한 파라미터 등에 대한 정보들이 필요하다.</p>
+<p>코드를 보면 알 수 있듯이 필요한 기능을 사용하기 위해서는 <span style="text-align: start">어트리뷰트를 선언할 때 추가로 필요한 값들이나 사용하고자 하는</span> 함수의 반환값, 필요한 파라미터 등에 대한 정보들이 필요하다.</p>
 
 <p>이러한 정보들은 마이크로소프트 공식 문서나 또는 이를 주제로 하는 커뮤니티에서 확인할 수 있고 이외 라이브러리들도 제공하는 곳에서 API 문서를 확인할 수 있다.</p>
 

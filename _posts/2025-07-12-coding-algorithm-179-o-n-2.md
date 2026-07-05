@@ -25,10 +25,10 @@ source_url: https://b-note.tistory.com/179
 <p>이 복잡도는 이중 반복문이 포함된 구조에서 자주 나타나며, 작은 입력에선 문제없지만, 큰 입력에서는 비효율적인 성능을 보인다.</p>
 <p>대표적으로 정렬 알고리즘 중 버블 정렬, 삽입 정렬, 선택 정렬이 이에 해당하며, 브루트포스 방식의 문제 해결에서도 볼 수 있다.</p>
 
-<h3><span style="color: #000000; text-align: start;">버블 정렬</span></h3>
-<p><span style="color: #000000; text-align: start;">오름차순 기준</span></p>
+<h3><span style="text-align: start">버블 정렬</span></h3>
+<p><span style="text-align: start">오름차순 기준</span></p>
 
-<p><span style="color: #000000; text-align: start;">배열의 인접한 두 원소를 검사하고 정렬한다.</span><span style="color: #000000; text-align: start;"></span></p>
+<p><span style="text-align: start">배열의 인접한 두 원소를 검사하고 정렬한다.</span><span style="text-align: start"></span></p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="485" data-origin-height="562"><span data-alt="bubble sort"><img src="/assets/images/posts/2025/07/12/179-1.png" loading="lazy" width="259" height="300" data-origin-width="485" data-origin-height="562"/></span><figcaption>bubble sort</figcaption>
 </figure>
 </p>

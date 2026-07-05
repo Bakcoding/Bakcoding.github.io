@@ -104,18 +104,18 @@ for (int i = 0; i &lt; n; i++){
 //================================================
 List&lt;int&gt; numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();</code></pre>
 
-<p><span style="color: #333333; text-align: start;">Linq는 이외에도 배열이나 컬렉션 등을 처리할 때 유용한 기능들을 제공하기 때문에 함께 사용하는 경우가 많다. 하지만 강력한 기능인만큼 많은 메모리를 사용하기 때문에 주의해야 한다.</span><span style="color: #333333; text-align: start;"></span></p>
+<p><span style="text-align: start">Linq는 이외에도 배열이나 컬렉션 등을 처리할 때 유용한 기능들을 제공하기 때문에 함께 사용하는 경우가 많다. 하지만 강력한 기능인만큼 많은 메모리를 사용하기 때문에 주의해야 한다.</span><span style="text-align: start"></span></p>
 
-<h3><span style="color: #333333; text-align: start;">Python</span></h3>
+<h3><span style="text-align: start">Python</span></h3>
 <pre class="python"><code>n = int(input())
 num_list = list(map(int, input().split()))
 min_val = min(num_list)
 max_val = max(num_list)
 print(f"{min_val} {max_val}")</code></pre>
 
-<p><span style="color: #333333; text-align: start;">파이썬은 list()를 사용할 수 있다.</span></p>
-<p><span style="letter-spacing: 0px;">map은 해당 함수가 반복 가능한 객체의 각 요소에 대해 적용된 결과를 반환하는 map객체를 생성하는데 이 객체는 필요에 따라 리스트나 튜플로 변환하여 사용할 수 있다.</span></p>
-<p style="color: #333333; text-align: start;">map을 사용해서 입력되는 값을 공백으로 구분하고 각 문자열을 정수로 변환하여 반환되는 map으로 list를 초기화한다.</p>
+<p><span style="text-align: start">파이썬은 list()를 사용할 수 있다.</span></p>
+<p><span style="letter-spacing: 0px">map은 해당 함수가 반복 가능한 객체의 각 요소에 대해 적용된 결과를 반환하는 map객체를 생성하는데 이 객체는 필요에 따라 리스트나 튜플로 변환하여 사용할 수 있다.</span></p>
+<p style="text-align: start">map을 사용해서 입력되는 값을 공백으로 구분하고 각 문자열을 정수로 변환하여 반환되는 map으로 list를 초기화한다.</p>
 
 <h3>Node.js</h3>
 <pre class="javascript"><code>const fs = require('fs');

@@ -184,9 +184,7 @@ source_url: https://b-note.tistory.com/94
 
 <p>'MainLevel'과 구분될 정도로만 'PlayLevel'을 세팅한다.</p>
 
-<p>다시 'MainLevel'로 돌아와서 플레이해 본다.</p>
-
-> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](https://b-note.tistory.com/94)에서 확인한다.
+<p>다시 'MainLevel'로 돌아와서 플레이해 본다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/94-sharp1-umg-ui/)에서 확인한다.
 </figure>
 </p>
 

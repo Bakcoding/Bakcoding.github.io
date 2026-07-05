@@ -23,7 +23,7 @@ source_url: https://b-note.tistory.com/19
 <p>이때 외부란 C# 코드 이외의 언어로 작성된 코드를 뜻하며 DLL이나 C/C++ 등으로 작성된 함수를 말한다.</p>
 <p>이런 외부에서 작성된 코드 즉, C# 및. Net 프레임 워크에서 사용되지 않는 코드 다시 말해서 CLR에서 관리되지 않는 코드를 unmanaged code라고 하는데 이러한 unmanaged code를 불러오기 위해서는 interop 기술이 필요하다.</p>
 
-<blockquote><a href="https://b-note.tistory.com/21" target="_blank" rel="noopener">Interop 정리글</a></blockquote>
+<blockquote><a href="/programming/csharp/21-interoperability/" target="_blank" rel="noopener">Interop 정리글</a></blockquote>
 
 <p>간략하게 Interop은 다른 언어나 플랫폼에서 작성된 코드를 호출하거나 받는 기술로 COM, P/Invoke, C++/CLI 등이 대표적으로 있는데 extern 키워드는 이러한 함수나 객체가 외부의 것임을 나타내는 역할을 한다.</p>
 
@@ -70,5 +70,5 @@ using Class1V2 = GridV2::Namespace.Class1;</code></pre>
 </p>
 <p>이름을 사용하기 위해서는 별칭이 지정되지 않아야 하므로 별칭을 지우고 이름을 수정한다.</p>
 
-<p>그 후에 <span style="color: #333333; text-align: start;">C#에서 </span>Type.GetType 메서드를 사용하면 어셈블리에서 Type을 가져올 수 있는데 이때 어셈블리의 전체 이름을 사용하여 Type을 가져오면 해당 어셈블리를 특정해서 참조할 수 있게 된다.</p>
+<p>그 후에 <span style="text-align: start">C#에서 </span>Type.GetType 메서드를 사용하면 어셈블리에서 Type을 가져올 수 있는데 이때 어셈블리의 전체 이름을 사용하여 Type을 가져오면 해당 어셈블리를 특정해서 참조할 수 있게 된다.</p>
 <pre class="csharp"><code>Type myType = Type.GetType("MyNamespace.MyType, MyAssembly");</code></pre>

@@ -38,7 +38,7 @@ source_url: https://b-note.tistory.com/16
 <p><b>* awaitable :&nbsp;</b>GetAwaiter() 메서드를 갖는 클래스</p>
 
 
-<blockquote><a style="color: #6d67e4;" href="https://b-note.tistory.com/15" target="_blank" rel="noopener">About&nbsp;sync&nbsp;and&nbsp;async</a></blockquote>
+<blockquote><a style="color: var(--bc-emphasis-purple)" href="/programming/programming-basics/15-sync-async/" target="_blank" rel="noopener">About&nbsp;sync&nbsp;and&nbsp;async</a></blockquote>
 
 <h4>Example</h4>
 <pre class="csharp"><code>    class Program

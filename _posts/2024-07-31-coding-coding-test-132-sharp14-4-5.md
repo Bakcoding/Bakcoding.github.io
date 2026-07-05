@@ -151,7 +151,7 @@ rl.on('line', (line) =&gt; {
 <p>혜아는 이런 생각이 들었다. &ldquo;int 앞에 long을 하나씩 더 붙일 때마다 4바이트씩 저장할 수 있는 공간이 늘어나는 걸까? 분명 long long long int는 12바이트, long long long long int는 16바이트까지 저장할 수 있는 정수 자료형일 거야!&rdquo; 그렇게 혜아는 당황하는 면접관의 얼굴을 뒤로한 채 칠판에 정수 자료형을 써 내려가기 시작했다. 혜아가 N바이트 정수까지 저장할 수 있다고 생각해서 칠판에 쓴 정수 자료형의 이름은 무엇일까?</p>
 
 <p><b>입력</b></p>
-<p>첫 번째 줄에는 문제의 정수 N이 주어진다. (4 <span style="color: #333333; text-align: start;">&le;<span> </span></span>N <span style="color: #333333; text-align: start;">&le;<span>&nbsp;</span></span> 1, 000; N은 4의 배수)</p>
+<p>첫 번째 줄에는 문제의 정수 N이 주어진다. (4 <span style="text-align: start">&le;<span> </span></span>N <span style="text-align: start">&le;<span>&nbsp;</span></span> 1, 000; N은 4의 배수)</p>
 
 <p><b>출력</b></p>
 <p>혜아가 N바이트 정수까지 저장할 수 있다고 생각하는 정수 자료형의 이름을 출력하여라.</p>

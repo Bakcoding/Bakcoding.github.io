@@ -81,7 +81,7 @@ source_url: https://b-note.tistory.com/23
 <p>주로 메모리 주소를 저장하고 관리하는 데 사용된다. 주소 레지스터는 메모리에서 데이터를 읽거나 쓰는데 필요한 메모리 주소를 담당하며 주소 계산, 포인터 연산, 배열 인덱싱 등 다양한 작업에서 사용된다.</p>
 
 <p><b>종류</b></p>
-<ul style="list-style-type: disc;">
+<ul style="list-style-type: disc">
 <li>베이스 레지스터(Base Register) : 메모리 주소 영역의 시작 주소를 저장하는 데 사용된다.</li>
 <li>인덱스 레지스터(Index Register) : 메모리 주소 영역 내에서 특정 위치를 가리키기 위해 사용된다. 주로 배열 인덱싱에 활용된다.</li>
 <li>세그먼트 레지스터(Segment Register) : 일부 아키텍처에서만 사용되며 메모리 <b>세그먼트</b>의 기준 주소를 저장하는 레지스터로 주소 계산에 사용된다.</li>

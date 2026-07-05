@@ -17,7 +17,7 @@ last_modified_at: 2023-05-12
 source_url: https://b-note.tistory.com/60
 ---
 
-<p><span style="color: #000000; text-align: start;">에디터 버전 : 2021.3.28f1 (LTS) </span></p>
+<p><span style="text-align: start">에디터 버전 : 2021.3.28f1 (LTS) </span></p>
 
 <h2>Audio</h2>
 <p>오디오 시스템을 구성하는 데 사용되는 설정으로 모든 Audio 컴포넌트에 영향을 미치는 전역적인 설정을 제공한다.</p>
@@ -54,12 +54,12 @@ source_url: https://b-note.tistory.com/60
 <h4>Doppler Effect</h4>
 <p>도플러 효과란 파동의 진동수가 왜곡되는 현상이다. 음원(소리의 근원지)가 움직이면서 파원이 다가오고 있을 때 정지한 관찰자에게는 파동의 파장이 실제보다 짧게 느껴지고 다시 멀어지게 되면 파장이 실제보다 길게 느껴지는 것이다.</p>
 
-<p>예를 들어 멀리서부터 소방차가 사이렌을 켜고 달려오고 있다. 이때 멀리서부터 나에게 가까워지는 동안에는 사이렌의 소리가 점점 높아지는 것처럼 들리다가 내 옆을 지나쳐 멀어질 때는 낮아지는 것처럼 느껴진다. 하지만 <span style="color: #333333; text-align: start;"><span>&nbsp;</span>이는 상대적인 효과로 관찰자만 느끼는 현상이고 소방차에 탑승한 사람에게는 일정한 소리로 들린다.</span></p>
+<p>예를 들어 멀리서부터 소방차가 사이렌을 켜고 달려오고 있다. 이때 멀리서부터 나에게 가까워지는 동안에는 사이렌의 소리가 점점 높아지는 것처럼 들리다가 내 옆을 지나쳐 멀어질 때는 낮아지는 것처럼 느껴진다. 하지만 <span style="text-align: start"><span>&nbsp;</span>이는 상대적인 효과로 관찰자만 느끼는 현상이고 소방차에 탑승한 사람에게는 일정한 소리로 들린다.</span></p>
 
-<p><span style="color: #333333; text-align: start;">유니티의 프로젝트 세팅에서 Doppler Factor 수치는 기본적으로 1이다. 이 수치는 소리의 움직임이 실제 도플러 효과와 거의 동일하게 시뮬레이션되며 값이 0에 가까워질수록 도플러 효과가 감소하고 값이 높아질수록 강조된다.</span></p>
+<p><span style="text-align: start">유니티의 프로젝트 세팅에서 Doppler Factor 수치는 기본적으로 1이다. 이 수치는 소리의 움직임이 실제 도플러 효과와 거의 동일하게 시뮬레이션되며 값이 0에 가까워질수록 도플러 효과가 감소하고 값이 높아질수록 강조된다.</span></p>
 
-<h3><span style="color: #333333; text-align: start;">Default Speaker Mode</span></h3>
-<p><span style="color: #333333; text-align: start;">프로젝트의 오디오 출력을 설정할 수 있는 옵션이다. 유니티 엔진에서 오디오가 재생될 때 사용되는 스피커의 타입을 지정할 수 있다.</span></p>
+<h3><span style="text-align: start">Default Speaker Mode</span></h3>
+<p><span style="text-align: start">프로젝트의 오디오 출력을 설정할 수 있는 옵션이다. 유니티 엔진에서 오디오가 재생될 때 사용되는 스피커의 타입을 지정할 수 있다.</span></p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="326" data-origin-height="78"><span data-alt="Audio - Default Speaker Mode"><img src="/assets/images/posts/2023/05/12/60-5.png" loading="lazy" width="326" height="78" data-origin-width="326" data-origin-height="78"/></span><figcaption>Audio - Default Speaker Mode</figcaption>
 </figure>
 </p>

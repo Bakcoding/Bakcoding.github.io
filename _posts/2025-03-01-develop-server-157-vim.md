@@ -96,6 +96,6 @@ source_url: https://b-note.tistory.com/157
 <p>Ctrl + d : 파일에서 절반 정도 아래로 이동</p>
 <p>Ctrl + u : 파일에서 절반 정도 위로 이동</p>
 
-<p style="color: #333333; text-align: start;">Ctrl + w, s : 창을 수평으로 나누고 커서 이동</p>
-<p style="color: #333333; text-align: start;">Ctrl + w, v : 창을 수직으로 나누고 커서 이동</p>
-<p style="color: #333333; text-align: start;">Ctrl + w, q : 분할된 창 닫기</p>
+<p style="text-align: start">Ctrl + w, s : 창을 수평으로 나누고 커서 이동</p>
+<p style="text-align: start">Ctrl + w, v : 창을 수직으로 나누고 커서 이동</p>
+<p style="text-align: start">Ctrl + w, q : 분할된 창 닫기</p>

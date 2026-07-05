@@ -104,9 +104,9 @@ static void Print_3() { }</code></pre>
 
 <p>delegate는 대표적으로 이벤트 처리, 비동기 처리, 콜백에 사용된다.</p>
 
-<h3 style="color: #000000;">Event</h3>
+<h3>Event</h3>
 <p>프로그래밍에서 이벤트는 어떤 특정한 조건이나 상황이 발생했을 때 이를 감지하고 처리하는 기능을 의미한다.</p>
-<p>예를 들어 마우스 클릭, 키보드 입력 등이 이벤트이다. <span style="color: #000000; text-align: start;">이벤트 기반 프로그래밍(Event-driven programming)은 이러한 상황에서 반응하듯이 특정한 기능을 수행시키는 이벤트 기반으로 만드는 방식을 말하며 </span><span style="letter-spacing: 0px;">코드와의 상호작용으로 객체 간의 통신을 쉽게하고 객체의 라이프 사이클과 관련된 처리를 간편하게 할 수 있다.</span></p>
+<p>예를 들어 마우스 클릭, 키보드 입력 등이 이벤트이다. <span style="text-align: start">이벤트 기반 프로그래밍(Event-driven programming)은 이러한 상황에서 반응하듯이 특정한 기능을 수행시키는 이벤트 기반으로 만드는 방식을 말하며 </span><span style="letter-spacing: 0px">코드와의 상호작용으로 객체 간의 통신을 쉽게하고 객체의 라이프 사이클과 관련된 처리를 간편하게 할 수 있다.</span></p>
 
 <h4>Event Subscribe</h4>
 <p>이벤트 구독</p>

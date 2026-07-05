@@ -266,9 +266,9 @@ num_list = [1, 2, 3, 4, 5]
 reversed_list = num_list[::-1]
 print(reversed_list)  # [5, 4, 3, 2, 1]</code></pre>
 
-<p><span style="color: #333333; text-align: start;">슬라이싱을 사용하면 해당 리스트의 요소를 뒤집은 새로운 리스트를 생성한다.</span></p>
+<p><span style="text-align: start">슬라이싱을 사용하면 해당 리스트의 요소를 뒤집은 새로운 리스트를 생성한다.</span></p>
 
-<p><b><span style="color: #333333; text-align: start;">reversed()</span></b></p>
+<p><b><span style="text-align: start">reversed()</span></b></p>
 <pre class="python"><code>num_list = [1, 2, 3, 4, 5]
 reversed_list = list(reversed(num_list))
 print(reversed_list)  # [5, 4, 3, 2, 1]</code></pre>

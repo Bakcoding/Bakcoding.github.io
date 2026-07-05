@@ -56,7 +56,7 @@ source_url: https://b-note.tistory.com/27
 <h3>제어 유닛(Control Unit)</h3>
 <p>CPU 내에 위치하며 명령어를 해석하고 필요한 연산을 수행하기 위해 필요한 제어 신호를 생성하는 역할을 한다.</p>
 <p>명령어 실행 과정에서 데이터 경로의 구성 요소들을 제어함으로써 프로세서의 전체 동작을 조율한다.</p>
-<p><span style="color: #333333; text-align: start;">동작은 데이터 경로와 비슷한 단계를 거친다.<span>&nbsp;</span></span></p>
+<p><span style="text-align: start">동작은 데이터 경로와 비슷한 단계를 거친다.<span>&nbsp;</span></span></p>
 
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="control_bus.png" data-origin-width="479" data-origin-height="343"><span><img src="/assets/images/posts/2023/03/17/27-2.png" loading="lazy" width="479" height="343" data-filename="control_bus.png" data-origin-width="479" data-origin-height="343"/></span></figure>
 </p>

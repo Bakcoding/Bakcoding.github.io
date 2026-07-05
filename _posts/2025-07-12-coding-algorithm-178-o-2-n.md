@@ -98,7 +98,7 @@ print(fibonacci(5))
 """</code></pre>
 
 <p>시간 복잡도는 O(2^n)이며 재귀호출로 인한 중복 호출이 많이 발생하게 된다.</p>
-<p><span style="color: #333333; text-align: start;">n = 5일 때,<span>&nbsp;</span></span></p>
+<p><span style="text-align: start">n = 5일 때,<span>&nbsp;</span></span></p>
 <p>finbonacci(3) : 2번</p>
 <p>finbonacci(2) : 3번</p>
 <p>finbonacci(1) : 5번</p>
@@ -106,7 +106,7 @@ print(fibonacci(5))
 
 <p>이러한 중복을 대처하기 위해 효율적인 대안으로 동적 계획법이나 메모이제이션으로 O(n)으로 개선이 가능하다.</p>
 
-<h3>조합 탐색 (<span style="color: #333333; text-align: start;">DFS/백트래킹<span> 기반)</span></span><span style="color: #333333; text-align: start;"><span></span></span></h3>
+<h3>조합 탐색 (<span style="text-align: start">DFS/백트래킹<span> 기반)</span></span><span style="text-align: start"><span></span></span></h3>
 <p>n개의 원소 중에서 순서에 상관없이 R개를 뽑는 모든 조합을 탐색한다.</p>
 <p>- DFS : 깊이 우선 탐색</p>
 <p>- 백트래킹 : 모든 경우의 수를 탐색하면서 가능성이 없는 분기는 중단하고 되돌아가는 기법</p>
@@ -135,7 +135,7 @@ dfs([1, 2, 3, 4], [], 0, 2)
 <p>조합의 수는 C(n, r)로 최대 O(2^n)이 된다. 백트래킹의 경우 조건에 따라 일부 경로는 생략 가능해서 효율은 개선되지만 최악의 경우는 여전히 O(2^n)이다.</p>
 
 <h3>동적 계획법</h3>
-<h4 style="color: #000000; text-align: start;">Top-Down</h4>
+<h4 style="text-align: start">Top-Down</h4>
 <p>큰 문제를 작은 하위 문제로 쪼개면서 재귀적으로 호출한다.</p>
 <p>이미 계산한 하위 문제의 결과는 메모이제이션을 통해 저장하여 중복 호출을 방지한다.</p>
 <p>재귀 호출 중에 처음 계산되는 하위 문제만 실제 계산되고, 이후에는 저장된 값을 재사용한다.</p>

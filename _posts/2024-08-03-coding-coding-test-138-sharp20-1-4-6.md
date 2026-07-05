@@ -78,7 +78,7 @@ print(max_val)
 print(index + 1)</code></pre>
 
 <p>[]로 가변 배열을 선언한다. 이 배열은 기본 타입인 list와 동일한 타입의 객체이다.</p>
-<p><span style="color: #333333; text-align: start;"><span>&nbsp;</span>num_list = list()</span>와 동일한 객체</p>
+<p><span style="text-align: start"><span>&nbsp;</span>num_list = list()</span>와 동일한 객체</p>
 <p>이 객체는 apeend를 사용해서 값을 추가할 수 있고 index로 요소의 인덱스를 검색할 수 있다.</p>
 
 <h3>Node.js</h3>
@@ -197,7 +197,7 @@ console.log(num_list.join(' '));</code></pre>
 
 <p>Array(n)로 n크기의 배열을 선언하고 fill(0)으로 값을 0으로 초기화한다.</p>
 
-<h2 style="color: #000000;">6번 공 바꾸기</h2>
+<h2>6번 공 바꾸기</h2>
 <p><b>문제</b></p>
 <p>도현이는&nbsp;바구니를&nbsp;총&nbsp;N개&nbsp;가지고&nbsp;있고,&nbsp;각각의&nbsp;바구니에는&nbsp;1번부터&nbsp;N번까지&nbsp;번호가&nbsp;매겨져&nbsp;있다.&nbsp;바구니에는&nbsp;공이&nbsp;1개씩&nbsp;들어있고,&nbsp;처음에는&nbsp;바구니에&nbsp;적혀있는&nbsp;번호와&nbsp;같은&nbsp;번호가&nbsp;적힌&nbsp;공이&nbsp;들어있다.&nbsp;</p>
 

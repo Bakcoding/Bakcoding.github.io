@@ -19,7 +19,7 @@ last_modified_at: 2023-03-30
 source_url: https://b-note.tistory.com/35
 ---
 
-<h3 style="color: #000000; text-align: start;">readonly</h3>
+<h3 style="text-align: start">readonly</h3>
 <p>변수 앞에 위치하면 해당 변수는 읽기 전용이 되어 해당 변수가 정의된 클래스나 구조체, 메서드 등에서만 수정이 가능하며 readonly로 선언된 변수는 선언할 때 또는 생성자에서 값을 할당해야한다.</p>
 
 <pre class="csharp"><code>public class MyClass

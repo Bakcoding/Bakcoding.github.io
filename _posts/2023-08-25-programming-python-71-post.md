@@ -25,7 +25,7 @@ source_url: https://b-note.tistory.com/71
 
 <p>문서의 저자를 보고 Tim Peters가 파이썬을 만든사람인줄 알았지만 알고보니&nbsp;파이썬의 초기 개발자는 Guido van Rossum(귀도 반 로섬)이라는 네덜란드 개발자였다.</p>
 
-<p><a href="https://www.python.org/doc/essays/foreword/" target="_blank" rel="noopener">Foreword&nbsp;for&nbsp;"Programming&nbsp;Python"<span style="background-color: #ffffff; color: #202122; text-align: start;"></span></a></p>
+<p><a href="https://www.python.org/doc/essays/foreword/" target="_blank" rel="noopener">Foreword&nbsp;for&nbsp;"Programming&nbsp;Python"<span style="background-color: var(--bc-surface); text-align: start"></span></a></p>
 
 <p>파이썬의 서문에서는 탄생 배경에 대한 인터뷰 내용이 있다. 심심했던 그는 ABC 언어에 영감을 받고 취미로 만들기 시작했다고 하는데 그렇게 만들어진 언어가 지금까지도 많은 사람들에게 사용된다는게 그의 천재적인 면모가 보인다.</p>
 

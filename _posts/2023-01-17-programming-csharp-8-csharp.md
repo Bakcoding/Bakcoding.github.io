@@ -28,7 +28,7 @@ source_url: https://b-note.tistory.com/8
 <p>- 자동으로 메모리를 관리한다.</p>
 <p>- 모든 메서드와 변수는 클래스내에서 선언된다.</p>
 
-<blockquote><a href="https://b-note.tistory.com/10" target="_blank" rel="noopener">.Net Framework 정리글</a></blockquote>
+<blockquote><a href="/programming/csharp/10-net-framework/" target="_blank" rel="noopener">.Net Framework 정리글</a></blockquote>
 
 <h4>Object-Oriented Programming</h4>
 <p><b>객체지향 프로그래밍</b></p>

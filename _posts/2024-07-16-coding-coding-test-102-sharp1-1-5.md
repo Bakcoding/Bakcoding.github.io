@@ -20,11 +20,11 @@ source_url: https://b-note.tistory.com/102
 ---
 
 <h2>1번</h2>
-<p style="color: #333333; text-align: start;"><b>문제</b></p>
-<p style="color: #333333; text-align: start;">Hello&nbsp;World! 를&nbsp;출력하시오.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>출력</b></p>
-<p style="color: #333333; text-align: start;">Hello&nbsp;World! 를&nbsp;출력하시오.</p>
+<p style="text-align: start"><b>문제</b></p>
+<p style="text-align: start">Hello&nbsp;World! 를&nbsp;출력하시오.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>출력</b></p>
+<p style="text-align: start">Hello&nbsp;World! 를&nbsp;출력하시오.</p>
 
 <h3>C++</h3>
 <pre class="cpp"><code>#include &lt;iostream&gt;
@@ -52,17 +52,17 @@ class Program{
 <p><br />이렇게&nbsp;보니&nbsp;파이썬의&nbsp;간단함에&nbsp;새삼스럽게&nbsp;놀란다.</p>
 
 <h2>2번</h2>
-<p style="color: #333333; text-align: start;"><b>문제</b></p>
-<p style="color: #333333; text-align: start;">두&nbsp;정수&nbsp;A와&nbsp;B를&nbsp;입력받은&nbsp;다음,&nbsp;A+B를&nbsp;출력하는&nbsp;프로그램을&nbsp;작성하시오.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>입력</b></p>
-<p style="color: #333333; text-align: start;">첫째&nbsp;줄에&nbsp;A와&nbsp;B가&nbsp;주어진다.&nbsp;(0&nbsp;&lt;&nbsp;A,&nbsp;B&nbsp;&lt;&nbsp;10)</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>출력</b></p>
-<p style="color: #333333; text-align: start;">첫째 줄에 A+B를 출력한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
+<p style="text-align: start"><b>문제</b></p>
+<p style="text-align: start">두&nbsp;정수&nbsp;A와&nbsp;B를&nbsp;입력받은&nbsp;다음,&nbsp;A+B를&nbsp;출력하는&nbsp;프로그램을&nbsp;작성하시오.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>입력</b></p>
+<p style="text-align: start">첫째&nbsp;줄에&nbsp;A와&nbsp;B가&nbsp;주어진다.&nbsp;(0&nbsp;&lt;&nbsp;A,&nbsp;B&nbsp;&lt;&nbsp;10)</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>출력</b></p>
+<p style="text-align: start">첫째 줄에 A+B를 출력한다.</p>
+<p style="text-align: start">&nbsp;</p>
 <h3>C++</h3>
-<div style="background-color: #ffffff; color: #333333; text-align: start;">
+<div style="background-color: var(--bc-surface); text-align: start">
 <pre class="python"><code>#include &lt;iostream&gt;
 using namespace std;
 int main(){
@@ -104,16 +104,16 @@ print(a+b)</code></pre>
 <p>4번 문제까지는 연산 기호만 달라서 문제만 풀고 따로 남기지 않는다.</p>
 
 <h2>5번</h2>
-<p style="color: #333333; text-align: start;"><b>문제</b></p>
-<p style="color: #333333; text-align: start;">두&nbsp;정수&nbsp;A와&nbsp;B를&nbsp;입력받은&nbsp;다음,&nbsp;A/B를&nbsp;출력하는&nbsp;프로그램을&nbsp;작성하시오.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>입력</b></p>
-<p style="color: #333333; text-align: start;">첫째&nbsp;줄에&nbsp;A와&nbsp;B가&nbsp;주어진다.&nbsp;(0&nbsp;&lt;&nbsp;A,&nbsp;B&nbsp;&lt;&nbsp;10)</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>출력</b></p>
-<p style="color: #333333; text-align: start;">첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10의 -9승 이하이면 정답이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h3 style="color: #333333; text-align: start;">C++</h3>
+<p style="text-align: start"><b>문제</b></p>
+<p style="text-align: start">두&nbsp;정수&nbsp;A와&nbsp;B를&nbsp;입력받은&nbsp;다음,&nbsp;A/B를&nbsp;출력하는&nbsp;프로그램을&nbsp;작성하시오.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>입력</b></p>
+<p style="text-align: start">첫째&nbsp;줄에&nbsp;A와&nbsp;B가&nbsp;주어진다.&nbsp;(0&nbsp;&lt;&nbsp;A,&nbsp;B&nbsp;&lt;&nbsp;10)</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>출력</b></p>
+<p style="text-align: start">첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10의 -9승 이하이면 정답이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h3 style="text-align: start">C++</h3>
 <pre class="cpp"><code>#include &lt;iostream&gt;
 using namespace std;
 int main(){

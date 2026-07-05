@@ -17,7 +17,7 @@ last_modified_at: 2024-05-18
 source_url: https://b-note.tistory.com/89
 ---
 
-<h2 style="color: #000000; text-align: start;">Hot Reload</h2>
+<h2 style="text-align: start">Hot Reload</h2>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="723" data-origin-height="91"><span data-alt="Unreal Engine - Editor Setting, Hot Reload"><img src="/assets/images/posts/2024/05/18/89-1.png" loading="lazy" width="723" height="91" data-origin-width="723" data-origin-height="91"/></span><figcaption>Unreal Engine - Editor Setting, Hot Reload</figcaption>
 </figure>
 </p>
@@ -26,7 +26,7 @@ source_url: https://b-note.tistory.com/89
 <h3>새로 추가된 C++ 클래스 자동 컴파일</h3>
 <p>코드를 수정하고 저장하게 되면 로드시간이 발생하게 된다. 이 시간 동안 변경된 사항을 프로젝트에 반영하게 되는데 기본적으로 Hot Load의 새로 추가된 C++ 클래스 자동 컴파일 설정이 활성화되어 있기 때문이다.&nbsp;</p>
 
-<p>이 설정을 통해서 프로젝트는 변경된 사항을 바로 반영하게 되어 게임이나 애플리케이션을 다시 시작하지 않아도 변경된 내용을 즉시 확인할 수 있어 반복적인 빌드 및 실행 시간을 절약해서 <span style="color: #333333; text-align: start;">개발 속도를 크게 향상시킬<span> 수 있다.</span></span></p>
+<p>이 설정을 통해서 프로젝트는 변경된 사항을 바로 반영하게 되어 게임이나 애플리케이션을 다시 시작하지 않아도 변경된 내용을 즉시 확인할 수 있어 반복적인 빌드 및 실행 시간을 절약해서 <span style="text-align: start">개발 속도를 크게 향상시킬<span> 수 있다.</span></span></p>
 
 <p>프로젝트의 규모가 크며 코드의 수정이 많아 저장을 빈번히 하게 되면 매번 컴파일이 실행되기 때문에 작업이 지연될 수 있는데 이런 상황에서는 비활성화를 해두는 방법도 있다.</p>
 

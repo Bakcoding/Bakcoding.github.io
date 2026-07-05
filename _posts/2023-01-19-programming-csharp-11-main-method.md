@@ -129,63 +129,63 @@ private static async Task&lt;int&gt; AsyncConsoleWork()
 
 <h2>명령문 인자</h2>
 <p>다음 방법들로 함수를 정의해서 메인 함수에 인자를 전달할 수 있다.</p>
-<table style="border-collapse: collapse; width: 100%; height: 208px;" border="1">
+<table style="border-collapse: collapse; width: 100%; height: 208px" border="1">
 <tbody>
-<tr style="height: 17px;">
-<td style="width: 412.5px; height: 17px;"><b>Main method code</b></td>
-<td style="width: 412.5px; height: 17px;"><b>Main signature</b></td>
+<tr style="height: 17px">
+<td style="width: 412.5px; height: 17px"><b>Main method code</b></td>
+<td style="width: 412.5px; height: 17px"><b>Main signature</b></td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 412.5px; height: 17px;">No return value, no use of await</td>
-<td style="width: 412.5px; height: 17px;">static void Main(string[] args)</td>
+<tr style="height: 17px">
+<td style="width: 412.5px; height: 17px">No return value, no use of await</td>
+<td style="width: 412.5px; height: 17px">static void Main(string[] args)</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 412.5px; height: 17px;">Return value, no use of await</td>
-<td style="width: 412.5px; height: 17px;">static int Main(string[] args)</td>
+<tr style="height: 17px">
+<td style="width: 412.5px; height: 17px">Return value, no use of await</td>
+<td style="width: 412.5px; height: 17px">static int Main(string[] args)</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 412.5px; height: 17px;">No return value, uses await</td>
-<td style="width: 412.5px; height: 17px;">static async Task Main(string[] args)</td>
+<tr style="height: 17px">
+<td style="width: 412.5px; height: 17px">No return value, uses await</td>
+<td style="width: 412.5px; height: 17px">static async Task Main(string[] args)</td>
 </tr>
-<tr style="height: 20px;">
-<td style="width: 412.5px; height: 20px;">Return value, uses await</td>
-<td style="width: 412.5px; height: 20px;">static async Task&lt;int&gt; Main(string[] args)</td>
+<tr style="height: 20px">
+<td style="width: 412.5px; height: 20px">Return value, uses await</td>
+<td style="width: 412.5px; height: 20px">static async Task&lt;int&gt; Main(string[] args)</td>
 </tr>
 </tbody>
 </table>
 <p>인자를 사용하지 않는 경우 더 간단하게 함수를 선언할 수 있다.</p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
+<table style="border-collapse: collapse; width: 100%" border="1">
 <tbody>
 <tr>
-<td style="width: 50%;"><b>Main method code</b></td>
-<td style="width: 50%;"><b>Main signature</b></td>
+<td style="width: 50%"><b>Main method code</b></td>
+<td style="width: 50%"><b>Main signature</b></td>
 </tr>
 <tr>
-<td style="width: 50%;">No return value, no use of await</td>
-<td style="width: 50%;">static void Main()</td>
+<td style="width: 50%">No return value, no use of await</td>
+<td style="width: 50%">static void Main()</td>
 </tr>
 <tr>
-<td style="width: 50%;">Return value, no use of await</td>
-<td style="width: 50%;">static int Main()</td>
+<td style="width: 50%">Return value, no use of await</td>
+<td style="width: 50%">static int Main()</td>
 </tr>
 <tr>
-<td style="width: 50%;">No return value, uses await</td>
-<td style="width: 50%;">static async Task Main()</td>
+<td style="width: 50%">No return value, uses await</td>
+<td style="width: 50%">static async Task Main()</td>
 </tr>
 <tr>
-<td style="width: 50%;">Return value, uses await</td>
-<td style="width: 50%;">static async TaskMint&gt; Main()</td>
+<td style="width: 50%">Return value, uses await</td>
+<td style="width: 50%">static async TaskMint&gt; Main()</td>
 </tr>
 <tr>
-<td style="width: 50%;">&nbsp;</td>
-<td style="width: 50%;">&nbsp;</td>
+<td style="width: 50%">&nbsp;</td>
+<td style="width: 50%">&nbsp;</td>
 </tr>
 </tbody>
 </table>
 <p>또한 Environment.CommandLine 이나 Environment.GetCommandLineArgs를 통해서 콘솔이나 WinForms 응용 프로그램에서 어느 시점에나 인자에 접근할 수 있다. 명령문 인자를 사용할 수 있도록 하기 위해서는 수동으로 메인 함수를 수정해야한다.&nbsp;</p>
 
-<p><span style="background-color: #f6e199;">💡 메인 함수의 매개변수는 명령문 인자로 문자열 배열이다. 보통은 인자의 존재를 확인할때 문자열 속성인 Lenght 사용한다.</span></p>
-<p><span style="background-color: #f6e199;">이때 문자열 배열은 null이 올 수 없기 때문에 null 검사하지 않고 Length로만 판단해도 안전하다.</span></p>
+<p><span style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-mark-text)">💡 메인 함수의 매개변수는 명령문 인자로 문자열 배열이다. 보통은 인자의 존재를 확인할때 문자열 속성인 Lenght 사용한다.</span></p>
+<p><span style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-mark-text)">이때 문자열 배열은 null이 올 수 없기 때문에 null 검사하지 않고 Length로만 판단해도 안전하다.</span></p>
 
 <p>문자열 인자는 Convert 클래스나 Parse 함수를 사용해서 숫자 형식으로 변환할 수 있다.</p>
 
@@ -257,7 +257,7 @@ class Program
 <p>시작 메뉴에서 커맨드 창을 실행시킨다.</p>
 <p>(프롬프트창은 굳이 위 프로그램을 사용하지 않아도 된다.)</p>
 
-<p><span style="background-color: #f6e199;">💡Command&nbsp; 명령어 : 경로 이동 cd &lt;path&gt;, </span><span style="background-color: #f6e199;">드라이브 변경하는방법 C:\&gt;E:</span></p>
+<p><span style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-mark-text)">💡Command&nbsp; 명령어 : 경로 이동 cd &lt;path&gt;, </span><span style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-mark-text)">드라이브 변경하는방법 C:\&gt;E:</span></p>
 
 <p>스크립트 파일이 위치한 경로로 이동한 후 다음 명령어를 실행한다,</p>
 <pre class="shell"><code>dotnet build</code></pre>

@@ -25,7 +25,7 @@ source_url: https://b-note.tistory.com/140
 <p>단어 S와 정수 i가 주어졌을 때, S의 i번째 글자를 출력하는 프로그램을 작성하시오.</p>
 
 <p><b>입력</b></p>
-<p>첫째 줄에 영어 소문자와 대문자로만 이루어진 단어 S가 주어진다. 단어의 길이는 최대 1,000이다. 둘째 줄에 정수 i가 주어진다. ( 1 <span style="color: #555555; text-align: start;">&le;</span> i <span style="color: #555555; text-align: start;">&le;</span> |S|)</p>
+<p>첫째 줄에 영어 소문자와 대문자로만 이루어진 단어 S가 주어진다. 단어의 길이는 최대 1,000이다. 둘째 줄에 정수 i가 주어진다. ( 1 <span style="text-align: start">&le;</span> i <span style="text-align: start">&le;</span> |S|)</p>
 
 <p><b>출력</b></p>
 <p>S의 i번째 글자를 출력한다.</p>
@@ -182,18 +182,18 @@ for (let i = 1; i &lt;= t; i++){
 }</code></pre>
 
 <h2>4번 아스키코드</h2>
-<p style="color: #333333; text-align: start;"><b>문제</b></p>
-<p style="color: #333333; text-align: start;">알파벳&nbsp;소문자,&nbsp;대문자,&nbsp;숫자&nbsp;0-9중&nbsp;하나가&nbsp;주어졌을&nbsp;때,&nbsp;주어진&nbsp;글자의&nbsp;아스키코드값을&nbsp;출력하는&nbsp;프로그램을&nbsp;작성하시오.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>입력</b></p>
-<p style="color: #333333; text-align: start;">알파벳&nbsp;소문자,&nbsp;대문자,&nbsp;숫자&nbsp;0-9&nbsp;중&nbsp;하나가&nbsp;첫째&nbsp;줄에&nbsp;주어진다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>출력</b></p>
-<p style="color: #333333; text-align: start;">입력으로&nbsp;주어진&nbsp;글자의&nbsp;아스키코드&nbsp;값을&nbsp;출력한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">입력된 문자를 아스키코드로 출력한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h3 style="color: #333333; text-align: start;">C++</h3>
+<p style="text-align: start"><b>문제</b></p>
+<p style="text-align: start">알파벳&nbsp;소문자,&nbsp;대문자,&nbsp;숫자&nbsp;0-9중&nbsp;하나가&nbsp;주어졌을&nbsp;때,&nbsp;주어진&nbsp;글자의&nbsp;아스키코드값을&nbsp;출력하는&nbsp;프로그램을&nbsp;작성하시오.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>입력</b></p>
+<p style="text-align: start">알파벳&nbsp;소문자,&nbsp;대문자,&nbsp;숫자&nbsp;0-9&nbsp;중&nbsp;하나가&nbsp;첫째&nbsp;줄에&nbsp;주어진다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>출력</b></p>
+<p style="text-align: start">입력으로&nbsp;주어진&nbsp;글자의&nbsp;아스키코드&nbsp;값을&nbsp;출력한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">입력된 문자를 아스키코드로 출력한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h3 style="text-align: start">C++</h3>
 <pre class="cpp"><code>#include &lt;iostream&gt;
 using namespace std;
 int main(){
@@ -203,11 +203,11 @@ int main(){
     cout &lt;&lt; ascii_val;
     return 0;
 }</code></pre>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">문자를 int로 타입을 변경하면 아스키코드로 치환된다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">또는&nbsp;</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">문자를 int로 타입을 변경하면 아스키코드로 치환된다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">또는&nbsp;</p>
+<p style="text-align: start">&nbsp;</p>
 <pre class="cpp"><code>#include &lt;iostream&gt;
 using namespace std;
 int main(){

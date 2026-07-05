@@ -42,7 +42,7 @@ source_url: https://b-note.tistory.com/133
 <p>친절하게 문제에서 해결방법을 제시해 주었기 때문에 위 방법들을 고려하여 테스트케이스를 통과해 본다.</p>
 
 <h3>C++</h3>
-<p><span style="color: #ee2323;"><b>오답</b></span></p>
+<p><span style="color: var(--bc-emphasis-danger)"><b>오답</b></span></p>
 <pre class="cpp"><code>#include &lt;iostream&gt;
 using namespace std;
 int main(){

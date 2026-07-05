@@ -31,7 +31,7 @@ source_url: https://b-note.tistory.com/107
 <p>넷스케이프의 CTO였던 마크 앤드리슨(Marc Andreessen)은 프로그래밍 언어 설계와 컴파일러 개발에 경험이 있던 브렌던 아이크(Brendan Eich)를 고용했으며 그의 풍부한 경험을 바탕으로 아주 짧은 기간인 10일 만에 넷스케이프의 요구를 충족하는 스크립팅 언어를 개발했고 그 초기 버전은 '모카(Mocha)'라는 이름이었다.</p>
 
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="347" data-origin-height="256" data-is-animation="false" style="width: 56.9263%; margin-right: 10px;" data-widthpercent="57.6"><img src="/assets/images/posts/2024/07/21/107-2.png" loading="lazy" width="347" height="256"/></span><span data-origin-width="484" data-origin-height="485" data-is-animation="false" data-widthpercent="42.4" style="width: 41.9109%;"><img src="/assets/images/posts/2024/07/21/107-3.png" loading="lazy" width="484" height="485"/></span></div>
+  <div class="image-container"><span data-origin-width="347" data-origin-height="256" data-is-animation="false" style="width: 56.9263%; margin-right: 10px" data-widthpercent="57.6"><img src="/assets/images/posts/2024/07/21/107-2.png" loading="lazy" width="347" height="256"/></span><span data-origin-width="484" data-origin-height="485" data-is-animation="false" data-widthpercent="42.4" style="width: 41.9109%"><img src="/assets/images/posts/2024/07/21/107-3.png" loading="lazy" width="484" height="485"/></span></div>
   <figcaption>좌) 마크 앤드리슨 우) 브렌던 아이크</figcaption>
 </figure>
 </p>
@@ -53,14 +53,14 @@ source_url: https://b-note.tistory.com/107
 
 <p>이 객체의 도입으로 사용자의 요청마다 전체 페이지를 새로 고침 해야 하는 페이지 리로드 문제, 새로 고침으로 인해 서버 응답 시간과 페이지 렌더링으로 인해 시간이 필요한 느린 반응 속도 문제 그리고 매번 전체 페이지를 새로 고침 하면서 서버에 불필요한 요청을 증가시켜 서버 부하를 높이던 문제를 해결할 수 있게 되었다.</p>
 
-<p>또한 이제 동적으로 콘텐츠를 업데이트하는 것이 가능해졌기 때문에 XMLHttpRequest의 등장 이후로 사용자의 경험은 크게 향상되었다. <span style="letter-spacing: 0px;">초기에는 이 기능이 주로 마이크로소프트의 ActiveX 기술을 통해 제공되었지만, 이후 다른 브라우저에서도 이 기능을 채택하게 되었다.</span></p>
+<p>또한 이제 동적으로 콘텐츠를 업데이트하는 것이 가능해졌기 때문에 XMLHttpRequest의 등장 이후로 사용자의 경험은 크게 향상되었다. <span style="letter-spacing: 0px">초기에는 이 기능이 주로 마이크로소프트의 ActiveX 기술을 통해 제공되었지만, 이후 다른 브라우저에서도 이 기능을 채택하게 되었다.</span></p>
 
 <p>더 나아가서 비동기적 웹 기술의 발전은 2005년 제시 제임스 가렛(Jesse James Garrett)에 의해서 AJAX(Asynchronous JavaScript and XML), 자바스크립트를 사용하여 서버와 비동기적으로 통신하는 기술에 대한 개념을 정립하였다.</p>
 <p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-origin-width="511" data-origin-height="651"><span data-alt="제시 제임스 가렛"><img src="/assets/images/posts/2024/07/21/107-4.png" loading="lazy" width="511" height="651" data-origin-width="511" data-origin-height="651"/></span><figcaption>제시 제임스 가렛</figcaption>
 </figure>
 </p>
 
-<p><span style="color: #333333; text-align: start;"><span>이후로&nbsp;</span>더 상호적이고 반응성이 뛰어난 웹 애플리케이션들이 만들어지게 되었고 현재까지도 </span>이 기술은 일반적으로 사용되는 개념이 되었다.</p>
+<p><span style="text-align: start"><span>이후로&nbsp;</span>더 상호적이고 반응성이 뛰어난 웹 애플리케이션들이 만들어지게 되었고 현재까지도 </span>이 기술은 일반적으로 사용되는 개념이 되었다.</p>
 
 <h3>용도와 중요성</h3>
 <p>자바스크립트는 기본적으로 웹 페이지에 동적인 기능을 추가하는 역할을 한다. 따라서 웹 개발에서는 필수적으로 요구된 되는 기술로 반드시 학습하는 것이 좋다.</p>

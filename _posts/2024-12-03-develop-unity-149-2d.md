@@ -201,7 +201,7 @@ public class UICoin : MonoBehaviour
 <p>개인적으로는 필요한 기능만 직접 구현해서 쓰는 걸 선호하는 편이라 잘 쓰진 않지만 위처럼 UI를 제어하는 데는 DoTween을 사용하는 게 더 간단하고 다양한 동작들도 처리할 수 있을 것이다.</p>
 
 <h2>UI Particle System</h2>
-<p>한 번쯤은 'UI위에 파티클 뿌리기'에 대해서 많은 고민과 탐구를 해보았을 것이다. 이 경우 나는 주로 카메라의 렌더링 모드를 Screen Space - Camera로 세팅해서 파티클을 보이게 하는 방법을 사용했다. 그런데 이 방법은<span style="color: #333333; text-align: start;"><span> 원하는&nbsp;</span>파티클을 사용할 때나</span> 좌표계를 다룰 때 은근히 귀찮고 까로운면이 있었다.</p>
+<p>한 번쯤은 'UI위에 파티클 뿌리기'에 대해서 많은 고민과 탐구를 해보았을 것이다. 이 경우 나는 주로 카메라의 렌더링 모드를 Screen Space - Camera로 세팅해서 파티클을 보이게 하는 방법을 사용했다. 그런데 이 방법은<span style="text-align: start"><span> 원하는&nbsp;</span>파티클을 사용할 때나</span> 좌표계를 다룰 때 은근히 귀찮고 까로운면이 있었다.</p>
 
 <p>그래서 이번에 좀 더 찾다 보니 좋은 방법을 알게 되었다.</p>
 
@@ -224,11 +224,10 @@ public class UICoin : MonoBehaviour
 
 <p><a href="https://www.youtube.com/watch?v=hiRdux33UCs" target="_blank" rel="noopener&nbsp;noreferrer">https://www.youtube.com/watch?v=hiRdux33UCs</a></p>
 <figure data-video-host="youtube" data-video-url="https://www.youtube.com/watch?v=hiRdux33UCs" data-video-width="860" data-video-height="484" data-video-origin-width="860" data-video-origin-height="484" data-video-title="Unity 2018 - Game VFX - UI / User Interface Effects" data-original-url=""><iframe src="https://www.youtube.com/embed/hiRdux33UCs" width="860" height="484" frameborder="" allowfullscreen="true"></iframe>
-<figcaption style="display: none;"></figcaption>
+<figcaption style="display: none"></figcaption>
 </figure>
 
-<p>파티클을 조금 참고해서 만들어 적용시켜 본다.</p>
-> 용량 문제로 해당 애니메이션 이미지는 [원문](https://b-note.tistory.com/149)에서 확인한다.
+<p>파티클을 조금 참고해서 만들어 적용시켜 본다.</p>> 용량 문제로 해당 애니메이션 이미지는 [원문](/develop/unity/149-2d/)에서 확인한다.
 </p>
 
 <p>효과를 주고 싶은 UI의 자식에 파티클을 할당하면 UI와 동일한 렌더링 우선순위로 처리가 된다는 점에서 원하는 기능 그 자체였다.</p>

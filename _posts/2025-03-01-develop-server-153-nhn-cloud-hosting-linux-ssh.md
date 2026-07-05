@@ -25,7 +25,7 @@ source_url: https://b-note.tistory.com/153
 
 <p><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.83.html" target="_blank" rel="noopener">PuTTY</a></p>
 <figure id="og_1740773082164" contenteditable="false" data-og-type="website" data-og-title="Download PuTTY: release 0.83" data-og-description="0.83, released on 2025-02-08, is the latest release. You can also find it at the Latest Release page, which will update when new releases are made (and so is a better page to bookmark or link to). Release versions of PuTTY are versions we think are reasona" data-og-host="www.chiark.greenend.org.uk" data-og-source-url="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.83.html" data-og-url="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.83.html"><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.83.html" target="_blank" rel="noopener" data-source-url="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.83.html">
-<div class="og-image" style="background-image: url();">&nbsp;</div>
+<div class="og-image" style="background-image: url()">&nbsp;</div>
 <div class="og-text">
 <p class="og-title">Download PuTTY: release 0.83</p>
 <p class="og-desc">0.83, released on 2025-02-08, is the latest release. You can also find it at the Latest Release page, which will update when new releases are made (and so is a better page to bookmark or link to). Release versions of PuTTY are versions we think are reasona</p>
@@ -35,7 +35,7 @@ source_url: https://b-note.tistory.com/153
 
 <p>PuTTY 최신 버전을 다운로드하여 설치하고 puttygen.exe 도 다운로드해&nbsp;놓는다.</p>
 
-<p><span style="color: #333333; text-align: start;">SSH로 접속할 때 서버 접속 인증키가 필요한데 NHN에서 서버를 생성할 때 만든 키 파일은. pem 확장자로<span>&nbsp;</span></span>PuTTY에서는 이 파일을 그대로 사용할 수 없기 때문에. ppk로 변환하는 과정이 필요하다.</p>
+<p><span style="text-align: start">SSH로 접속할 때 서버 접속 인증키가 필요한데 NHN에서 서버를 생성할 때 만든 키 파일은. pem 확장자로<span>&nbsp;</span></span>PuTTY에서는 이 파일을 그대로 사용할 수 없기 때문에. ppk로 변환하는 과정이 필요하다.</p>
 
 <p>먼저 서버를 신청할 때 생성하고 다운해 놓은 서버 접속 인증키를 준비해 놓고 puttygen.exe를 실행시킨다.</p>
 

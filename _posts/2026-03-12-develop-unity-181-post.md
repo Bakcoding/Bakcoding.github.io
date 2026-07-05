@@ -34,13 +34,12 @@ source_url: https://b-note.tistory.com/181
 <p>- GPU 실행 : CPU와 비동기적으로 Command Buffer를 처리하여 픽셀을 출력</p>
 
 <p>＊ Draw Call 이 많을수록 CPU의 상태 설정, 드라이버 호출, 명령 번역 오버헤드가 누적되어 성능 저하가 발생한다.</p>
-<p style="color: #333333; text-align: start;"><a href="https://b-note.tistory.com/180">https://b-note.tistory.com/180</a></p>
-<figure id="og_1773282032333" contenteditable="false" data-og-type="article" data-og-title="드로우 콜에 대해서" data-og-description="드로우 콜이란?CPU만으로 그래픽을 그리던 시절이 있었다. 초기 PC에서는 GPU가 없었기 때문에 모든 렌더링을 CPU가 직접 처리하였다.(폴리곤, 픽셀, 텍스처, 조명 등의 작업 대표적으로 DOOM이나 Quak" data-og-host="b-note.tistory.com" data-og-source-url="https://b-note.tistory.com/180" data-og-url="https://b-note.tistory.com/180"><a href="https://b-note.tistory.com/180" target="_blank" rel="noopener" data-source-url="https://b-note.tistory.com/180">
+<figure id="og_1773282032333" contenteditable="false" data-og-type="article" data-og-title="드로우 콜에 대해서" data-og-description="드로우 콜이란?CPU만으로 그래픽을 그리던 시절이 있었다. 초기 PC에서는 GPU가 없었기 때문에 모든 렌더링을 CPU가 직접 처리하였다.(폴리곤, 픽셀, 텍스처, 조명 등의 작업 대표적으로 DOOM이나 Quak" data-og-host="bakcoding.github.io" data-og-source-url="/computer-science/graphics/180-post/" data-og-url="/computer-science/graphics/180-post/"><a href="/computer-science/graphics/180-post/" target="_blank" rel="noopener" data-source-url="/computer-science/graphics/180-post/">
 <div class="og-image">&nbsp;</div>
 <div class="og-text">
 <p class="og-title">드로우 콜에 대해서</p>
 <p class="og-desc">드로우 콜이란?CPU만으로 그래픽을 그리던 시절이 있었다. 초기 PC에서는 GPU가 없었기 때문에 모든 렌더링을 CPU가 직접 처리하였다.(폴리곤, 픽셀, 텍스처, 조명 등의 작업 대표적으로 DOOM이나 Quak</p>
-<p class="og-host">b-note.tistory.com</p>
+<p class="og-host">bakcoding.github.io</p>
 </div>
 </a></figure>
 
@@ -59,25 +58,25 @@ source_url: https://b-note.tistory.com/181
 <h3>CPU 병목 vs GPU 병목</h3>
 <p>최적화 방향을 결정하려면 병목 지점을 먼저 파악해야 한다. 원인이 다르기 때문에 접근 방식도 다르다.</p>
 
-<table style="border-collapse: collapse; width: 99.184%;" border="1">
+<table style="border-collapse: collapse; width: 99.184%" border="1">
 <tbody>
 <tr>
-<td style="width: 11.0465%;">구분</td>
-<td style="width: 38.6047%;">주요 원인</td>
-<td style="width: 27.1303%;">증장</td>
-<td style="width: 22.5226%;">해결 방향</td>
+<td style="width: 11.0465%">구분</td>
+<td style="width: 38.6047%">주요 원인</td>
+<td style="width: 27.1303%">증장</td>
+<td style="width: 22.5226%">해결 방향</td>
 </tr>
 <tr>
-<td style="width: 11.0465%;">CPU 병목</td>
-<td style="width: 38.6047%;">Draw Call 과다, 드라이버 오버헤드</td>
-<td style="width: 27.1303%;">CPU 사용률 높음, GPU 대기 발생</td>
-<td style="width: 22.5226%;">배칭, Draw Call 감소</td>
+<td style="width: 11.0465%">CPU 병목</td>
+<td style="width: 38.6047%">Draw Call 과다, 드라이버 오버헤드</td>
+<td style="width: 27.1303%">CPU 사용률 높음, GPU 대기 발생</td>
+<td style="width: 22.5226%">배칭, Draw Call 감소</td>
 </tr>
 <tr>
-<td style="width: 11.0465%;">GPU 병목</td>
-<td style="width: 38.6047%;">고해상도 텍스처, 복잡한 셰이더, 과도한 픽셀 연산</td>
-<td style="width: 27.1303%;">GPU 사용률 높음, 프레임 드롭</td>
-<td style="width: 22.5226%;">텍스처 압축, 셰이더 최적화, 해상도 조정</td>
+<td style="width: 11.0465%">GPU 병목</td>
+<td style="width: 38.6047%">고해상도 텍스처, 복잡한 셰이더, 과도한 픽셀 연산</td>
+<td style="width: 27.1303%">GPU 사용률 높음, 프레임 드롭</td>
+<td style="width: 22.5226%">텍스처 압축, 셰이더 최적화, 해상도 조정</td>
 </tr>
 </tbody>
 </table>
@@ -86,68 +85,68 @@ source_url: https://b-note.tistory.com/181
 
 <h2>렌더링 최적화 방법</h2>
 <h3>Draw Call&nbsp; 최적화 - 배칭(Batching)</h3>
-<h4 style="color: #000000; text-align: start;">배칭</h4>
-<p style="color: #333333; text-align: start;">배칭은 CPU가 GPU에게 전달해야 할 여러 개의 개별적인 명령인 Draw Call을 하나의 그룹으로 묶어서 처리하는 기술을 의미한다.</p>
-<p style="color: #333333; text-align: start;">CPU가 Draw Call 명령을 내리기 전 수행하는 과정에서 상당한 CPU 자원을 소모하게 되는데 배칭은 이 과정을 최소화하기 위해 동일한 속성(머티리얼, 셰이더 등)을 가진 물체들을 모아 단 한 번의 명령으로 처리하도록 만들어 CPU의 오버헤드를 줄여 전체 프레임 레이트를 높이고, CPU와 GPU 사이의 통신 병목 현상을 해결하는데 목적이 있다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">※오버헤드</p>
-<p style="color: #333333; text-align: start;">목적을 수행하는 데 필요한 부가적인 비용</p>
-<p style="color: #333333; text-align: start;">예) 함수를 호출할 때, 함수 내부 로직 실행이라는 실제 작업을 위해 거치는 일련의(함수 호출 준비 -&gt; 스택 메모리 할당 -&gt; 인자 전달 -&gt; 반환값 처리 -&gt; 스택 정리) 부가 작업들이 오버헤드이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h4 style="color: #000000; text-align: start;">배칭의 종류</h4>
-<p style="color: #333333; text-align: start;">유니티는 물체의 특성에 따라 크게 세 가지 방식의 배칭을 지원한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>정적 배칭(Static Batching)</b></p>
-<p style="color: #333333; text-align: start;">움직이지 않는 정적 오브젝트(배경, 건물 등)를 위한 방식이다.</p>
-<p style="color: #333333; text-align: start;">게임 시작 시, 서로 다른 메쉬들을 하나의 거대한 메쉬로 합쳐서 GPU 메모리에 저장한다.</p>
-<p style="color: #333333; text-align: start;">런타임 중에 메쉬를 합치는 CPU 연산이 필요 없어 성능 향상이 가장 확실하다. 대신 합쳐진 메시를 위한 추가적인 메모리가 필요하며, 데이터가 크면 메모리 부적을 유발할 수 있다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>동적 배칭(Dynamic Batching)</b></p>
-<p style="color: #333333; text-align: start;">매 프레임 위치가 변하는 움직이는 물체들을 위한 방식이다.</p>
-<p style="color: #333333; text-align: start;">CPU가 실시간으로 비슷한 속성의 작은 메쉬들을 하나의 공유 버퍼에 모아 전송한다.</p>
-<p style="color: #333333; text-align: start;">움직이는 오브젝트도 드로우 콜을 줄일 수 있게 되지만 CPU가 매 프레임 메쉬를 재구성해야 하므로 CPU 연산 부하가 발생하기 때문에 정점 수가 적은 물체에만 제한적으로 적용된다.&nbsp;</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">※ 적용 기준</p>
-<p style="color: #333333; text-align: start;">1. 정점 속성의 수 300개</p>
-<p style="color: #333333; text-align: start;">예) 셰이더가 위치, 법선, UV 세 가지 속성을 사용한다면, 정점 하나당 3개의 속성을 가진다. 이 경우 300 / 3 = 100개, 즉 정점 100개까지만 동적 배칭이 가능하다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">2. 스케일의 일관성</p>
-<p style="color: #333333; text-align: start;">오브젝트의 스케일 x, y, z 각 축별로 다른 스케일을 가지는 비균등 스케일 오브젝트들이 있다면 유니티는 이를 배칭 하지 않을 가능성이 높으며, 최신 유니티 버전에서는 동일하게 비균등 스케일을 가진 오브젝트끼리 묶어주기도 하지만 여전히 스케일이 제각각이라면 배칭 효율이 급격히 떨어지게 된다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">3. 머티리얼 및 라이트맵 인스턴스</p>
-<p style="color: #333333; text-align: start;">동일한 머티리얼 인스턴스를 사용해야 한다.</p>
-<p style="color: #333333; text-align: start;">(renderer.material에 접근하면 복사본 머티리얼이 생성되어 배칭이 깨지므로 renderer.sharedMaterial을 사용해야 한다.)</p>
-<p style="color: #333333; text-align: start;">오브젝트들이 가리키는 라이트맵 인덱스가 같아야 한다. 같은 위치에 모여있는 물체들이라도 각자 다른 라이트맵 텍스처 영역을 참조하면 배칭 되지 않는다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>GPU Instancing</b></p>
-<p style="color: #333333; text-align: start;">동일한 메쉬와 머티리얼을 대량으로 렌더링 하는 오브젝트(나무, 풀, 군중 등)</p>
-<p style="color: #333333; text-align: start;">동일 메쉬, 머티리얼, 셰이더의 Enable GPU Instancing 활성화 시 동작</p>
-<p style="color: #333333; text-align: start;">메쉬 데이터는 한 번만 GPU에 전달하고, 위치/회전/색상 등 인스턴스별 데이터만 별도로 넘겨 GPU</p>
-<p style="color: #333333; text-align: start;">가 반복 처리한다. 동일 메쉬 대량 렌더링에 매우 효율적이지만 메쉬와 머티리얼이 완전히 동일해야 동작한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>SRP 배처(SRP Batcher)</b></p>
-<p style="color: #333333; text-align: start;">현대적인 유니티 파이프라인(URP, HDRP)의 표준 배칭 방식이다.</p>
-<p style="color: #333333; text-align: start;">SRP Compatible 셰이더 사용(Shader Graph, URP Lit) 시 동작한다.</p>
-<p style="color: #333333; text-align: start;">메쉬를 직접 합치지 않는 대신 GPU 메모리에 머티리얼 데이터를 미리 상주시키고, CPU는 데이터가 변경된 부분만 GPU에 알려주어 렌더링 상태 설정 비용을 극단적으로 낮춰 Draw Call 수보다 Draw Call 당 CPU 오버헤드를 줄이는 방식이다. 메쉬의 형태가 달라도 같은 셰이더를 공유한다면 모두 묶을 수 있어 효율이 매우 높지만 기존의 Built-in 렌더 파이프라인에서는 지원되지 않는다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">여기서 다이나믹 배칭의 경우 조건이 까다로운데 그 이유는 물체가 조금이라도 복잡해지면 계산해서 합친 후(배칭) 보내는 것보다 개별적으로 드로우콜을 보내는 것이 더 빠르다고 판단하기 때문이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">따라서 최근에는 SRP Batcher나 GPU Instancing이 훨씬 효율적이기 때문에 동적 배칭은 사실상 권장되지 않는 추세이다. 특히 모바일 환경에서는 CPU 부하를 줄이는 것이 발열과 배터리 관리에 유리하기 때문이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">유니티 개발자는 Draw Call을 직접 줄이는 것이 아니라, 배칭 시스템이 작동할 수 있는 조건을 설계 단계부터 갖춰야 한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h3 style="color: #333333; text-align: start;">라이팅 최적화</h3>
-<p style="color: #333333; text-align: start;">라이팅은 렌더링에서 가장 비용이 큰 연산 중 하나다. 특히 Forward Rendering에서는 라이트 수에 비례해 Draw Call 이 증가한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>Baked Lighting (라이트맵)</b></p>
-<p style="color: #333333; text-align: start;">정적 오브젝트의 조명 결과를 텍스처(라이트맵)에 미리 구워 저장한다.</p>
-<p style="color: #333333; text-align: start;">런타임 라이팅 연산이 없어 성능 부담이 없지만 동적 오브젝트에는 적용되지 않으며 라이트맵 메모리를 사용한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><b>Realtime Light 최소화</b></p>
-<p style="color: #333333; text-align: start;">Realtime Light는 매 프레임 연산이 발생하므로 수를 최소화한다.</p>
-<p style="color: #333333; text-align: start;">- Forward Rendering에서 Realtime Light 가 n 개면 영향받는 오브젝트마다 Draw Call 이 n 배 증가&nbsp;</p>
-<p style="color: #333333; text-align: start;">가능하면 Baked Light를 사용하고 보조적으로 Realtime Light 조합을 권장한다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
+<h4 style="text-align: start">배칭</h4>
+<p style="text-align: start">배칭은 CPU가 GPU에게 전달해야 할 여러 개의 개별적인 명령인 Draw Call을 하나의 그룹으로 묶어서 처리하는 기술을 의미한다.</p>
+<p style="text-align: start">CPU가 Draw Call 명령을 내리기 전 수행하는 과정에서 상당한 CPU 자원을 소모하게 되는데 배칭은 이 과정을 최소화하기 위해 동일한 속성(머티리얼, 셰이더 등)을 가진 물체들을 모아 단 한 번의 명령으로 처리하도록 만들어 CPU의 오버헤드를 줄여 전체 프레임 레이트를 높이고, CPU와 GPU 사이의 통신 병목 현상을 해결하는데 목적이 있다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">※오버헤드</p>
+<p style="text-align: start">목적을 수행하는 데 필요한 부가적인 비용</p>
+<p style="text-align: start">예) 함수를 호출할 때, 함수 내부 로직 실행이라는 실제 작업을 위해 거치는 일련의(함수 호출 준비 -&gt; 스택 메모리 할당 -&gt; 인자 전달 -&gt; 반환값 처리 -&gt; 스택 정리) 부가 작업들이 오버헤드이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h4 style="text-align: start">배칭의 종류</h4>
+<p style="text-align: start">유니티는 물체의 특성에 따라 크게 세 가지 방식의 배칭을 지원한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>정적 배칭(Static Batching)</b></p>
+<p style="text-align: start">움직이지 않는 정적 오브젝트(배경, 건물 등)를 위한 방식이다.</p>
+<p style="text-align: start">게임 시작 시, 서로 다른 메쉬들을 하나의 거대한 메쉬로 합쳐서 GPU 메모리에 저장한다.</p>
+<p style="text-align: start">런타임 중에 메쉬를 합치는 CPU 연산이 필요 없어 성능 향상이 가장 확실하다. 대신 합쳐진 메시를 위한 추가적인 메모리가 필요하며, 데이터가 크면 메모리 부적을 유발할 수 있다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>동적 배칭(Dynamic Batching)</b></p>
+<p style="text-align: start">매 프레임 위치가 변하는 움직이는 물체들을 위한 방식이다.</p>
+<p style="text-align: start">CPU가 실시간으로 비슷한 속성의 작은 메쉬들을 하나의 공유 버퍼에 모아 전송한다.</p>
+<p style="text-align: start">움직이는 오브젝트도 드로우 콜을 줄일 수 있게 되지만 CPU가 매 프레임 메쉬를 재구성해야 하므로 CPU 연산 부하가 발생하기 때문에 정점 수가 적은 물체에만 제한적으로 적용된다.&nbsp;</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">※ 적용 기준</p>
+<p style="text-align: start">1. 정점 속성의 수 300개</p>
+<p style="text-align: start">예) 셰이더가 위치, 법선, UV 세 가지 속성을 사용한다면, 정점 하나당 3개의 속성을 가진다. 이 경우 300 / 3 = 100개, 즉 정점 100개까지만 동적 배칭이 가능하다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">2. 스케일의 일관성</p>
+<p style="text-align: start">오브젝트의 스케일 x, y, z 각 축별로 다른 스케일을 가지는 비균등 스케일 오브젝트들이 있다면 유니티는 이를 배칭 하지 않을 가능성이 높으며, 최신 유니티 버전에서는 동일하게 비균등 스케일을 가진 오브젝트끼리 묶어주기도 하지만 여전히 스케일이 제각각이라면 배칭 효율이 급격히 떨어지게 된다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">3. 머티리얼 및 라이트맵 인스턴스</p>
+<p style="text-align: start">동일한 머티리얼 인스턴스를 사용해야 한다.</p>
+<p style="text-align: start">(renderer.material에 접근하면 복사본 머티리얼이 생성되어 배칭이 깨지므로 renderer.sharedMaterial을 사용해야 한다.)</p>
+<p style="text-align: start">오브젝트들이 가리키는 라이트맵 인덱스가 같아야 한다. 같은 위치에 모여있는 물체들이라도 각자 다른 라이트맵 텍스처 영역을 참조하면 배칭 되지 않는다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>GPU Instancing</b></p>
+<p style="text-align: start">동일한 메쉬와 머티리얼을 대량으로 렌더링 하는 오브젝트(나무, 풀, 군중 등)</p>
+<p style="text-align: start">동일 메쉬, 머티리얼, 셰이더의 Enable GPU Instancing 활성화 시 동작</p>
+<p style="text-align: start">메쉬 데이터는 한 번만 GPU에 전달하고, 위치/회전/색상 등 인스턴스별 데이터만 별도로 넘겨 GPU</p>
+<p style="text-align: start">가 반복 처리한다. 동일 메쉬 대량 렌더링에 매우 효율적이지만 메쉬와 머티리얼이 완전히 동일해야 동작한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>SRP 배처(SRP Batcher)</b></p>
+<p style="text-align: start">현대적인 유니티 파이프라인(URP, HDRP)의 표준 배칭 방식이다.</p>
+<p style="text-align: start">SRP Compatible 셰이더 사용(Shader Graph, URP Lit) 시 동작한다.</p>
+<p style="text-align: start">메쉬를 직접 합치지 않는 대신 GPU 메모리에 머티리얼 데이터를 미리 상주시키고, CPU는 데이터가 변경된 부분만 GPU에 알려주어 렌더링 상태 설정 비용을 극단적으로 낮춰 Draw Call 수보다 Draw Call 당 CPU 오버헤드를 줄이는 방식이다. 메쉬의 형태가 달라도 같은 셰이더를 공유한다면 모두 묶을 수 있어 효율이 매우 높지만 기존의 Built-in 렌더 파이프라인에서는 지원되지 않는다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">여기서 다이나믹 배칭의 경우 조건이 까다로운데 그 이유는 물체가 조금이라도 복잡해지면 계산해서 합친 후(배칭) 보내는 것보다 개별적으로 드로우콜을 보내는 것이 더 빠르다고 판단하기 때문이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">따라서 최근에는 SRP Batcher나 GPU Instancing이 훨씬 효율적이기 때문에 동적 배칭은 사실상 권장되지 않는 추세이다. 특히 모바일 환경에서는 CPU 부하를 줄이는 것이 발열과 배터리 관리에 유리하기 때문이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">유니티 개발자는 Draw Call을 직접 줄이는 것이 아니라, 배칭 시스템이 작동할 수 있는 조건을 설계 단계부터 갖춰야 한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h3 style="text-align: start">라이팅 최적화</h3>
+<p style="text-align: start">라이팅은 렌더링에서 가장 비용이 큰 연산 중 하나다. 특히 Forward Rendering에서는 라이트 수에 비례해 Draw Call 이 증가한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>Baked Lighting (라이트맵)</b></p>
+<p style="text-align: start">정적 오브젝트의 조명 결과를 텍스처(라이트맵)에 미리 구워 저장한다.</p>
+<p style="text-align: start">런타임 라이팅 연산이 없어 성능 부담이 없지만 동적 오브젝트에는 적용되지 않으며 라이트맵 메모리를 사용한다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><b>Realtime Light 최소화</b></p>
+<p style="text-align: start">Realtime Light는 매 프레임 연산이 발생하므로 수를 최소화한다.</p>
+<p style="text-align: start">- Forward Rendering에서 Realtime Light 가 n 개면 영향받는 오브젝트마다 Draw Call 이 n 배 증가&nbsp;</p>
+<p style="text-align: start">가능하면 Baked Light를 사용하고 보조적으로 Realtime Light 조합을 권장한다.</p>
+<p style="text-align: start">&nbsp;</p>
 <p><b>Shadow 최적화</b></p>
 <p>Shadow Casting 은 그림자를 생성하는 모든 오브젝트에 추가 Draw Call을 유발한다.</p>
 <p>- Mesh Renderer의 Cast Shadows를 불필요한 오브젝트에서 Off 처리</p>

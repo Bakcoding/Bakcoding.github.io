@@ -66,8 +66,8 @@ source_url: https://b-note.tistory.com/164
 <p><br />각 옵션의 기본 설정은 Project Settings &gt; Input System &gt; Settings의 값을 따르며 개별 값을 조정하려면 Default 플래그를 끄고 직접 수정하거나 Settings Asset을 생성하여 값을 커스텀한다.</p>
 
 <p>Action Type</p>
-<p style="color: #333333; text-align: start;">입력 시스템의 동작 방식을 정의하는 요소로 각 타입마다 입력 이벤트를 처리하는 방식에 따라 다르게 동작한다.</p>
-<p style="color: #333333; text-align: start;">Value, Button, Pass Through 세 가지 방식이 있다.</p>
+<p style="text-align: start">입력 시스템의 동작 방식을 정의하는 요소로 각 타입마다 입력 이벤트를 처리하는 방식에 따라 다르게 동작한다.</p>
+<p style="text-align: start">Value, Button, Pass Through 세 가지 방식이 있다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="276" data-origin-height="141"><span data-alt="Action Properties - Action Type"><img src="/assets/images/posts/2025/04/10/164-3.png" loading="lazy" width="276" height="141" data-origin-width="276" data-origin-height="141"/></span><figcaption>Action Properties - Action Type</figcaption>
 </figure>
 </p>
@@ -87,97 +87,97 @@ source_url: https://b-note.tistory.com/164
 </figure>
 </p>
 
-<table style="border-collapse: collapse; width: 100%; height: 299px;" border="1">
+<table style="border-collapse: collapse; width: 100%; height: 299px" border="1">
 <tbody>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Type</td>
-<td style="width: 38.1396%; height: 21px;">설명</td>
-<td style="width: 12.7905%; height: 21px;">반환 타입</td>
-<td style="width: 37.5583%; height: 21px;">예</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Type</td>
+<td style="width: 38.1396%; height: 21px">설명</td>
+<td style="width: 12.7905%; height: 21px">반환 타입</td>
+<td style="width: 37.5583%; height: 21px">예</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Axis</td>
-<td style="width: 38.1396%; height: 21px;">단일&nbsp;축(1차원)의&nbsp;연속적인&nbsp;값&nbsp;(-1&nbsp;~&nbsp;1)</td>
-<td style="width: 12.7905%; height: 21px;">float</td>
-<td style="width: 37.5583%; height: 21px;">조이스틱 축, 키보드 이동, 마우스 휠 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Axis</td>
+<td style="width: 38.1396%; height: 21px">단일&nbsp;축(1차원)의&nbsp;연속적인&nbsp;값&nbsp;(-1&nbsp;~&nbsp;1)</td>
+<td style="width: 12.7905%; height: 21px">float</td>
+<td style="width: 37.5583%; height: 21px">조이스틱 축, 키보드 이동, 마우스 휠 등</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Analog</td>
-<td style="width: 38.1396%; height: 21px;">0.0&nbsp;~&nbsp;1.0&nbsp;범위의&nbsp;연속&nbsp;아날로그&nbsp;값</td>
-<td style="width: 12.7905%; height: 21px;">float</td>
-<td style="width: 37.5583%; height: 21px;">게임패드의 트리거, 슬라이더 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Analog</td>
+<td style="width: 38.1396%; height: 21px">0.0&nbsp;~&nbsp;1.0&nbsp;범위의&nbsp;연속&nbsp;아날로그&nbsp;값</td>
+<td style="width: 12.7905%; height: 21px">float</td>
+<td style="width: 37.5583%; height: 21px">게임패드의 트리거, 슬라이더 등</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Integer</td>
-<td style="width: 38.1396%; height: 21px;">정수&nbsp;값</td>
-<td style="width: 12.7905%; height: 21px;">int</td>
-<td style="width: 37.5583%; height: 21px;">타임라인, 메뉴 인덱스 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Integer</td>
+<td style="width: 38.1396%; height: 21px">정수&nbsp;값</td>
+<td style="width: 12.7905%; height: 21px">int</td>
+<td style="width: 37.5583%; height: 21px">타임라인, 메뉴 인덱스 등</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Digital</td>
-<td style="width: 38.1396%; height: 21px;">이진&nbsp;값&nbsp;(0&nbsp;또는&nbsp;1,&nbsp;true/false)</td>
-<td style="width: 12.7905%; height: 21px;">float or bool</td>
-<td style="width: 37.5583%; height: 21px;">버튼 입력, 온/오프 스위치 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Digital</td>
+<td style="width: 38.1396%; height: 21px">이진&nbsp;값&nbsp;(0&nbsp;또는&nbsp;1,&nbsp;true/false)</td>
+<td style="width: 12.7905%; height: 21px">float or bool</td>
+<td style="width: 37.5583%; height: 21px">버튼 입력, 온/오프 스위치 등</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Double</td>
-<td style="width: 38.1396%; height: 21px;">높은 정밀도 실수</td>
-<td style="width: 12.7905%; height: 21px;">double</td>
-<td style="width: 37.5583%; height: 21px;">정밀 제어, 시뮬레이션 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Double</td>
+<td style="width: 38.1396%; height: 21px">높은 정밀도 실수</td>
+<td style="width: 12.7905%; height: 21px">double</td>
+<td style="width: 37.5583%; height: 21px">정밀 제어, 시뮬레이션 등</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Vector2</td>
-<td style="width: 38.1396%; height: 21px;">2D&nbsp;벡터</td>
-<td style="width: 12.7905%; height: 21px;">Vector2</td>
-<td style="width: 37.5583%; height: 21px;">2D 이동, 마우스/터치 위치, 텍스처 좌표 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Vector2</td>
+<td style="width: 38.1396%; height: 21px">2D&nbsp;벡터</td>
+<td style="width: 12.7905%; height: 21px">Vector2</td>
+<td style="width: 37.5583%; height: 21px">2D 이동, 마우스/터치 위치, 텍스처 좌표 등</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Vector3</td>
-<td style="width: 38.1396%; height: 21px;">3D&nbsp;벡터</td>
-<td style="width: 12.7905%; height: 21px;">Vector3</td>
-<td style="width: 37.5583%; height: 21px;">3D 위치, 방향 등</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Vector3</td>
+<td style="width: 38.1396%; height: 21px">3D&nbsp;벡터</td>
+<td style="width: 12.7905%; height: 21px">Vector3</td>
+<td style="width: 37.5583%; height: 21px">3D 위치, 방향 등</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 11.5117%; height: 17px;">Delta</td>
-<td style="width: 38.1396%; height: 17px;">변화량을 나타내는 값(차이값)</td>
-<td style="width: 12.7905%; height: 17px;">Vector2</td>
-<td style="width: 37.5583%; height: 17px;">마우스 드래그, 터치 슬라이드 변화량</td>
+<tr style="height: 17px">
+<td style="width: 11.5117%; height: 17px">Delta</td>
+<td style="width: 38.1396%; height: 17px">변화량을 나타내는 값(차이값)</td>
+<td style="width: 12.7905%; height: 17px">Vector2</td>
+<td style="width: 37.5583%; height: 17px">마우스 드래그, 터치 슬라이드 변화량</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Quaternion</td>
-<td style="width: 38.1396%; height: 21px;">3D 회전을 나타내는 사원수</td>
-<td style="width: 12.7905%; height: 21px;">Quaternion</td>
-<td style="width: 37.5583%; height: 21px;">컨트롤러 회전, 장치 방향</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Quaternion</td>
+<td style="width: 38.1396%; height: 21px">3D 회전을 나타내는 사원수</td>
+<td style="width: 12.7905%; height: 21px">Quaternion</td>
+<td style="width: 37.5583%; height: 21px">컨트롤러 회전, 장치 방향</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Stick</td>
-<td style="width: 38.1396%; height: 21px;">아날로그 스틱 입력</td>
-<td style="width: 12.7905%; height: 21px;">StickControl</td>
-<td style="width: 37.5583%; height: 21px;">게임 패드의 조이스틱</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Stick</td>
+<td style="width: 38.1396%; height: 21px">아날로그 스틱 입력</td>
+<td style="width: 12.7905%; height: 21px">StickControl</td>
+<td style="width: 37.5583%; height: 21px">게임 패드의 조이스틱</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 11.5117%; height: 17px;">Dpad</td>
-<td style="width: 38.1396%; height: 17px;">4방향 디지털 입력</td>
-<td style="width: 12.7905%; height: 17px;">DpadControl</td>
-<td style="width: 37.5583%; height: 17px;">게임 패드의 십자키</td>
+<tr style="height: 17px">
+<td style="width: 11.5117%; height: 17px">Dpad</td>
+<td style="width: 38.1396%; height: 17px">4방향 디지털 입력</td>
+<td style="width: 12.7905%; height: 17px">DpadControl</td>
+<td style="width: 37.5583%; height: 17px">게임 패드의 십자키</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 11.5117%; height: 17px;">Touch</td>
-<td style="width: 38.1396%; height: 17px;">단일 터치 정보</td>
-<td style="width: 12.7905%; height: 17px;">TouchControl</td>
-<td style="width: 37.5583%; height: 17px;">터치 스크린</td>
+<tr style="height: 17px">
+<td style="width: 11.5117%; height: 17px">Touch</td>
+<td style="width: 38.1396%; height: 17px">단일 터치 정보</td>
+<td style="width: 12.7905%; height: 17px">TouchControl</td>
+<td style="width: 37.5583%; height: 17px">터치 스크린</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 11.5117%; height: 17px;">Pose</td>
-<td style="width: 38.1396%; height: 17px;">위치 + 회전 정보</td>
-<td style="width: 12.7905%; height: 17px;">PoseControl</td>
-<td style="width: 37.5583%; height: 17px;">VR, AR 디바이스</td>
+<tr style="height: 17px">
+<td style="width: 11.5117%; height: 17px">Pose</td>
+<td style="width: 38.1396%; height: 17px">위치 + 회전 정보</td>
+<td style="width: 12.7905%; height: 17px">PoseControl</td>
+<td style="width: 37.5583%; height: 17px">VR, AR 디바이스</td>
 </tr>
-<tr style="height: 21px;">
-<td style="width: 11.5117%; height: 21px;">Eyes</td>
-<td style="width: 38.1396%; height: 21px;">시선 추적 데이터</td>
-<td style="width: 12.7905%; height: 21px;">EyesControl</td>
-<td style="width: 37.5583%; height: 21px;"><span style="color: #333333; text-align: start;">VR HMD, </span>아이 트래킹 장비</td>
+<tr style="height: 21px">
+<td style="width: 11.5117%; height: 21px">Eyes</td>
+<td style="width: 38.1396%; height: 21px">시선 추적 데이터</td>
+<td style="width: 12.7905%; height: 21px">EyesControl</td>
+<td style="width: 37.5583%; height: 21px"><span style="text-align: start">VR HMD, </span>아이 트래킹 장비</td>
 </tr>
 </tbody>
 </table>
@@ -303,7 +303,7 @@ source_url: https://b-note.tistory.com/164
 
 <p>마우스 민감도 등 감도 조정에 사용할 수 있다.</p>
 
-<h4 style="color: #000000; text-align: start;">Binding Properties</h4>
+<h4 style="text-align: start">Binding Properties</h4>
 <p>Binding</p>
 <p>단일 입력 바인딩</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="878" data-origin-height="210"><span data-alt="Binding Properties - Binding"><img src="/assets/images/posts/2025/04/10/164-18.png" loading="lazy" width="878" height="210" data-origin-width="878" data-origin-height="210"/></span><figcaption>Binding Properties - Binding</figcaption>
@@ -346,7 +346,7 @@ source_url: https://b-note.tistory.com/164
 <p>Negative : Negative 입력 우선, -1 반환</p>
 
 <p><b><i>2D Vector</i></b></p>
-<p><span style="color: #333333; text-align: start;">네 개의 입력을 받아 Vector2(x, y) 값으로 결합하여 반환</span></p>
+<p><span style="text-align: start">네 개의 입력을 받아 Vector2(x, y) 값으로 결합하여 반환</span></p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="252" data-origin-height="107"><span data-alt="Composite - 2D Vector"><img src="/assets/images/posts/2025/04/10/164-22.png" loading="lazy" width="252" height="107" data-origin-width="252" data-origin-height="107"/></span><figcaption>Composite - 2D Vector</figcaption>
 </figure>
 </p>

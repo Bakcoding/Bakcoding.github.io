@@ -25,7 +25,7 @@ source_url: https://b-note.tistory.com/78
 <p>에셋을 처리하는 과정에 대한 설정을 관리하는 항목들이다.</p>
 
 <h3>Remove unused Artifacts on Restart</h3>
-<p><span style="color: #333333; text-align: start;">재실행시 사용하지 않는 아티팩트들을 삭제할지 여부에 대한 토글로<span>&nbsp;</span></span>기본으로 활성화된 상태이다.</p>
+<p><span style="text-align: start">재실행시 사용하지 않는 아티팩트들을 삭제할지 여부에 대한 토글로<span>&nbsp;</span></span>기본으로 활성화된 상태이다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="306" data-origin-height="160"><span data-alt="Remove unused Artifacts on Restart"><img src="/assets/images/posts/2024/02/15/78-2.png" loading="lazy" width="306" height="160" data-origin-width="306" data-origin-height="160"/></span><figcaption>Remove unused Artifacts on Restart</figcaption>
 </figure>
 </p>
@@ -55,7 +55,7 @@ source_url: https://b-note.tistory.com/78
 
 <p>해당옵션은 기본으로 비활성화되어있고 이 경우 에셋을 순차적으로 임포트 하게 된다.</p>
 
-<p><span style="color: #333333; text-align: start;">이 기능은 특정 유형의 에셋에서만 지원되며&nbsp;</span> 에디터가 프로젝트 폴더에서 에셋이 새로 임포트 되거나 수정된 에셋을 감지하고 자동으로 임포트 할 때 발생하는 에셋 데이터베이스가 새로고침을 수행할 때만 실행된다. 이때 에셋은 하위 프로세스에서 임포트가 실행된다.</p>
+<p><span style="text-align: start">이 기능은 특정 유형의 에셋에서만 지원되며&nbsp;</span> 에디터가 프로젝트 폴더에서 에셋이 새로 임포트 되거나 수정된 에셋을 감지하고 자동으로 임포트 할 때 발생하는 에셋 데이터베이스가 새로고침을 수행할 때만 실행된다. 이때 에셋은 하위 프로세스에서 임포트가 실행된다.</p>
 
 <p><b>특정유형</b></p>
 <p>- Texture Importer로 가져온 이미지 파일</p>
@@ -87,7 +87,7 @@ source_url: https://b-note.tistory.com/78
 
 <p>Import Worker Count % 의 값을 사용하여 Desired Import Worker Count 값을 할당할 수 있다.</p>
 <p>이때 할당되는 값은 시스템에서 사용할 수 있는 논리 코어 수의 비율에 해당한다.</p>
-<p>(16개의 논리 코어가 있다면 이중 25%를 할당하여 <span style="color: #333333; text-align: start;"><span>&nbsp;</span></span>Desired Import Worker Count 값은 4가 할당된다.)</p>
+<p>(16개의 논리 코어가 있다면 이중 25%를 할당하여 <span style="text-align: start"><span>&nbsp;</span></span>Desired Import Worker Count 값은 4가 할당된다.)</p>
 
 <h2><s>Cache Server (project specific)</s></h2>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="508" data-origin-height="66"><span data-alt="Cache Server"><img src="/assets/images/posts/2024/02/15/78-7.png" loading="lazy" width="508" height="66" data-origin-width="508" data-origin-height="66"/></span><figcaption>Cache Server</figcaption>
@@ -125,7 +125,7 @@ source_url: https://b-note.tistory.com/78
 <p><b>Regular Environment</b></p>
 <p>일반 프리팹을 편집하는 환경에서 사용하고자 하는 신을 할당하면 배경으로 사용할 수 있다.</p>
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="1030" data-origin-height="712" data-is-animation="false" width="534" height="369" data-widthpercent="49.81" style="width: 49.2335%; margin-right: 10px;"><img src="/assets/images/posts/2024/02/15/78-11.png" loading="lazy" width="1030" height="712"/></span><span data-origin-width="1029" data-origin-height="706" data-is-animation="false" style="width: 49.6037%;" data-widthpercent="50.19"><img src="/assets/images/posts/2024/02/15/78-12.png" loading="lazy" width="1029" height="706"/></span></div>
+  <div class="image-container"><span data-origin-width="1030" data-origin-height="712" data-is-animation="false" width="534" height="369" data-widthpercent="49.81" style="width: 49.2335%; margin-right: 10px"><img src="/assets/images/posts/2024/02/15/78-11.png" loading="lazy" width="1030" height="712"/></span><span data-origin-width="1029" data-origin-height="706" data-is-animation="false" style="width: 49.6037%" data-widthpercent="50.19"><img src="/assets/images/posts/2024/02/15/78-12.png" loading="lazy" width="1029" height="706"/></span></div>
   <figcaption>Regular Environment</figcaption>
 </figure>
 </p>
@@ -133,7 +133,7 @@ source_url: https://b-note.tistory.com/78
 <p><b>UI Envrionment</b></p>
 <p>UI 프리팹의 편집하는 환경에서 사용할 수 있다.</p>
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="1026" data-origin-height="706" data-is-animation="false" style="width: 49.5743%; margin-right: 10px;" data-widthpercent="50.16"><img src="/assets/images/posts/2024/02/15/78-13.png" loading="lazy" width="1026" height="706"/></span><span data-origin-width="1021" data-origin-height="707" data-is-animation="false" style="width: 49.2629%;" data-widthpercent="49.84"><img src="/assets/images/posts/2024/02/15/78-14.png" loading="lazy" width="1021" height="707"/></span></div>
+  <div class="image-container"><span data-origin-width="1026" data-origin-height="706" data-is-animation="false" style="width: 49.5743%; margin-right: 10px" data-widthpercent="50.16"><img src="/assets/images/posts/2024/02/15/78-13.png" loading="lazy" width="1026" height="706"/></span><span data-origin-width="1021" data-origin-height="707" data-is-animation="false" style="width: 49.2629%" data-widthpercent="49.84"><img src="/assets/images/posts/2024/02/15/78-14.png" loading="lazy" width="1021" height="707"/></span></div>
   <figcaption>UI Environment</figcaption>
 </figure>
 </p>
@@ -147,7 +147,7 @@ source_url: https://b-note.tistory.com/78
 <p>씬의 드로우 모드 중에서 Baked Lightmap 모드에 체커보드 오버레이를 그린다.&nbsp;</p>
 <p>여기서 타일 하나는 텍셀에 해당하며 라이트매핑 작업 시 씬의 텍셀 밀도를 확인할 수 있다.</p>
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="1024" data-origin-height="729" data-is-animation="false" width="629" height="448" style="width: 47.1821%; margin-right: 10px;" data-widthpercent="47.74"><img src="/assets/images/posts/2024/02/15/78-16.png" loading="lazy" width="1024" height="729"/></span><span data-origin-width="935" data-origin-height="608" data-is-animation="false" style="width: 51.6551%;" data-widthpercent="52.26"><img src="/assets/images/posts/2024/02/15/78-17.png" loading="lazy" width="935" height="608"/></span></div>
+  <div class="image-container"><span data-origin-width="1024" data-origin-height="729" data-is-animation="false" width="629" height="448" style="width: 47.1821%; margin-right: 10px" data-widthpercent="47.74"><img src="/assets/images/posts/2024/02/15/78-16.png" loading="lazy" width="1024" height="729"/></span><span data-origin-width="935" data-origin-height="608" data-is-animation="false" style="width: 51.6551%" data-widthpercent="52.26"><img src="/assets/images/posts/2024/02/15/78-17.png" loading="lazy" width="935" height="608"/></span></div>
   <figcaption>Draw Mode - Baked Lightmap / left enable</figcaption>
 </figure>
 </p>
@@ -156,7 +156,7 @@ source_url: https://b-note.tistory.com/78
 <p>활성화 시&nbsp;Progressive Lightmapper를 사용하여 베이크 할 때 고정된 라이트 프로브 샘플 수를 사용한다.&nbsp;</p>
 <p>Direct Sample 64, Indirect Sample 2048, Environment Sample 2048</p>
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="458" data-origin-height="219" data-is-animation="false" style="width: 56.6788%; margin-right: 10px;" data-widthpercent="57.35"><img src="/assets/images/posts/2024/02/15/78-18.png" loading="lazy" width="458" height="219"/></span><span data-origin-width="462" data-origin-height="297" data-is-animation="false" style="width: 42.1584%;" data-widthpercent="42.65"><img src="/assets/images/posts/2024/02/15/78-19.png" loading="lazy" width="462" height="297"/></span></div>
+  <div class="image-container"><span data-origin-width="458" data-origin-height="219" data-is-animation="false" style="width: 56.6788%; margin-right: 10px" data-widthpercent="57.35"><img src="/assets/images/posts/2024/02/15/78-18.png" loading="lazy" width="458" height="219"/></span><span data-origin-width="462" data-origin-height="297" data-is-animation="false" style="width: 42.1584%" data-widthpercent="42.65"><img src="/assets/images/posts/2024/02/15/78-19.png" loading="lazy" width="462" height="297"/></span></div>
   <figcaption>Lighjtmapping - right enable</figcaption>
 </figure>
 </p>
@@ -168,7 +168,7 @@ source_url: https://b-note.tistory.com/78
 <p>특정 모양이나 색상의 그림자를 만들기 위해 광원에 배치하는 마스크로 광원의 모양과 강도를 변경한다.</p>
 <p>쿠키를 통해 런타임 성능에 최소한 또는 전혀 영향을 미치지 않는 선에서 복잡한 조명 효과를 효율적으로 사용할 수 있다.</p>
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="1027" data-origin-height="495" data-is-animation="false" style="width: 51.0084%; margin-right: 10px;" data-widthpercent="51.61"><img src="/assets/images/posts/2024/02/15/78-20.png" loading="lazy" width="1027" height="495"/></span><span data-origin-width="998" data-origin-height="513" data-is-animation="false" style="width: 47.8288%;" data-widthpercent="48.39"><img src="/assets/images/posts/2024/02/15/78-21.png" loading="lazy" width="998" height="513"/></span></div>
+  <div class="image-container"><span data-origin-width="1027" data-origin-height="495" data-is-animation="false" style="width: 51.0084%; margin-right: 10px" data-widthpercent="51.61"><img src="/assets/images/posts/2024/02/15/78-20.png" loading="lazy" width="1027" height="495"/></span><span data-origin-width="998" data-origin-height="513" data-is-animation="false" style="width: 47.8288%" data-widthpercent="48.39"><img src="/assets/images/posts/2024/02/15/78-21.png" loading="lazy" width="998" height="513"/></span></div>
   <figcaption>Light cookie</figcaption>
 </figure>
 </p>

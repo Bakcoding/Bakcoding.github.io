@@ -23,7 +23,7 @@ source_url: https://b-note.tistory.com/20
 <p>.Net Framwork에서 CLR(Common Language Runtime)의 제어하에서 실행되는 코드를 말한다.</p>
 <p>이 코드는 Visual Basic.Net이나 C#과 같은 .Net Framework를 지원하는 언어의 컴파일러를 통해서 만들어지는 코드로&nbsp;컴파일러에 의해 IL(Intermediate Language)이라는 중간 언어로 생성된다. IL은 컴퓨터에서 바로 실행할 수 있는 기계 언어가 아니며 사용자가 생성한 코드의 클래스, 메서드, 속성 등을 나타내는 메타데이터와 함께 어셈블리라는 파일로 저장된다.</p>
 
-<p>CLR은 이러한 어셈블리를 실행할 때 코드의 보안, 메모리 관리, 스레딩같은 관리를 담당하는 다양한 서비스를 제공하며 실행 시점에 필요한 코드는 JIT 컴파일로 컴퓨터의 환경에 맞는 기계어로 변환되어 실행된다. 이런 특징 때문에 CLR은 Managed Program이라고도 불리며 <span style="color: #333333; text-align: start;"><span>&nbsp;</span>Managed Code</span>를 사용하기 때문에 이러한 동작이 가능하다.</p>
+<p>CLR은 이러한 어셈블리를 실행할 때 코드의 보안, 메모리 관리, 스레딩같은 관리를 담당하는 다양한 서비스를 제공하며 실행 시점에 필요한 코드는 JIT 컴파일로 컴퓨터의 환경에 맞는 기계어로 변환되어 실행된다. 이런 특징 때문에 CLR은 Managed Program이라고도 불리며 <span style="text-align: start"><span>&nbsp;</span>Managed Code</span>를 사용하기 때문에 이러한 동작이 가능하다.</p>
 
 <h3>unmanaged code</h3>
 <p>CLR 외부에서 실행되는 코드</p>

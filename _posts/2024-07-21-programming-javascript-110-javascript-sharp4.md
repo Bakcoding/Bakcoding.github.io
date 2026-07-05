@@ -26,13 +26,13 @@ source_url: https://b-note.tistory.com/110
 <p>var로 선언된 변수는 함수 스코프를 가지며 함수 내에서 선언된 변수는 함수 전체에서 접근할 수 있다.</p>
 
 <p><b>호이스팅</b></p>
-<p>var로 선언된 변수는 호이스팅 되며<span style="color: #333333; text-align: start;"><span>&nbsp;</span></span>선언이 코드의 최상단으로 끌어올려지고 <span style="color: #333333; text-align: start;">초기화는 선언한 위치에서 이루어진다.</span></p>
+<p>var로 선언된 변수는 호이스팅 되며<span style="text-align: start"><span>&nbsp;</span></span>선언이 코드의 최상단으로 끌어올려지고 <span style="text-align: start">초기화는 선언한 위치에서 이루어진다.</span></p>
 
-<p><b><span style="color: #333333; text-align: start;">변수 재선언 가능</span></b></p>
-<p><span style="color: #333333; text-align: start;">같은 스코프 내에서 여러 번 선언할 수 있다. 이때 이전 값은 덮어씌워지게 된다.</span></p>
+<p><b><span style="text-align: start">변수 재선언 가능</span></b></p>
+<p><span style="text-align: start">같은 스코프 내에서 여러 번 선언할 수 있다. 이때 이전 값은 덮어씌워지게 된다.</span></p>
 
-<p><b><span style="color: #333333; text-align: start;">전역 객체에 속성으로 추가</span></b></p>
-<p><span style="color: #333333; text-align: start;">전역 스코프에서 선언된 var변수는 전역 객체의 속성이 된다. (global 또는 window)</span></p>
+<p><b><span style="text-align: start">전역 객체에 속성으로 추가</span></b></p>
+<p><span style="text-align: start">전역 스코프에서 선언된 var변수는 전역 객체의 속성이 된다. (global 또는 window)</span></p>
 
 <pre class="javascript"><code>console.log(x); // undefined (호이스팅)
 var x = 5;

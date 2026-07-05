@@ -24,43 +24,43 @@ source_url: https://b-note.tistory.com/145
 <p><b>문제</b></p>
 <p>예전에는&nbsp;운영체제에서&nbsp;크로아티아&nbsp;알파벳을&nbsp;입력할&nbsp;수가&nbsp;없었다.&nbsp;따라서,&nbsp;다음과&nbsp;같이&nbsp;크로아티아&nbsp;알파벳을&nbsp;변경해서&nbsp;입력했다.</p>
 
-<table style="border-collapse: collapse; width: 37.7907%; height: 291px;" border="1">
+<table style="border-collapse: collapse; width: 37.7907%; height: 291px" border="1">
 <tbody>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;"><b>크로아티아&nbsp;알파벳</b></td>
-<td style="width: 50%; height: 17px;"><b>변경</b></td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px"><b>크로아티아&nbsp;알파벳</b></td>
+<td style="width: 50%; height: 17px"><b>변경</b></td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">č</td>
-<td style="width: 50%; height: 17px;">c=</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">č</td>
+<td style="width: 50%; height: 17px">c=</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">ć</td>
-<td style="width: 50%; height: 17px;">c-</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">ć</td>
+<td style="width: 50%; height: 17px">c-</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">dž</td>
-<td style="width: 50%; height: 17px;">dz=</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">dž</td>
+<td style="width: 50%; height: 17px">dz=</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">đ</td>
-<td style="width: 50%; height: 17px;">d-</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">đ</td>
+<td style="width: 50%; height: 17px">d-</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">lj</td>
-<td style="width: 50%; height: 17px;">lj</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">lj</td>
+<td style="width: 50%; height: 17px">lj</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">nj</td>
-<td style="width: 50%; height: 17px;">nj</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">nj</td>
+<td style="width: 50%; height: 17px">nj</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">&scaron;</td>
-<td style="width: 50%; height: 17px;">s=</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">&scaron;</td>
+<td style="width: 50%; height: 17px">s=</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 50%; height: 17px;">ž</td>
-<td style="width: 50%; height: 17px;">z=</td>
+<tr style="height: 17px">
+<td style="width: 50%; height: 17px">ž</td>
+<td style="width: 50%; height: 17px">z=</td>
 </tr>
 </tbody>
 </table>
@@ -305,43 +305,43 @@ console.log(word_cnt);</code></pre>
 
 <p>인하대학교&nbsp;컴퓨터공학과의&nbsp;등급에&nbsp;따른&nbsp;과목평점은&nbsp;다음&nbsp;표와&nbsp;같다.</p>
 
-<table style="background-color: #ffffff; color: #333333; text-align: start; border-collapse: collapse; width: 18.8372%; height: 270px;" border="1">
+<table style="background-color: var(--bc-surface); text-align: start; border-collapse: collapse; width: 18.8372%; height: 270px" border="1">
 <tbody>
 <tr>
-<td style="text-align: center;">A+</td>
-<td style="text-align: center;">4.5</td>
+<td style="text-align: center">A+</td>
+<td style="text-align: center">4.5</td>
 </tr>
 <tr>
-<td style="text-align: center;">A0</td>
-<td style="text-align: center;">4.0</td>
+<td style="text-align: center">A0</td>
+<td style="text-align: center">4.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">B+</td>
-<td style="text-align: center;">3.5</td>
+<td style="text-align: center">B+</td>
+<td style="text-align: center">3.5</td>
 </tr>
 <tr>
-<td style="text-align: center;">B0</td>
-<td style="text-align: center;">3.0</td>
+<td style="text-align: center">B0</td>
+<td style="text-align: center">3.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">C+</td>
-<td style="text-align: center;">2.5</td>
+<td style="text-align: center">C+</td>
+<td style="text-align: center">2.5</td>
 </tr>
 <tr>
-<td style="text-align: center;">C0</td>
-<td style="text-align: center;">2.0</td>
+<td style="text-align: center">C0</td>
+<td style="text-align: center">2.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">D+</td>
-<td style="text-align: center;">1.5</td>
+<td style="text-align: center">D+</td>
+<td style="text-align: center">1.5</td>
 </tr>
 <tr>
-<td style="text-align: center;">D0</td>
-<td style="text-align: center;">1.0</td>
+<td style="text-align: center">D0</td>
+<td style="text-align: center">1.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">F</td>
-<td style="text-align: center;">0.0</td>
+<td style="text-align: center">F</td>
+<td style="text-align: center">0.0</td>
 </tr>
 </tbody>
 </table>

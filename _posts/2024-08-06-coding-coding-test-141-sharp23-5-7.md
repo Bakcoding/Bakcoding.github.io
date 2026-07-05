@@ -304,9 +304,9 @@ for _ in range(t):
     print(result)</code></pre>
 
 <p>result를 생성하는 방법으로 join을 활용해서 표현이 가능하다.</p>
-<p>c를 r만큼 문자열에 추가하는데 for c in s를 통해서 <span style="color: #333333; text-align: start;">s 문자열 안의 c 문자는 순차적으로 다음 문자를 가리킨다.</span></p>
+<p>c를 r만큼 문자열에 추가하는데 for c in s를 통해서 <span style="text-align: start">s 문자열 안의 c 문자는 순차적으로 다음 문자를 가리킨다.</span></p>
 
-<h3><span style="color: #333333; text-align: start;">Node.js</span></h3>
+<h3><span style="text-align: start">Node.js</span></h3>
 <pre class="javascript"><code>const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin', 'utf8').trim().split('\n');
 const t = parseInt(input[0]);

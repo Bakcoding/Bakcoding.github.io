@@ -61,9 +61,7 @@ source_url: https://b-note.tistory.com/96
 
 <p>'Start'에는 'GetActorLocation'으로 캐릭터의 위치를 가져와 연결하고 'Target'에는 'ConvertMouseLocationToWorldSpace'의 'World Location'과 연결시킨다. 이렇게 구해온 회전값을 이제 캐릭터의 회전에 적용시키면 되는데 여기서 Z축의 회전값만 필요하기 때문에 'Break Rotator'와 'Make Rotator'를 사용해서 필요한 값만 리턴되도록 만들어 'Set Actor Rotation'의 'New Rotation'에 연결시킨다.</p>
 
-<p>플레이를 해서 테스트를 해본다.</p>
-
-> 용량 문제로 `Unreal Engine - Character Rotate` 애니메이션 이미지는 [원문](https://b-note.tistory.com/96)에서 확인한다.
+<p>플레이를 해서 테스트를 해본다.</p>> 용량 문제로 `Unreal Engine - Character Rotate` 애니메이션 이미지는 [원문](/develop/unreal/96-sharp3/)에서 확인한다.
 </figure>
 </p>
 
@@ -75,9 +73,7 @@ source_url: https://b-note.tistory.com/96
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="319" data-origin-height="217"><span><img src="/assets/images/posts/2024/07/13/96-5.png" loading="lazy" width="319" height="217" data-origin-width="319" data-origin-height="217"/></span></figure>
 </p>
 
-<p>'Draw Debug Line'을 사용해서 시작점과 끝점을 각각 플레이어 위치, 마우스 커서의 위치로 값을 연결한다.</p>
-
-> 용량 문제로 `Unreal Engine - Debug Draw Line` 애니메이션 이미지는 [원문](https://b-note.tistory.com/96)에서 확인한다.
+<p>'Draw Debug Line'을 사용해서 시작점과 끝점을 각각 플레이어 위치, 마우스 커서의 위치로 값을 연결한다.</p>> 용량 문제로 `Unreal Engine - Debug Draw Line` 애니메이션 이미지는 [원문](/develop/unreal/96-sharp3/)에서 확인한다.
 </figure>
 </p>
 
@@ -121,8 +117,7 @@ source_url: https://b-note.tistory.com/96
 
 <p>이렇게 접근한 'Look Target' 함수에 'Convert Mouse Location To World Space'의 'World Location' 값을 연결하고 이 함수를 'Event Tick'으로 호출한다.</p>
 
-<h2>수정 후 테스트</h2>
-> 용량 문제로 `Unreal Engine - Play Test` 애니메이션 이미지는 [원문](https://b-note.tistory.com/96)에서 확인한다.
+<h2>수정 후 테스트</h2>> 용량 문제로 `Unreal Engine - Play Test` 애니메이션 이미지는 [원문](/develop/unreal/96-sharp3/)에서 확인한다.
 </figure>
 </p>
 

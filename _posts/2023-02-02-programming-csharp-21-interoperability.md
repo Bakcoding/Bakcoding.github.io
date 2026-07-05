@@ -47,9 +47,9 @@ public class Program
         MessageBox(IntPtr.Zero, "Command-line message box", "Attention!", 0);
     }
 }</code></pre>
-<ol style="list-style-type: decimal;">
+<ol style="list-style-type: decimal">
 <li>Attribute
-<ul style="list-style-type: disc;">
+<ul style="list-style-type: disc">
 <li><span>[DllImport] attribute은 런타임에 unmanaged DLL을 로드할것을 알린다.</span></li>
 <li>"user32.dll"&nbsp;문자열은&nbsp;사용할&nbsp;기능이&nbsp;포함된&nbsp;DLL을&nbsp;대상으로&nbsp;한다.</li>
 <li>CharSet&nbsp;=&nbsp;CharSet.Unicode&nbsp;문자열을&nbsp;Mashalling하는데&nbsp;사용할&nbsp;문자&nbsp;집합을&nbsp;지정한다.</li>
@@ -57,14 +57,14 @@ public class Program
 </ul>
 </li>
 <li>Declare
-<ul style="list-style-type: disc;">
+<ul style="list-style-type: disc">
 <li>메서드 선언시 메서드명은 사용할 unmanaged code와 동일한 이름으로 작성한다.</li>
 <li>이때 extern 키워드를 통해서 해당 메서드가 외부의 메서드임을 런타임에 알린다.</li>
 <li>런타임은 외부 메서드라는것을 알게되면 해당 managed 메서드를 호출할 때 attribute의 설정을 통해 특정된 DLL을 찾아서 실행시킨다.</li>
 </ul>
 </li>
 <li>Main method
-<ul style="list-style-type: disc;">
+<ul style="list-style-type: disc">
 <li>managed code 즉 현재 작업중인 코드에서 extern으로 선언한 메서드를 호출하여 외부 메서드를 사용한다.&nbsp;</li>
 </ul>
 </li>

@@ -53,7 +53,7 @@ source_url: https://b-note.tistory.com/82
 <p><b>에셋 열기</b></p>
 <p>현재 프로젝트에 설치된 에셋을 열 수 있다.</p>
 
-<p>에셋은 <a style="background-color: #e6f5ff; color: #0070d1; text-align: start;" href="https://www.unrealengine.com/marketplace/ko/store">언리얼 엔진 마켓플레이스</a>에서 추가로 다운로드할 수 있다.</p>
+<p>에셋은 <a style="background-color: var(--bc-emphasis-mark-bg); color: var(--bc-emphasis-info); text-align: start" href="https://www.unrealengine.com/marketplace/ko/store">언리얼 엔진 마켓플레이스</a>에서 추가로 다운로드할 수 있다.</p>
 
 
 <p><b>모두 저장</b></p>

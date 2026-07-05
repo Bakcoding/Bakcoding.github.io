@@ -61,7 +61,7 @@ source_url: https://b-note.tistory.com/92
 <p>이 기능들은 검색창의 옆에 있는 토글들을 통해서도 사용할 수 있다.</p>
 
 <p><figure class="imagegridblock">
-  <div class="image-container"><span data-origin-width="466" data-origin-height="353" data-is-animation="false" style="width: 61.3619%; margin-right: 10px;" data-widthpercent="62.08"><img src="/assets/images/posts/2024/06/30/92-4.png" loading="lazy" width="466" height="353"/></span><span data-origin-width="233" data-origin-height="289" data-is-animation="false" style="width: 37.4753%;" data-widthpercent="37.92"><img src="/assets/images/posts/2024/06/30/92-5.png" loading="lazy" width="233" height="289"/></span></div>
+  <div class="image-container"><span data-origin-width="466" data-origin-height="353" data-is-animation="false" style="width: 61.3619%; margin-right: 10px" data-widthpercent="62.08"><img src="/assets/images/posts/2024/06/30/92-4.png" loading="lazy" width="466" height="353"/></span><span data-origin-width="233" data-origin-height="289" data-is-animation="false" style="width: 37.4753%" data-widthpercent="37.92"><img src="/assets/images/posts/2024/06/30/92-5.png" loading="lazy" width="233" height="289"/></span></div>
   <figcaption>Unity - Search by Type / Search by Label</figcaption>
 </figure>
 </p>

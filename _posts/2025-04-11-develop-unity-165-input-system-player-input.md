@@ -17,7 +17,7 @@ last_modified_at: 2025-04-11
 source_url: https://b-note.tistory.com/165
 ---
 
-<h3 style="color: #000000;">PlayerInput</h3>
+<h3>PlayerInput</h3>
 <p>Input&nbsp;System은&nbsp;Input&nbsp;Actions와&nbsp;PlayerInput으로&nbsp;구성된다.&nbsp;Input&nbsp;Actions는&nbsp;입력과&nbsp;행동의&nbsp;연결을&nbsp;정의하는&nbsp;구조이고,&nbsp;PlayerInput은&nbsp;그&nbsp;정의를&nbsp;바탕으로&nbsp;실제&nbsp;입력을&nbsp;감지하고&nbsp;동작을&nbsp;실행하는&nbsp;컴포넌트다.</p>
 
 <p>동작의 주체가 되는 Player 게임 오브젝트에 PlayerInput 컴포넌트를 추가하고, Actions 필드에 사용할 Input Actions 에셋을 지정하면 PlayerInput을 사용할 준비가 완료된다.</p>
@@ -26,7 +26,7 @@ source_url: https://b-note.tistory.com/165
 </figure>
 </p>
 
-<h4 style="color: #000000;">Default Scheme</h4>
+<h4>Default Scheme</h4>
 <p>어떤 입력 장치(키보드마우스, 게임패드 등)에 대한 입력을 처리할지 지정할 수 있는 설정이다.&nbsp;</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="242" data-origin-height="158"><span data-alt="Player Input - Scheme"><img src="/assets/images/posts/2025/04/11/165-2.png" loading="lazy" width="242" height="158" data-origin-width="242" data-origin-height="158"/></span><figcaption>Player Input - Scheme</figcaption>
 </figure>
@@ -44,7 +44,7 @@ source_url: https://b-note.tistory.com/165
 </figure>
 </p>
 
-<h4 style="color: #000000;">Default Map</h4>
+<h4>Default Map</h4>
 <p>Default Map은 Input Action Maps 중에서 기본으로 사용할 Map을 지정하는 설정이다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="240" data-origin-height="114"><span data-alt="Input Actions - Default Map"><img src="/assets/images/posts/2025/04/11/165-5.png" loading="lazy" width="240" height="114" data-origin-width="240" data-origin-height="114"/></span><figcaption>Input Actions - Default Map</figcaption>
 </figure>
@@ -53,7 +53,7 @@ source_url: https://b-note.tistory.com/165
 <p>Input Action은 상황에 따라 다른 Map으로 전환할 수 있다.</p>
 <p>예를 들어 캐릭터 조작 시에는 Player 맵을 사용하고, 메뉴를 열었을 때는 UI 맵으로 전환하여 입력을 UI 조작에만 반응하도록 만들 수 있다. 이러한 방식은 게임패드나 조이스틱처럼 여러 입력이 혼합되는 환경에서 특히 유용하다.</p>
 
-<h4 style="color: #000000;">UI Input Module</h4>
+<h4>UI Input Module</h4>
 <p>UI와의 상호작용은 EventSystem에 연결된 Input System UI Input Module 컴포넌트를 통해 처리된다.</p>
 <p>기본 Unity UI 시스템은 단일 입력만 처리하도록 설계되어 있지만 멀티플레이 게임(로컬)에서는 각 플레이어가 자신의 UI를 조작해야 하는 경우가 생기기 때문에 각 플레이어에게 UI 입력용 시스템도 별도로 연결해주어야 한다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="412" data-origin-height="667"><span data-alt="Event System"><img src="/assets/images/posts/2025/04/11/165-6.png" loading="lazy" width="412" height="667" data-origin-width="412" data-origin-height="667"/></span><figcaption>Event System</figcaption>
@@ -67,7 +67,7 @@ source_url: https://b-note.tistory.com/165
 </figure>
 </p>
 
-<h4 style="color: #000000;">Camera</h4>
+<h4>Camera</h4>
 <p>Camera 필드는 멀티 플레이어 상황에서, 플레이어 관리에 사용되는 PlayerInputManager 컴포넌트의 Split-Screen 기능이 활성화된 경우에 의미를 갖는다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="411" data-origin-height="431"><span data-alt="PlayerInputManager"><img src="/assets/images/posts/2025/04/11/165-8.png" loading="lazy" width="411" height="431" data-origin-width="411" data-origin-height="431"/></span><figcaption>PlayerInputManager</figcaption>
 </figure>
@@ -81,7 +81,7 @@ source_url: https://b-note.tistory.com/165
 
 <p>이렇게 설정하면, UI의 입력 처리도 해당 카메라를 기준으로 이루어지므로 플레이어마다 올바른 UI 포커스 및 이벤트 처리가 가능해진다.</p>
 
-<h4 style="color: #000000;">Behavior</h4>
+<h4>Behavior</h4>
 <p>이벤트가 발생했을 때 어떤 방식으로 처리할지 결정하는 옵션이다.</p>
 
 <p><b>Send Messages</b></p>

@@ -43,10 +43,10 @@ source_url: https://b-note.tistory.com/95
 
 <p>그리고 추가한 메시의 정면을 일치시켜 주기 위해서 회전시키고 높이를 캡슐 컴포넌트와 맞게 세팅한다.</p>
 
-<p style="color: #333333; text-align: start;">참고로 유니티에서는 +z&nbsp; forward, +x right, +y up 이였지만 언리얼의 경우 +x forward, +y right, +z up이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">꼭 확인하고 가야 할 부분이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
+<p style="text-align: start">참고로 유니티에서는 +z&nbsp; forward, +x right, +y up 이였지만 언리얼의 경우 +x forward, +y right, +z up이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">꼭 확인하고 가야 할 부분이다.</p>
+<p style="text-align: start">&nbsp;</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="649" data-origin-height="633"><span data-alt="Unreal Engine - Setting Player"><img src="/assets/images/posts/2024/07/09/95-3.png" loading="lazy" width="489" height="633" data-origin-width="649" data-origin-height="633"/></span><figcaption>Unreal Engine - Setting Player</figcaption>
 </figure>
 </p>
@@ -94,9 +94,7 @@ source_url: https://b-note.tistory.com/95
 </figure>
 </p>
 
-<p>그리고 이 상태에서 플레이를 해서 내가 의도한 대로 동작하는지 확인해 본다.</p>
-
-> 용량 문제로 `Unreal Engine - Test Play` 이미지는 [원문](https://b-note.tistory.com/95)에서 확인한다.
+<p>그리고 이 상태에서 플레이를 해서 내가 의도한 대로 동작하는지 확인해 본다.</p>> 용량 문제로 `Unreal Engine - Test Play` 이미지는 [원문](/develop/unreal/95-sharp2/)에서 확인한다.
 </figure>
 </p>
 
@@ -189,9 +187,7 @@ source_url: https://b-note.tistory.com/95
 
 <p>"플레이 시 컨트롤러에서는 전체적인 키의 인풋을 감지하게 된다. 이 중, 따로 맵핑해 놓은 키들(Input Mapping Context)이 입력될 때 특정한 값이 리턴(Input Action) 되도록 한다. 그리고 캐릭터는 위에서 키 입력 시 리턴되는 값을 가져와서 움직이는 데 사용한다."</p>
 
-<p>아직 정확한 흐름은 파악이 잘 안 되지만 일단 이렇게 이벤트 그래프를 만들고 플레이해본다.</p>
-
-> 용량 문제로 `Unreal Engine - Player Move` 애니메이션 이미지는 [원문](https://b-note.tistory.com/95)에서 확인한다.
+<p>아직 정확한 흐름은 파악이 잘 안 되지만 일단 이렇게 이벤트 그래프를 만들고 플레이해본다.</p>> 용량 문제로 `Unreal Engine - Player Move` 애니메이션 이미지는 [원문](/develop/unreal/95-sharp2/)에서 확인한다.
 </figure>
 </p>
 

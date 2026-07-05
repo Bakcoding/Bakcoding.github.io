@@ -25,7 +25,7 @@ source_url: https://b-note.tistory.com/99
 <p>적은 Character를 상속하여 구현하고 리소스는 언리얼엔진의 다른 샘플에서 가져다 쓰기로 한다.</p>
 
 <p>플레이어를 만들 때처럼 콜라이더 크기와 메시의 위치를 조절하고 정면을 방향을 맞춘다.</p>
-<p><br /><span style="color: #333333; text-align: start;">그리고 BP_Enemy는 플레이어와 동일한<span>&nbsp;</span></span>스켈레탈 메시를 사용하고 구분하기 위해서 머티리얼은 복사하여 새로 생성하고 색만 바꾸어서 적용했다.</p>
+<p><br /><span style="text-align: start">그리고 BP_Enemy는 플레이어와 동일한<span>&nbsp;</span></span>스켈레탈 메시를 사용하고 구분하기 위해서 머티리얼은 복사하여 새로 생성하고 색만 바꾸어서 적용했다.</p>
 
 <p>애니메이션은 언리얼에서 제공하는 3인칭 시점 게임 샘플에서 Idle과&nbsp; RunForward만 가져다 사용했다.</p>
 <p><br />가지고 온 애니메이션을 적용하니 메시가 이상하게 변형되었다. 아마도 리깅이 달라서 생긴 문제로 보인다.&nbsp;</p>
@@ -157,9 +157,7 @@ source_url: https://b-note.tistory.com/99
 </figure>
 </p>
 
-<p>이제 진짜로 테스트 플레이를 해본다.</p>
-
-> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](https://b-note.tistory.com/99)에서 확인한다.
+<p>이제 진짜로 테스트 플레이를 해본다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/99-sharp6/)에서 확인한다.
 </figure>
 </p>
 

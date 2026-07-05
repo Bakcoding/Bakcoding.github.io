@@ -25,15 +25,15 @@ source_url: https://b-note.tistory.com/172
 <h3>데이크스트라와 관계</h3>
 <p>A*알고리즘은 데이크스트라 알고리즘의 확장 버전이라고 볼 수 있다. 데이크스트라에서 사용하는 시작점으로부터의 실제 거리 g(n)에 목표점까지의 예상 거리 h(n)라는 휴리스틱을 더한 값을 우선순위 기준으로 사용한다.</p>
 
-<p style="text-align: center;"><span style="font-family: 'Noto Serif KR';">f(n) = g(n) + h(n)</span><span style="font-family: 'Noto Serif KR';"></span></p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">g(n) : 시작점에서 현재 노드 n까지의 실제 비용</p>
-<p style="text-align: left;">h(n) : 현재 노드 n에서 목표 노드 goal까지의 휴리스틱 비용(예상 비용)</p>
-<p style="text-align: left;">f(n) : 시작점에서 n을 거쳐 goal까지 가는 총 예상 비용</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">휴리스틱 h(n)이 핵심 역할을 하며, 이 값이 얼마나 목표에 가깝게 추정하느냐에 따라서 A*의 효율성이 결정된다.</p>
-<p style="text-align: left;">&nbsp;</p>
-<h3 style="text-align: left;">휴리스틱</h3>
+<p style="text-align: center"><span style="font-family: 'Noto Serif KR'">f(n) = g(n) + h(n)</span><span style="font-family: 'Noto Serif KR'"></span></p>
+<p style="text-align: left">&nbsp;</p>
+<p style="text-align: left">g(n) : 시작점에서 현재 노드 n까지의 실제 비용</p>
+<p style="text-align: left">h(n) : 현재 노드 n에서 목표 노드 goal까지의 휴리스틱 비용(예상 비용)</p>
+<p style="text-align: left">f(n) : 시작점에서 n을 거쳐 goal까지 가는 총 예상 비용</p>
+<p style="text-align: left">&nbsp;</p>
+<p style="text-align: left">휴리스틱 h(n)이 핵심 역할을 하며, 이 값이 얼마나 목표에 가깝게 추정하느냐에 따라서 A*의 효율성이 결정된다.</p>
+<p style="text-align: left">&nbsp;</p>
+<h3 style="text-align: left">휴리스틱</h3>
 <p>가장 대표적으로 사용되는 두 가지 방법으로 맨해튼 거리(Manhattan Distance)와 유클리드 거리(Euclidean Distance)가 있다.</p>
 <p>두 가지 방법 모두 특히 격자 기반의 길 찾기 문제나 2D/3D 공간에서의 최단 경로 탐색에 자주 활용된다.</p>
 
@@ -57,7 +57,7 @@ source_url: https://b-note.tistory.com/172
 
 <p>허용 가능한 휴리스틱 함수는 어떤 노드에서 목표 노드까지의 예상비용이 실제 최단 거리보다 절대로 크지 않아야 한다.</p>
 
-<p style="text-align: center;"><span style="font-family: 'Noto Serif KR';">h(n) &le; 실제 최단 거리</span></p>
+<p style="text-align: center"><span style="font-family: 'Noto Serif KR'">h(n) &le; 실제 최단 거리</span></p>
 
 <p>h(n) : 현재 노드 n에서 목표 노드까지의 휴리스틱 비용</p>
 <p>실제 최단 거리 : 현재 노드 n에서 목표 노드까지의 실제 최단 거리</p>
@@ -72,8 +72,6 @@ source_url: https://b-note.tistory.com/172
 
 <p>예) 격자에서 가로/세로 이동만 가능하다고 가정할 때, 맨해튼 거리는 두 점 사이의 실제 최단 거리와 동일하거나 더 짧다. 장애물이 없는 최단 경로는 항상 맨해튼 거리보다 길거나 같을 수 없기 때문에 허용 가능한 휴리스틱이다.</p>
 
-<p>예) 두 점 사이의 가장 짧은 직선거리는 유클리드 거리이다. 실제 경로가 장애물 때문에 직선으로 갈 수 없다면, 실제 경로는 유클리드 거리보다 길어질 수밖에 없으며 유클리드 걸리도 실제 최단 거리보다 과대평가하지 않으므로 허용 가능한 휴리스틱이다.</p>
-
-> 용량 문제로 `A* Manhattan / Euclidean` 애니메이션 이미지는 [원문](https://b-note.tistory.com/172)에서 확인한다.
+<p>예) 두 점 사이의 가장 짧은 직선거리는 유클리드 거리이다. 실제 경로가 장애물 때문에 직선으로 갈 수 없다면, 실제 경로는 유클리드 거리보다 길어질 수밖에 없으며 유클리드 걸리도 실제 최단 거리보다 과대평가하지 않으므로 허용 가능한 휴리스틱이다.</p>> 용량 문제로 `A* Manhattan / Euclidean` 애니메이션 이미지는 [원문](/computer-science/cs-algorithms/172-a-algorithm/)에서 확인한다.
 </figure>
 </p>

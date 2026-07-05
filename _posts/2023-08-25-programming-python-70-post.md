@@ -18,7 +18,7 @@ source_url: https://b-note.tistory.com/70
 
 <h3>리스트</h3>
 <p>순서를 가지는 객체의 모음이다.</p>
-<pre class="ini" style="background-color: #f8f8f8; color: #383a42; text-align: start;"><code>list_1 = []	# 빈 리스트 	
+<pre class="ini" style="background-color: var(--bc-code-bg); color: var(--bc-code-text); text-align: start"><code>list_1 = []	# 빈 리스트 	
 list_2 = [0, 1] # 정수타입
 list_3 = ['a', 'b', 'c'] # 문자타입
 list_4 = [0, 1, 'a', 'b'] # 정수와 문자타입

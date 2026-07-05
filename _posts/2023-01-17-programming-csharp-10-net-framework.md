@@ -27,19 +27,19 @@ source_url: https://b-note.tistory.com/10
 <p>.Net 프레임워크에서 사용되는 프로그래밍 언어는 대표적으로 C#과 Visual Basic이 있다.</p>
 <p>해당 환경에서 개발된 프로그램은 컴파일 시 소스 코드를 IL(Intermediate Language)이라는 중간 언어로 바뀌는데 이때 IL코드는 메서드, 속성 및 기타 세부 정보를 포함한 메타 데이터와 함께 어셈블리라는 파일로 패키징 되어 저장된다. 어셈블리는 CLR에서 관리되며 런타임 실행 중에 JIT에 의해서 기계 언어로 변환된다. 이 기계언어 또한 지속해서 CLR에 의해서 유지 및 관리된다.&nbsp;</p>
 
-<p>이렇게 중간언어로 변경되는 과정이 있기 때문에 빌드환경과 실행환경이 다르더라도 실행환경에 맞춰서 런타임에서 기계언어를 맞춰서 만들어 내게 된다. <span style="color: #333333; text-align: start;">일반적인 네이티브 언어는 이러한 과정이 없기 때문에 환경이 바뀌면 문제가 생기는 경우가 발생하기도 한다.</span><span style="color: #333333; text-align: start;"></span></p>
+<p>이렇게 중간언어로 변경되는 과정이 있기 때문에 빌드환경과 실행환경이 다르더라도 실행환경에 맞춰서 런타임에서 기계언어를 맞춰서 만들어 내게 된다. <span style="text-align: start">일반적인 네이티브 언어는 이러한 과정이 없기 때문에 환경이 바뀌면 문제가 생기는 경우가 발생하기도 한다.</span><span style="text-align: start"></span></p>
 
-<h3 style="color: #000000; text-align: start;">IL</h3>
+<h3 style="text-align: start">IL</h3>
 <p>Intermediate Language</p>
-<p style="color: #333333; text-align: start;">중간언어, 인간이 읽을 수 있는 소스코드가 컴파일러를 통해 해석될 때 완전한 네이티브 코드가 아닌<span>&nbsp;</span><span>컴파일러나 소프트웨어 도구에 의해 추가 처리 또는 최적화될 수 있는 일련의 명령으로 변환되는데 이때 생성되는 파일에는 중간 언어라고 하는 명령어가 포함된다.</span></p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;"><span>중간 언어는 쓰기 및 실행 사이의 가교 역할을 하는 언어로 컴파일러가 정밀한 최적화를 하도록 만들어 프로그램이 더 효율적으로 실행되도록 만들기도 하고 호환성이 없는 시스템 간에 이식 가능한 출력 파일을 생성하기 위해 사용되기도 한다.</span></p>
-<p style="color: #333333; text-align: start;">언어의 실제 구문은 기계 코드 또는 인간이 읽을 수 없는 다른 유형의 바이트 코드와 유사하거나 또는 기존의 크로스 플랫폼 컴퓨터 프로그래밍 언어일 수도 있다.</p>
+<p style="text-align: start">중간언어, 인간이 읽을 수 있는 소스코드가 컴파일러를 통해 해석될 때 완전한 네이티브 코드가 아닌<span>&nbsp;</span><span>컴파일러나 소프트웨어 도구에 의해 추가 처리 또는 최적화될 수 있는 일련의 명령으로 변환되는데 이때 생성되는 파일에는 중간 언어라고 하는 명령어가 포함된다.</span></p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start"><span>중간 언어는 쓰기 및 실행 사이의 가교 역할을 하는 언어로 컴파일러가 정밀한 최적화를 하도록 만들어 프로그램이 더 효율적으로 실행되도록 만들기도 하고 호환성이 없는 시스템 간에 이식 가능한 출력 파일을 생성하기 위해 사용되기도 한다.</span></p>
+<p style="text-align: start">언어의 실제 구문은 기계 코드 또는 인간이 읽을 수 없는 다른 유형의 바이트 코드와 유사하거나 또는 기존의 크로스 플랫폼 컴퓨터 프로그래밍 언어일 수도 있다.</p>
 <p>.Net 프레임워크 환경은 다음과 같은 과정으로 작업이 진행된다.</p>
-<p style="color: #333333; text-align: start;"><span style="color: #333333; text-align: start;">.Net&nbsp;</span>호환 언어 &gt; IL 코드 &gt; CLR 실행 &gt; CPU 기계어</p>
-<p style="color: #333333; text-align: start;">IL 코드의 특이한 점은 ILASM.EXE라는 컴파일러를 가지고 있고 그 자체로 프로그래밍 언어의 문법을 가진다는 점이다.</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<h3><span style="color: #333333; text-align: start;">CLR</span></h3>
+<p style="text-align: start"><span style="text-align: start">.Net&nbsp;</span>호환 언어 &gt; IL 코드 &gt; CLR 실행 &gt; CPU 기계어</p>
+<p style="text-align: start">IL 코드의 특이한 점은 ILASM.EXE라는 컴파일러를 가지고 있고 그 자체로 프로그래밍 언어의 문법을 가진다는 점이다.</p>
+<p style="text-align: start">&nbsp;</p>
+<h3><span style="text-align: start">CLR</span></h3>
 <p>Common Language Runtime&nbsp;</p>
 <p>.Net 프로그램 실행을 위한 런타임 환경을 제공한다. CLR은 구성요소들을 통해서 다양한 서비스를 제공하여 런타임에 프로그램의 전체 작업을 관리한다.&nbsp;</p>
 
@@ -67,7 +67,7 @@ source_url: https://b-note.tistory.com/10
 
 <p>하지만 GC는 사용되지 않는 개체를 식별하기 위해 주기적으로 메모리를 스캔하는 과정이 성능 오버헤드를 유발하기도 하며 메모리가 수거되는 동안 프로그램의 실행이 일시적으로 중지되거나 중단되는 등의 프로그램 응답성에 영향을 미칠 수 있다.</p>
 
-<h3 style="color: #000000;">Exception Handling</h3>
+<h3>Exception Handling</h3>
 <p>프로그램 실행 중에 발생하는 오류 및 예외를 처리하기 위한<span>&nbsp;</span>메커니즘을<span>&nbsp;</span>제공하여 .Net<span>&nbsp;</span>프로그램이 오류를 복구하고 계속 실행할 수 있도록 한다. 이 메커니즘은 개발자가 프로그램이 다양한 유형의 예외에 응답하는 방법을 지정할 수 있는 try/catch/finally 블록의 사용을 기반으로 한다.&nbsp;</p>
 
 <p>예외가 발생하면 CLR은 우선 예외 유형과 일치하는 catch 블록을 찾는다.</p>
@@ -114,7 +114,7 @@ source_url: https://b-note.tistory.com/10
 <p>여러 스레드 간에 공유되지 않고 특정 스레드에 로컬 데이터를 저장한다. 스레드 로컬 저장소는 성능을 최적화하거나 동기화 오버헤드를 줄일 수 있다.</p>
 
 <h3>Type System</h3>
-<p><span style="color: #333333; text-align: start;">.Net&nbsp;</span>&nbsp;호환 언어는 지켜야 할 타입의 표준 규격을 정의한 <b>CTS</b>를 만족한다면 누구나 새로운 언어를 만들어 <span style="color: #333333; text-align: start;">.Net&nbsp;</span>프레임워크 상에서 실행할 수 있다. CTS의 모든 규격을 구현할 필요는 없으며 사용할 <b>언어 사양</b>에 맞게 구현하는 것도 가능하다.</p>
+<p><span style="text-align: start">.Net&nbsp;</span>&nbsp;호환 언어는 지켜야 할 타입의 표준 규격을 정의한 <b>CTS</b>를 만족한다면 누구나 새로운 언어를 만들어 <span style="text-align: start">.Net&nbsp;</span>프레임워크 상에서 실행할 수 있다. CTS의 모든 규격을 구현할 필요는 없으며 사용할 <b>언어 사양</b>에 맞게 구현하는 것도 가능하다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-filename="cls.png" data-origin-width="389" data-origin-height="227"><span><img src="/assets/images/posts/2023/01/17/10-2.png" loading="lazy" width="389" height="227" data-filename="cls.png" data-origin-width="389" data-origin-height="227"/></span></figure>
 </p>
 <h4>CTS</h4>
@@ -124,7 +124,7 @@ source_url: https://b-note.tistory.com/10
 
 <h4>공용 언어 사양</h4>
 <p>CTS 이외에도 한 가지 지켜할 사항인 CLS가 있다.</p>
-<p>직접 <span style="color: #333333; text-align: start;">.Net&nbsp;</span> 호환 언어를 만든다면 CTS는 전체를 구현할 필요가 없더라도 CLS만큼은 완벽하게 구현할 필요가 있는데 .Net 호환 언어끼리는 서로 사용할 수 있고 상속도 받을 수 있기 때문에 항상 외부에서 사용할 기능에 대한 호환성 문제를 염두하고 CLS를 준수해야 한다. 모든 <span style="color: #333333; text-align: start;">.Net&nbsp;</span> 호환 언어는 CLS에 정의한 사양만큼 구현하도록 하며 서로 간에 호출해야 하는 경우에는 그 기능에 한해서 만족시킬 수 있어야 한다.</p>
+<p>직접 <span style="text-align: start">.Net&nbsp;</span> 호환 언어를 만든다면 CTS는 전체를 구현할 필요가 없더라도 CLS만큼은 완벽하게 구현할 필요가 있는데 .Net 호환 언어끼리는 서로 사용할 수 있고 상속도 받을 수 있기 때문에 항상 외부에서 사용할 기능에 대한 호환성 문제를 염두하고 CLS를 준수해야 한다. 모든 <span style="text-align: start">.Net&nbsp;</span> 호환 언어는 CLS에 정의한 사양만큼 구현하도록 하며 서로 간에 호출해야 하는 경우에는 그 기능에 한해서 만족시킬 수 있어야 한다.</p>
 
 <h4>CLS</h4>
 <p>Common Language Specification</p>

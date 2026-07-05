@@ -49,12 +49,12 @@ for i in range(1, 101):
 <p>뽑은 숫자가 1일 경우, 단 1번만에 찾는다 &rarr; &Omega;(1)</p>
 
 <p><b>Average Case</b></p>
-<p style="color: #333333; text-align: start;">1 일 때 1번</p>
-<p style="color: #333333; text-align: start;">2 일 때 2번</p>
-<p style="color: #333333; text-align: start;">...</p>
-<p style="color: #333333; text-align: start;">n 일 때 n번</p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">전체 평균 횟수를 계산하면 1 + 2 + ... + n으로 등차수열을 계산하면 n(n + 1) / 2, 이는&nbsp;입력&nbsp;크기&nbsp;n이&nbsp;커질수록&nbsp;선형적으로&nbsp;증가하므로,&nbsp;Average&nbsp;Case는&nbsp;O(n)으로&nbsp;표현한다.</p>
+<p style="text-align: start">1 일 때 1번</p>
+<p style="text-align: start">2 일 때 2번</p>
+<p style="text-align: start">...</p>
+<p style="text-align: start">n 일 때 n번</p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">전체 평균 횟수를 계산하면 1 + 2 + ... + n으로 등차수열을 계산하면 n(n + 1) / 2, 이는&nbsp;입력&nbsp;크기&nbsp;n이&nbsp;커질수록&nbsp;선형적으로&nbsp;증가하므로,&nbsp;Average&nbsp;Case는&nbsp;O(n)으로&nbsp;표현한다.</p>
 
 <p><b>Worst Case</b></p>
 <p>뽑은&nbsp;숫자가&nbsp;100일&nbsp;경우,&nbsp;100번&nbsp;순회&nbsp;&rarr;&nbsp;O(n)</p>

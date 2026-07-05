@@ -56,9 +56,9 @@ class Program{
     }
 }</code></pre>
 
-<p>C#의 int 범위는 - 2^31&nbsp; ~ 2^31-1, <span style="letter-spacing: 0px;">long 범위는 -2^31 ~ 2^31-1이다</span></p>
+<p>C#의 int 범위는 - 2^31&nbsp; ~ 2^31-1, <span style="letter-spacing: 0px">long 범위는 -2^31 ~ 2^31-1이다</span></p>
 
-<h2><span style="letter-spacing: 0px;">Python</span></h2>
+<h2><span style="letter-spacing: 0px">Python</span></h2>
 <pre class="python"><code>str = input()
 arr = str.split(' ')
 a = int(arr[0])

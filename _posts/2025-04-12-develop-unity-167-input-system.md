@@ -100,8 +100,6 @@ public void OnSprint(InputAction.CallbackContext context)
 
 <p>이 값을 달리는 상태를 변경하는 플래그로 사용해서 처리한다.</p>
 
-<p>간단하게 조작 로직을 구현해서 본다.</p>
-
-> 용량 문제로 `Player - Move&Sprint` 애니메이션 이미지는 [원문](https://b-note.tistory.com/167)에서 확인한다.
+<p>간단하게 조작 로직을 구현해서 본다.</p>> 용량 문제로 `Player - Move&Sprint` 애니메이션 이미지는 [원문](/develop/unity/167-input-system/)에서 확인한다.
 </figure>
 </p>

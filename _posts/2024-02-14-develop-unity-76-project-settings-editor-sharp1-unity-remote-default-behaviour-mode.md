@@ -17,16 +17,16 @@ last_modified_at: 2024-02-14
 source_url: https://b-note.tistory.com/76
 ---
 
-<p style="color: #333333; text-align: start;"><span style="color: #000000; text-align: start;">에디터 버전 : 2021.3.28f1 (LTS) </span></p>
-<p style="color: #333333; text-align: start;">&nbsp;</p>
-<p style="color: #333333; text-align: start;">유니티 에디터의 전체적인 설정을 변경할 수 있는 항목이다.</p>
-<h2 style="color: #000000; text-align: start;"><span style="color: #000000;">Unity Remote [Depricated]</span></h2>
+<p style="text-align: start"><span style="text-align: start">에디터 버전 : 2021.3.28f1 (LTS) </span></p>
+<p style="text-align: start">&nbsp;</p>
+<p style="text-align: start">유니티 에디터의 전체적인 설정을 변경할 수 있는 항목이다.</p>
+<h2 style="text-align: start"><span>Unity Remote [Depricated]</span></h2>
 <p>Android, iOS 등 앱을 개발할 때 사용하기 위한 기능으로 유니티 플레이 모드에서 화면 출력과 입력이 디바이스와 연결되도록한다. 따라서 빌드 이전 단계에서 타겟 디바이스를 통한 테스트가 가능하다.</p>
 
 <p>2020.1 및 이후 버전에서는 depricated 되었으며 Device Simulator Package가 기능을 대신한다.</p>
 
 <p><b> Device Simulator Package </b></p>
-<p style="color: #333333; text-align: start;">2020 이후 버전이라면 에디터에 기능이 포함된 상태로 Window &gt; General &gt; Device Simulator 를 통해 사용할 수 있다.</p>
+<p style="text-align: start">2020 이후 버전이라면 에디터에 기능이 포함된 상태로 Window &gt; General &gt; Device Simulator 를 통해 사용할 수 있다.</p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="531" data-origin-height="581"><span data-alt="Device Simulator"><img src="/assets/images/posts/2024/02/14/76-1.png" loading="lazy" width="338" height="581" data-origin-width="531" data-origin-height="581"/></span><figcaption>Device Simulator</figcaption>
 </figure>
 </p>
@@ -43,8 +43,8 @@ source_url: https://b-note.tistory.com/76
 </figure>
 </p>
 
-<h2 style="color: #000000; text-align: start;"><span style="color: #000000;">Asset Serialization</span></h2>
-<p><span style="color: #000000;">프로젝트를 저장할 때 에셋들의 정보를 저장하는 방식에 대해서 설정할 수 있는 옵션이다.</span></p>
+<h2 style="text-align: start"><span>Asset Serialization</span></h2>
+<p><span>프로젝트를 저장할 때 에셋들의 정보를 저장하는 방식에 대해서 설정할 수 있는 옵션이다.</span></p>
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="372" data-origin-height="67"><span data-alt="Asset Serialization"><img src="/assets/images/posts/2024/02/14/76-4.png" loading="lazy" width="372" height="67" data-origin-width="372" data-origin-height="67"/></span><figcaption>Asset Serialization</figcaption>
 </figure>
 </p>

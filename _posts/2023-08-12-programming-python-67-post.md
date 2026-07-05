@@ -33,23 +33,23 @@ source_url: https://b-note.tistory.com/67
 <p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="119" data-origin-height="159"><span><img src="/assets/images/posts/2023/08/12/67-2.png" loading="lazy" width="119" height="159" data-origin-width="119" data-origin-height="159"/></span></figure>
 </p>
 
-<table style="border-collapse: collapse; width: 69.8834%; height: 69px;" border="1">
+<table style="border-collapse: collapse; width: 69.8834%; height: 69px" border="1">
 <tbody>
-<tr style="height: 45px;">
-<td style="width: 10%; height: 45px;">+=</td>
-<td style="width: 50%; height: 45px;">자기 자신에게 우변값을 더하고, 그 결과를 자기 자신에 대입한다.</td>
+<tr style="height: 45px">
+<td style="width: 10%; height: 45px">+=</td>
+<td style="width: 50%; height: 45px">자기 자신에게 우변값을 더하고, 그 결과를 자기 자신에 대입한다.</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 10%; height: 17px;">-=</td>
-<td style="width: 50%; height: 17px;">자기 자신에서 우변값을 빼고, 그 결과를 자기 자신에게 대입한다.</td>
+<tr style="height: 17px">
+<td style="width: 10%; height: 17px">-=</td>
+<td style="width: 50%; height: 17px">자기 자신에서 우변값을 빼고, 그 결과를 자기 자신에게 대입한다.</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 10%; height: 17px;">*=</td>
-<td style="width: 50%; height: 17px;">자기 자신에게 우변값을 곱하고, 그 결과를 자기 자신에게 대입한다.</td>
+<tr style="height: 17px">
+<td style="width: 10%; height: 17px">*=</td>
+<td style="width: 50%; height: 17px">자기 자신에게 우변값을 곱하고, 그 결과를 자기 자신에게 대입한다.</td>
 </tr>
-<tr style="height: 17px;">
-<td style="width: 10%; height: 17px;">/=</td>
-<td style="width: 50%; height: 17px;">자기 자신을 우변값으로 나누고, 그 결과를 자기 자신에게 대입한다.</td>
+<tr style="height: 17px">
+<td style="width: 10%; height: 17px">/=</td>
+<td style="width: 50%; height: 17px">자기 자신을 우변값으로 나누고, 그 결과를 자기 자신에게 대입한다.</td>
 </tr>
 </tbody>
 </table>

@@ -19,32 +19,32 @@ source_url: https://b-note.tistory.com/66
 
 <h3>사칙연산</h3>
 <p>수학에서 사용되는 사칙연산을 그대로 사용할 수 있다.&nbsp;</p>
-<table style="border-collapse: collapse; width: 38.2558%; height: 184px;" border="1">
+<table style="border-collapse: collapse; width: 38.2558%; height: 184px" border="1">
 <tbody>
 <tr>
-<td style="width: 33.3333%;">&nbsp;</td>
-<td style="width: 33.3333%;">수학 기호</td>
-<td style="width: 33.3333%;">파이썬 기호</td>
+<td style="width: 33.3333%">&nbsp;</td>
+<td style="width: 33.3333%">수학 기호</td>
+<td style="width: 33.3333%">파이썬 기호</td>
 </tr>
 <tr>
-<td style="width: 33.3333%;">덧셈</td>
-<td style="width: 33.3333%;">+</td>
-<td style="width: 33.3333%;">+</td>
+<td style="width: 33.3333%">덧셈</td>
+<td style="width: 33.3333%">+</td>
+<td style="width: 33.3333%">+</td>
 </tr>
 <tr>
-<td style="width: 33.3333%;">뺄셈</td>
-<td style="width: 33.3333%;">-</td>
-<td style="width: 33.3333%;">-</td>
+<td style="width: 33.3333%">뺄셈</td>
+<td style="width: 33.3333%">-</td>
+<td style="width: 33.3333%">-</td>
 </tr>
 <tr>
-<td style="width: 33.3333%;">곱셈</td>
-<td style="width: 33.3333%;">x</td>
-<td style="width: 33.3333%;">*</td>
+<td style="width: 33.3333%">곱셈</td>
+<td style="width: 33.3333%">x</td>
+<td style="width: 33.3333%">*</td>
 </tr>
 <tr>
-<td style="width: 33.3333%;">나눗셈</td>
-<td style="width: 33.3333%;"><b>&divide;</b></td>
-<td style="width: 33.3333%;">/</td>
+<td style="width: 33.3333%">나눗셈</td>
+<td style="width: 33.3333%"><b>&divide;</b></td>
+<td style="width: 33.3333%">/</td>
 </tr>
 </tbody>
 </table>
@@ -58,19 +58,19 @@ source_url: https://b-note.tistory.com/66
 <h3>기타 연산</h3>
 <p>사칙연산 이외에도 일반적인 컴퓨터 사용하는 계산 기호들을 사용할 수 있다.</p>
 
-<table style="border-collapse: collapse; width: 36.8605%; height: 112px;" border="1">
+<table style="border-collapse: collapse; width: 36.8605%; height: 112px" border="1">
 <tbody>
 <tr>
-<td style="width: 50%;">나머지를 구한다.</td>
-<td style="width: 50%;">%</td>
+<td style="width: 50%">나머지를 구한다.</td>
+<td style="width: 50%">%</td>
 </tr>
 <tr>
-<td style="width: 50%;">몫을 정수로 구한다.</td>
-<td style="width: 50%;">//</td>
+<td style="width: 50%">몫을 정수로 구한다.</td>
+<td style="width: 50%">//</td>
 </tr>
 <tr>
-<td style="width: 50%;">지수를 구한다.</td>
-<td style="width: 50%;">**</td>
+<td style="width: 50%">지수를 구한다.</td>
+<td style="width: 50%">**</td>
 </tr>
 </tbody>
 </table>

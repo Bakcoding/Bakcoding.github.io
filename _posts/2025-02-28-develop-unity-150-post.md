@@ -32,7 +32,7 @@ source_url: https://b-note.tistory.com/150
 <h2>1. 파이어베이스 인증 SDK 설치</h2>
 <p><a href="https://firebase.google.com/docs/auth/unity/google-signin?hl=ko" target="_blank" rel="noopener">Firebase Authentication SDK</a></p>
 <figure id="og_1738703317545" contenteditable="false" data-og-type="website" data-og-title="Google 로그인과 Unity를 사용하여 인증하기 &nbsp;|&nbsp; Firebase" data-og-description="의견 보내기 Google 로그인과 Unity를 사용하여 인증하기 컬렉션을 사용해 정리하기 내 환경설정을 기준으로 콘텐츠를 저장하고 분류하세요. Google 로그인을 앱에 통합하여 사용자가 Google 계정으로" data-og-host="firebase.google.com" data-og-source-url="https://firebase.google.com/docs/auth/unity/google-signin?hl=ko" data-og-url="https://firebase.google.com/docs/auth/unity/google-signin?hl=ko"><a href="https://firebase.google.com/docs/auth/unity/google-signin?hl=ko" target="_blank" rel="noopener" data-source-url="https://firebase.google.com/docs/auth/unity/google-signin?hl=ko">
-<div class="og-image" style="background-image: url();">&nbsp;</div>
+<div class="og-image" style="background-image: url()">&nbsp;</div>
 <div class="og-text">
 <p class="og-title">Google 로그인과 Unity를 사용하여 인증하기 &nbsp;|&nbsp; Firebase</p>
 <p class="og-desc">의견 보내기 Google 로그인과 Unity를 사용하여 인증하기 컬렉션을 사용해 정리하기 내 환경설정을 기준으로 콘텐츠를 저장하고 분류하세요. Google 로그인을 앱에 통합하여 사용자가 Google 계정으로</p>
@@ -88,8 +88,8 @@ source_url: https://b-note.tistory.com/150
 <p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-origin-width="1088" data-origin-height="216"><span><img src="/assets/images/posts/2025/02/28/150-4.png" loading="lazy" width="1088" height="216" data-origin-width="1088" data-origin-height="216"/></span></figure>
 </p>
 
-<p style="color: #333333; text-align: start;"><br />* 구글 계정 인증에는 SHA-1 이 필요한데 Unity 6 버전의 keytool을 사용했더니 256만 뜨고 나머지 지문들은 생략된다.</p>
-<p style="color: #333333; text-align: start;">&nbsp; &nbsp;다른 에디터 버전의 keytool을 사용해서 SHA-1을 확인하고 메모해 둔다.</p>
+<p style="text-align: start"><br />* 구글 계정 인증에는 SHA-1 이 필요한데 Unity 6 버전의 keytool을 사용했더니 256만 뜨고 나머지 지문들은 생략된다.</p>
+<p style="text-align: start">&nbsp; &nbsp;다른 에디터 버전의 keytool을 사용해서 SHA-1을 확인하고 메모해 둔다.</p>
 
 <p>해당 키는 잠시 메모해 둔다.</p>
 
@@ -126,7 +126,7 @@ source_url: https://b-note.tistory.com/150
 <h2>5. 클라이언트 ID 확인</h2>
 <p><a href="https://console.cloud.google.com/welcome?authuser=0&amp;hl=ko&amp;inv=1&amp;invt=Abotyg&amp;project=testsample-e25bc" target="_blank" rel="noopener">Google Cloud</a></p>
 <figure id="og_1738718524089" contenteditable="false" data-og-type="website" data-og-title="Google 클라우드 플랫폼" data-og-description="로그인 Google 클라우드 플랫폼으로 이동" data-og-host="accounts.google.com" data-og-source-url="https://console.cloud.google.com/welcome?authuser=0&amp;hl=ko&amp;inv=1&amp;invt=Abotyg&amp;project=testsample-e25bc" data-og-url="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fwelcome%3Fauthuser%3D0%26hl%3Dko%26inv%3D1%26invt%3DAbotyg%26project%3Dtestsample-e25bc&amp;followup=https%3A%2F%2Fconsole.cloud.google.com%2Fwelcome%3Fauthuser%3D0%26hl%3Dko%26inv%3D1%26invt%3DAbotyg%26project%3Dtestsample-e25bc&amp;hl=ko&amp;ifkv=AVdkyDmdBXipijDw-COPhj1iyPxksN96kF51kgQaxEvgkoyD8CvOpjAc7C82sQj5A_sriGJ5gqkK&amp;osid=1&amp;passive=1209600&amp;service=cloudconsole&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S1879872994%3A1738718522189988"><a href="https://console.cloud.google.com/welcome?authuser=0&amp;hl=ko&amp;inv=1&amp;invt=Abotyg&amp;project=testsample-e25bc" target="_blank" rel="noopener" data-source-url="https://console.cloud.google.com/welcome?authuser=0&amp;hl=ko&amp;inv=1&amp;invt=Abotyg&amp;project=testsample-e25bc">
-<div class="og-image" style="background-image: url();">&nbsp;</div>
+<div class="og-image" style="background-image: url()">&nbsp;</div>
 <div class="og-text">
 <p class="og-title">Google 클라우드 플랫폼</p>
 <p class="og-desc">로그인 Google 클라우드 플랫폼으로 이동</p>

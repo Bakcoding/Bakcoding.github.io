@@ -15,7 +15,7 @@ last_modified_at: 2025-07-11
 source_url: https://b-note.tistory.com/177
 ---
 
-<h2 style="color: #000000;">외판원 문제(TSP)</h2>
+<h2>외판원 문제(TSP)</h2>
 <p>NP는&nbsp;정답을&nbsp;빠르게&nbsp;검증할&nbsp;수&nbsp;있는&nbsp;문제&nbsp;집합이다.&nbsp;즉,&nbsp;어떤&nbsp;해답이&nbsp;주어졌을&nbsp;때,&nbsp;그것이&nbsp;맞는지&nbsp;다항&nbsp;시간&nbsp;내에&nbsp;확인&nbsp;가능한&nbsp;문제들을&nbsp;말한다.&nbsp;</p>
 
 <p>NP-complete는&nbsp;NP&nbsp;문제&nbsp;중&nbsp;가장&nbsp;어려운&nbsp;문제들로,&nbsp;NP에&nbsp;속하면서&nbsp;모든&nbsp;NP&nbsp;문제로부터&nbsp;다항&nbsp;시간&nbsp;내에&nbsp;환원이&nbsp;가능한&nbsp;문제이다.&nbsp;</p>
@@ -33,7 +33,7 @@ source_url: https://b-note.tistory.com/177
 <p>즉, 본질적으로는 NP-hard 한 최적화 문제지만, 이를 결정 문제로 변환하면 NP-complete 문제로 볼 수 있다. 실제 적용에서는 정확한 해 대신, 근사 알고리즘이나 동적 계획법을 활용해 현실적인 해를 구하는 방향으로 발전하였다.</p>
 
 <h3>Held-Karp 알고리즘</h3>
-<p><span style="color: #333333; text-align: start;">작은 규모의 문제에 대해 최적해를 찾는 효율적인 방법을 제공하는</span> TSP를 해결하기 위한 동적 계획법 기반의 알고리즘이다. 알고리즘의 핵심은 문제를 더 작은 하위 문제로 분할하고, 이 하위 문제들의 해를 저장하여 중복 계산을 피하는 것으로 이때 비트 마스킹을 사용하여 효율적으로 표현한다.</p>
+<p><span style="text-align: start">작은 규모의 문제에 대해 최적해를 찾는 효율적인 방법을 제공하는</span> TSP를 해결하기 위한 동적 계획법 기반의 알고리즘이다. 알고리즘의 핵심은 문제를 더 작은 하위 문제로 분할하고, 이 하위 문제들의 해를 저장하여 중복 계산을 피하는 것으로 이때 비트 마스킹을 사용하여 효율적으로 표현한다.</p>
 
 <h4>문제 풀이의 구조</h4>
 <p><b>하위 문제 정의</b></p>
@@ -50,7 +50,7 @@ source_url: https://b-note.tistory.com/177
 <p><b>기저 사례 (Base&nbsp;Case)</b></p>
 <p>더 이상 쪼갤 수 없는 최소 단위 하위 문제이다.</p>
 
-<p>두 도시만 방문한 경우(<span style="color: #333333; text-align: start;">0에서 j로 바로 가는 비용) : </span>C({0, j}, j) = cost(0, j)&nbsp;</p>
+<p>두 도시만 방문한 경우(<span style="text-align: start">0에서 j로 바로 가는 비용) : </span>C({0, j}, j) = cost(0, j)&nbsp;</p>
 
 <p><b>점화식&nbsp;(Recurrence)</b></p>
 <p>작은 하위 문제를 통해 큰 문제를 푸는 공식이다.</p>

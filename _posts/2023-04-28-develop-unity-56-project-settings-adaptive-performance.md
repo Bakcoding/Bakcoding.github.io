@@ -49,7 +49,7 @@ source_url: https://b-note.tistory.com/56
 
 <p>온도 추세는 모바일 장치의 온도 변화를 뜻한다. 모바일 장치는 사용자가 앱을 실행하거나 다양한 작업을 수행할 때 온도가 상승할 수 있다. 이벤트는 앱의 실행과 종료, 배터리 잔량 변화, 충전 상태 변화, 네트워크 상태, 알림, 회전 등과 같이 여러 상태 변화를 뜻한다.&nbsp;</p>
 
-<p>열 제한은 모바일 장치가 과열될 때 발생하는 현상으로 온도가 높아짐에 따라 장치의 성능이 저하되거나 충전이 중단되는 등의 문제가 발생한다. 따라서 열 제한을 방지한다는 것은 장치의 온도가 올라가서&nbsp;<span style="color: #333333; text-align: start;">열 제한을 발생시켜 성능이 저하되지 않도록</span><span style="color: #333333; text-align: start;"><span>&nbsp;</span></span><span style="color: #333333; text-align: start;">온도추세와 이벤트에 반응하여<span>&nbsp;</span></span>프레임률 관리를 통해서 모바일 장치의 과열을 방지하는 것을 의미한다.</p>
+<p>열 제한은 모바일 장치가 과열될 때 발생하는 현상으로 온도가 높아짐에 따라 장치의 성능이 저하되거나 충전이 중단되는 등의 문제가 발생한다. 따라서 열 제한을 방지한다는 것은 장치의 온도가 올라가서&nbsp;<span style="text-align: start">열 제한을 발생시켜 성능이 저하되지 않도록</span><span style="text-align: start"><span>&nbsp;</span></span><span style="text-align: start">온도추세와 이벤트에 반응하여<span>&nbsp;</span></span>프레임률 관리를 통해서 모바일 장치의 과열을 방지하는 것을 의미한다.</p>
 
 <p><a href="https://technolobe.com/2020/04/24/thermal-throttling-in-smartphones-a-mere-problem/" target="_blank" rel="noopener">Thermal Throttling&nbsp;</a></p>
 

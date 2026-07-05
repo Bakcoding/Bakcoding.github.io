@@ -67,7 +67,7 @@ source_url: https://b-note.tistory.com/80
 <p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-origin-width="220" data-origin-height="293"><span data-alt="PARC - Xerox Alto"><img src="/assets/images/posts/2024/04/16/80-3.jpg" loading="lazy" width="220" height="293" data-origin-width="220" data-origin-height="293"/></span><figcaption>PARC - Xerox Alto</figcaption>
 </figure>
 </p>
-<p><i><span style="color: #9d9d9d;">제록스 알토는 데스크톱 메타포와 그래픽 사용자 인터페이스를 이용한 최초의 컴퓨터로 상업적인 프로젝트는 아니었지만 수십 년에 걸쳐 개인용 컴퓨터 특히 매킨토시와 썬 워크스테이션의 설계에 큰 영향을 주었습니다.</span></i></p>
+<p><i><span style="color: var(--bc-emphasis-muted)">제록스 알토는 데스크톱 메타포와 그래픽 사용자 인터페이스를 이용한 최초의 컴퓨터로 상업적인 프로젝트는 아니었지만 수십 년에 걸쳐 개인용 컴퓨터 특히 매킨토시와 썬 워크스테이션의 설계에 큰 영향을 주었습니다.</span></i></p>
 
 <p>이더넷 기술은 계속해서 발전하여 초기 10 Mbps에서 기가비트 오늘날에는 10 기가비트 이상의 속도로 데이터를 전송할 수 있는 기술로 발전하였으며 또한 트위스티드 페어 케이블과 광섬유 케이블(Fiber-optic cable) 같은 다양한 전송 매체가 도입되기도 했습니다.</p>
 <p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-origin-width="250" data-origin-height="250"><span data-alt="Twisted pair cable"><img src="/assets/images/posts/2024/04/16/80-4.jpg" loading="lazy" width="250" height="250" data-origin-width="250" data-origin-height="250"/></span><figcaption>Twisted pair cable</figcaption>
@@ -76,7 +76,7 @@ source_url: https://b-note.tistory.com/80
 </figure>
 </p>
 
-<p>현대에서 이더넷은 <span style="color: #333333; text-align: start;">표준화와 호환성이 높아 다양한 네트워크 장비와 시스템에서 손쉽게 구현할 수 있어</span> 광범위한 기업 환경은 물론 가정과 학교 등 다양한 곳에서 LAN을 구축할 때 기본적으로 사용되는 기술입니다. 간단한 개념과 구현의 용이성으로 인해 수십 년 동안 기술의 중심에 있었으며 네트워킹의 가장 기본적이고 중요한 기술 중 하나로 자리 잡게 되었습니다.</p>
+<p>현대에서 이더넷은 <span style="text-align: start">표준화와 호환성이 높아 다양한 네트워크 장비와 시스템에서 손쉽게 구현할 수 있어</span> 광범위한 기업 환경은 물론 가정과 학교 등 다양한 곳에서 LAN을 구축할 때 기본적으로 사용되는 기술입니다. 간단한 개념과 구현의 용이성으로 인해 수십 년 동안 기술의 중심에 있었으며 네트워킹의 가장 기본적이고 중요한 기술 중 하나로 자리 잡게 되었습니다.</p>
 
 <h3>네트워크 케이블</h3>
 <p>이러한 네트워크의 연결을 위해서는 정보를 주고받을 수 있도록 물리적인 장치가 필요합니다.&nbsp;</p>
@@ -86,7 +86,7 @@ source_url: https://b-note.tistory.com/80
 
 <p>약 28,000 킬로미터에 달하는 광섬유 케이블로 구성되어 있으며 영국에서 출발하여 유럽, 중동, 아시아를 거쳐 일본까지 이어지는 것으로 북아메리카와 아시아를 연결하는 주요 노선 중 하나입니다. 주요 연결 지점(Node)으로는 영국, 프랑스, 이탈리아, 이집트, 사우디아라비아, 아랍에미리트, 인도, 태국, 말레이시아, 싱가포르, 홍콩, 대만, 한국, 일본 등의 해안 도시들과 연결되어 있습니다.</p>
 
-<p>현재는 FEA로 초기 FLAG 시스템이 더 많은 국가와 지역을 포괄하였지만 <span style="color: #333333; text-align: start;">경제적 중요성에 따라서<span> </span></span>유럽과 아시아 지역 간의 특정 연결성의 강화에 의해서 FEA로 변경되기도 했습니다.</p>
+<p>현재는 FEA로 초기 FLAG 시스템이 더 많은 국가와 지역을 포괄하였지만 <span style="text-align: start">경제적 중요성에 따라서<span> </span></span>유럽과 아시아 지역 간의 특정 연결성의 강화에 의해서 FEA로 변경되기도 했습니다.</p>
 
 <p>이외에도 아시아 태평양 지역의 여러 국가들을 연결하는 APCN(Asia Pacific Cable Network) 등 필요와 기술의 발전에 따라서 추가로 케이블들이 설치되기도 했습니다.</p>
 
