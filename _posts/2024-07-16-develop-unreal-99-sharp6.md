@@ -157,9 +157,8 @@ source_url: https://b-note.tistory.com/99
 </figure>
 </p>
 
-<p>이제 진짜로 테스트 플레이를 해본다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/99-sharp6/)에서 확인한다.
-</figure>
-</p>
+<p>이제 진짜로 테스트 플레이를 해본다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/16/99-13.gif" loading="lazy" width="300" height="258"/></span><figcaption>Unreal Engine - Test Play</figcaption></figure></p>
 
 <p>랜덤 한 위치에서 적이 생성되고 생성된 적은 플레이어를 추적하기 시작한다.</p>
 

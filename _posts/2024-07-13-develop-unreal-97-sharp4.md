@@ -170,8 +170,7 @@ source_url: https://b-note.tistory.com/97
 </p>
 
 
-<h2>결과&nbsp;</h2>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/97-sharp4/)에서 확인한다.
-</figure>
-</p>
+<h2>결과&nbsp;</h2>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/13/97-15.gif" loading="lazy" width="278" height="320"/></span><figcaption>Unreal Engine - Test Play</figcaption></figure></p>
 
 <p>움직일 때 애니메이션이 잘 전환되고 기존 동작들과도 문제가 없어 보인다.</p>

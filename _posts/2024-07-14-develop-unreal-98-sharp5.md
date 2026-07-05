@@ -124,9 +124,8 @@ source_url: https://b-note.tistory.com/98
 
 <p>Fire 함수 호출 시 CanFire를 확인하고 True일 때만 발사가 되도록 한다.</p>
 
-<p>발사가 진행되고 나면 CanFire를 False로 만든다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/98-sharp5/)에서 확인한다.
-</figure>
-</p>
+<p>발사가 진행되고 나면 CanFire를 False로 만든다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/14/98-16.gif" loading="lazy" width="322" height="294"/></span><figcaption>Unreal Engine - Test Play</figcaption></figure></p>
 
 <p>좌클릭을 누르고 있는동안 Fire가 호출되고 이때 CanFire를 체크하고 FireRate 간격으로 탄환이 발사된다.</p>
 

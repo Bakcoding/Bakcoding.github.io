@@ -227,8 +227,8 @@ public class UICoin : MonoBehaviour
 <figcaption style="display: none"></figcaption>
 </figure>
 
-<p>파티클을 조금 참고해서 만들어 적용시켜 본다.</p>> 용량 문제로 해당 애니메이션 이미지는 [원문](/develop/unity/149-2d/)에서 확인한다.
-</p>
+<p>파티클을 조금 참고해서 만들어 적용시켜 본다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Sprite Renderer Animation"><img src="/assets/images/posts/2024/12/03/149-6.gif" loading="lazy" width="600" height="292"/></span><figcaption>Sprite Renderer Animation</figcaption></figure></p>
 
 <p>효과를 주고 싶은 UI의 자식에 파티클을 할당하면 UI와 동일한 렌더링 우선순위로 처리가 된다는 점에서 원하는 기능 그 자체였다.</p>
 

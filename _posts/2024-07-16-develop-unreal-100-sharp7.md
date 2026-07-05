@@ -34,8 +34,7 @@ source_url: https://b-note.tistory.com/100
 </figure>
 </p>
 
-<p>총알은 생성되고 3초 뒤에 사라지게 된다.</p>> 용량 문제로 `Unreal Engine - Test Play` 애니메이션 이미지는 [원문](/develop/unreal/100-sharp7/)에서 확인한다.
-</figure>
-</p>
+<p>총알은 생성되고 3초 뒤에 사라지게 된다.</p>
+<p><figure class="imageblock alignLeft"><span data-alt="Unreal Engine - Test Play"><img src="/assets/images/posts/2024/07/16/100-3.gif" loading="lazy" width="360" height="376"/></span><figcaption>Unreal Engine - Test Play</figcaption></figure></p>
 
 <p>기초적인 게임 플레이는 구현이 된듯하다.</p>
