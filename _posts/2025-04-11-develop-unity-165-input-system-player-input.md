@@ -22,7 +22,7 @@ source_url: https://b-note.tistory.com/165
 
 <p>동작의 주체가 되는 Player 게임 오브젝트에 PlayerInput 컴포넌트를 추가하고, Actions 필드에 사용할 Input Actions 에셋을 지정하면 PlayerInput을 사용할 준비가 완료된다.</p>
 
-<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="410" data-origin-height="255"><span data-alt="unity - PlayerInput"><img src="/assets/images/posts/2025/04/11/165-1.bin" loading="lazy" width="410" height="255" data-origin-width="410" data-origin-height="255"/></span><figcaption>unity - PlayerInput</figcaption>
+<p><figure class="imageblock alignLeft" data-ke-mobileStyle="widthOrigin" data-origin-width="410" data-origin-height="255"><span data-alt="unity - PlayerInput"><img src="/assets/images/posts/2025/04/11/165-1.png" loading="lazy" width="410" height="255" data-origin-width="410" data-origin-height="255"/></span><figcaption>unity - PlayerInput</figcaption>
 </figure>
 </p>
 

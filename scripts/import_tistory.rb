@@ -192,9 +192,17 @@ def normalize_image_url(url)
   url
 end
 
-def extension_for(url, content_type)
+def extension_for(url, content_type, body = nil)
   from_path = File.extname(URI(url).path).downcase
   return from_path if from_path.match?(/\A\.(png|jpe?g|gif|webp|svg)\z/)
+
+  if body
+    return ".png" if body.start_with?("\x89PNG".b)
+    return ".gif" if body.start_with?("GIF8".b)
+    return ".jpg" if body.start_with?("\xFF\xD8".b)
+    return ".webp" if body[8, 4] == "WEBP"
+    return ".svg" if body.lstrip.start_with?("<svg")
+  end
 
   case content_type
   when /png/ then ".png"
@@ -221,7 +229,7 @@ def download_images(content, date, source_id)
     index += 1
     begin
       body, content_type = fetch_binary(image_url)
-      ext = extension_for(image_url, content_type)
+      ext = extension_for(image_url, content_type, body)
       filename = "#{source_id}-#{index}#{ext}"
       local_path = File.join(image_dir, filename)
       File.binwrite(local_path, body)
