@@ -185,10 +185,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /_admin # ignore local Codex/session notes
-  - /_templates # ignore local post templates
-  - /scripts # ignore local blog tools
-  - /BlogControl.command # ignore local launcher
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
