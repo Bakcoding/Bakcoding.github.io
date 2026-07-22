@@ -4,7 +4,7 @@ excerpt: "cs"
 categories:
   - Programming
 tags:
-  - cs
+  - CSharp
 permalink: /programming/1-2/
 toc: true
 toc_sticky: true
@@ -210,16 +210,16 @@ Add(10, 20);
 덕분에 같은 메서드는 한 번만 컴파일되고, 이후에는 빠르게 실행된다.
 JIT에 대해서는 이후 별도의 글에서 더 자세히 다룰 예정이다.
  
-.NET의 구성 요소 정리
-| 구성                                   | 요소역할                |
-| ------------------------------------ | ------------------- |
-| [.NET](https://tabletomarkdown.com/) | C# 프로그램을 위한 개발 플랫폼  |
-| CLR                                  | 프로그램 실행 엔진(Runtime) |
-| CTS                                  | 공통 타입 시스템           |
-| CLS                                  | 언어 간 공통 규칙          |
-| BCL                                  | 기본 클래스 라이브러리        |
-| JIT                                  | IL을 Native Code로 변환 |
- 
+## .NET의 구성 요소 정리
+
+| 구성 | 요소역할 |
+| ---- | ------- |
+| .NET | C# 프로그램을 위한 개발 플랫폼 |
+| CTS | 공통 타입 시스템 |
+| CLS | 언어 간 공통 규칙 |
+| BCL | 기본 클래스 라이브러리 |
+| JIT | IL을 Native Code로 변환 |
+
 ## 마무리
 C#은 단순히 컴파일만 하면 실행되는 언어가 아니다.
 C# 코드가 실행되기까지는 .NET 플랫폼, CLR, IL, JIT, BCL 등 여러 구성 요소가 함께 동작한다.

@@ -4,7 +4,7 @@ excerpt: "C#"
 categories:
   - Programming
 tags:
-  - C#
+  - CSharp
 permalink: /programming/1-1/
 toc: true
 toc_sticky: true
