@@ -1,6 +1,6 @@
 ---
 title: "[궁금시리즈] 1-2. .NET과 CLR은 무엇일까?"
-excerpt: "cs"
+excerpt: "C#"
 categories:
   - Programming
 tags:
