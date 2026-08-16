@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌4 - 카메라"
 excerpt: "unity3d, retro, example, zombie, cinemachine"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-004-zombie-survival4/
 tags:
   - [unity3d, retro, example, zombie, cinemachine]

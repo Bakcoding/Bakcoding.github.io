@@ -3,7 +3,7 @@ title:  "ui 라이브러리"
 excerpt: "css, library, semantic, ui"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css028-ui-library/
 tags:
   - [css, library, semantic, ui]

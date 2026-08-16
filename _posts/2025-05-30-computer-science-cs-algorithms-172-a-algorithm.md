@@ -2,7 +2,7 @@
 title: "A* Algorithm"
 excerpt: "A* Algorithm"
 categories:
-  - ComputerAlgorithm
+  - AlgorithmsTheory
 permalink: /computer-science/cs-algorithms/172-a-algorithm/
 tags:
   - "Algorithm"

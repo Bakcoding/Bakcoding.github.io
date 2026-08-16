@@ -3,7 +3,7 @@ title:  "HTML 변천과 통계"
 excerpt: "html, history, statistics"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html006-refdoc/
 tags:
   - [html, history, statistics]

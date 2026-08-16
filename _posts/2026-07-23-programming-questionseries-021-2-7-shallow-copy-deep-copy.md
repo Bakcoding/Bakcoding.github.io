@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-7. 얕은 복사(Shallow Copy)와 깊은 복사(Deep Copy)는 무엇이 다를까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-7-shallow-copy-deep-copy/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 다음 코드를 보자.
 
@@ -32,7 +35,7 @@ Player player2 = player1;
 그렇다면 
 
 **객체를 완전히 복사하려면 어떻게 해야 할까?** 이번 글에서는 
-**얕은 복사(Shallow Copy)**와 **깊은 복사(Deep Copy)**의 차이를 알아보자.
+**얕은 복사(Shallow Copy)**와 **깊은 복사(Deep Copy)**의 차이를 확인한다.
 
 ---
 

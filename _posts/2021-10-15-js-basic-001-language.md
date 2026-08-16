@@ -3,7 +3,7 @@ title:  "자바스크립트"
 excerpt: "javascript, js"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js001-language/
 tags:
   - [javascript, js]

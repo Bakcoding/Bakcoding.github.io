@@ -3,7 +3,7 @@ title:  "클래스와 구조체"
 excerpt: "cpp, class, struct"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp026/
 tags:
   - [cpp, class, struct]

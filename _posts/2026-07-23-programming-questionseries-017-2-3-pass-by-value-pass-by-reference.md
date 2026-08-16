@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-3. 값 전달(Pass by Value)과 참조 전달(Pass by Reference)은 무엇이 다를까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-3-pass-by-value-pass-by-reference/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#을 공부하다 보면 다음과 같은 말을 자주 듣는다.
 
@@ -26,7 +29,7 @@ C#을 공부하다 보면 다음과 같은 말을 자주 듣는다.
 하지만 실제 C#은 **기본적으로 모든 매개변수를 값으로 전달(Pass by Value)**한다.
 
 그렇다면 왜 참조 타입은 원본이 변경되는 것처럼 보일까?
-이번 글에서는 C#의 매개변수 전달 방식과 ref, out, in 키워드의 역할까지 함께 알아보자.
+이번 글에서는 C#의 매개변수 전달 방식과 ref, out, in 키워드의 역할까지 함께 확인한다.
 
 ---
 

@@ -3,7 +3,7 @@ title:  "[해시] 완주하지 못한 선수"
 excerpt: "coding, test, programmers, hash"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers003-hash-test1/
 tags:
   - [coding, test, programmers, hash]

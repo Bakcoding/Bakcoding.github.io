@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-6. Depth는 왜 필요할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1011,4 +1012,3 @@ Depth Texture를 Sampling할 때는 Unity의 매크로와 Linearization Helper�
 Depth Buffer는 메모리와 대역폭을 사용하지만 올바른 가시성, Early-Z 최적화와 여러 Screen Space Effect를 가능하게 하는 핵심 렌더링 자원이다.
 
 Depth를 이해하면 다음으로 Alpha와 Blend가 왜 불투명 표면과 다른 렌더링 순서와 Depth 상태를 요구하는지 연결할 수 있다.
-

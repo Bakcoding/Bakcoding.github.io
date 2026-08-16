@@ -3,7 +3,7 @@ title:  "함수의 호출"
 excerpt: "javascript, js, function, apply"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js010-functioncall/
 tags:
   - [javascript, js,  function, apply]

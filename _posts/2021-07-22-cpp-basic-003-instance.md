@@ -3,7 +3,7 @@ title:  "클래스 인스턴스화"
 excerpt: "cpp, class, instance"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp003-instance/
 tags:
   - [cpp, class, instance]

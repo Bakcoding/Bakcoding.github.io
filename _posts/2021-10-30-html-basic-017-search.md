@@ -3,7 +3,7 @@ title:  "검색엔진 최적화"
 excerpt: "html, tag, search, engine, optimization"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html017-search/
 tags:
   - [html, tag, search, engine, optimization]

@@ -3,7 +3,7 @@ title:  "포인터"
 excerpt: "C, potinter, *"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c016-pointer/
 tags:
   - [C, potinter]

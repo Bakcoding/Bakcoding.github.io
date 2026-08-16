@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌23 - 네트워크 - 좀비"
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-023-zombie-survival23/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon]
@@ -158,4 +158,3 @@ private void OnTriggerStay(Collider other) {
     }
 }
 ```
-

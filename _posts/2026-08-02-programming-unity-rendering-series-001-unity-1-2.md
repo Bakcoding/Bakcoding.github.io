@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 1-2. 하나의 프레임은 어떻게 만들어질까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

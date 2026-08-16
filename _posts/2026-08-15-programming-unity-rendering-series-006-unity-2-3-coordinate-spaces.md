@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-3. 좌표계는 왜 여러 개가 필요할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -828,4 +829,3 @@ Position, Direction, Normal은 모두 벡터 형태로 표현될 수 있지만 �
 서로 다른 공간의 값을 그대로 계산하면 결과가 잘못되므로 변수 이름에 `OS`, `WS`, `VS`, `CS` 같은 접미사를 사용하여 공간을 명확히 구분하는 것이 좋다.
 
 좌표 공간의 흐름을 이해하면 다음 단계인 Model, View, Projection Matrix가 각각 어떤 기준을 어떤 공간으로 바꾸는지 자연스럽게 연결할 수 있다.
-

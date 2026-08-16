@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-7. Early-Z는 무엇일까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 2 - 카메라 회전"
 excerpt: "unity3d, vr"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-004-vr/
 tags:
   - [unity3d, vr]

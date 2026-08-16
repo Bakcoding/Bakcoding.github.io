@@ -3,7 +3,7 @@ title:  "페이지 만들기 연습"
 excerpt: "html, tutorial"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html005-testpage/
 tags:
   - [html, tutorial]
@@ -21,4 +21,3 @@ last_modified_at: 2021-10-27
 지금까지 공부한 내용으로 웹 페이지를 만들어 본다.  
 
 [TEST_PAGE](https://bakcoding.github.io//assets/testhtml/index.html)
-

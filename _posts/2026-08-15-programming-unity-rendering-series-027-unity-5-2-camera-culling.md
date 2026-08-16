@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 5-2. Camera는 무엇을 기준으로 오브젝트를 그릴까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

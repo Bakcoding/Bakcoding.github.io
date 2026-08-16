@@ -3,7 +3,7 @@ title:  "스레드"
 excerpt: "cpp, algorithm, thread"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp023-algorithm-thread/
 tags:
   - [cpp, algorithm, thread]

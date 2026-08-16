@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-2. Vertex Shader는 무엇을 할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -974,4 +975,3 @@ GPU Instancing은 CPU Draw 비용을 줄일 수 있지만 각 Instance의 Vertex
 Vertex Shader 최적화에서는 Mesh에 표시된 Triangle 수만 보지 않고 Vertex Attribute 대역폭, Cache, Shader 연산, Varying 수와 Pass 반복을 함께 확인해야 한다.
 
 Vertex Shader가 만든 Clip Position과 Varying이 다음 단계로 전달되면 Triangle이 화면의 Fragment로 바뀌는 Rasterization 과정이 시작된다.
-

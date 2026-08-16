@@ -2,7 +2,7 @@
 title: "JavaScript #9 데이터 타입"
 excerpt: "JavaScript #9 데이터 타입"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/115-javascript-sharp9/
 tags:
   - "JavaScript"

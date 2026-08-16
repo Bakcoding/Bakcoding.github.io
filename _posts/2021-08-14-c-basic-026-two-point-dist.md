@@ -3,7 +3,7 @@ title:  "두 점 사이의 거리"
 excerpt: "c, math.h, distance, sqrt"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c026-two-point-dist/
 tags:
   - [c, math.h, distance, sqrt]
@@ -81,6 +81,5 @@ double GetDistance(double _x1, double _y1, double _x2, double _y2)
 ```
 
 ![two_point_distance](/assets/images/posting/20210814/two_point_distance.png)
-
 
 

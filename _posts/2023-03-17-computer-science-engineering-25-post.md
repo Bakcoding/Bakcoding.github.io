@@ -2,7 +2,7 @@
 title: "메모리"
 excerpt: "메모리"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/25-post/
 tags:
   - "Computer Engineering"

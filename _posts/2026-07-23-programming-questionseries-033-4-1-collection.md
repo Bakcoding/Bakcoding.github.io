@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 4-1. 컬렉션(Collection)은 왜 필요할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/4-1-collection/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 프로그램을 개발하다 보면 하나의 데이터보다 여러 개의 데이터를 함께 다루는 경우가 훨씬 많다.
 
@@ -25,7 +28,7 @@ last_modified_at: 2026-07-23
 등 수많은 데이터를 관리해야 한다.
 그렇다면 이런 데이터를 변수만으로 관리할 수 있을까?
 
-이번 글에서는 컬렉션이 등장한 이유와 왜 필요한지 알아보자.
+이번 글에서는 컬렉션이 등장한 이유와 왜 필요한지 확인한다.
 
 ---
 

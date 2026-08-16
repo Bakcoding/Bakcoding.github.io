@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 7 - 적 공격"
 excerpt: "unity3d, vr, collision"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-009-vr/
 tags:
   - [unity3d, vr, collision]

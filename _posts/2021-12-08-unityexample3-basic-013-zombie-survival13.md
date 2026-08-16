@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌13 - UI"
 excerpt: "unity3d, retro, example, zombie, ui"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-013-zombie-survival13/
 tags:
   - [unity3d, retro, example, zombie, ui]

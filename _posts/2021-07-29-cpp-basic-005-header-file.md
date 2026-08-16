@@ -3,7 +3,7 @@ title:  "헤더 가드"
 excerpt: "cpp, header, file, ifdef, endif, define"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp005-header-file/
 tags:
   - [cpp, header, file, ifdef, endif, define]

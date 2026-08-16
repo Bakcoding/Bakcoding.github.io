@@ -3,7 +3,7 @@ title:  "preprocessor"
 excerpt: "css, preprocessor, stylus, brackets, nodejs"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css025-preprocessor/
 tags:
   - [css, preprocessor, stylus, brackets, nodejs]

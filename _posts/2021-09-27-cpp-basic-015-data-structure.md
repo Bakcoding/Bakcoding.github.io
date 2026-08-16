@@ -3,7 +3,7 @@ title:  "[자료구조] 선형 비선형"
 excerpt: "cpp, structure, linear, non-linear"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp015-data-structure/
 tags:
   - [cpp, structure, linear, non-linear]

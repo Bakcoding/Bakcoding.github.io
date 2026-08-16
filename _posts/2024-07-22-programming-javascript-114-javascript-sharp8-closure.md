@@ -2,7 +2,7 @@
 title: "JavaScript #8 클로저(Closure)"
 excerpt: "JavaScript #8 클로저(Closure)"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/114-javascript-sharp8-closure/
 tags:
   - "JavaScript"

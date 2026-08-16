@@ -3,7 +3,7 @@ title:  "입력과 출력"
 excerpt: "C, scanf, printf, input, output"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c006-scanf-printf/
 tags:
   - [C, scanf, printf, input, output]

@@ -2,7 +2,7 @@
 title: "JavaScript #6 호이스팅(Hoisting)"
 excerpt: "JavaScript #6 호이스팅(Hoisting)"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/112-javascript-sharp6-hoisting/
 tags:
   - "JavaScript"

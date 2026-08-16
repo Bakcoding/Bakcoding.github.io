@@ -2,7 +2,7 @@
 title: "JavaScript #1 개요"
 excerpt: "JavaScript #1 개요"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/107-javascript-sharp1/
 tags:
   - "JavaScript"

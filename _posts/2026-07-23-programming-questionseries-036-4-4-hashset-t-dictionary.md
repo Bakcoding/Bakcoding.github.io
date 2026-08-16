@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 4-4. HashSet<T>는 Dictionary와 무엇이 다를까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/4-4-hashset-t-dictionary/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 앞에서 Dictionary<TKey, TValue>는 Hash 함수를 이용하여 매우 빠른 검색을 제공한다고 설명했다.
 

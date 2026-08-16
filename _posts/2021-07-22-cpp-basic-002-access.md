@@ -3,7 +3,7 @@ title:  "클래스 접근 제한자"
 excerpt: "cpp, public, private, protected"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp002-access/
 tags:
   - [cpp, public, private, protected]

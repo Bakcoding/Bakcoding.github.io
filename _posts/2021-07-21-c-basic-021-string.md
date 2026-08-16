@@ -3,7 +3,7 @@ title:  "C string 함수 구현"
 excerpt: "C, string, strlen, strcmp, strcpy"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c021-string/
 tags:
   - [C, string, strlen, strcmp, strcpy]

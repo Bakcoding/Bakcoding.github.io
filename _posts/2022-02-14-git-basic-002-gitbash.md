@@ -3,7 +3,7 @@ title:  "Gitbash"
 excerpt: "git, gitbash"
 
 categories:
-  - Note
+  - Memo
 permalink: /note/git-002-gitbash/
 tags:
   - [git, gitbash]
@@ -41,6 +41,5 @@ unix
 리눅스는 유닉스 계열의 운영체제를 본 떠 만들었기 때문에 유닉스의 커맨드라인 툴들을 사용할 수 있다. 
 
 맥의 경우 리눅스 환경이 구축되어 있기 때문에 기존 terminal을 사용해도 무방하지만 윈도우즈에서는 리눅스의 커믄드를 사용하기 위해서 git bash를 사용하는 것이 좋다.
-
 
 

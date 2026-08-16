@@ -3,7 +3,7 @@ title:  "레이아웃_1"
 excerpt: "css, layout, level, box, margin"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css014-layout1/
 tags:
   - [css, cascading, level, box, margin]

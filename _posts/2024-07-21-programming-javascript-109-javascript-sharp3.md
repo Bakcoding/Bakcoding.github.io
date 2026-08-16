@@ -2,7 +2,7 @@
 title: "JavaScript #3 연산자"
 excerpt: "JavaScript #3 연산자"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/109-javascript-sharp3/
 tags:
   - "JavaScript"

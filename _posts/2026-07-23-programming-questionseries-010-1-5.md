@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 1-5. string과 String은 무엇이 다를까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/1-5/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#을 공부하다 보면 다음 두 가지 코드를 모두 볼 수 있다.
 
@@ -36,7 +39,7 @@ String message = "Hello";
 
 성능 차이도 없고, 내부적으로도 동일한 객체를 가리킨다.
 
-그렇다면 왜 두 가지 표기법이 존재하는지 알아보자.
+그렇다면 왜 두 가지 표기법이 존재하는지 확인한다.
  
 ## string은 키워드이다
 먼저 string은 C# 언어가 제공하는 예약어(keyword) 이다.

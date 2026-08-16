@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 4-3. Dictionary<TKey, TValue>는 왜 검색이 빠를까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/4-3-dictionary-tkey-tvalue/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 플레이어를 저장하는 프로그램을 만든다고 생각해 보자.
 

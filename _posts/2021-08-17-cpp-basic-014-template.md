@@ -3,7 +3,7 @@ title:  "템플릿"
 excerpt: "cpp, template, function, class, type"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp014-template/
 tags:
   - [cpp, template, function, class, type]

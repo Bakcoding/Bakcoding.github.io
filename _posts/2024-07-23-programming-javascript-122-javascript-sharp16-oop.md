@@ -2,7 +2,7 @@
 title: "JavaScript #16 객체지향 프로그래밍(OOP)"
 excerpt: "JavaScript #16 객체지향 프로그래밍(OOP)"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/122-javascript-sharp16-oop/
 tags:
   - "JavaScript"

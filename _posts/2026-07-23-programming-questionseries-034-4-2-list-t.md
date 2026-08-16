@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 4-2. List<T>는 내부적으로 어떻게 동작할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/4-2-list-t/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#에서 가장 많이 사용하는 컬렉션을 하나만 꼽으라면 대부분 List<T>를 선택할 것이다.
 
@@ -28,7 +31,7 @@ numbers.Add(30);
 
 배열은 크기가 고정되어 있는데, List<T>는 어떻게 계속 데이터를 추가할 수 있을까?
 
-이번 글에서는 List<T>의 내부 구조와 동작 원리를 알아보자.
+이번 글에서는 List<T>의 내부 구조와 동작 원리를 확인한다.
 
 ---
 

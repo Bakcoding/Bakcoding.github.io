@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-3. Rasterization은 무엇을 할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1059,4 +1060,3 @@ MSAA Sample 수와 Fragment Shader Invocation 수는 항상 같지 않으며 Sam
 Rasterization 비용은 Triangle 수뿐 아니라 Screen Coverage, 작은 Triangle 비율, 해상도, MSAA, Culling과 Overdraw에 영향을 받는다.
 
 Rasterization이 만든 Fragment와 보간 데이터가 다음 Programmable Stage로 전달되면 Fragment Shader가 Texture와 Lighting을 이용해 최종 Color 후보를 계산한다.
-

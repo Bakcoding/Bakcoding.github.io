@@ -3,7 +3,7 @@ title:  "기본 문법_속성"
 excerpt: "html, tutorial"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html003-stdgrammar-prop/
 tags:
   - [html, tutorial]

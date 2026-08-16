@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-7. 공변성(Covariance)과 반공변성(Contravariance)은 왜 필요할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-7-covariance-contravariance/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 다음 코드를 보자.
 
@@ -46,7 +49,7 @@ List<Animal> animals = dogs;
 
 그리고 왜 IEnumerable<T>는 가능한 것일까?
 
-이번 글에서는 Generic의 공변성과 반공변성이 등장한 이유를 알아보자.
+이번 글에서는 Generic의 공변성과 반공변성이 등장한 이유를 확인한다.
 
 ---
 

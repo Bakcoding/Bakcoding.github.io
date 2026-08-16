@@ -3,7 +3,7 @@ title:  "Serialization"
 excerpt: "Serialization, Deserialization"
 
 categories:
-  - Blog-Memo
+  - Memo
 permalink: /blog-memo/blog-memo-serialization/
 tags:
   - [Serialization, Deserialization]

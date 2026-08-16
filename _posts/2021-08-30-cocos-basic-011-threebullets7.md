@@ -3,7 +3,7 @@ title:  "ThreeBullets #7"
 excerpt: "cocos, myproject, threebullets, enemy"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos011-threebullets7/
 tags:
   - [cocos, myproject, threebullets, enemy]

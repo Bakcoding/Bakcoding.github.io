@@ -3,7 +3,7 @@ title:  "[큐] 다리를 지나는 트럭"
 excerpt: "coding, test, programmers, queue"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers009-stack-queue-test3/
 tags:
   - [coding, test, programmers, queue]

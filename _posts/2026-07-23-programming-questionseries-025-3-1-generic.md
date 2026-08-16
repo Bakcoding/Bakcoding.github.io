@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-1. Generic은 왜 등장했을까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-1-generic/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#을 배우다 보면 가장 자주 만나는 문법 중 하나가 Generic이다.
 예를 들어
@@ -44,7 +47,7 @@ public T GetValue<T>()
 
 Generic은 단순히 편리한 문법이 아니라
 **타입 안정성과 성능 문제를 동시에 해결하기 위해 등장한 기능**이다.
-이번 글에서는 Generic이 왜 필요했는지부터 알아보자.
+이번 글에서는 Generic이 왜 필요했는지부터 확인한다.
 
 ---
 

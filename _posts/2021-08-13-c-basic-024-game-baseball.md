@@ -3,7 +3,7 @@ title:  "야구게임"
 excerpt: "c, baseball, rand, srand, game"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c024-game-baseball/
 tags:
   - [c, baseball, rand, srand, game]

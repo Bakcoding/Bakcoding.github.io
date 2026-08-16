@@ -3,7 +3,7 @@ title:  "우선순위 큐"
 excerpt: "cpp, algorithm, queue"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp025-priority-queue/
 tags:
   - [cpp, algorithm, queue]
@@ -127,5 +127,4 @@ priority_queue는 기본적으로 내림차순으로 데이터가 정렬된다.
 		priority_queue<int, vector<int>, cmp> q;
 	}
 	```
-
 

@@ -3,7 +3,7 @@ title:  "buttons"
 excerpt: "css, library, buttons"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css027-buttons/
 tags:
   - [css, library, buttons]

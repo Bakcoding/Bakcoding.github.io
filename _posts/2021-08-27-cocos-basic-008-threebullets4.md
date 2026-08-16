@@ -3,7 +3,7 @@ title:  "ThreeBullets #4"
 excerpt: "cocos, myproject, threebullets, button"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos008-threebullets4/
 tags:
   - [cocos, myproject, threebullets, button]
@@ -137,7 +137,6 @@ void CreateButton::alignmentVertical(Button* _target, float _padding)
 타이틀씬의 메뉴나 게임씬의 조작키에서 활용을 할 생각이다.
 
 ![play_test](/assets/images/posting/20210827/play_test.gif)
-
 
 
 

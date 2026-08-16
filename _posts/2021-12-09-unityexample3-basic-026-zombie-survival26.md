@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌26 - 네트워크 - 적 생�
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-026-zombie-survival26/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon]
@@ -230,4 +230,3 @@ public class ColorSerialization {
     }
 }
 ```
-

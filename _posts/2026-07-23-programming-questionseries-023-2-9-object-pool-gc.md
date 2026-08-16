@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-9. Object Pool은 왜 GC 최적화의 핵심 기법일까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-9-object-pool-gc/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 게임을 만들다 보면 다음과 같은 코드를 자주 작성하게 된다.
 

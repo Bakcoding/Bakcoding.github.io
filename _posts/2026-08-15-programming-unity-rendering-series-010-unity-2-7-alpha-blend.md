@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-7. Alpha와 Blend는 어떻게 동작할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1047,4 +1048,3 @@ Transparent는 Destination Color Read·Modify·Write와 겹친 Layer의 Fragment
 최적화에서는 Transparent 오브젝트 수만 세기보다 화면 Coverage, 겹침 수, Shader 비용, Render Target 해상도와 대상 GPU를 함께 측정해야 한다.
 
 Alpha와 Blend의 흐름을 이해하면 다음 장에서 GPU Rendering Pipeline이 Vertex 입력부터 최종 Render Target 출력까지 이 상태들을 어느 단계에서 처리하는지 연결하기 쉬워진다.
-

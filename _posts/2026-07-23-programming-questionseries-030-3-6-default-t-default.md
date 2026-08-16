@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-6. default(T)와 default는 무엇이 다를까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-6-default-t-default/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 Generic을 사용하다 보면 다음과 같은 코드를 자주 만나게 된다.
 
@@ -29,7 +32,7 @@ return default;
 둘 다 기본값을 의미하는 것처럼 보이는데, 정확히 무엇이 다를까?
 그리고 왜 Generic에서는 default(T)가 자주 등장하는 것일까?
 
-이번 글에서는 default 키워드의 의미와 Generic에서 필요한 이유를 알아보자.
+이번 글에서는 default 키워드의 의미와 Generic에서 필요한 이유를 확인한다.
 
 ---
 

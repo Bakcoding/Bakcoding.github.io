@@ -3,7 +3,7 @@ title:  "기본 문법_태그"
 excerpt: "html, tutorial"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html002-stdgrammar-tag/
 tags:
   - [html, tutorial]

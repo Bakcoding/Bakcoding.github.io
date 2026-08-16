@@ -365,54 +365,6 @@ figure.highlight,
   color: var(--bc-code-text);
 }
 
-.highlight .c,
-.highlight .cm,
-.highlight .cp,
-.highlight .c1,
-.highlight .cs,
-.highlight .gp {
-  color: var(--bc-code-comment);
-}
-
-.highlight .k,
-.highlight .kc,
-.highlight .kd,
-.highlight .kp,
-.highlight .kr {
-  color: var(--bc-code-keyword);
-}
-
-.highlight .s,
-.highlight .ld,
-.highlight .gi {
-  color: var(--bc-code-string);
-}
-
-.highlight .m,
-.highlight .l {
-  color: var(--bc-code-number);
-}
-
-.highlight .na,
-.highlight .nf,
-.highlight .nx {
-  color: var(--bc-code-function);
-}
-
-.highlight .o,
-.highlight .kn,
-.highlight .nd,
-.highlight .gu {
-  color: var(--bc-code-operator);
-}
-
-.highlight .err,
-.highlight .gd,
-.highlight .no,
-.highlight .ne {
-  color: var(--bc-code-error);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;

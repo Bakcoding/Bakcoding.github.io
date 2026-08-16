@@ -3,7 +3,7 @@ title:  "선언문"
 excerpt: "javascript, js, conditional"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js005-conditional/
 tags:
   - [javascript, js, conditional]

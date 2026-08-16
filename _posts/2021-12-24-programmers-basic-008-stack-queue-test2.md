@@ -3,7 +3,7 @@ title:  "[큐] 프린터"
 excerpt: "coding, test, programmers, queue"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers008-stack-queue-test2/
 tags:
   - [coding, test, programmers, queue]

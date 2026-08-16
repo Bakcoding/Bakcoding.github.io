@@ -3,7 +3,7 @@ title:  "레이아웃_4"
 excerpt: "css, layout, media, query"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css017-layout4/
 tags:
   - [css, cascading, media, query]

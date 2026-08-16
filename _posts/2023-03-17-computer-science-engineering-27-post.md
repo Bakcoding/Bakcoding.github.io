@@ -2,7 +2,7 @@
 title: "데이터 경로와 제어 유닛"
 excerpt: "데이터 경로와 제어 유닛"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/27-post/
 tags:
   - "Computer Engineering"

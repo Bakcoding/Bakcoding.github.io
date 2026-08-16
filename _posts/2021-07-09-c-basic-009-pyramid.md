@@ -3,7 +3,7 @@ title:  "피라미드 쌓기"
 excerpt: "C, for, loop, while, if, pyramid"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c009-pyramid/
 tags:
   - [C, for, loop, while, if, pyramid]
@@ -77,4 +77,3 @@ int main()
 결과  
   
 ![using_loop_create_pyramid](/assets/images/posting/20210709/using_loop_create_pyramid.gif)  
-

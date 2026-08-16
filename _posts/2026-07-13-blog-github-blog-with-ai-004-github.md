@@ -2,7 +2,7 @@
 title: "편의성이 있는 Github 블로그라면"
 excerpt: "codex, ai, blog"
 categories:
-  - Blog
+  - BlogManagement
 tags:
   - github
   - page

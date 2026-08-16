@@ -3,7 +3,7 @@ title:  "[해시] 베스트앨범"
 excerpt: "coding, test, programmers, hash"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers006-hash-test4/
 tags:
   - [coding, test, programmers, hash]

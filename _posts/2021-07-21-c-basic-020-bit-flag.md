@@ -3,7 +3,7 @@ title:  "비트 플래그"
 excerpt: "C, bitwise, flag"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c020-bit-flag/
 tags:
   - [C, bitwise, flag]

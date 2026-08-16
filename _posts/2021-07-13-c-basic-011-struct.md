@@ -3,7 +3,7 @@ title:  "구조체"
 excerpt: "C, struct"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c011-struct/
 tags:
   - [C, struct]

@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌15 - 적 생성기"
 excerpt: "unity3d, retro, example, zombie, enemy, spawner"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-015-zombie-survival15/
 tags:
   - [unity3d, retro, example, zombie, enemy, spawner]
@@ -212,4 +212,3 @@ private void CreateEnemy(float intensity) {
 * SpawnPoints 필드에 삼각형 버튼 클릭 > Size 4로 변경
 
 * SpawnPoints 필드의 각 원소에 Spawn Point 1, 2, 3, 4 할당
-

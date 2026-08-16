@@ -3,7 +3,7 @@ title:  "ThreeBullets #6"
 excerpt: "cocos, myproject, threebullets"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos010-threebullets6/
 tags:
   - [cocos, myproject, threebullets]
@@ -91,4 +91,3 @@ BulletSprite에서 화면밖으로 나가는걸 확인하는 bool값을 이용�
 <br/>
 
 ![play](/assets/images/posting/20210828/play_test.gif)
-

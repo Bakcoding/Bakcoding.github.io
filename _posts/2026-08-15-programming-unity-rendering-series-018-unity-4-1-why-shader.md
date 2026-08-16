@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 4-1. Shader는 왜 필요할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

@@ -3,7 +3,7 @@ title:  "ThreeBullets #1"
 excerpt: "cocos, myproject, threebullets, proposal"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos005-threebullets1/
 tags:
   - [cocos, myproject, threebullets, proposal]

@@ -3,7 +3,7 @@ title:  "표기법"
 excerpt: "cpp, notation, case"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp006-rule/
 tags:
   - [cpp, notation, case]

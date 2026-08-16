@@ -3,7 +3,7 @@ title:  "OpenGL"
 excerpt: "Graphics, OpenGL"
 
 categories:
-  - OpenGL
+  - ComputerGraphics
 permalink: /opengl/graphics-opengl-001/
 tags:
   - [Graphics, OpenGL]

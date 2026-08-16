@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌12 - 에너미"
 excerpt: "unity3d, retro, example, zombie, nav"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-012-zombie-survival12/
 tags:
   - [unity3d, retro, example, zombie, nav]
@@ -379,4 +379,3 @@ private void OnTriggerStay(Collider other) {
 ### 좀비 프리팹
 
 지금 까지 설정한 좀비 오브젝트를 Prefabs 폴더로 드래그앤드롭해서 프리팹으로 만들어주고 Hierarchy 창에 있는 오브젝트는 지워준다.  
-

@@ -2,7 +2,7 @@
 title: "JavaScript #17 고차 함수(High-order Function)"
 excerpt: "JavaScript #17 고차 함수(High-order Function)"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/123-javascript-sharp17-high-order-function/
 tags:
   - "JavaScript"

@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-1. 3D 오브젝트는 어떻게 화면에 그려질까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -499,4 +500,3 @@ Fragment Shader와 Depth, Blending 등의 처리가 끝난 결과가 Render Targ
 Triangle 수 역시 중요한 지표지만 그 수만으로 성능을 판단할 수는 없다.
 
 다음으로는 복잡한 3D 표면을 표현할 때 왜 사각형이나 더 큰 Polygon이 아니라 Triangle이 GPU 렌더링의 기본 단위로 사용되는지 연결할 수 있다.
-

@@ -3,7 +3,7 @@ title:  "타이포그래피 속성"
 excerpt: "css, property, typography"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css009-property/
 tags:
   - [css, property, typography]

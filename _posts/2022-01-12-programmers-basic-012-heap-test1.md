@@ -3,7 +3,7 @@ title:  "[힙] 주식가격"
 excerpt: "coding, test, programmers, stack"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers012-heap-test1/
 tags:
   - [coding, test, programmers, stack]

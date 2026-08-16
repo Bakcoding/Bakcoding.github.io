@@ -3,7 +3,7 @@ title:  "brackets 에디터"
 excerpt: "html, bracket, opensource, editor"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html021-brackets/
 tags:
   - [html, bracket, opensource, editor]

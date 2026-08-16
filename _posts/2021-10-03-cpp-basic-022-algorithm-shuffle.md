@@ -3,7 +3,7 @@ title:  "셔플"
 excerpt: "cpp, algorithm, shuffle"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp022-algorithm-shuffle/
 tags:
   - [cpp, algorithm, shuffle]

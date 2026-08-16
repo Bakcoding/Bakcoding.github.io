@@ -3,7 +3,7 @@ title:  "상속"
 excerpt: "cpp, class, overriding"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp009-inheritance/
 tags:
   - [cpp, class, overriding]

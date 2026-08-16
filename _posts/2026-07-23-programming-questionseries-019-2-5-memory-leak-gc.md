@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-5. 메모리 누수(Memory Leak)는 GC가 있는데도 왜 발생할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-5-memory-leak-gc/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#은 Garbage Collector(GC)가 메모리를 자동으로 관리한다.
 그래서 많은 사람들이
@@ -25,7 +28,7 @@ C#은 Garbage Collector(GC)가 메모리를 자동으로 관리한다.
 GC가 있는데도 메모리가 계속 증가하는 현상을 자주 만나게 된다.
 
 그렇다면 GC는 왜 메모리를 회수하지 못하는 것일까?
-이번 글에서는 C#에서 발생하는 메모리 누수의 원인과 해결 방법을 알아보자.
+이번 글에서는 C#에서 발생하는 메모리 누수의 원인과 해결 방법을 확인한다.
 
 ---
 

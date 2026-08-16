@@ -3,7 +3,7 @@ title:  "페이지 렌더링"
 excerpt: "html, ssr, csr"
 
 categories:
-  - WebPage
+  - Web
 permalink: /webpage/webpage002-rendering/
 tags:
   - [html, ssr, csr]

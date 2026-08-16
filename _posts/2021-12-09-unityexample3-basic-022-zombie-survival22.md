@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌22 - 네트워크 - 총"
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-022-zombie-survival22/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon]

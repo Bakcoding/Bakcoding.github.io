@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 5-4. Unity에서 Draw Call은 언제 발생할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

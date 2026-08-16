@@ -2,7 +2,7 @@
 title: "JavaScript #14 ES6+ 문법"
 excerpt: "JavaScript #14 ES6+ 문법"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/120-javascript-sharp14-es6plus/
 tags:
   - "JavaScript"

@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-2. Generic의 <T>는 컴파일러가 어떻게 처리할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-2-generic-t/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 다음과 같은 Generic 클래스를 자주 보게 된다.
 
@@ -35,7 +38,7 @@ Box<string> textBox = new();
 - 아니면 실행 중(Runtime)에 바뀌는 걸까?
 - Box<int>와 Box<string>는 같은 클래스일까?
 
-이번 글에서는 Generic이 내부적으로 어떻게 동작하는지 알아보자.
+이번 글에서는 Generic이 내부적으로 어떻게 동작하는지 확인한다.
 
 ---
 
@@ -349,7 +352,7 @@ Generic은
 
 ---
 
-## 마무리 
+## 마무리
 Generic은 컴파일 시점에 단순히 타입을 치환하는 기능이 아니다.
 컴파일러는 Generic 정보를 IL에 그대로 남기고, CLR과 JIT가 실행 시점에 실제 타입에 맞는 코드를 생성한다.
 

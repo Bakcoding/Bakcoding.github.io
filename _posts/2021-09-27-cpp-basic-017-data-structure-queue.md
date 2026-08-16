@@ -3,7 +3,7 @@ title:  "[자료구조] 큐"
 excerpt: "cpp, structure, linear, queue"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp017-data-structure-queue/
 tags:
   - [cpp, structure, linear, queue]

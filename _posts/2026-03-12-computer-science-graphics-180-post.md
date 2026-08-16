@@ -2,7 +2,7 @@
 title: "드로우 콜에 대해서"
 excerpt: "드로우 콜에 대해서"
 categories:
-  - Graphics
+  - ComputerGraphics
 permalink: /computer-science/graphics/180-post/
 tags:
   - "Graphics"

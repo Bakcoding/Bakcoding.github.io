@@ -2,7 +2,7 @@
 title: "Arrow Function"
 excerpt: "Arrow Function"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/147-arrow-function/
 tags:
   - "JavaScript"

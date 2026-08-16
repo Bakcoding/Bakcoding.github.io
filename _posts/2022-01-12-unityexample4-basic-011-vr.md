@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 8 - VR 연동"
 excerpt: "unity3d, vr, ui"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-011-vr/
 tags:
   - [unity3d, vr, ui]

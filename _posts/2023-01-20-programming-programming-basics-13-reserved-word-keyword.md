@@ -2,7 +2,7 @@
 title: "Reserved Word, Keyword"
 excerpt: "Reserved Word, Keyword"
 categories:
-  - ProgrammingBasic
+  - ProgrammingBasics
 permalink: /programming/programming-basics/13-reserved-word-keyword/
 tags:
   - "Programming"

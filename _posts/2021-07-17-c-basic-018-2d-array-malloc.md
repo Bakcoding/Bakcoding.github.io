@@ -3,7 +3,7 @@ title:  "동적할당으로 2차원 배열"
 excerpt: "C, malloc, NULL, 2D, array"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c018-2d-array-malloc/
 tags:
   - [C, malloc, NULL, 2D, array]

@@ -3,7 +3,7 @@ title:  "ThreeBullets #5"
 excerpt: "cocos, myproject, threebullets, update, init"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos009-threebullets5/
 tags:
   - [cocos, myproject, threebullets, update, init]
@@ -195,6 +195,5 @@ update로 플레이어의 현재 위치를 받아서 발사위치를 갱신하�
 ![play](/assets/images/20210828_Posting_cocos/1.gif)
 
 수정할 부분) 플레이어 화면밖으로 이동안되게, 총알이 화면 끝 도달시 지우기
-
 
 

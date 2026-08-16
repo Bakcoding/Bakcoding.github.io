@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 5-1. Unity는 한 프레임을 어떻게 렌더링할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

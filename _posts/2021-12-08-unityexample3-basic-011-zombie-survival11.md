@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌11 - 플레이어 체력"
 excerpt: "unity3d, retro, example, zombie, slider"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-011-zombie-survival11/
 tags:
   - [unity3d, retro, example, zombie, slider]

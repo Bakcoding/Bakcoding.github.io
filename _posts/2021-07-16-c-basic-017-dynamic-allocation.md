@@ -3,7 +3,7 @@ title:  "동적할당"
 excerpt: "C, malloc, NULL"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c017-dynamic-allocation/
 tags:
   - [C, malloc, NULL]

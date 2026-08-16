@@ -27,8 +27,18 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for group in site.data.category_groups %}
+  {% assign group_count = 0 %}
+  {% for item in group.items %}
+    {% for category_name in item.categories %}
+      {% assign category_posts = site.categories[category_name] %}
+      {% if category_posts %}
+        {% assign group_count = group_count | plus: category_posts.size %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% if group_count > 0 %}
   <section class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ group.title }}</h2>
+    <h2 class="archive__subtitle">{{ group.title }} <span class="taxonomy__count">{{ group_count }}</span></h2>
     {% for item in group.items %}
       {% assign count = 0 %}
       {% for category_name in item.categories %}
@@ -55,4 +65,5 @@ layout: archive
       {% endif %}
     {% endfor %}
   </section>
+  {% endif %}
 {% endfor %}

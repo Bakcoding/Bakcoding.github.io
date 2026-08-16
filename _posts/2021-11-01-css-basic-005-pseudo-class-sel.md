@@ -3,7 +3,7 @@ title:  "가상 클래스 선택자"
 excerpt: "css, selector, pseudo, class"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css005-pseudo-class-sel/
 tags:
   - [css, selector, pseudo, class]

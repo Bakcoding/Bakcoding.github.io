@@ -3,7 +3,7 @@ title:  "[자료구조] 연결 리스트"
 excerpt: "cpp, structure, linear, linked-list"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp018-data-structure-linked-list/
 tags:
   - [cpp, structure, linear, linked-list]
@@ -178,6 +178,5 @@ void removeNode(struct Node* _target)
 삽입이나 삭제 비슷하게 동작한다.  
 
 임시로 저장할 노드를 선언하여 값을 저장하고 이어주거나 끊어주는 방식이다.  
-
 
 

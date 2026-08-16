@@ -3,7 +3,7 @@ title:  "Github 블로그 카테고리 생성"
 excerpt: "Github, Jekyll, Blog, Category"
 
 categories:
-  - Blog
+  - BlogManagement
 permalink: /blog/gitblog-003-category/
 tags:
   - [Github, Jekyll, Blog, Category]

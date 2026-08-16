@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-8. 객체는 언제 생성되고 언제 사라질까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-8/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#에서는 객체를 생성하는 것이 매우 쉽다.
 
@@ -30,7 +33,7 @@ delete player;
 그렇다면 객체는 언제 생성되고,
 언제 메모리에서 사라질까?
 
-이번 글에서는 객체의 생명주기(Lifetime)를 따라가며 메모리 관리가 실제로 어떻게 이루어지는지 알아보자.
+이번 글에서는 객체의 생명주기(Lifetime)를 따라가며 메모리 관리가 실제로 어떻게 이루어지는지 확인한다.
 
 ---
 

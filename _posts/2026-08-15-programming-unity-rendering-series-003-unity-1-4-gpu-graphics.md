@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 1-4. GPU는 왜 그래픽 처리에 유리할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -456,4 +457,3 @@ SIMD는 하나의 명령으로 여러 데이터를 처리하는 방식이고, SI
 이러한 데이터 병렬성이 GPU의 처리량 중심 구조와 잘 맞기 때문에 GPU가 실시간 그래픽 처리에 사용된다.
 
 이제 GPU가 처리할 입력인 Vertex, Edge, Triangle, Mesh가 각각 무엇인지 연결하면 3D 오브젝트가 화면에 그려지는 출발점을 이해할 수 있다.
-

@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-5. 카메라는 실제로 무엇을 하는가?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1010,4 +1011,3 @@ Camera는 직접 모든 Draw Call을 실행하는 단순한 오브젝트가 아�
 Render Pipeline이 Camera의 설정을 기준으로 Culling, Sorting, Pass 구성과 Command 제출을 수행한다.
 
 Camera의 역할을 이해하면 다음으로 Depth Buffer가 왜 필요하고, Camera에서 같은 화면 위치에 겹쳐 보이는 여러 표면 중 어떤 결과를 남기는지 연결할 수 있다.
-

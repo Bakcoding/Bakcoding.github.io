@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌14 - 게임매니저"
 excerpt: "unity3d, retro, example, zombie, gamemanager"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-014-zombie-survival14/
 tags:
   - [unity3d, retro, example, zombie, gamemanager]

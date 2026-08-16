@@ -3,7 +3,7 @@ title:  "CSS 시작"
 excerpt: "css, html, intro"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css001-intro/
 tags:
   - [css, html, intro]

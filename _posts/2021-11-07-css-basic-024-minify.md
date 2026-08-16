@@ -3,7 +3,7 @@ title:  "코드 경량화"
 excerpt: "css, minify"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css024-minify/
 tags:
   - [css, minify]
@@ -48,4 +48,3 @@ css 코드는 네트워크를 통해서 전송되기 때문에 당연히 css 크
 코드 경량화가 되면 데이터는 줄어들지만 사람이 보기에는 가독성이 아주 안좋기 때문에 기본적으로 원본 파일과 경량화한 파일을 따로 두어서 사용한다.  
 
 경량화된 파일의 이름은 대부분 ~.min.css 와 같이 작명된다.  
-

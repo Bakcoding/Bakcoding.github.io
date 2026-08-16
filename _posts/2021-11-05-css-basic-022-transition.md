@@ -3,7 +3,7 @@ title:  "전환"
 excerpt: "css, graphic, transition"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css022-transition/
 tags:
   - [css, graphic, transition]
@@ -200,4 +200,3 @@ transition
 ```
 
 자바스크립트로 페이지가 열릴 때 백그라운드 색을 흰색으로 바꾼다.  
-

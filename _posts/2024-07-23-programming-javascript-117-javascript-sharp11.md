@@ -2,7 +2,7 @@
 title: "JavaScript #11 함수"
 excerpt: "JavaScript #11 함수"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/117-javascript-sharp11/
 tags:
   - "JavaScript"

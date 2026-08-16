@@ -3,7 +3,7 @@ title:  "벡터"
 excerpt: "cpp, vector, array"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp011-vector/
 tags:
   - [cpp, vector, array]

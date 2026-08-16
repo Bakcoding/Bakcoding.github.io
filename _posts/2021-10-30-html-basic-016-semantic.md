@@ -3,7 +3,7 @@ title:  "의미론적인 태그"
 excerpt: "html, tag, semantic"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html016-semantic/
 tags:
   - [html, tag, semantic]
@@ -108,4 +108,3 @@ semantic tag를 추가해도 웹 페이지의 보여지는 모습에는 차이�
 <a href="https://developer.mozilla.org/ko/docs/Glossary/Semantics#%EC%9D%98%EB%AF%B8%EB%A1%A0%EC%A0%81_%EC%9A%94%EC%86%8Celement%EB%93%A4">Semantic tags</a>
 
 위 사이트에서 의미론적 태그들의 정의와 그 예제들을 살펴볼 수 있다.  
-

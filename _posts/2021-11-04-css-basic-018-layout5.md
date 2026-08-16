@@ -3,7 +3,7 @@ title:  "레이아웃_5"
 excerpt: "css, layout, float"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css018-layout5/
 tags:
   - [css, cascading, float]

@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-10. stackalloc과 Span<T>는 왜 등장했을까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-10-stackalloc-span-t/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 앞선 글에서 Heap에 객체를 많이 생성하면 GC가 자주 발생하고, 이를 줄이기 위해 Object Pool을 사용할 수 있다고 설명했다.
 
@@ -21,7 +24,7 @@ last_modified_at: 2026-07-23
 실제로 .NET은 이런 상황을 위해 Stack 메모리를 적극적으로 활용할 수 있는 기능을 제공한다.
 바로 stackalloc과 Span<T>이다.
 
-이번 글에서는 이 두 기능이 왜 등장했으며, 어떤 상황에서 사용해야 하는지 알아보자.
+이번 글에서는 이 두 기능이 왜 등장했으며, 어떤 상황에서 사용해야 하는지 확인한다.
 
 ---
 

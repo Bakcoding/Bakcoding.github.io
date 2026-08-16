@@ -3,7 +3,7 @@ title:  "Object"
 excerpt: "javascript, js, Object"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js016-object/
 tags:
   - [javascript, js, Object]
@@ -170,4 +170,3 @@ for (var name in a) {
 ```
 
 Object에 어떠한 프로퍼티를 추가하여 사용하는 방법은 모든 객체에 일괄적으로 적용시킬 수 있기 때문에 편리하지만 모든 객체에 영향을 끼치게 되는 것이므로 자신이 하고자 하는일을 명확하게 파악하고 어떤 결과가 나올지 예상이 가능할 때 올바른 사용이 가능한 부분이다.  
-

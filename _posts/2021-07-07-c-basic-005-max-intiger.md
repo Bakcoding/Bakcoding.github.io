@@ -3,7 +3,7 @@ title:  "컴퓨터 최대 정수"
 excerpt: "C, Intiger, Unsigned, 2147483647, Datatype"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c005-max-intiger/
 tags:
   - [C, Intiger, Unsigned, Datatype]

@@ -2,7 +2,7 @@
 title: "JavaScript #10 조건문과 반복문"
 excerpt: "JavaScript #10 조건문과 반복문"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/116-javascript-sharp10/
 tags:
   - "JavaScript"

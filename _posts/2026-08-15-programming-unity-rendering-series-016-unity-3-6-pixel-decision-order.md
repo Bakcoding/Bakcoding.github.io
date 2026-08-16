@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-6. GPU는 어떤 순서로 픽셀을 결정할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

@@ -3,7 +3,7 @@ title:  "meta"
 excerpt: "html, tag, meta"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html015-meta/
 tags:
   - [html, tag, meta]

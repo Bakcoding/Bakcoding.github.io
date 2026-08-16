@@ -3,7 +3,7 @@ title:  "복사 생성자"
 excerpt: "cpp, constructor, copy, shallow, deep"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp012-copy-const/
 tags:
   - [cpp, constructor, copy, shallow, deep]

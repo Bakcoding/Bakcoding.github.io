@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-3. Generic 제약 조건(where)은 왜 필요할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-3-generic-where/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 앞선 글에서 Generic은 타입을 나중에 결정하는 기능이라고 설명했다.
 예를 들어

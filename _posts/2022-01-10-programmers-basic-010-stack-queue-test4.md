@@ -3,7 +3,7 @@ title:  "[스택] 주식가격"
 excerpt: "coding, test, programmers, stack"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers010-stack-queue-test4/
 tags:
   - [coding, test, programmers, stack]
@@ -139,4 +139,3 @@ vector<int> solution(vector<int> prices) {
 <br>
 
 for문을 통해 전체를 조회면서 검사하는 방법보다. 더 빠르다는걸 확인할 수 있다.
-

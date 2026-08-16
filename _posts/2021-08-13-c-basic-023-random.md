@@ -3,7 +3,7 @@ title:  "난수 생성"
 excerpt: "c, rand, srand, time"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c023-random/
 tags:
   - [c, rand, srand, time]

@@ -3,7 +3,7 @@ title:  "set / map"
 excerpt: "coding, test, programmers, set, map"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers002-hash2/
 tags:
   - [coding, test, programmers, set, map]

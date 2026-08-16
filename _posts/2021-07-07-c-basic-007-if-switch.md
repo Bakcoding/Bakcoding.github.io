@@ -3,7 +3,7 @@ title:  "조건문"
 excerpt: "C, if, else if, else, switch, case"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c007-if-switch/
 tags:
   - [C, if, else if, else, switch, case]

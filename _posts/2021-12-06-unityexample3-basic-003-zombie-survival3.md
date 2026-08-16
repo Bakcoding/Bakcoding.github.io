@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌3 - 플레이어"
 excerpt: "unity3d, retro, example, zombie, property, get, set"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-003-zombie-survival3/
 tags:
   - [unity3d, retro, example, zombie, property, get, set]
@@ -177,4 +177,3 @@ public class PlayerMovement : MonoBehaviour {
     }
 }
 ```
-

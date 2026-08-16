@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-1. Stack과 Heap은 무엇일까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-1-stack-heap/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#을 공부하다 보면 가장 많이 듣는 말이 있다.
 
@@ -40,7 +43,7 @@ Hp는 Heap에 생성된 Player 객체 내부에 저장된다.
 
 > 값 타입인지 참조 타입인지와 Stack/Heap에 저장되는 위치는 항상 같은 개념이 아니다.
 
-이번 글에서는 Stack과 Heap이 무엇인지, 각각 어떤 역할을 하는지 알아보자.
+이번 글에서는 Stack과 Heap이 무엇인지, 각각 어떤 역할을 하는지 확인한다.
 
 ---
 

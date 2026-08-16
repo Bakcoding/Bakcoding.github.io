@@ -3,7 +3,7 @@ title:  "HTML5 신규 태그"
 excerpt: "html, html5, tag"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html020-html5/
 tags:
   - [html, html5, tag]

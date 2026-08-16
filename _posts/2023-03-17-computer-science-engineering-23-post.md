@@ -2,7 +2,7 @@
 title: "레지스터"
 excerpt: "레지스터"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/23-post/
 tags:
   - "Computer Engineering"

@@ -3,7 +3,7 @@ title:  "레이아웃_2"
 excerpt: "css, layout, level, box, margin"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css015-layout2/
 tags:
   - [css, cascading, level, box, margin]
@@ -207,4 +207,3 @@ large의 요소가 크기 때문에 페이지에 스크롤이 생긴다.
   스크롤에 영향을 받지 않고 위치를 고정시킨다.  
 
   absolute와 비슷하게 부모와 연결이 끊어지게 되어 요소의 크기가 자신의 컨텐츠 크기가 된다.  
-

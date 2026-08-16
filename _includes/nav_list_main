@@ -3,9 +3,19 @@
     <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
     <ul class="nav__items" id="category_tag_menu">
         {% for group in site.data.category_groups %}
+        {% assign group_count = 0 %}
+        {% for item in group.items %}
+            {% for category_name in item.categories %}
+                {% assign category_posts = site.categories[category_name] %}
+                {% if category_posts %}
+                    {% assign group_count = group_count | plus: category_posts.size %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        {% if group_count > 0 %}
         <li>
             <details class="category-nav__group">
-                <summary class="nav__title category-nav__summary">{{ group.title }}</summary>
+                <summary class="nav__title category-nav__summary">{{ group.title }} ({{ group_count }})</summary>
                 <ul class="category-nav__items">
                     {% for item in group.items %}
                     {% assign count = 0 %}
@@ -26,6 +36,7 @@
                 </ul>
             </details>
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </nav>

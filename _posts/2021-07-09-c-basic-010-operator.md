@@ -3,7 +3,7 @@ title:  "연산자"
 excerpt: "C, operator"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c010-operator/
 tags:
   - [C, operator]

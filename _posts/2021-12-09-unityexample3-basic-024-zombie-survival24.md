@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌24 - 네트워크 - 아이�
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-024-zombie-survival24/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon]

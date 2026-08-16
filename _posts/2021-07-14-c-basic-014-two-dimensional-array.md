@@ -3,7 +3,7 @@ title:  "다차원 배열"
 excerpt: "C, 2D, array"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c014-two-dimensional-array/
 tags:
   - [C, 2D, array]

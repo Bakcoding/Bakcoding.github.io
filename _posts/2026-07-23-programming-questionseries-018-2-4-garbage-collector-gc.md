@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-4. Garbage Collector(GC)는 어떻게 메모리를 관리할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-4-garbage-collector-gc/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C++에서는 개발자가 직접 메모리를 해제해야 한다.
 
@@ -39,7 +42,7 @@ Player player = new Player();
 정답은
 **Garbage Collector(GC)**가 관리하기 때문이다.
 
-이번 글에서는 GC가 왜 필요한지, 어떤 방식으로 메모리를 관리하는지 알아보자.
+이번 글에서는 GC가 왜 필요한지, 어떤 방식으로 메모리를 관리하는지 확인한다.
 
 ---
 

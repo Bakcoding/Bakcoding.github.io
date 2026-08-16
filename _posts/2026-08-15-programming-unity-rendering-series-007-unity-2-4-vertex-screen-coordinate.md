@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-4. Vertex는 어떻게 화면 좌표로 변환될까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1023,4 +1024,3 @@ NDC는 Viewport Transform을 거쳐 실제 Render Target의 Screen Position에 �
 Normal은 Position과 의미가 다르므로 MVP Matrix로 변환하지 않으며, 비균일 Scale까지 고려하는 전용 Normal 변환을 사용해야 한다.
 
 Vertex가 화면에 도달하는 변환 흐름을 이해하면 Camera의 View Matrix와 Perspective·Orthographic Projection이 각각 화면 결과를 어떻게 바꾸는지 더 구체적으로 연결할 수 있다.
-

@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌18 - 네트워크"
 excerpt: "unity3d, retro, example, zombie, multiplayer, network"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-018-zombie-survival18/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, network]
@@ -140,4 +140,3 @@ void Update() {
 하지만 각각의 클라이언트가 자신을 제외한 다른 모든 클라이언트와 직접 연결되어 있어야하므로 연결수가 늘어날수록 클라이언트의 부담이 늘어나며 어느 시점부터는 호스트-클라이언트 방식의 호스트보다 더 많은 연산 부담을 가지게 된다. 따라서 참가자가 증가할수록 반응 속도가 눈에 띄게 느려지기 때문에 이 방식은 통상 16명을 참가자 상한선으로 여긴다. 
 
 무엇보다도 수치 변조에 제일 취약하기 때문에 이 수치를 조작하여 다른 클라이언트에 전파할 위험이 크다.  
-

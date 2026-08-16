@@ -3,7 +3,7 @@ title:  "실수 표현"
 excerpt: "C, Float, Double, Datatype"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c004-floating-point/
 tags:
   - [C, Datatype, Float, Double]

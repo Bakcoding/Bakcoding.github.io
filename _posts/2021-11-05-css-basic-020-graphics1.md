@@ -3,7 +3,7 @@ title:  "그래픽 관련 속성_1"
 excerpt: "css, graphic, background, blend, filter"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css020-graphics1/
 tags:
   - [css, graphic, background, blend, filter]

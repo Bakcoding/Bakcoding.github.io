@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-8. Generic을 사용하면 정말 성능이 좋아질까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-8-generic/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 Generic을 처음 배우면 다음과 같은 이야기를 자주 듣는다.
 
@@ -23,7 +26,7 @@ Generic을 처음 배우면 다음과 같은 이야기를 자주 듣는다.
 
 Generic이 성능을 높이는 경우도 있지만, 목적 자체가 성능은 아니다.
 
-이번 글에서는 Generic이 왜 성능 향상을 가져오는지, 그리고 언제 그렇지 않은지를 알아보자.
+이번 글에서는 Generic이 왜 성능 향상을 가져오는지, 그리고 언제 그렇지 않은지를 확인한다.
 
 ---
 

@@ -3,7 +3,8 @@ title:  "Github 블로그 생성"
 excerpt: "Github, Jekyll, Blog"
 
 categories:
-  - Blog-Info
+  - Information
+permalink: /blog-info/blog-info-001-init-page/
 tags:
   - [Github, Blog]
 

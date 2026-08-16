@@ -3,7 +3,7 @@ title:  "외부문서 삽입"
 excerpt: "html, tag, iframe"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html019-iframe/
 tags:
   - [html, tag, mobile, iframe]

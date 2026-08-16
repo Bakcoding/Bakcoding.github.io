@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 1-7. String Pool은 무엇일까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/1-7/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 다음 코드를 보자.
 
@@ -31,7 +34,7 @@ C#은 동일한 문자열을 발견하면 **하나의 객체만 생성하여 여
 
 String Pool은 단순한 메모리 절약 기술이 아니라, String이 **Immutable(불변 객체)** 이기 때문에 가능한 최적화이다.
 
-이번 글에서는 String Pool이 어떻게 동작하는지 알아보자.
+이번 글에서는 String Pool이 어떻게 동작하는지 확인한다.
  
 ## String Pool이란?
 

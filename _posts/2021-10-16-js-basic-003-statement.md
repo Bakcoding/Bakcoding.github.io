@@ -3,7 +3,7 @@ title:  "문장"
 excerpt: "javascript, js, statement"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js003-statement/
 tags:
   - [javascript, js, statement]

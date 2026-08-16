@@ -2,7 +2,7 @@
 title: "명령 사이클과 명령어 집합 구조"
 excerpt: "명령 사이클과 명령어 집합 구조"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/26-post/
 tags:
   - "Computer Engineering"

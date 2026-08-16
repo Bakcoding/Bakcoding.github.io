@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-6. IDisposable과 using은 왜 필요할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-6-idisposable-using/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 앞선 글에서 Garbage Collector(GC)는 더 이상 사용하지 않는 객체를 자동으로 회수한다고 설명했다.
 
@@ -369,7 +372,7 @@ Garbage Collector는 메모리를 자동으로 관리하지만, 운영체제가 
 
 ---
 
-핵심 정리
+## 핵심 정리
 
 - GC는 메모리를 관리하지만 운영체제 자원은 관리하지 않는다.
 - 파일, 소켓, DB 연결 등은 Dispose()로 직접 해제해야 한다.

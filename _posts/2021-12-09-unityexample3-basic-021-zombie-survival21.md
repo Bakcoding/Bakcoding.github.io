@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌21 - 네트워크 - 플레�
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-021-zombie-survival21/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon]

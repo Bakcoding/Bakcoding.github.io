@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌5 - 인터페이스"
 excerpt: "unity3d, retro, example, zombie, interface"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-005-zombie-survival5/
 tags:
   - [unity3d, retro, example, zombie, interface]

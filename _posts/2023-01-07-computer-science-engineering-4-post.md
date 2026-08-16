@@ -2,7 +2,7 @@
 title: "튜링 머신 : 컴퓨터 과학의 기초"
 excerpt: "튜링 머신 : 컴퓨터 과학의 기초"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/4-post/
 tags:
   - "Computer Engineering"

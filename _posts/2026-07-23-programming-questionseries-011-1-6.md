@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 1-6. String은 왜 Immutable일까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/1-6/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#에서 문자열(String)은 가장 많이 사용하는 타입 중 하나이다.
 하지만 String에는 다른 클래스와 다른 매우 중요한 특징이 있다.
@@ -31,7 +34,7 @@ text += " World";
 
 그렇다면 왜 이렇게 설계했을까?
 
-이번 글에서는 String이 Immutable인 이유와 그 장점에 대해 알아보자.
+이번 글에서는 String이 Immutable인 이유와 그 장점에 대해 확인한다.
  
 ## Immutable이란?
 Immutable(불변 객체)이란

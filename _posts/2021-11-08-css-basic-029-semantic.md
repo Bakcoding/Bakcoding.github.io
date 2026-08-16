@@ -3,7 +3,7 @@ title:  "semantic 활용"
 excerpt: "css, library, semantic, ui"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css029-semantic/
 tags:
   - [css, library, semantic, ui]

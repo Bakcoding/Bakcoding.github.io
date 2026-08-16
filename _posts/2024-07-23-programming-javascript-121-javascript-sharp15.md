@@ -2,7 +2,7 @@
 title: "JavaScript #15 비동기 자바스크립트"
 excerpt: "JavaScript #15 비동기 자바스크립트"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/121-javascript-sharp15/
 tags:
   - "JavaScript"

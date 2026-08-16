@@ -3,7 +3,7 @@ title:  "상속"
 excerpt: "css, inheritance"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css011-inheritance/
 tags:
   - [css, inheritance]

@@ -3,7 +3,7 @@ title:  "프레임"
 excerpt: "frame, fps, frame-time"
 
 categories:
-  - Note
+  - Memo
 permalink: /note/frame/
 tags:
   - [frame, fps, frame-time]

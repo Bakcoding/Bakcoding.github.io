@@ -3,7 +3,7 @@ title:  "구글 웹 폰트"
 excerpt: "css, property, font, webfont"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css010-webfont/
 tags:
   - [css, property, font, webfont]

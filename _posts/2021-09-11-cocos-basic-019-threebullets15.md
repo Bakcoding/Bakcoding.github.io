@@ -3,7 +3,7 @@ title:  "ThreeBullets #15"
 excerpt: "cocos, myproject, threebullets, googleconsole, release"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos019-threebullets15/
 tags:
   - [cocos, myproject, threebullets, googleconsole, release]
@@ -25,4 +25,3 @@ last_modified_at: 2023-06-04
 ![PlayStore](/assets/images/posting/20210911/play_store.jpg)
 
 애플을 제외한 모바일 기기에서 제대로 작동할지 자신은 없지만 앞으로 조금씩 업데이트 해보기로 한다.  
-

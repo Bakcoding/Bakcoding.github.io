@@ -3,7 +3,7 @@ title:  "ThreeBullets #14"
 excerpt: "cocos, myproject, threebullets, googleconsole"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos018-threebullets14/
 tags:
   - [cocos, myproject, threebullets, googleconsole]
@@ -122,4 +122,3 @@ versionName "1.7"
 업로드할 때 마다 에러가 하나씩 나는걸 고치다 보니 7까지 와버렸다.  
 
 이제 7일 후에 출시가 되기만을 기다려본다.  
-

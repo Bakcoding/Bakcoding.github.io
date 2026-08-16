@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-1. 렌더링 파이프라인이란 무엇일까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1082,4 +1083,3 @@ Depth, Stencil과 Blending 같은 Output Operations는 Fragment가 Render Target
 최적화에서는 Draw Call, Vertex, Triangle, Fragment, Texture와 Render Target 대역폭 중 실제로 어느 단계가 처리량을 제한하는지 측정해야 한다.
 
 전체 Pipeline의 위치를 잡으면 다음 글에서 Vertex Shader가 입력 Vertex를 어떤 방식으로 변환하고 다음 Stage에 어떤 데이터를 전달하는지 더 구체적으로 연결할 수 있다.
-

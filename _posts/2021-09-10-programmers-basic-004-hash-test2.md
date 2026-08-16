@@ -3,7 +3,7 @@ title:  "[해시] 전화번호 목록"
 excerpt: "coding, test, programmers, hash"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers004-hash-test2/
 tags:
   - [coding, test, programmers, hash]
@@ -149,4 +149,3 @@ bool solution(vector<string> phone_book) {
   i의 문자열이 i + 1의 접두사로 포함되어 있다면 i 문자열의 정수값에 1을 더한 문자열 크기는 항상 i + 1 보다 크게 되고, 만약 이 조건을 만족하지 못한다면 접두사로 포함하지 않는 경우인 것이 된다.  
 
   다만 문자열을 정렬 했다는 전제 조건이 필요한 조건문이다.  
-

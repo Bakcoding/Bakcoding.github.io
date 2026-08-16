@@ -3,7 +3,7 @@ title:  "선언문"
 excerpt: "javascript, js, declaration"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js004-declaration/
 tags:
   - [javascript, js, declaration]

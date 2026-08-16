@@ -3,7 +3,7 @@ title:  "동적할당"
 excerpt: "cpp, new, delete"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp008-allocation/
 tags:
   - [cpp, new, delete]

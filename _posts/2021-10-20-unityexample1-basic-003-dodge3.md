@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 닷지3"
 excerpt: "unity3d, retro, example, dodge"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample1-003-dodge3/
 tags:
   - [unity3d, retro, example, dodge]

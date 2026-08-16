@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-5. Fragment와 Pixel은 같은 것일까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

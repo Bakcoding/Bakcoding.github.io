@@ -3,7 +3,7 @@ title:  "stylish"
 excerpt: "css, stylish, expansion"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css012-stylish/
 tags:
   - [css, stylish, expansion]
@@ -25,6 +25,5 @@ last_modified_at: 2021-11-03
 <a href="https://userstyles.org/styles/browse/google">userstyles</a><br>
 
   
-
 
 

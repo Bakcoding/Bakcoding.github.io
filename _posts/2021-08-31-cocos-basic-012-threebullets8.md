@@ -3,7 +3,7 @@ title:  "ThreeBullets #8"
 excerpt: "cocos, myproject, threebullets, boundingbox"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos012-threebullets8/
 tags:
   - [cocos, myproject, threebullets, boundingbox]
@@ -132,4 +132,3 @@ void GameScene::matchResult(int _val, int _eCount, int _bCount)
 <br/>
 
 ![play](/assets/images/posting/20210831/play_test.gif)
-

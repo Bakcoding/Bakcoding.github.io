@@ -3,7 +3,7 @@ title:  "문서의 구조"
 excerpt: "html, tutorial"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html004-doc/
 tags:
   - [html, tutorial]

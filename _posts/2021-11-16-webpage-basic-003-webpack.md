@@ -3,7 +3,7 @@ title:  "웹팩"
 excerpt: "html, webpack5"
 
 categories:
-  - WebPage
+  - Web
 permalink: /webpage/webpage003-webpack/
 tags:
   - [html, webpack5]

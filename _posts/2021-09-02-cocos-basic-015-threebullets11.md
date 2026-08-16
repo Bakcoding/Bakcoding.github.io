@@ -3,7 +3,7 @@ title:  "ThreeBullets #11"
 excerpt: "cocos, myproject, threebullets, hiteffect, onaction"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos015-threebullets11/
 tags:
   - [cocos, myproject, threebullets, hiteffect, onaction]

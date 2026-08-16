@@ -2,7 +2,7 @@
 title: "JavaScript #7 var 변수에 대해서"
 excerpt: "JavaScript #7 var 변수에 대해서"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/113-javascript-sharp7-var/
 tags:
   - "JavaScript"

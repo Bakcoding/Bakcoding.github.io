@@ -3,7 +3,7 @@ title:  "상속"
 excerpt: "javascript, js, opp, inheritance"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js013-inheritance/
 tags:
   - [javascript, js,  opp, inheritance]
@@ -106,4 +106,3 @@ document.write(p1.coding()+"<br />");
 ```
 
 공통적인 기능과 개별적인 기능을 가지는 다수의 객체를 만들 때 상속은 아주 중요한 기능이다.  
-

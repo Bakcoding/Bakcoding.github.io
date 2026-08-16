@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌17 - 마무리"
 excerpt: "unity3d, retro, example, zombie, build"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-017-zombie-survival17/
 tags:
   - [unity3d, retro, example, zombie, build]

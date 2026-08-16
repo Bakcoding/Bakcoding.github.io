@@ -2,7 +2,7 @@
 title: "this"
 excerpt: "this"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/146-this/
 tags:
   - "JavaScript"

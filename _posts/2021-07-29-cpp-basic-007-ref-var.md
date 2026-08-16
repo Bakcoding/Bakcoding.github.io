@@ -3,7 +3,7 @@ title:  "참조 변수"
 excerpt: "cpp, &, ref, variable"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp007-ref-var/
 tags:
   - [cpp, ampersand, ref, variable]

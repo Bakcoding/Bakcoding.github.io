@@ -3,7 +3,7 @@ title:  "HTML과 CSS 연결"
 excerpt: "css, html, inline"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css002-css-html/
 tags:
   - [css, html, inline]
@@ -77,4 +77,3 @@ HTML, CSS, JS를 웹에서 테스트 해볼 수 있는 페이지이다.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-

@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 1-2. .NET과 CLR은 무엇일까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/1-2/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-22
 last_modified_at: 2026-07-22
 ---
+
+## 들어가며
 
 C#을 처음 배우다 보면 .NET, CLR, JIT, BCL 같은 용어를 자주 접하게 된다.
 하지만 이 개념들을 정확히 이해하지 못한 채 "그냥 C#을 실행해 주는 것" 정도로만 알고 넘어가는 경우가 많다.

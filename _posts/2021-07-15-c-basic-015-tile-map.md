@@ -3,7 +3,7 @@ title:  "배열로 타일맵 만들기"
 excerpt: "C, 2D, array, tilemap"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c015-tile-map/
 tags:
   - [C, 2D, array, tilemap]

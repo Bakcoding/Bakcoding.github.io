@@ -2,7 +2,7 @@
 title: "JavaScript #2 표현식"
 excerpt: "JavaScript #2 표현식"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/108-javascript-sharp2/
 tags:
   - "JavaScript"

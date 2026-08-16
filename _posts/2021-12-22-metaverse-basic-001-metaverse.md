@@ -3,7 +3,7 @@ title:  "메타버스"
 excerpt: "metaverse, nft, p2e"
 
 categories:
-  - Note
+  - Memo
 permalink: /note/metaverse/
 tags:
   - [metaverse, nft, p2e]

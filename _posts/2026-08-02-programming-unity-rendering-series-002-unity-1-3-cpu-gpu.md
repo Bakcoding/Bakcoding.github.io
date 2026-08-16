@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 1-3. CPU와 GPU는 렌더링에서 어떤 일을 할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

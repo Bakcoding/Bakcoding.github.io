@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 6 - VR UI"
 excerpt: "unity3d, vr, ui"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-008-vr/
 tags:
   - [unity3d, vr, ui]
@@ -93,4 +93,3 @@ Create > UI > Slider 이름 TowerHP로 변경
 
 
 높이를 적절하게 배치하여 준다.
-

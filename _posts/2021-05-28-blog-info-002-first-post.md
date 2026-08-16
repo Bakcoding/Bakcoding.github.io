@@ -3,7 +3,8 @@ title:  "Github 블로그 포스팅"
 excerpt: "Github, Jekyll, Blog, Ruby, VScode"
 
 categories:
-  - Blog-Info
+  - Information
+permalink: /blog-info/blog-info-002-first-post/
 tags:
   - [Github, Blog]
 

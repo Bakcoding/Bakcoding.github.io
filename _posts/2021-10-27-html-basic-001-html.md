@@ -3,7 +3,7 @@ title:  "HTML 시작"
 excerpt: "html, tutorial"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html001-html/
 tags:
   - [html, tutorial]

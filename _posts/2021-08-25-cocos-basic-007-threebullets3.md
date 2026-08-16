@@ -3,7 +3,7 @@ title:  "ThreeBullets #3"
 excerpt: "cocos, myproject, threebullets, resolution"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos007-threebullets3/
 tags:
   - [cocos, myproject, threebullets, resolution]

@@ -3,7 +3,7 @@ title:  "선택자 종류_1"
 excerpt: "css, selector"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css006-selector-study1/
 tags:
   - [css, selector]

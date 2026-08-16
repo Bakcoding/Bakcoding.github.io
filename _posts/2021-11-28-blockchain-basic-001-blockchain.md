@@ -3,7 +3,7 @@ title:  "블록체인"
 excerpt: "blockchain, hash"
 
 categories:
-  - Note
+  - Memo
 permalink: /note/blockchain1/
 tags:
   - [blockchain, hash]

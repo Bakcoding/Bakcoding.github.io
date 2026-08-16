@@ -3,7 +3,7 @@ title:  "메모리 구조"
 excerpt: "C, Memory"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c002-memory/
 tags:
   - [C, Memory, Construction]

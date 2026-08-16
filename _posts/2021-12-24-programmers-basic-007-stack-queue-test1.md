@@ -3,7 +3,7 @@ title:  "[큐] 기능개발"
 excerpt: "coding, test, programmers, queue"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers007-stack-queue-test1/
 tags:
   - [coding, test, programmers, queue]

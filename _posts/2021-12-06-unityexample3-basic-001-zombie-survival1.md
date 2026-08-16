@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌1 - 프로젝트 준비"
 excerpt: "unity3d, retro, example, zombie"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-001-zombie-survival1/
 tags:
   - [unity3d, retro, example, zombie]
@@ -103,7 +103,6 @@ last_modified_at: 2021-12-06
 * Package Manager UI : 패키지 매니저의 UI 창  
 
 * Post-processing Stack : 후처리 효과를 구현
-
 
 
 

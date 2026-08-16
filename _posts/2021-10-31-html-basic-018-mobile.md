@@ -3,7 +3,7 @@ title:  "모바일 페이지"
 excerpt: "html, tag, mobile, viewport"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html018-mobile/
 tags:
   - [html, tag, mobile, viewport]
@@ -74,4 +74,3 @@ viewport는 웹 페이지의 보여지는 영역의 설정을 다룬다.
 * initial-scale=1.0
 
   화면의 확대와 관련된 값이다. 기본값인 1.0으로 설정하면 페이지가 시작될 때 확대, 축소를 하지않은 기본크기로 보여지게 한다.  
-

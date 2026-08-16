@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 5-3. Renderer 컴포넌트는 어떤 역할을 할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

@@ -2,7 +2,7 @@
 title: "Expression, Statement"
 excerpt: "Expression, Statement"
 categories:
-  - ProgrammingBasic
+  - ProgrammingBasics
 permalink: /programming/programming-basics/12-expression-statement/
 tags:
   - "Programming"

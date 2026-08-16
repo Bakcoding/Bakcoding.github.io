@@ -3,7 +3,7 @@ title:  "프로토타입"
 excerpt: "javascript, js, prototype"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js014-prototype/
 tags:
   - [javascript, js,  prototype]

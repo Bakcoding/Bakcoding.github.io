@@ -3,7 +3,7 @@ title:  "네임스페이스"
 excerpt: "cpp, oop, namespace, using"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp010-namespace/
 tags:
   - [cpp, oop, namespace, using]
@@ -98,4 +98,3 @@ using std::endl;
 만약 printA와 printB 처럼 동일한 이름을 가지는 함수를 사용하는 경우라면 생략하여 사용할 수 없고 꼭 명시해 주어야한다.  
 
 여러 라이브러리를 사용하다보면 중복된 변수, 함수명이 있을 수 있기 때문에 라이브러리에 대한 숙지가 부족하다면 전체적인 명시는 에러를 발생시킬 수 있다.
-

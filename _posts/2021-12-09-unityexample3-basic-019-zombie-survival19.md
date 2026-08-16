@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌19 - 매치메이킹"
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon, matchmaking"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-019-zombie-survival19/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon, matchmaking]

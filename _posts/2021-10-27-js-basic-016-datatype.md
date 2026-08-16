@@ -3,7 +3,7 @@ title:  "데이터 타입"
 excerpt: "javascript, js, datatype"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js016-datatype/
 tags:
   - [javascript, js, datatype]

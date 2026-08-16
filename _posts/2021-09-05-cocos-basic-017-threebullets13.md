@@ -3,7 +3,7 @@ title:  "ThreeBullets #13"
 excerpt: "cocos, myproject, threebullets, androidstudio"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos017-threebullets13/
 tags:
   - [cocos, myproject, threebullets, androidstudio]
@@ -42,4 +42,3 @@ last_modified_at: 2023-06-04
 제대로 변경됐는지 확인을 해보면  
 
 ![apk_new_icon](/assets/images/posting/20210905/apk_new_icon.jpg)  
-

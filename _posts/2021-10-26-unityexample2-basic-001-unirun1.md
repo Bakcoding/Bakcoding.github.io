@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 유니런1"
 excerpt: "unity3d, retro, example, unirun"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample2-001-unirun1/
 tags:
   - [unity3d, retro, example, unirun]
@@ -285,4 +285,3 @@ isGrounded = false;
 ![player_death_animation](/assets/images/posting/20211026/player_death_animation.gif)
 
 Player 오브젝트에서 PlayerController 컴포넌트의 DeathClip에 Die 추가
-

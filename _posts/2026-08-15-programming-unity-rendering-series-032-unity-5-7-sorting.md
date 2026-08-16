@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 5-7. Sorting은 어떻게 이루어질까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

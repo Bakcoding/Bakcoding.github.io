@@ -3,7 +3,7 @@ title:  "클로저"
 excerpt: "javascript, js, closure"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js008-closure/
 tags:
   - [javascript, js, closure]

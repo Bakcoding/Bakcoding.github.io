@@ -2,7 +2,7 @@
 title: "Sync, Async"
 excerpt: "Sync, Async"
 categories:
-  - ProgrammingBasic
+  - ProgrammingBasics
 permalink: /programming/programming-basics/15-sync-async/
 tags:
   - "Programming"

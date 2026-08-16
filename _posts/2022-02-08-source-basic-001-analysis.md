@@ -3,7 +3,7 @@ title:  "소스코드 분석"
 excerpt: "sourcecode, analysis"
 
 categories:
-  - Note
+  - Memo
 permalink: /note/source-analysis/
 tags:
   - [sourcecode, analysis]
@@ -41,7 +41,6 @@ last_modified_at: 2022-02-08
 백업이 되어있다면 문제가 생기는거 신경쓰지 않고 직접 기능을 추가하거나 코드를 수정해본다.  
 
 동작한다면 이게 맞는 방식인지 조언을 구한다. 만약 오류가 발생한다면 그걸 해결하는 과정에서 코드의 흐름을 놓친 부분이 있는지 살펴볼 수 있다. 
-
 
 
 

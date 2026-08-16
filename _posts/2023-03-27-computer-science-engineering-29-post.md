@@ -2,7 +2,7 @@
 title: "아키텍처"
 excerpt: "아키텍처"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/29-post/
 tags:
   - "Computer Engineering"

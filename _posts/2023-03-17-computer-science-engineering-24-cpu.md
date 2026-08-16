@@ -2,7 +2,7 @@
 title: "CPU"
 excerpt: "CPU"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/24-cpu/
 tags:
   - "Computer Engineering"

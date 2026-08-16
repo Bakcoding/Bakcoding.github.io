@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 유니런4"
 excerpt: "unity3d, retro, example, unirun"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample2-004-unirun4/
 tags:
   - [unity3d, retro, example, unirun]
@@ -210,4 +210,3 @@ Assets > Audio 폴더에 music 파일을 하이어라키 창으로 드래그앤�
 반복해서 재생될 수 있도록 Audio Source 컴포넌트의 Loop 옵션을 체크해준다.  
 
 ![play](/assets/images/posting/20211026/play.gif)
-

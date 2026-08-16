@@ -3,7 +3,7 @@ title:  "C Hello World!"
 excerpt: "C, printf, Hello, World"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c001-helloworld/
 tags:
   - [C, printf]

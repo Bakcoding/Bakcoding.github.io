@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌6 - 총"
 excerpt: "unity3d, retro, example, zombie, interface"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-006-zombie-survival6/
 tags:
   - [unity3d, retro, example, zombie, interface]

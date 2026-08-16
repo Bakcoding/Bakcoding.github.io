@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-5. Generic 인터페이스는 왜 많이 사용할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-5-generic/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 지금까지 Generic 클래스와 Generic 메서드를 살펴봤다.
 그런데 .NET 라이브러리를 보면 Generic 클래스보다 더 자주 보이는 것이 있다.
@@ -41,7 +44,7 @@ IEnumerable<T>
 를 중심으로 만들어져 있다.
 
 왜 .NET은 Generic 인터페이스를 이렇게 많이 사용하는 것일까?
-이번 글에서는 Generic 인터페이스가 등장한 이유와 실무에서 어떻게 활용되는지 알아보자.
+이번 글에서는 Generic 인터페이스가 등장한 이유와 실무에서 어떻게 활용되는지 확인한다.
 
 ---
 

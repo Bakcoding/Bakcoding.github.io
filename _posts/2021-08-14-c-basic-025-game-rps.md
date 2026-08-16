@@ -3,7 +3,7 @@ title:  "가위, 바위, 보"
 excerpt: "c, rock, paper, scissors, rps, game"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c025-game-rps/
 tags:
   - [c, rock, paper, scissors, rps, game]

@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 4-4. Vertex Shader와 Fragment Shader는 어떻게 데이터를 주고받을까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

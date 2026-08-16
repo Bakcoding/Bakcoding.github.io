@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 1 - 기본세팅"
 excerpt: "unity3d, vr"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-003-vr/
 tags:
   - [unity3d, vr]

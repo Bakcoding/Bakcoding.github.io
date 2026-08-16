@@ -2,7 +2,7 @@
 title: "OpenAI Codex CLI 써보기"
 excerpt: "codex cll, github blog"
 categories:
-  - Blog
+  - BlogManagement
 tags:
   - General
 permalink: /blog/codex-cli/

@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 1-9. Boxing과 Unboxing은 왜 발생할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/1-9-boxing-unboxing/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#을 공부하다 보면 다음과 같은 코드를 볼 수 있다.
 
@@ -25,7 +28,7 @@ object obj = number;
 이 과정에서는 **Heap에 새로운 객체가 생성**된다.
 이러한 과정을 **Boxing(Boxing)**이라고 한다.
 반대로 다시 원래 타입으로 꺼내는 과정을 **Unboxing(Unboxing)**이라고 한다.
-이번 글에서는 Boxing과 Unboxing이 왜 존재하며, 내부적으로 어떻게 동작하는지 알아보자.
+이번 글에서는 Boxing과 Unboxing이 왜 존재하며, 내부적으로 어떻게 동작하는지 확인한다.
 
 ---
 

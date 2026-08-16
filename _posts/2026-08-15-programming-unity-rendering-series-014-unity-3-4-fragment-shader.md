@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 3-4. Fragment Shader는 무엇을 할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -1229,4 +1230,3 @@ Fragment Shader가 Depth를 직접 출력하거나 Storage Resource에 Side Effe
 Fragment Shader 최적화에서는 코드 길이만 보지 않고 Invocation 수, Overdraw, Texture Cache, ALU, Register, Render Target Format과 Bandwidth를 함께 측정해야 한다.
 
 Fragment Shader와 Pixel의 관계를 더 정확히 이해하려면 다음 글에서 하나의 Fragment가 최종 Pixel과 언제 같고 언제 다른지 별도로 구분할 필요가 있다.
-

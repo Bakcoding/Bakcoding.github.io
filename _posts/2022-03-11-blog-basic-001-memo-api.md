@@ -3,7 +3,7 @@ title:  "API"
 excerpt: "Graphics, API"
 
 categories:
-  - Blog-Memo
+  - Memo
 permalink: /blog-memo/blog-memo-api/
 tags:
   - [Graphics, API]

@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 5 - 적 생성"
 excerpt: "unity3d, vr, spawner"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-007-vr/
 tags:
   - [unity3d, vr, spawner]

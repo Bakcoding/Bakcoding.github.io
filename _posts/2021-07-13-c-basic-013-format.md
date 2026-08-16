@@ -3,7 +3,7 @@ title:  "형식 지정자"
 excerpt: "C, printf, format"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c013-format/
 tags:
   - [C, format]

@@ -3,7 +3,7 @@ title:  "비주얼스튜디오 XML 주석"
 excerpt: "vs, xml, tags, summary"
 
 categories:
-  - Blog-Memo
+  - Memo
 permalink: /blog-memo/blog-memo-vs-xmltags/
 tags:
   - [vs, xml, tags, summary]

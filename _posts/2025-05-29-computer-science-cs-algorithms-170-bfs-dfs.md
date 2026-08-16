@@ -2,7 +2,7 @@
 title: "탐색 알고리즘 - BFS/DFS"
 excerpt: "탐색 알고리즘 - BFS/DFS"
 categories:
-  - ComputerAlgorithm
+  - AlgorithmsTheory
 permalink: /computer-science/cs-algorithms/170-bfs-dfs/
 tags:
   - "Algorithm"

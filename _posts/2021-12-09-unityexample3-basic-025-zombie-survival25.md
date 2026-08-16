@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌25 - 네트워크 - 게임�
 excerpt: "unity3d, retro, example, zombie, multiplayer, photon"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-025-zombie-survival25/
 tags:
   - [unity3d, retro, example, zombie, multiplayer, photon]

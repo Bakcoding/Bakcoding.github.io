@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌10 - LivingEntity"
 excerpt: "unity3d, retro, example, zombie, event"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-010-zombie-survival10/
 tags:
   - [unity3d, retro, example, zombie, event]
@@ -89,4 +89,3 @@ public virtual void Die() {
 ```
 
 onDeath에 메서드가 하나라도 등록되어 있을 때만 onDeath()가 실행된다. 등록되어 있다면 deat 상태를 참으로 바꾼다.  
-

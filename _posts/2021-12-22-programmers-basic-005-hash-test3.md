@@ -3,7 +3,7 @@ title:  "[해시] 위장"
 excerpt: "coding, test, programmers, hash"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers005-hash-test3/
 tags:
   - [coding, test, programmers, hash]

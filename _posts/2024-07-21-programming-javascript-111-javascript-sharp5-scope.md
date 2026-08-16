@@ -2,7 +2,7 @@
 title: "JavaScript #5 유효 범위, 스코프(Scope)"
 excerpt: "JavaScript #5 유효 범위, 스코프(Scope)"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/111-javascript-sharp5-scope/
 tags:
   - "JavaScript"

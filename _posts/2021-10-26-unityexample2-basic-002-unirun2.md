@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 유니런2"
 excerpt: "unity3d, retro, example, unirun"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample2-002-unirun2/
 tags:
   - [unity3d, retro, example, unirun]

@@ -3,7 +3,7 @@ title:  "링크와 임포트"
 excerpt: "css, link, import"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css023-link-import/
 tags:
   - [css, link, import]

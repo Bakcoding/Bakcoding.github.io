@@ -3,7 +3,7 @@ title:  "자료형(Datatype)"
 excerpt: "C, Datatype"
 
 categories:
-  - C
+  - CCpp
 permalink: /c/c003-datatype/
 tags:
   - [C, Datatype]

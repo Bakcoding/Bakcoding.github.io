@@ -3,7 +3,7 @@ title:  "Git 명령어"
 excerpt: "git, gitbash"
 
 categories:
-  - Note
+  - Memo
 permalink: /note/git-003-gitcommand/
 tags:
   - [git, gitbash]

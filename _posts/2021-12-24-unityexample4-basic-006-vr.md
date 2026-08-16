@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 4 - 적"
 excerpt: "unity3d, vr"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-006-vr/
 tags:
   - [unity3d, vr]
@@ -98,4 +98,3 @@ public class Drone : MonoBehaviour {
 		agent.destination = tower.position;
 	}
 ```
-

@@ -3,7 +3,7 @@ title:  "해시 함수"
 excerpt: "coding, test, programmers, hash"
 
 categories: 
-  - Programmers
+  - CodingTest
 permalink: /programmers/programmers001-hash1/
 tags:
   - [coding, test, programmers, hash]

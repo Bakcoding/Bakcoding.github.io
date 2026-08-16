@@ -2,7 +2,7 @@
 title: "Dijkstra algorithm"
 excerpt: "Dijkstra algorithm"
 categories:
-  - ComputerAlgorithm
+  - AlgorithmsTheory
 permalink: /computer-science/cs-algorithms/171-dijkstra-algorithm/
 tags:
   - "Algorithm"

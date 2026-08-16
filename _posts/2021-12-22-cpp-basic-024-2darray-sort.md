@@ -3,7 +3,7 @@ title:  "이차원 벡터 정렬"
 excerpt: "cpp, algorithm, 2d, vector, sort"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp024-2darray-sort/
 tags:
   - [cpp, algorithm, 2d, vector, sort]

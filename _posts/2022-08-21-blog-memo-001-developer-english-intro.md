@@ -3,7 +3,7 @@ title:  "[Udemy 강의] 개발자 영어 #Intro"
 excerpt: "udemy, developer, english"
 
 categories:
-  - Blog-Memo
+  - Memo
 permalink: /blog-memo/blog-memo-devleop-en-00/
 tags:
   - [udemy, developer, english]
@@ -58,4 +58,3 @@ last_modified_at: 2023-06-05
 이러한 이유로 나는 개발자는 영어가 필수는 아니지만 공부는 해야한다고 생각했다. 그렇고고 유창하게 외국인과 대화할 수준만큼 영어가 필요한것은 아니고 적절하게 내가 필요한 자료를 검색할 수 있을만큼 그리고 자료를 독해할 수 있는 정도만 되어도 개발을 하는데 문제가 없다고 생각한다.  
 
 그 밖에도 영어를 공부하는게 도움이되는 부분은 많이 있지만 강의 내용을 정리하면서 또 나올 것이기 때문에 내가 평소에 개발하면서 느낀 생각만 정리하는걸로 마무리한다.  
-

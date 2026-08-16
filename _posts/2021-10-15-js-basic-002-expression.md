@@ -3,7 +3,7 @@ title:  "표현식"
 excerpt: "javascript, js, expression"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js002-expression/
 tags:
   - [javascript, js, expression]

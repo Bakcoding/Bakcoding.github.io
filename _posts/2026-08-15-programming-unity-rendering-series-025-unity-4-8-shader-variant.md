@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 4-8. Shader Variant란 무엇일까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering

@@ -3,7 +3,7 @@ title:  "[자료구조]클래스로 큐, 스택 구현"
 excerpt: "cpp, structure, linear, linked-list"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp019-data-structure-node-class/
 tags:
   - [cpp, structure, linear, linked-list]

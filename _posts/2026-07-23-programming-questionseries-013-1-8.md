@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 1-8. StringBuilder는 왜 등장했을까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/1-8/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 앞선 글에서 String은 **Immutable(불변 객체)**이기 때문에 문자열을 수정하는 것이 아니라 **새로운 문자열 객체를 생성한다**고 설명했다.
 

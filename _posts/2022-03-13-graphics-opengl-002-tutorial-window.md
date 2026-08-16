@@ -3,7 +3,8 @@ title:  "OpenGL tutorial #1 창띄우기"
 excerpt: "Graphics, OpenGL"
 
 categories:
-  - OpenGL
+  - ComputerGraphics
+permalink: /opengl/graphics-opengl-002-tutorial-window/
 tags:
   - [Graphics, OpenGL]
 

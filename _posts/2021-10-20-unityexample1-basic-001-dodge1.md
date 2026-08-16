@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 닷지1"
 excerpt: "unity3d, retro, example, dodge"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample1-001-dodge1/
 tags:
   - [unity3d, retro, example, dodge]
@@ -229,4 +229,3 @@ last_modified_at: 2023-06-04
   ![player_move_test_2](/assets/images/posting/20211020/player_move_test_2.gif)
 
   방향전환이 바로 이어진다.  
-

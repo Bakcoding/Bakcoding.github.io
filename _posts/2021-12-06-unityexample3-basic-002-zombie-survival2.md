@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌2 - 라이팅 설정"
 excerpt: "unity3d, retro, example, zombie, lighting, bake"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-002-zombie-survival2/
 tags:
   - [unity3d, retro, example, zombie, lighting, bake]
@@ -97,4 +97,3 @@ Windows > Rendering > Lighting Settings
 Generate Lighting을 클릭해 바뀐 설정값으로 라이팅을 구워준다.
 
 베이킹이 완료되면 Main 씬을 저장한 폴더에 씬과 같은 이름으로 라이팅 정보를 저장한 폴더가 생성된다.  
-

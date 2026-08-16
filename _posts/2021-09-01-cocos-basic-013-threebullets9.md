@@ -3,7 +3,7 @@ title:  "ThreeBullets #9"
 excerpt: "cocos, myproject, threebullets, scroll"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos013-threebullets9/
 tags:
   - [cocos, myproject, threebullets, scroll]
@@ -120,4 +120,3 @@ int BackgroundSprite::getImageLastIndex()
 <br/>
 
 ![play](/assets/images/posting/20210901/play_test.gif)
-

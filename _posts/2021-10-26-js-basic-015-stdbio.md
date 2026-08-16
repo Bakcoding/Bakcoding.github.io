@@ -3,7 +3,7 @@ title:  "표준 내장 객체"
 excerpt: "javascript, js, prototype"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js015-stdbio/
 tags:
   - [javascript, js, prototype]

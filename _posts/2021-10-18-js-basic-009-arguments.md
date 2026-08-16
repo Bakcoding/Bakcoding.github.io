@@ -3,7 +3,7 @@ title:  "arguments"
 excerpt: "javascript, js, arguments"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js009-arguments/
 tags:
   - [javascript, js, arguments]

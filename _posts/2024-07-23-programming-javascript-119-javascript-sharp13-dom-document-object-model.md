@@ -2,7 +2,7 @@
 title: "JavaScript #13 DOM(Document Object Model)"
 excerpt: "JavaScript #13 DOM(Document Object Model)"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/119-javascript-sharp13-dom-document-object-model/
 tags:
   - "JavaScript"

@@ -3,7 +3,7 @@ title:  "[자료구조]트리 구조"
 excerpt: "cpp, structure, non-linear, tree"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp021-algorithm-recursive/
 tags:
   - [cpp, structure, non-linear, tree]

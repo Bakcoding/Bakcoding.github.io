@@ -3,7 +3,7 @@ title:  "선택자"
 excerpt: "css, selector"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css003-selector/
 tags:
   - [css, selector]

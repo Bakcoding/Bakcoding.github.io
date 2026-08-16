@@ -3,7 +3,7 @@ title:  "매개변수, 전달인자"
 excerpt: "cpp, parameter, argument"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp013-param-arg/
 tags:
   - [cpp, parameter, argument]

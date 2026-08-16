@@ -3,7 +3,7 @@ title:  "그래픽 관련 속성_2"
 excerpt: "css, graphic, transform, svg"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css021-graphics2/
 tags:
   - [css, graphic, transform, svg]

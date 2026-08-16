@@ -2,7 +2,7 @@
 title: "Pathfinding Visualizer - 탐색 알고리즘 시각화 툴"
 excerpt: "Pathfinding Visualizer - 탐색 알고리즘 시각화 툴"
 categories:
-  - ComputerAlgorithm
+  - AlgorithmsTheory
 permalink: /computer-science/cs-algorithms/169-pathfinding-visualizer/
 tags:
   - "Algorithm"

@@ -3,7 +3,7 @@ title:  "ThreeBullets #12"
 excerpt: "cocos, myproject, threebullets, androidstudio"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos016-threebullets12/
 tags:
   - [cocos, myproject, threebullets, androidstudio]
@@ -94,4 +94,3 @@ bool 반환형 함수에서 return true를 안하거나 상속받은 함수를 �
 
 잘 적용되었다.  
  
-

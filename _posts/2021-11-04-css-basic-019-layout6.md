@@ -3,7 +3,7 @@ title:  "레이아웃_6"
 excerpt: "css, layout, multicolumn, masonry"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css019-layout6/
 tags:
   - [css, cascading, multicolumn, masonry]

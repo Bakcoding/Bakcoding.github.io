@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] VR이란"
 excerpt: "unity3d, vr"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-001-vr/
 tags:
   - [unity3d, vr]

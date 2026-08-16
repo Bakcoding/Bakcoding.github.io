@@ -3,7 +3,7 @@ title:  "캐스케이딩"
 excerpt: "css, cascading"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css013-cascading/
 tags:
   - [css, cascading]

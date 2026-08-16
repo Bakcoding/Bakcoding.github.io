@@ -3,7 +3,7 @@ title:  "폰트 태그"
 excerpt: "html, tag, font"
 
 categories:
-  - HTML
+  - Web
 permalink: /html/html014-font/
 tags:
   - [html, tag, font]

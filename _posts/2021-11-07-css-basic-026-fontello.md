@@ -3,7 +3,7 @@ title:  "fontello"
 excerpt: "css, library, fontello"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css026-fontello/
 tags:
   - [css, library, fontello]

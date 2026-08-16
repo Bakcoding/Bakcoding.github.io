@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 2-2. 값 타입(Value Type)과 참조 타입(Reference Type)의 차이"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/2-2-value-type-reference-type/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 C#을 처음 배우면 가장 먼저 접하는 개념 중 하나가 **값 타입(Value Type)**과 **참조 타입(Reference Type)**이다.
 
@@ -22,7 +25,7 @@ C#을 처음 배우면 가장 먼저 접하는 개념 중 하나가 **값 타입
 하지만 이전 글에서 살펴봤듯이 이 설명은 정확하지 않다.
 값 타입과 참조 타입의 핵심 차이는 **저장 위치**가 아니라 **복사 방식과 메모리 관리 방식**에 있다.
 
-이번 글에서는 두 타입의 진짜 차이를 알아보자.
+이번 글에서는 두 타입의 진짜 차이를 확인한다.
 
 ---
 

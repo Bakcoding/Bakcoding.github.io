@@ -3,7 +3,7 @@ title:  "생성자와 소멸자"
 excerpt: "cpp, constructor, destructor"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp004-const-dest-ructor/
 tags:
   - [cpp, constructor, destructor]

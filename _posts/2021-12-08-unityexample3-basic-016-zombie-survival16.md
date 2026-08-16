@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌16 - 아이템 생성기"
 excerpt: "unity3d, retro, example, zombie, item, spawner"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-016-zombie-survival16/
 tags:
   - [unity3d, retro, example, zombie, item, spawner]

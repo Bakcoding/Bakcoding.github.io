@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌9 - 이벤트"
 excerpt: "unity3d, retro, example, zombie, event"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-009-zombie-survival9/
 tags:
   - [unity3d, retro, example, zombie, event]
@@ -109,6 +109,5 @@ public class GameData : MonoBehaviour {
     }
 }
 ```
-
 
 

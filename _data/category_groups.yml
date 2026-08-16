@@ -1,111 +1,207 @@
 - title: Programming
   items:
-    - title: C
-      slug: c
+    - title: C / C++
+      slug: c-cpp
       categories:
-        - C
-    - title: C++
-      slug: cpp
-      categories:
-        - Cpp
+        - CCpp
+      children: []
     - title: C#
       slug: csharp
       categories:
         - CSharp
+      children: []
     - title: Python
       slug: python
       categories:
         - Python
-    - title: Programming Basics
-      slug: programming-basics
+      children: []
+    - title: JavaScript
+      slug: javascript
       categories:
-        - ProgrammingBasic
-    - title: Flutter
-      slug: flutter
+        - JavaScript
+      children: []
+    - title: PHP
+      slug: php
       categories:
-        - Flutter
+        - PHP
+      children: []
     - title: Web
       slug: web
       categories:
-        - HTML
-        - CSS
-        - Javascript
-        - PHP
-        - WebPage
+        - Web
+      children: []
+    - title: Programming Basics
+      slug: programming-basics
+      categories:
+        - ProgrammingBasics
+      children: []
     - title: Algorithm
       slug: algorithm
       categories:
         - Algorithm
+      children: []
     - title: Coding Test
       slug: coding-test
       categories:
         - CodingTest
-        - Programmers
+      children: []
 
-- title: Game Development
+- title: Study
+  items:
+    - title: Mathematics
+      slug: mathematics
+      categories:
+        - Mathematics
+      children: []
+    - title: Physics
+      slug: physics
+      categories:
+        - Physics
+      children: []
+    - title: Computer Science
+      slug: computer-science
+      categories:
+        - ComputerScience
+      children: []
+    - title: Algorithms Theory
+      slug: algorithms-theory
+      categories:
+        - AlgorithmsTheory
+      children: []
+    - title: Computer Graphics
+      slug: computer-graphics
+      categories:
+        - ComputerGraphics
+      children: []
+    - title: Network
+      slug: network
+      categories:
+        - Network
+      children: []
+    - title: Hardware
+      slug: hardware
+      categories:
+        - Hardware
+      children: []
+
+- title: Development
+  items:
+    - title: Projects
+      slug: projects
+      categories:
+        - Projects
+      children: []
+    - title: Samples
+      slug: samples
+      categories:
+        - Samples
+      children: []
+    - title: Server
+      slug: server
+      categories:
+        - Server
+      children: []
+    - title: Development Notes
+      slug: development-notes
+      categories:
+        - DevelopmentNotes
+      children: []
+    - title: Architecture
+      slug: architecture
+      categories:
+        - Architecture
+      children: []
+    - title: Tools
+      slug: tools
+      categories:
+        - Tools
+      children: []
+
+- title: Tech
   items:
     - title: Unity
       slug: unity
       categories:
         - Unity
-        - UnityExample
+      children: []
     - title: Unreal
       slug: unreal
       categories:
         - Unreal
+      children: []
     - title: Mirror
       slug: mirror
       categories:
         - Mirror
+      children: []
     - title: Cocos
       slug: cocos
       categories:
         - Cocos
-    - title: ThreeBullets
-      slug: threebullets
+      children: []
+    - title: Flutter
+      slug: flutter
       categories:
-        - ThreeBullets
+        - Flutter
+      children: []
+    - title: React
+      slug: react
+      categories:
+        - React
+      children: []
 
-- title: Computer Science
+- title: Topic
   items:
-    - title: Engineering
-      slug: engineering
+    - title: AI
+      slug: ai
       categories:
-        - ComputerEngineering
-    - title: CS Algorithms
-      slug: cs-algorithms
+        - AI
+      children: []
+    - title: Updates
+      slug: updates
       categories:
-        - ComputerAlgorithm
-    - title: Network
-      slug: network
+        - Updates
+      children: []
+    - title: Hardware & Semiconductor
+      slug: hardware-semiconductor
       categories:
-        - Network
-    - title: Graphics
-      slug: graphics
+        - HardwareSemiconductor
+      children: []
+    - title: Game Industry
+      slug: game-industry
       categories:
-        - Graphics
-        - OpenGL
-
-- title: Tools
-  items:
-    - title: Server
-      slug: server
+        - GameIndustry
+      children: []
+    - title: Software Trends
+      slug: software-trends
       categories:
-        - Server
-    - title: Git
-      slug: git
+        - SoftwareTrends
+      children: []
+    - title: Tech News
+      slug: tech-news
       categories:
-        - VCS-Git
+        - TechNews
+      children: []
 
 - title: Blog
   items:
     - title: Memo
       slug: memo
       categories:
-        - Blog-Memo
-        - Note
-    - title: Info
-      slug: info
+        - Memo
+      children: []
+    - title: Information
+      slug: information
       categories:
-        - Blog
-        - Blog-Info
+        - Information
+      children: []
+    - title: Blog Management
+      slug: blog-management
+      categories:
+        - BlogManagement
+      children: []
+    - title: Life
+      slug: life
+      categories:
+        - Life
+      children: []

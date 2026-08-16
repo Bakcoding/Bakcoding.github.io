@@ -2,7 +2,8 @@
 title: "[Unity 렌더링] 2-2. 왜 대부분 Triangle을 사용할까?"
 excerpt: "Unity Rendering"
 categories:
-  - Programming
+  - Unity
+series: unity-rendering
 tags:
   - Unity
   - Rendering
@@ -467,4 +468,3 @@ Unity의 Triangle Mesh에서는 일반적으로 연속된 Index 세 개가 하�
 Triangle 수가 많으면 기하 처리 비용이 증가할 수 있지만, 실제 성능은 Vertex Shader, 화면 크기, Fragment 수, Overdraw, Render Pass와 대상 GPU를 함께 측정해야 판단할 수 있다.
 
 Triangle을 이해하면 이후 Rasterization, Vertex 속성 보간, Backface Culling, LOD와 Polygon 최적화가 각각 렌더링 파이프라인의 어느 부분과 연결되는지 파악하기 쉬워진다.
-

@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] VR 컨텐츠"
 excerpt: "unity3d, vr"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-002-vr/
 tags:
   - [unity3d, vr]

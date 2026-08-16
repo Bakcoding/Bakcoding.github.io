@@ -3,7 +3,7 @@ title:  "[왕초보도 할 수 있는 VR] 타워디펜스 9 - 빌드"
 excerpt: "unity3d, vr, build"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample4-012-vr/
 tags:
   - [unity3d, vr, build]
@@ -65,5 +65,4 @@ File > Build Settings > Player Settings 로 인스펙터 창을 연다.
 		기본적으로 ARMv7, x86 모두 체크되어있으며 용량에 큰 영향을 미친다.  
 
 		요즘의 안드로이드는 x86을 사용하지 않기 때문에 ARMv7만 사용해도 무방하다.  
-
 

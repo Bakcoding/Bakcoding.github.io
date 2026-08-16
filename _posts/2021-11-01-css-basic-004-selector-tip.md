@@ -3,7 +3,7 @@ title:  "선택자 공부에 도움되는 자료"
 excerpt: "css, selector, flukeout, cheatsheet"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css004-selector-tip/
 tags:
   - [css, selector, flukeout, cheatsheet]

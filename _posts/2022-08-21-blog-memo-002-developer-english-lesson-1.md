@@ -3,7 +3,7 @@ title:  "[Udemy 강의] 개발자 영어 #1"
 excerpt: "udemy, developer, english"
 
 categories:
-  - Blog-Memo
+  - Memo
 permalink: /blog-memo/blog-memo-devleop-en-01/
 tags:
   - [udemy, developer, english]

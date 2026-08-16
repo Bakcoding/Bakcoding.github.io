@@ -3,7 +3,7 @@ title:  "ThreeBullets #10"
 excerpt: "cocos, myproject, threebullets, static, gameover"
 
 categories:
-  - ThreeBullets
+  - Projects
 permalink: /threebullets/cocos014-threebullets10/
 tags:
   - [cocos, myproject, threebullets, static, gameover]

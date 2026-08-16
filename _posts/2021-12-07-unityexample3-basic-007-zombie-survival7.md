@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌7 - 슈터"
 excerpt: "unity3d, retro, example, zombie, ik"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-007-zombie-survival7/
 tags:
   - [unity3d, retro, example, zombie, ik]

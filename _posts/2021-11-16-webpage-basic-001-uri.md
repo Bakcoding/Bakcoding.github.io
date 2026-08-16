@@ -3,7 +3,7 @@ title:  "URI"
 excerpt: "html, url, urn"
 
 categories:
-  - WebPage
+  - Web
 permalink: /webpage/webpage001-uri/
 tags:
   - [html, url, urn]

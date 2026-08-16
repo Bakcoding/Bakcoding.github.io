@@ -2,7 +2,8 @@
 title: "[궁금시리즈] 3-4. Generic 클래스와 Generic 메서드는 언제 사용해야 할까?"
 excerpt: "C#"
 categories:
-  - Programming
+  - CSharp
+series: question-series
 tags:
   - CSharp
 permalink: /programming/3-4-generic-generic/
@@ -11,6 +12,8 @@ toc_sticky: true
 date: 2026-07-23
 last_modified_at: 2026-07-23
 ---
+
+## 들어가며
 
 Generic을 배우다 보면 두 가지 형태를 만나게 된다.
 첫 번째는 Generic 클래스이다.
@@ -34,7 +37,7 @@ public T GetValue<T>(T value)
 둘 다 <T>를 사용하지만
 언제 클래스를 Generic으로 만들고,
 언제 메서드만 Generic으로 만들어야 하는지 헷갈리는 경우가 많다.
-이번 글에서는 두 방식의 차이와 각각 언제 사용하는 것이 좋은지 알아보자.
+이번 글에서는 두 방식의 차이와 각각 언제 사용하는 것이 좋은지 확인한다.
 
 ---
 

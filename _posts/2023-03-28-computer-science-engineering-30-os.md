@@ -2,7 +2,7 @@
 title: "OS"
 excerpt: "OS"
 categories:
-  - ComputerEngineering
+  - ComputerScience
 permalink: /computer-science/engineering/30-os/
 tags:
   - "Computer Engineering"

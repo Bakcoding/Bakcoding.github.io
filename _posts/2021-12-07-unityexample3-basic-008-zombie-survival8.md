@@ -3,7 +3,7 @@ title:  "[레트로의 유니티] 좀비서바이벌8 - 다형성"
 excerpt: "unity3d, retro, example, zombie, polymorphism"
 
 categories:
-  - UnityExample
+  - Samples
 permalink: /unityexample/unityexample3-008-zombie-survival8/
 tags:
   - [unity3d, retro, example, zombie, polymorphism]

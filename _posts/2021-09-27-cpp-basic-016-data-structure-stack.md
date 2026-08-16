@@ -3,7 +3,7 @@ title:  "[자료구조] 스택"
 excerpt: "cpp, structure, linear, stack"
 
 categories:
-  - Cpp
+  - CCpp
 permalink: /cpp/cpp016-data-structure-stack/
 tags:
   - [cpp, structure, linear, stack]

@@ -3,7 +3,7 @@ title:  "변수의 유효 범위"
 excerpt: "javascript, js, scope"
 
 categories:
-  - Javascript
+  - JavaScript
 permalink: /javascript/js007-scope/
 tags:
   - [javascript, js, scope]

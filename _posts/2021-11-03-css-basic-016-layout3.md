@@ -3,7 +3,7 @@ title:  "레이아웃_3"
 excerpt: "css, layout, flex"
 
 categories:
-  - CSS
+  - Web
 permalink: /css/css016-layout3/
 tags:
   - [css, cascading, flex]
@@ -278,4 +278,3 @@ holy grail layout
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>
-

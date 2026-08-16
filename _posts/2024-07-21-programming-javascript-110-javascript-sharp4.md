@@ -2,7 +2,7 @@
 title: "JavaScript #4 변수"
 excerpt: "JavaScript #4 변수"
 categories:
-  - Javascript
+  - JavaScript
 permalink: /programming/javascript/110-javascript-sharp4/
 tags:
   - "JavaScript"
